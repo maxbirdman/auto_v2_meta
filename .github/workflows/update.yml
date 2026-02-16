@@ -1,0 +1,38 @@
+name: Update V2Ray Config
+
+on:
+  schedule:
+    # 每日北京时间凌晨 1:00 (UTC 17:00)
+    - cron: '0 17 * * *'
+  workflow_dispatch: # 支持手动触发
+
+jobs:
+  update:
+    runs-on: ubuntu-latest
+
+    steps:
+      - name: Checkout
+        uses: actions/checkout@v4
+
+      - name: Setup Python
+        uses: actions/setup-python@v5
+        with:
+          python-version: '3.12'
+
+      - name: Install dependencies
+        run: pip install requests pyyaml
+
+      - name: Run auto_v2ray
+        run: python auto_v2ray.py
+
+      - name: Commit and push
+        run: |
+          git config user.name "github-actions[bot]"
+          git config user.email "github-actions[bot]@users.noreply.github.com"
+          git add v2.meta.yml
+          if git diff --cached --quiet; then
+            echo "No changes to commit"
+          else
+            git commit -m "auto: update v2.meta.yml $(date -u +'%Y-%m-%d %H:%M') UTC"
+            git push
+          fi
