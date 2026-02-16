@@ -4,7 +4,12 @@ on:
   schedule:
     # 每日北京时间凌晨 1:00 (UTC 17:00)
     - cron: '0 17 * * *'
+  push:
+    branches: [main]
   workflow_dispatch: # 支持手动触发
+
+permissions:
+  contents: write
 
 jobs:
   update:
@@ -34,5 +39,6 @@ jobs:
             echo "No changes to commit"
           else
             git commit -m "auto: update v2.meta.yml $(date -u +'%Y-%m-%d %H:%M') UTC"
+            git pull --rebase origin main
             git push
           fi
