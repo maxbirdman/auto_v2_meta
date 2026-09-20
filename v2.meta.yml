@@ -1,4 +1,4 @@
-# Update: 2026-09-19 19:09
+# Update: 2026-09-20 19:15
 allow-lan: false
 dns:
   enable: true
@@ -18,9 +18,9 @@ log-level: warning
 mixed-port: 7890
 mode: rule
 proxies:
-- name: '[1ms] UN【机场推荐：https://a9a.xyz】49'
+- name: '[1ms] UN【机场推荐：https://a9a.xyz】79'
   type: trojan
-  server: 104.16.174.124
+  server: 104.18.152.219
   port: 443
   password: humanity
   udp: true
@@ -31,61 +31,8 @@ proxies:
     path: /assignment
   delay: 1
 - name: '[1ms] CA【机场推荐：https://a9a.xyz】44'
-  type: vless
-  server: 172.67.136.68
-  port: 443
-  uuid: ef5c5d5c-08c6-4549-b05e-d1ff29ecc8ba
-  udp: true
-  tls: true
-  servername: EDgE-RouTINg-m16-1.KazAN.KDNs.fr
-  client-fingerprint: chrome
-  skip-cert-verify: true
-  encryption: none
-  network: ws
-  ws-opts:
-    path: /JRr6VGcSLFc034DC6sDbwyWJLbB
-    headers:
-      Host: EDgE-RouTINg-m16-1.KazAN.KDNs.fr
-  delay: 1
-- name: '[1ms] CA【机场推荐：https://a9a.xyz】21'
   type: trojan
-  server: 104.17.111.4
-  port: 443
-  password: humanity
-  udp: true
-  skip-cert-verify: true
-  sni: www.ignitelimit.com
-  network: ws
-  ws-opts:
-    path: /assignment
-  delay: 1
-- name: '[1ms] CA【机场推荐：https://a9a.xyz】36'
-  type: trojan
-  server: 172.67.149.60
-  port: 443
-  password: humanity
-  udp: true
-  skip-cert-verify: true
-  sni: www.ignitelimit.com
-  network: ws
-  ws-opts:
-    path: /assignment
-  delay: 1
-- name: '[1ms] CA【机场推荐：https://a9a.xyz】34'
-  type: trojan
-  server: 198.41.223.96
-  port: 443
-  password: humanity
-  udp: true
-  skip-cert-verify: true
-  sni: www.ignitelimit.com
-  network: ws
-  ws-opts:
-    path: /assignment
-  delay: 1
-- name: '[1ms] CA【机场推荐：https://a9a.xyz】26'
-  type: trojan
-  server: 104.18.152.159
+  server: 104.16.174.44
   port: 443
   password: humanity
   udp: true
@@ -97,35 +44,9 @@ proxies:
     headers:
       Host: www.ignitelimit.com
   delay: 1
-- name: '[1ms] CA【机场推荐：https://a9a.xyz】23'
+- name: '[1ms] CA【机场推荐：https://a9a.xyz】10'
   type: trojan
-  server: 104.20.6.134
-  port: 443
-  password: humanity
-  udp: true
-  skip-cert-verify: true
-  sni: www.ignitelimit.com
-  network: ws
-  ws-opts:
-    path: /assignment
-  client-fingerprint: chrome
-  delay: 1
-- name: '[1ms] CA【机场推荐：https://a9a.xyz】20'
-  type: trojan
-  server: 104.16.174.36
-  port: 443
-  password: humanity
-  udp: true
-  skip-cert-verify: true
-  sni: www.ignitelimit.com
-  network: ws
-  ws-opts:
-    path: /assignment
-  client-fingerprint: chrome
-  delay: 1
-- name: '[1ms] CA【机场推荐：https://a9a.xyz】27'
-  type: trojan
-  server: 104.16.174.22
+  server: 172.67.221.242
   port: 443
   password: humanity
   udp: true
@@ -137,9 +58,9 @@ proxies:
     headers:
       Host: www.ignitelimit.com
   delay: 1
-- name: '[1ms] CA【机场推荐：https://a9a.xyz】37'
+- name: '[1ms] CA【机场推荐：https://a9a.xyz】16'
   type: trojan
-  server: 104.17.111.8
+  server: 104.26.14.137
   port: 443
   password: humanity
   udp: true
@@ -151,84 +72,7 @@ proxies:
     headers:
       Host: www.ignitelimit.com
   delay: 1
-- name: '[1ms] CA【机场推荐：https://a9a.xyz】29'
-  type: trojan
-  server: 104.18.152.210
-  port: 443
-  password: humanity
-  udp: true
-  skip-cert-verify: true
-  sni: www.ignitelimit.com
-  network: ws
-  ws-opts:
-    path: /assignment
-    headers:
-      Host: www.ignitelimit.com
-  delay: 1
-- name: '[1ms] CA【机场推荐：https://a9a.xyz】25'
-  type: trojan
-  server: 104.16.174.117
-  port: 443
-  password: humanity
-  udp: true
-  skip-cert-verify: true
-  sni: www.ignitelimit.com
-  network: ws
-  ws-opts:
-    path: /assignment
-  delay: 1
-- name: '[1ms] CA【机场推荐：https://a9a.xyz】32'
-  type: trojan
-  server: 104.18.22.63
-  port: 443
-  password: humanity
-  udp: true
-  skip-cert-verify: true
-  sni: www.ignitelimit.com
-  network: ws
-  ws-opts:
-    path: /assignment
-  client-fingerprint: chrome
-  delay: 1
-- name: '[1ms] UN【机场推荐：https://a9a.xyz】52'
-  type: trojan
-  server: 104.16.174.33
-  port: 443
-  password: humanity
-  udp: true
-  skip-cert-verify: true
-  sni: www.ignitelimit.com
-  network: ws
-  ws-opts:
-    path: /assignment
-  delay: 1
-- name: '[1ms] UN【机场推荐：https://a9a.xyz】65'
-  type: trojan
-  server: 104.18.152.233
-  port: 443
-  password: humanity
-  udp: true
-  skip-cert-verify: true
-  sni: www.ignitelimit.com
-  network: ws
-  ws-opts:
-    path: /assignment
-  delay: 1
-- name: '[1ms] UN【机场推荐：https://a9a.xyz】71'
-  type: trojan
-  server: 104.18.152.50
-  port: 443
-  password: humanity
-  udp: true
-  skip-cert-verify: true
-  sni: www.ignitelimit.com
-  network: ws
-  ws-opts:
-    path: /assignment
-    headers:
-      Host: www.ignitelimit.com
-  delay: 1
-- name: '[1ms] UN【机场推荐：https://a9a.xyz】72'
+- name: '[1ms] CA【机场推荐：https://a9a.xyz】46'
   type: trojan
   server: 104.18.152.108
   port: 443
@@ -242,9 +86,9 @@ proxies:
     headers:
       Host: www.ignitelimit.com
   delay: 1
-- name: '[1ms] UN【机场推荐：https://a9a.xyz】76'
+- name: '[1ms] UN【机场推荐：https://a9a.xyz】57'
   type: trojan
-  server: 104.17.111.3
+  server: 45.130.125.158
   port: 443
   password: humanity
   udp: true
@@ -254,7 +98,223 @@ proxies:
   ws-opts:
     path: /assignment
   delay: 1
-- name: '[1ms] UN【机场推荐：https://a9a.xyz】74'
+- name: '[1ms] UN【机场推荐：https://a9a.xyz】45'
+  type: trojan
+  server: 104.18.152.113
+  port: 443
+  password: humanity
+  udp: true
+  skip-cert-verify: true
+  sni: www.ignitelimit.com
+  network: ws
+  ws-opts:
+    path: /assignment
+  delay: 1
+- name: '[1ms] TR【机场推荐：https://a9a.xyz】36'
+  type: trojan
+  server: 86.38.214.205
+  port: 443
+  password: humanity
+  udp: true
+  skip-cert-verify: true
+  sni: www.ignitelimit.com
+  network: ws
+  ws-opts:
+    path: /assignment
+  delay: 1
+- name: '[1ms] UN【机场推荐：https://a9a.xyz】51'
+  type: trojan
+  server: 104.18.152.149
+  port: 443
+  password: humanity
+  udp: true
+  skip-cert-verify: true
+  sni: www.ignitelimit.com
+  network: ws
+  ws-opts:
+    path: /assignment
+  delay: 1
+- name: '[1ms] UN【机场推荐：https://a9a.xyz】69'
+  type: trojan
+  server: 104.16.174.124
+  port: 443
+  password: humanity
+  udp: true
+  skip-cert-verify: true
+  sni: www.ignitelimit.com
+  network: ws
+  ws-opts:
+    path: /assignment
+    headers:
+      Host: www.ignitelimit.com
+  delay: 1
+- name: '[1ms] CA【机场推荐：https://a9a.xyz】28'
+  type: trojan
+  server: 104.16.174.36
+  port: 443
+  password: humanity
+  udp: true
+  skip-cert-verify: true
+  sni: www.ignitelimit.com
+  network: ws
+  ws-opts:
+    path: /assignment
+  delay: 1
+- name: '[1ms] UN【机场推荐：https://a9a.xyz】58'
+  type: trojan
+  server: 104.18.152.244
+  port: 443
+  password: humanity
+  udp: true
+  skip-cert-verify: true
+  sni: www.ignitelimit.com
+  network: ws
+  ws-opts:
+    path: /assignment
+    headers:
+      Host: www.ignitelimit.com
+  delay: 1
+- name: '[1ms] CA【机场推荐：https://a9a.xyz】33'
+  type: trojan
+  server: 104.18.152.50
+  port: 443
+  password: humanity
+  udp: true
+  skip-cert-verify: true
+  sni: www.ignitelimit.com
+  network: ws
+  ws-opts:
+    path: /assignment
+  delay: 1
+- name: '[1ms] UN【机场推荐：https://a9a.xyz】60'
+  type: trojan
+  server: 104.16.174.46
+  port: 443
+  password: humanity
+  udp: true
+  skip-cert-verify: true
+  sni: www.ignitelimit.com
+  network: ws
+  ws-opts:
+    path: /assignment
+    headers:
+      Host: www.ignitelimit.com
+  delay: 1
+- name: '[1ms] UN【机场推荐：https://a9a.xyz】63'
+  type: trojan
+  server: 104.18.152.159
+  port: 443
+  password: humanity
+  udp: true
+  skip-cert-verify: true
+  sni: www.ignitelimit.com
+  network: ws
+  ws-opts:
+    path: /assignment
+  delay: 1
+- name: '[1ms] UN【机场推荐：https://a9a.xyz】48'
+  type: trojan
+  server: 104.16.174.72
+  port: 443
+  password: humanity
+  udp: true
+  skip-cert-verify: true
+  sni: www.ignitelimit.com
+  network: ws
+  ws-opts:
+    path: /assignment
+    headers:
+      Host: www.ignitelimit.com
+  delay: 1
+- name: '[1ms] CA【机场推荐：https://a9a.xyz】38'
+  type: trojan
+  server: 104.18.152.233
+  port: 443
+  password: humanity
+  udp: true
+  skip-cert-verify: true
+  sni: www.ignitelimit.com
+  network: ws
+  ws-opts:
+    path: /assignment
+  delay: 1
+- name: '[1ms] CA【机场推荐：https://a9a.xyz】23'
+  type: trojan
+  server: 104.18.152.175
+  port: 443
+  password: humanity
+  udp: true
+  skip-cert-verify: true
+  sni: www.ignitelimit.com
+  network: ws
+  ws-opts:
+    path: /assignment
+    headers:
+      Host: www.ignitelimit.com
+  delay: 1
+- name: '[1ms] CA【机场推荐：https://a9a.xyz】40'
+  type: trojan
+  server: 104.16.174.22
+  port: 443
+  password: humanity
+  udp: true
+  skip-cert-verify: true
+  sni: www.ignitelimit.com
+  network: ws
+  ws-opts:
+    path: //assignment
+  delay: 1
+- name: '[1ms] UN【机场推荐：https://a9a.xyz】30'
+  type: trojan
+  server: 104.18.152.143
+  port: 443
+  password: humanity
+  udp: true
+  skip-cert-verify: true
+  sni: www.ignitelimit.com
+  network: ws
+  ws-opts:
+    path: /assignment
+  delay: 1
+- name: '[1ms] UN【机场推荐：https://a9a.xyz】67'
+  type: trojan
+  server: 104.18.152.140
+  port: 443
+  password: humanity
+  udp: true
+  skip-cert-verify: true
+  sni: www.ignitelimit.com
+  network: ws
+  ws-opts:
+    path: /assignment
+  delay: 1
+- name: '[1ms] CA【机场推荐：https://a9a.xyz】11'
+  type: trojan
+  server: 162.159.136.234
+  port: 443
+  password: humanity
+  udp: true
+  skip-cert-verify: true
+  sni: www.ignitelimit.com
+  network: ws
+  ws-opts:
+    path: /assignment
+    headers:
+      Host: www.ignitelimit.com
+  delay: 1
+- name: '[1ms] UN【机场推荐：https://a9a.xyz】47'
+  type: trojan
+  server: 104.16.7.70
+  port: 443
+  password: humanity
+  udp: true
+  skip-cert-verify: true
+  sni: www.ignitelimit.com
+  network: ws
+  ws-opts:
+    path: /assignment
+  delay: 1
+- name: '[1ms] CA【机场推荐：https://a9a.xyz】14'
   type: trojan
   server: 104.18.12.149
   port: 443
@@ -266,9 +326,33 @@ proxies:
   ws-opts:
     path: /assignment
   delay: 1
-- name: '[1ms] UN【机场推荐：https://a9a.xyz】68'
+- name: '[1ms] UN【机场推荐：https://a9a.xyz】56'
   type: trojan
-  server: 172.67.74.2
+  server: 104.16.174.117
+  port: 443
+  password: humanity
+  udp: true
+  skip-cert-verify: true
+  sni: www.ignitelimit.com
+  network: ws
+  ws-opts:
+    path: /assignment
+  delay: 1
+- name: '[1ms] CA【机场推荐：https://a9a.xyz】37'
+  type: trojan
+  server: 104.16.174.12
+  port: 443
+  password: humanity
+  udp: true
+  skip-cert-verify: true
+  sni: www.ignitelimit.com
+  network: ws
+  ws-opts:
+    path: /assignment
+  delay: 1
+- name: '[1ms] CA【机场推荐：https://a9a.xyz】39'
+  type: trojan
+  server: 104.18.152.229
   port: 443
   password: humanity
   udp: true
@@ -280,9 +364,9 @@ proxies:
     headers:
       Host: www.ignitelimit.com
   delay: 1
-- name: '[1ms] UN【机场推荐：https://a9a.xyz】69'
+- name: '[1ms] CA【机场推荐：https://a9a.xyz】25'
   type: trojan
-  server: 104.21.46.3
+  server: 104.18.152.155
   port: 443
   password: humanity
   udp: true
@@ -291,24 +375,8 @@ proxies:
   network: ws
   ws-opts:
     path: /assignment
-    headers:
-      Host: www.ignitelimit.com
   delay: 1
-- name: '[1ms] UN【机场推荐：https://a9a.xyz】77'
-  type: trojan
-  server: 104.17.177.143
-  port: 443
-  password: humanity
-  udp: true
-  skip-cert-verify: true
-  sni: www.ignitelimit.com
-  network: ws
-  ws-opts:
-    path: /assignment
-    headers:
-      Host: www.ignitelimit.com
-  delay: 1
-- name: '[1ms] UN【机场推荐：https://a9a.xyz】67'
+- name: '[1ms] CA【机场推荐：https://a9a.xyz】31'
   type: trojan
   server: 188.114.97.7
   port: 443
@@ -322,9 +390,23 @@ proxies:
     headers:
       Host: www.ignitelimit.com
   delay: 1
-- name: '[1ms] UN【机场推荐：https://a9a.xyz】83'
+- name: '[1ms] UN【机场推荐：https://a9a.xyz】70'
   type: trojan
-  server: 104.18.152.133
+  server: 104.16.174.37
+  port: 443
+  password: humanity
+  udp: true
+  skip-cert-verify: true
+  sni: www.ignitelimit.com
+  network: ws
+  ws-opts:
+    path: /assignment
+    headers:
+      Host: www.ignitelimit.com
+  delay: 1
+- name: '[1ms] UN【机场推荐：https://a9a.xyz】55'
+  type: trojan
+  server: 104.16.174.34
   port: 443
   password: humanity
   udp: true
@@ -334,19 +416,7 @@ proxies:
   ws-opts:
     path: /assignment
   delay: 1
-- name: '[1ms] UN【机场推荐：https://a9a.xyz】75'
-  type: trojan
-  server: 104.18.23.63
-  port: 443
-  password: humanity
-  udp: true
-  skip-cert-verify: true
-  sni: www.ignitelimit.com
-  network: ws
-  ws-opts:
-    path: /assignment
-  delay: 1
-- name: '[1ms] UN【机场推荐：https://a9a.xyz】82'
+- name: '[1ms] UN【机场推荐：https://a9a.xyz】77'
   type: trojan
   server: 104.18.152.208
   port: 443
@@ -357,10 +427,26 @@ proxies:
   network: ws
   ws-opts:
     path: /assignment
+    headers:
+      Host: www.ignitelimit.com
   delay: 1
-- name: '[1ms] UN【机场推荐：https://a9a.xyz】84'
+- name: '[1ms] UN【机场推荐：https://a9a.xyz】54'
   type: trojan
-  server: 104.18.152.155
+  server: 104.21.8.107
+  port: 443
+  password: humanity
+  udp: true
+  skip-cert-verify: true
+  sni: www.ignitelimit.com
+  network: ws
+  ws-opts:
+    path: /assignment
+    headers:
+      Host: www.ignitelimit.com
+  delay: 1
+- name: '[1ms] UN【机场推荐：https://a9a.xyz】80'
+  type: trojan
+  server: 104.16.73.213
   port: 443
   password: humanity
   udp: true
@@ -372,7 +458,7 @@ proxies:
   delay: 1
 - name: '[1ms] UN【机场推荐：https://a9a.xyz】81'
   type: trojan
-  server: 104.16.174.14
+  server: 104.18.152.133
   port: 443
   password: humanity
   udp: true
@@ -381,62 +467,407 @@ proxies:
   network: ws
   ws-opts:
     path: /assignment
+  delay: 1
+- name: '[1ms] UN【机场推荐：https://a9a.xyz】91'
+  type: vless
+  server: 104.24.0.184
+  port: 443
+  uuid: 44eae030-290b-4083-8102-6f8bab05701b
+  udp: true
+  tls: true
+  servername: cfvvv-ev1.pages.dev
+  skip-cert-verify: true
+  encryption: none
+  network: ws
+  ws-opts:
+    path: /
+  delay: 1
+- name: '[1ms] UN【机场推荐：https://a9a.xyz】104'
+  type: vless
+  server: 104.21.91.102
+  port: 443
+  uuid: ef5c5d5c-08c6-4549-b05e-d1ff29ecc8ba
+  udp: true
+  tls: true
+  servername: 4-M16.aYUtTHAya2031.kdnS.fR
+  skip-cert-verify: true
+  encryption: none
+  network: ws
+  ws-opts:
+    path: /JRr6VGcSLFc034DC6sDbwyWJLbB
     headers:
-      Host: www.ignitelimit.com
+      Host: 4-M16.aYUtTHAya2031.kdnS.fR
   delay: 1
-- name: '[1ms] UN【机场推荐：https://a9a.xyz】79'
-  type: trojan
-  server: 104.26.15.137
+- name: '[1ms] 美国+CloudFlare节点_1'
+  type: vless
+  server: 104.21.62.195
   port: 443
-  password: humanity
+  uuid: cb53f904-c979-454f-bf43-621990008148
   udp: true
+  tls: true
+  servername: 5.qq1-0.kdns.fr
+  client-fingerprint: chrome
   skip-cert-verify: true
-  sni: www.ignitelimit.com
+  encryption: none
   network: ws
   ws-opts:
-    path: /assignment
+    path: /LNbYtR09FXg1AmmjhdiHvR8v
     headers:
-      Host: www.ignitelimit.com
+      Host: 5.qq1-0.kdns.fr
   delay: 1
-- name: '[1ms] UN【机场推荐：https://a9a.xyz】90'
-  type: trojan
-  server: 104.18.152.230
-  port: 443
-  password: humanity
+- name: '[1ms] 巴西圣保罗+CloudFlare节点'
+  type: vless
+  server: 188.114.97.6
+  port: 2087
+  uuid: 77777777-8a3e-6666-b6d1-a9c5f0e8b3a2
   udp: true
+  tls: true
+  servername: faxf32gkfzoxqv.fx6hsv0.ccwu.cc
+  client-fingerprint: unsafe
   skip-cert-verify: true
-  sni: www.ignitelimit.com
+  encryption: none
   network: ws
   ws-opts:
-    path: /assignment
-  delay: 1
-- name: '[1ms] UN【机场推荐：https://a9a.xyz】86'
-  type: trojan
-  server: 104.16.174.37
-  port: 443
-  password: humanity
-  udp: true
-  skip-cert-verify: true
-  sni: www.ignitelimit.com
-  network: ws
-  ws-opts:
-    path: /assignment
-  delay: 1
-- name: '[1ms] UN【机场推荐：https://a9a.xyz】85'
-  type: trojan
-  server: 104.18.152.207
-  port: 443
-  password: humanity
-  udp: true
-  skip-cert-verify: true
-  sni: www.ignitelimit.com
-  network: ws
-  ws-opts:
-    path: /assignment
+    path: /
     headers:
-      Host: www.ignitelimit.com
+      Host: faxf32gkfzoxqv.fx6hsv0.ccwu.cc
   delay: 1
-- name: '[1ms] UN【机场推荐：https://a9a.xyz】97'
+- name: '[1ms] 美国+CloudFlare节点_2'
+  type: vless
+  server: 104.16.10.234
+  port: 443
+  uuid: b8d8a5b0-867f-4491-b4e4-30edc04bb10e
+  udp: true
+  tls: true
+  servername: u.srilankangrill.online
+  client-fingerprint: chrome
+  skip-cert-verify: true
+  encryption: none
+  network: ws
+  ws-opts:
+    path: /
+    headers:
+      Host: u.srilankangrill.online
+  delay: 1
+- name: '[1ms] 🇺🇸_US_美国->🇬🇧_GB_英国'
+  type: vless
+  server: 104.17.147.22
+  port: 8880
+  uuid: Parsashonam-Bot-32
+  udp: true
+  tls: false
+  encryption: none
+  network: ws
+  ws-opts:
+    path: '/Parsashonam-Parsashonam-Parsashonam-Parsashonam-Parsashonam-Parsashonam-Parsashonam-Parsashonam-Parsashonam-Parsashonam-Parsashonam-Parsashonam-Parsashonam-Parsashonam-Parsashonam-Parsashonam?ed=2056'
+    headers:
+      Host: Fi.Parsashonam.CfD.
+  delay: 1
+- name: '[1ms] 🇨🇿_CZ_捷克'
+  type: vless
+  server: 195.85.23.29
+  port: 443
+  uuid: b09dfed1-90fa-4353-8bdf-de1edb2e2d79
+  udp: true
+  tls: true
+  servername: nb.lovecf.ggff.net
+  skip-cert-verify: true
+  encryption: none
+  network: ws
+  ws-opts:
+    path: /
+    headers:
+      Host: nb.lovecf.ggff.net
+  delay: 1
+- name: '[1ms] 🇺🇸_US_美国->🇸🇬_SG_新加坡'
+  type: vless
+  server: 104.17.26.45
+  port: 8880
+  uuid: 6d73dc1e-1627-4b16-b471-53e63aa16c78
+  udp: true
+  tls: false
+  encryption: none
+  network: ws
+  ws-opts:
+    path: /pyip=ProxyIP.SG.CMLiussss.net
+    headers:
+      Host: sweet-truth-ccdb.134-7e9.workers.dev
+  delay: 1
+- name: '[1ms] 🇨🇾_CY_塞浦路斯'
+  type: vless
+  server: 195.26.229.222
+  port: 443
+  uuid: b2593749-691c-428c-9481-14979cba3446
+  udp: true
+  tls: true
+  servername: xi.tbv.ccwu.cc
+  skip-cert-verify: true
+  encryption: none
+  network: ws
+  ws-opts:
+    path: /proxyip=us.xiabibi.cf
+    headers:
+      Host: xi.tbv.ccwu.cc
+  delay: 1
+- name: '[1ms] 美国3|@ripaojiedian'
+  type: trojan
+  server: 100.42.228.109
+  port: 443
+  password: BxceQaOe
+  udp: true
+  skip-cert-verify: true
+  sni: t.me/ripaojiedian
+  delay: 1
+- name: '[1ms] 🇺🇸US_1|1.2MB/s'
+  type: vless
+  server: 172.64.79.241
+  port: 443
+  uuid: d342d11e-d424-4583-b36e-524ab1f0afa4
+  udp: true
+  tls: true
+  servername: cdn8848.776676.xyz
+  skip-cert-verify: true
+  encryption: none
+  network: ws
+  ws-opts:
+    path: '/pics?ed=2560fp=chrome'
+    headers:
+      Host: cdn8848.776676.xyz
+  delay: 1
+- name: '[1ms] 🇫🇷FR_1|1.1MB/s'
+  type: vless
+  server: 31.185.108.223
+  port: 443
+  uuid: Telegramid%3ADaredevil_404
+  udp: true
+  tls: true
+  servername: daredevil2.manufacturingcity.ir
+  client-fingerprint: chrome
+  skip-cert-verify: true
+  encryption: none
+  network: tcp
+  delay: 1
+- name: '[1ms] 🇧🇿 BZ_33'
+  type: vless
+  server: 45.131.5.241
+  port: 443
+  uuid: b2593749-691c-428c-9481-14979cba3446
+  udp: true
+  tls: true
+  servername: xi.tbv.ccwu.cc
+  client-fingerprint: chrome
+  skip-cert-verify: true
+  encryption: none
+  network: ws
+  ws-opts:
+    path: /
+    headers:
+      Host: xi.tbv.ccwu.cc
+  delay: 1
+- name: '[1ms] 🇬🇧 英国 | GBR_3'
+  type: vless
+  server: 91.193.59.33
+  port: 443
+  uuid: 47fcef29-ab4e-4aa6-932b-d95a18f28a4e
+  udp: true
+  tls: true
+  servername: hszme.xax0.x8p.hh.vavava.kdns.fr
+  client-fingerprint: chrome
+  skip-cert-verify: true
+  encryption: none
+  network: ws
+  ws-opts:
+    path: '/?ed=2560'
+    headers:
+      Host: hszme.xax0.x8p.hh.vavava.kdns.fr
+  delay: 1
+- name: '[1ms] 🇯🇵 日本 | JPN_1'
+  type: vless
+  server: 172.64.229.7
+  port: 443
+  uuid: 47fcef29-ab4e-4aa6-932b-d95a18f28a4e
+  udp: true
+  tls: true
+  servername: hszme.xax0.x8p.hh.vavava.kdns.fr
+  client-fingerprint: chrome
+  skip-cert-verify: true
+  encryption: none
+  network: ws
+  ws-opts:
+    path: '/?ed=2560'
+    headers:
+      Host: hszme.xax0.x8p.hh.vavava.kdns.fr
+  delay: 1
+- name: '[1ms] 🇸🇬 新加坡 | SGP_3'
+  type: vless
+  server: 172.64.155.159
+  port: 443
+  uuid: 47fcef29-ab4e-4aa6-932b-d95a18f28a4e
+  udp: true
+  tls: true
+  servername: hszme.xax0.x8p.hh.vavava.kdns.fr
+  client-fingerprint: chrome
+  skip-cert-verify: true
+  encryption: none
+  network: ws
+  ws-opts:
+    path: '/?ed=2560'
+    headers:
+      Host: hszme.xax0.x8p.hh.vavava.kdns.fr
+  delay: 1
+- name: '[1ms] 🇸🇬 新加坡 | SGP_4'
+  type: vless
+  server: 104.18.33.125
+  port: 443
+  uuid: 47fcef29-ab4e-4aa6-932b-d95a18f28a4e
+  udp: true
+  tls: true
+  servername: hszme.xax0.x8p.hh.vavava.kdns.fr
+  client-fingerprint: chrome
+  skip-cert-verify: true
+  encryption: none
+  network: ws
+  ws-opts:
+    path: '/?ed=2560'
+    headers:
+      Host: hszme.xax0.x8p.hh.vavava.kdns.fr
+  delay: 1
+- name: '[1ms] 🇺🇸 美国 | USA_1'
+  type: vless
+  server: 146.235.230.165
+  port: 443
+  uuid: 47fcef29-ab4e-4aa6-932b-d95a18f28a4e
+  udp: true
+  tls: true
+  servername: hszme.xax0.x8p.hh.vavava.kdns.fr
+  client-fingerprint: chrome
+  skip-cert-verify: true
+  encryption: none
+  network: ws
+  ws-opts:
+    path: '/?ed=2560'
+    headers:
+      Host: hszme.xax0.x8p.hh.vavava.kdns.fr
+  delay: 1
+- name: '[1ms] 🇺🇸 美国 | USA_2'
+  type: vless
+  server: 104.18.189.153
+  port: 443
+  uuid: 47fcef29-ab4e-4aa6-932b-d95a18f28a4e
+  udp: true
+  tls: true
+  servername: hszme.xax0.x8p.hh.vavava.kdns.fr
+  client-fingerprint: chrome
+  skip-cert-verify: true
+  encryption: none
+  network: ws
+  ws-opts:
+    path: '/?ed=2560'
+    headers:
+      Host: hszme.xax0.x8p.hh.vavava.kdns.fr
+  delay: 1
+- name: '[1ms] 🇺🇸 美国 | USA_7'
+  type: vless
+  server: 162.159.152.205
+  port: 443
+  uuid: c98a16e4-0dc5-42f0-b3db-30f04525c123
+  udp: true
+  tls: true
+  servername: vless2-8vx.pages.dev
+  client-fingerprint: chrome
+  skip-cert-verify: true
+  encryption: none
+  network: ws
+  ws-opts:
+    path: /
+    headers:
+      Host: vless2-8vx.pages.dev
+  delay: 1
+- name: '[1ms] 🇺🇸 美国 | USA_14'
+  type: vless
+  server: 104.245.13.161
+  port: 443
+  uuid: 47fcef29-ab4e-4aa6-932b-d95a18f28a4e
+  udp: true
+  tls: true
+  servername: hszme.xax0.x8p.hh.vavava.kdns.fr
+  client-fingerprint: chrome
+  skip-cert-verify: true
+  encryption: none
+  network: ws
+  ws-opts:
+    path: '/?ed=2560'
+    headers:
+      Host: hszme.xax0.x8p.hh.vavava.kdns.fr
+  delay: 1
+- name: '[1ms] 🇺🇸 美国 | USA_15'
+  type: vless
+  server: 104.18.34.245
+  port: 8880
+  uuid: f3d7ebbc-03a1-40f9-a911-ae8628d3927a
+  udp: true
+  tls: false
+  encryption: none
+  network: ws
+  ws-opts:
+    path: /pyip=ProxyIP.KR.CMLiussss.net
+    headers:
+      Host: dawn-waterfall-6052.360-001.workers.dev
+  delay: 1
+- name: '[1ms] 🇺🇸 美国 | USA_16'
+  type: vless
+  server: 172.64.146.228
+  port: 443
+  uuid: 91d28760-ecf1-450b-9170-d310111a0e6d
+  udp: true
+  tls: true
+  servername: edfc774f.69lover.site
+  client-fingerprint: chrome
+  skip-cert-verify: true
+  encryption: none
+  network: ws
+  ws-opts:
+    path: /api/v2/63e9687fa53e441c/stream
+    headers:
+      Host: edfc774f.69lover.site
+  delay: 1
+- name: '[2ms] CA【机场推荐：https://a9a.xyz】20'
+  type: trojan
+  server: 198.41.223.96
+  port: 443
+  password: humanity
+  udp: true
+  skip-cert-verify: true
+  sni: www.ignitelimit.com
+  network: ws
+  ws-opts:
+    path: /assignment
+  delay: 2
+- name: '[2ms] UN【机场推荐：https://a9a.xyz】53'
+  type: trojan
+  server: 104.18.152.161
+  port: 443
+  password: humanity
+  udp: true
+  skip-cert-verify: true
+  sni: www.ignitelimit.com
+  network: ws
+  ws-opts:
+    path: /assignment
+  delay: 2
+- name: '[2ms] CA【机场推荐：https://a9a.xyz】13'
+  type: trojan
+  server: 104.17.111.3
+  port: 443
+  password: humanity
+  udp: true
+  skip-cert-verify: true
+  sni: www.ignitelimit.com
+  network: ws
+  ws-opts:
+    path: /assignment
+  delay: 2
+- name: '[2ms] UN【机场推荐：https://a9a.xyz】62'
   type: trojan
   server: 104.16.174.121
   port: 443
@@ -449,10 +880,10 @@ proxies:
     path: //assignment
     headers:
       Host: www.ignitelimit.com
-  delay: 1
-- name: '[1ms] UN【机场推荐：https://a9a.xyz】95'
+  delay: 2
+- name: '[2ms] CA【机场推荐：https://a9a.xyz】35'
   type: trojan
-  server: 104.16.174.72
+  server: 104.16.174.143
   port: 443
   password: humanity
   udp: true
@@ -461,8 +892,8 @@ proxies:
   network: ws
   ws-opts:
     path: /assignment
-  delay: 1
-- name: '[1ms] UN【机场推荐：https://a9a.xyz】100'
+  delay: 2
+- name: '[2ms] CA【机场推荐：https://a9a.xyz】29'
   type: trojan
   server: 104.18.152.77
   port: 443
@@ -473,209 +904,8 @@ proxies:
   network: ws
   ws-opts:
     path: /assignment
-    headers:
-      Host: www.ignitelimit.com
-  delay: 1
-- name: '[1ms] UN【机场推荐：https://a9a.xyz】98'
-  type: trojan
-  server: 104.16.174.46
-  port: 443
-  password: humanity
-  udp: true
-  skip-cert-verify: true
-  sni: www.ignitelimit.com
-  network: ws
-  ws-opts:
-    path: /assignment
-  delay: 1
-- name: '[1ms] 加拿大+V2CROSS.COM'
-  type: trojan
-  server: 130.250.137.171
-  port: 443
-  password: humanity
-  udp: true
-  skip-cert-verify: true
-  sni: www.ignitelimit.com
-  network: ws
-  ws-opts:
-    path: /assignment
-  delay: 1
-- name: '[1ms] UN【机场推荐：https://a9a.xyz】102'
-  type: trojan
-  server: 162.159.254.191
-  port: 443
-  password: humanity
-  udp: true
-  skip-cert-verify: true
-  sni: www.ignitelimit.com
-  network: ws
-  ws-opts:
-    path: /assignment
-  delay: 1
-- name: '[1ms] UN【机场推荐：https://a9a.xyz】104'
-  type: trojan
-  server: 165.215.250.14
-  port: 443
-  password: humanity
-  udp: true
-  skip-cert-verify: true
-  sni: www.ignitelimit.com
-  network: ws
-  ws-opts:
-    path: /assignment
-  delay: 1
-- name: '[1ms] 🇺🇸_US_美国_3'
-  type: vless
-  server: 104.16.3.214
-  port: 443
-  uuid: 44eae030-290b-4083-8102-6f8bab05701b
-  udp: true
-  tls: true
-  servername: cfvvv-ev1.pages.dev
-  client-fingerprint: chrome
-  skip-cert-verify: true
-  encryption: none
-  network: ws
-  ws-opts:
-    path: /
-    headers:
-      Host: cfvvv-ev1.pages.dev
-  delay: 1
-- name: '[2ms] CA【机场推荐：https://a9a.xyz】31'
-  type: trojan
-  server: 162.159.136.234
-  port: 443
-  password: humanity
-  udp: true
-  skip-cert-verify: true
-  sni: www.ignitelimit.com
-  network: ws
-  ws-opts:
-    path: /assignment
-    headers:
-      Host: www.ignitelimit.com
   delay: 2
-- name: '[2ms] CA【机场推荐：https://a9a.xyz】35'
-  type: trojan
-  server: 104.17.111.1
-  port: 443
-  password: humanity
-  udp: true
-  skip-cert-verify: true
-  sni: www.ignitelimit.com
-  network: ws
-  ws-opts:
-    path: /assignment
-  client-fingerprint: chrome
-  delay: 2
-- name: '[2ms] UN【机场推荐：https://a9a.xyz】48'
-  type: trojan
-  server: 104.18.152.152
-  port: 443
-  password: humanity
-  udp: true
-  skip-cert-verify: true
-  sni: www.ignitelimit.com
-  network: ws
-  ws-opts:
-    path: /assignment
-  delay: 2
-- name: '[2ms] UN【机场推荐：https://a9a.xyz】30'
-  type: trojan
-  server: 104.18.152.187
-  port: 443
-  password: humanity
-  udp: true
-  skip-cert-verify: true
-  sni: www.ignitelimit.com
-  network: ws
-  ws-opts:
-    path: /assignment
-  delay: 2
-- name: '[2ms] CA【机场推荐：https://a9a.xyz】28'
-  type: trojan
-  server: 104.16.174.6
-  port: 443
-  password: humanity
-  udp: true
-  skip-cert-verify: true
-  sni: www.ignitelimit.com
-  network: ws
-  ws-opts:
-    path: /assignment
-  client-fingerprint: chrome
-  delay: 2
-- name: '[2ms] UN【机场推荐：https://a9a.xyz】50'
-  type: trojan
-  server: 104.18.152.149
-  port: 443
-  password: humanity
-  udp: true
-  skip-cert-verify: true
-  sni: www.ignitelimit.com
-  network: ws
-  ws-opts:
-    path: /assignment
-    headers:
-      Host: www.ignitelimit.com
-  delay: 2
-- name: '[2ms] CA【机场推荐：https://a9a.xyz】13'
-  type: vless
-  server: 104.21.62.195
-  port: 443
-  uuid: cb53f904-c979-454f-bf43-621990008148
-  udp: true
-  tls: true
-  servername: 7.qq1-0.kdns.fr
-  client-fingerprint: chrome
-  skip-cert-verify: true
-  encryption: none
-  network: ws
-  ws-opts:
-    path: /LNbYtR09FXg1AmmjhdiHvR8v
-    headers:
-      Host: 7.qq1-0.kdns.fr
-  delay: 2
-- name: '[2ms] CA【机场推荐：https://a9a.xyz】22'
-  type: trojan
-  server: 104.18.152.73
-  port: 443
-  password: humanity
-  udp: true
-  skip-cert-verify: true
-  sni: www.ignitelimit.com
-  network: ws
-  ws-opts:
-    path: /assignment
-  client-fingerprint: chrome
-  delay: 2
-- name: '[2ms] UN【机场推荐：https://a9a.xyz】53'
-  type: trojan
-  server: 104.16.174.44
-  port: 443
-  password: humanity
-  udp: true
-  skip-cert-verify: true
-  sni: www.ignitelimit.com
-  network: ws
-  ws-opts:
-    path: /assignment
-    headers:
-      Host: www.ignitelimit.com
-  delay: 2
-- name: '[2ms] UN【机场推荐：https://a9a.xyz】62'
-  type: trojan
-  server: 104.18.152.113
-  port: 443
-  password: humanity
-  udp: true
-  skip-cert-verify: true
-  sni: www.ignitelimit.com
-  network: ws
-  ws-opts:
-    path: /assignment
-  delay: 2
-- name: '[2ms] UN【机场推荐：https://a9a.xyz】54'
+- name: '[2ms] UN【机场推荐：https://a9a.xyz】65'
   type: trojan
   server: 104.18.152.246
   port: 443
@@ -687,45 +917,7 @@ proxies:
   ws-opts:
     path: /assignment
   delay: 2
-- name: '[2ms] UN【机场推荐：https://a9a.xyz】60'
-  type: trojan
-  server: 104.16.174.109
-  port: 443
-  password: humanity
-  udp: true
-  skip-cert-verify: true
-  sni: www.ignitelimit.com
-  network: ws
-  ws-opts:
-    path: /assignment
-  delay: 2
-- name: '[2ms] UN【机场推荐：https://a9a.xyz】78'
-  type: trojan
-  server: 104.17.148.22
-  port: 443
-  password: humanity
-  udp: true
-  skip-cert-verify: true
-  sni: www.ignitelimit.com
-  network: ws
-  ws-opts:
-    path: /assignment
-    headers:
-      Host: www.ignitelimit.com
-  delay: 2
-- name: '[2ms] UN【机场推荐：https://a9a.xyz】73'
-  type: trojan
-  server: 104.16.73.213
-  port: 443
-  password: humanity
-  udp: true
-  skip-cert-verify: true
-  sni: www.ignitelimit.com
-  network: ws
-  ws-opts:
-    path: /assignment
-  delay: 2
-- name: '[2ms] UN【机场推荐：https://a9a.xyz】80'
+- name: '[2ms] CA【机场推荐：https://a9a.xyz】34'
   type: trojan
   server: 104.16.174.71
   port: 443
@@ -737,7 +929,129 @@ proxies:
   ws-opts:
     path: /assignment
   delay: 2
-- name: '[2ms] UN【机场推荐：https://a9a.xyz】70'
+- name: '[2ms] UN【机场推荐：https://a9a.xyz】75'
+  type: trojan
+  server: 104.20.6.134
+  port: 443
+  password: humanity
+  udp: true
+  skip-cert-verify: true
+  sni: www.ignitelimit.com
+  network: ws
+  ws-opts:
+    path: /assignment
+  delay: 2
+- name: '[2ms] UN【机场推荐：https://a9a.xyz】66'
+  type: trojan
+  server: 104.18.152.225
+  port: 443
+  password: humanity
+  udp: true
+  skip-cert-verify: true
+  sni: www.ignitelimit.com
+  network: ws
+  ws-opts:
+    path: /assignment
+  delay: 2
+- name: '[2ms] UN【机场推荐：https://a9a.xyz】50'
+  type: trojan
+  server: 104.18.152.73
+  port: 443
+  password: humanity
+  udp: true
+  skip-cert-verify: true
+  sni: www.ignitelimit.com
+  network: ws
+  ws-opts:
+    path: /assignment
+  delay: 2
+- name: '[2ms] CA【机场推荐：https://a9a.xyz】19'
+  type: trojan
+  server: 172.67.149.60
+  port: 443
+  password: humanity
+  udp: true
+  skip-cert-verify: true
+  sni: www.ignitelimit.com
+  network: ws
+  ws-opts:
+    path: /assignment
+  delay: 2
+- name: '[2ms] CA【机场推荐：https://a9a.xyz】41'
+  type: trojan
+  server: 104.18.152.230
+  port: 443
+  password: humanity
+  udp: true
+  skip-cert-verify: true
+  sni: www.ignitelimit.com
+  network: ws
+  ws-opts:
+    path: /assignment
+    headers:
+      Host: www.ignitelimit.com
+  delay: 2
+- name: '[2ms] UN【机场推荐：https://a9a.xyz】49'
+  type: trojan
+  server: 104.18.152.179
+  port: 443
+  password: humanity
+  udp: true
+  skip-cert-verify: true
+  sni: www.ignitelimit.com
+  network: ws
+  ws-opts:
+    path: /assignment
+  delay: 2
+- name: '[2ms] UN【机场推荐：https://a9a.xyz】74'
+  type: trojan
+  server: 104.18.152.152
+  port: 443
+  password: humanity
+  udp: true
+  skip-cert-verify: true
+  sni: www.ignitelimit.com
+  network: ws
+  ws-opts:
+    path: /assignment
+  delay: 2
+- name: '[2ms] CA【机场推荐：https://a9a.xyz】24'
+  type: trojan
+  server: 104.16.174.148
+  port: 443
+  password: humanity
+  udp: true
+  skip-cert-verify: true
+  sni: www.ignitelimit.com
+  network: ws
+  ws-opts:
+    path: /assignment
+  delay: 2
+- name: '[2ms] CA【机场推荐：https://a9a.xyz】22'
+  type: trojan
+  server: 104.18.152.187
+  port: 443
+  password: humanity
+  udp: true
+  skip-cert-verify: true
+  sni: www.ignitelimit.com
+  network: ws
+  ws-opts:
+    path: /assignment
+  delay: 2
+- name: '[2ms] UN【机场推荐：https://a9a.xyz】52'
+  type: trojan
+  server: 104.18.152.97
+  port: 443
+  password: humanity
+  udp: true
+  skip-cert-verify: true
+  sni: www.ignitelimit.com
+  network: ws
+  ws-opts:
+    path: /assignment
+  delay: 2
+- name: '[2ms] UN【机场推荐：https://a9a.xyz】59'
   type: trojan
   server: 172.67.188.109
   port: 443
@@ -751,9 +1065,33 @@ proxies:
     headers:
       Host: www.ignitelimit.com
   delay: 2
-- name: '[2ms] UN【机场推荐：https://a9a.xyz】88'
+- name: '[2ms] UN【机场推荐：https://a9a.xyz】73'
   type: trojan
-  server: 104.16.174.12
+  server: 104.16.174.33
+  port: 443
+  password: humanity
+  udp: true
+  skip-cert-verify: true
+  sni: www.ignitelimit.com
+  network: ws
+  ws-opts:
+    path: /assignment
+  delay: 2
+- name: '[2ms] CA【机场推荐：https://a9a.xyz】42'
+  type: trojan
+  server: 104.16.174.185
+  port: 443
+  password: humanity
+  udp: true
+  skip-cert-verify: true
+  sni: www.ignitelimit.com
+  network: ws
+  ws-opts:
+    path: /assignment
+  delay: 2
+- name: '[2ms] UN【机场推荐：https://a9a.xyz】72'
+  type: trojan
+  server: 104.18.152.144
   port: 443
   password: humanity
   udp: true
@@ -765,9 +1103,9 @@ proxies:
     headers:
       Host: www.ignitelimit.com
   delay: 2
-- name: '[2ms] UN【机场推荐：https://a9a.xyz】87'
+- name: '[2ms] CA【机场推荐：https://a9a.xyz】26'
   type: trojan
-  server: 104.18.152.97
+  server: 104.16.174.109
   port: 443
   password: humanity
   udp: true
@@ -779,9 +1117,9 @@ proxies:
     headers:
       Host: www.ignitelimit.com
   delay: 2
-- name: '[2ms] UN【机场推荐：https://a9a.xyz】91'
+- name: '[2ms] UN【机场推荐：https://a9a.xyz】71'
   type: trojan
-  server: 104.18.152.140
+  server: 104.18.152.103
   port: 443
   password: humanity
   udp: true
@@ -791,9 +1129,9 @@ proxies:
   ws-opts:
     path: /assignment
   delay: 2
-- name: '[2ms] UN【机场推荐：https://a9a.xyz】89'
+- name: '[2ms] CA【机场推荐：https://a9a.xyz】8'
   type: trojan
-  server: 104.16.174.143
+  server: 104.18.22.63
   port: 443
   password: humanity
   udp: true
@@ -803,9 +1141,9 @@ proxies:
   ws-opts:
     path: /assignment
   delay: 2
-- name: '[2ms] UN【机场推荐：https://a9a.xyz】93'
+- name: '[2ms] UN【机场推荐：https://a9a.xyz】68'
   type: trojan
-  server: 104.18.152.229
+  server: 104.16.174.101
   port: 443
   password: humanity
   udp: true
@@ -815,9 +1153,59 @@ proxies:
   ws-opts:
     path: /assignment
   delay: 2
-- name: '[2ms] UN【机场推荐：https://a9a.xyz】92'
+- name: '[2ms] CA【机场推荐：https://a9a.xyz】27'
   type: trojan
-  server: 104.16.174.34
+  server: 104.18.152.207
+  port: 443
+  password: humanity
+  udp: true
+  skip-cert-verify: true
+  sni: www.ignitelimit.com
+  network: ws
+  ws-opts:
+    path: /assignment
+  delay: 2
+- name: '[2ms] CA【机场推荐：https://a9a.xyz】21'
+  type: trojan
+  server: 172.67.74.2
+  port: 443
+  password: humanity
+  udp: true
+  skip-cert-verify: true
+  sni: www.ignitelimit.com
+  network: ws
+  ws-opts:
+    path: /assignment
+  delay: 2
+- name: '[2ms] US【机场推荐：https://a9a.xyz】4'
+  type: trojan
+  server: 216.24.57.7
+  port: 443
+  password: humanity
+  udp: true
+  skip-cert-verify: true
+  sni: www.ignitelimit.com
+  network: ws
+  ws-opts:
+    path: /assignment
+    headers:
+      Host: www.ignitelimit.com
+  delay: 2
+- name: '[2ms] UN【机场推荐：https://a9a.xyz】76'
+  type: trojan
+  server: 104.17.177.143
+  port: 443
+  password: humanity
+  udp: true
+  skip-cert-verify: true
+  sni: www.ignitelimit.com
+  network: ws
+  ws-opts:
+    path: /assignment
+  delay: 2
+- name: '[2ms] UN【机场推荐：https://a9a.xyz】95'
+  type: trojan
+  server: 162.159.254.191
   port: 443
   password: humanity
   udp: true
@@ -829,7 +1217,7 @@ proxies:
   delay: 2
 - name: '[2ms] UN【机场推荐：https://a9a.xyz】94'
   type: trojan
-  server: 104.21.8.107
+  server: 104.16.174.6
   port: 443
   password: humanity
   udp: true
@@ -841,9 +1229,9 @@ proxies:
     headers:
       Host: www.ignitelimit.com
   delay: 2
-- name: '[2ms] UN【机场推荐：https://a9a.xyz】99'
+- name: '[2ms] 美国+得克萨斯州达拉斯Cloudflare+Warp节点'
   type: trojan
-  server: 104.18.152.179
+  server: 8.6.112.0
   port: 443
   password: humanity
   udp: true
@@ -852,53 +1240,42 @@ proxies:
   network: ws
   ws-opts:
     path: /assignment
+  client-fingerprint: chrome
   delay: 2
-- name: '[2ms] UN【机场推荐：https://a9a.xyz】103'
-  type: trojan
-  server: 45.130.125.76
-  port: 443
-  password: humanity
-  udp: true
-  skip-cert-verify: true
-  sni: www.ignitelimit.com
-  network: ws
-  ws-opts:
-    path: assignment
-  delay: 2
-- name: '[2ms] 美国+CloudFlare节点_1'
+- name: '[2ms] 🇺🇸_US_美国'
   type: vless
-  server: 172.67.156.147
+  server: 104.21.16.44
   port: 443
-  uuid: 4e4f1f70-5e56-4a76-bb9d-db087f4690c4
+  uuid: cb53f904-c979-454f-bf43-621990008148
   udp: true
   tls: true
-  servername: jp3.yohototo.top
+  servername: 0.aq0.ccwu.cc
   client-fingerprint: chrome
   skip-cert-verify: true
   encryption: none
   network: ws
   ws-opts:
-    path: /tyxyws
+    path: /LNbYtR09FXg1AmmjhdiHvR8v
     headers:
-      Host: jp3.yohototo.top
+      Host: 0.aq0.ccwu.cc
   delay: 2
-- name: '[2ms] 🇺🇸_US_美国->🇬🇧_GB_英国'
+- name: '[2ms] 🇺🇸_US_美国->🇩🇪_DE_德国'
   type: vless
-  server: 104.17.147.22
+  server: 104.24.152.211
   port: 8880
-  uuid: Parsashonam-Bot-32
+  uuid: def8ed1e-e07b-40e0-9bc0-7a2ba2cedd56
   udp: true
   tls: false
   encryption: none
   network: ws
   ws-opts:
-    path: '/Parsashonam-Parsashonam-Parsashonam-Parsashonam-Parsashonam-Parsashonam-Parsashonam-Parsashonam-Parsashonam-Parsashonam-Parsashonam-Parsashonam-Parsashonam-Parsashonam-Parsashonam-Parsashonam?ed=2056'
+    path: /pyip=ProxyIP.US.CMLiussss.net
     headers:
-      Host: Fi.Parsashonam.CfD.
+      Host: lucky-haze-724d.330-8c5.workers.dev
   delay: 2
-- name: '[3ms] UN【机场推荐：https://a9a.xyz】58'
+- name: '[3ms] UN【机场推荐：https://a9a.xyz】64'
   type: trojan
-  server: 104.18.152.143
+  server: 104.18.152.204
   port: 443
   password: humanity
   udp: true
@@ -908,9 +1285,9 @@ proxies:
   ws-opts:
     path: /assignment
   delay: 3
-- name: '[3ms] UN【机场推荐：https://a9a.xyz】57'
+- name: '[3ms] CA【机场推荐：https://a9a.xyz】12'
   type: trojan
-  server: 104.18.152.175
+  server: 104.17.111.1
   port: 443
   password: humanity
   udp: true
@@ -920,9 +1297,9 @@ proxies:
   ws-opts:
     path: /assignment
   delay: 3
-- name: '[3ms] UN【机场推荐：https://a9a.xyz】61'
+- name: '[3ms] CA【机场推荐：https://a9a.xyz】15'
   type: trojan
-  server: 104.18.152.144
+  server: 104.26.15.137
   port: 443
   password: humanity
   udp: true
@@ -931,8 +1308,24 @@ proxies:
   network: ws
   ws-opts:
     path: /assignment
+    headers:
+      Host: www.ignitelimit.com
   delay: 3
-- name: '[3ms] UN【机场推荐：https://a9a.xyz】59'
+- name: '[3ms] CA【机场推荐：https://a9a.xyz】32'
+  type: trojan
+  server: 104.16.174.14
+  port: 443
+  password: humanity
+  udp: true
+  skip-cert-verify: true
+  sni: www.ignitelimit.com
+  network: ws
+  ws-opts:
+    path: /assignment
+    headers:
+      Host: www.ignitelimit.com
+  delay: 3
+- name: '[3ms] CA【机场推荐：https://a9a.xyz】18'
   type: trojan
   server: 104.18.15.230
   port: 443
@@ -944,9 +1337,38 @@ proxies:
   ws-opts:
     path: /assignment
   delay: 3
-- name: '[3ms] UN【机场推荐：https://a9a.xyz】64'
+- name: '[3ms] 美国+CloudFlare节点'
+  type: vless
+  server: 104.21.37.55
+  port: 443
+  uuid: ef5c5d5c-08c6-4549-b05e-d1ff29ecc8ba
+  udp: true
+  tls: true
+  servername: 6-m16.cHiaN-MAI-8.kDnS.Fr
+  client-fingerprint: chrome
+  skip-cert-verify: true
+  encryption: none
+  network: ws
+  ws-opts:
+    path: /JRr6VGcSLFc034DC6sDbwyWJLbB
+    headers:
+      Host: 6-M16.chian-mAI-8.KdNs.fR
+  delay: 3
+- name: '[4ms] UN【机场推荐：https://a9a.xyz】86'
   type: trojan
-  server: 104.16.174.101
+  server: 104.19.229.21
+  port: 443
+  password: humanity
+  udp: true
+  skip-cert-verify: true
+  sni: www.ignitelimit.com
+  network: ws
+  ws-opts:
+    path: assignment
+  delay: 4
+- name: '[4ms] UN【机场推荐：https://a9a.xyz】83'
+  type: trojan
+  server: 104.17.111.8
   port: 443
   password: humanity
   udp: true
@@ -955,10 +1377,34 @@ proxies:
   network: ws
   ws-opts:
     path: /assignment
-  delay: 3
-- name: '[3ms] UN【机场推荐：https://a9a.xyz】63'
+  delay: 4
+- name: '[4ms] UN【机场推荐：https://a9a.xyz】85'
   type: trojan
-  server: 104.18.152.103
+  server: 141.101.90.101
+  port: 443
+  password: humanity
+  udp: true
+  skip-cert-verify: true
+  sni: www.ignitelimit.com
+  network: ws
+  ws-opts:
+    path: /assignment
+  delay: 4
+- name: '[4ms] UN【机场推荐：https://a9a.xyz】90'
+  type: trojan
+  server: 104.18.152.210
+  port: 443
+  password: humanity
+  udp: true
+  skip-cert-verify: true
+  sni: www.ignitelimit.com
+  network: ws
+  ws-opts:
+    path: /assignment
+  delay: 4
+- name: '[4ms] UN【机场推荐：https://a9a.xyz】84'
+  type: trojan
+  server: 104.17.148.22
   port: 443
   password: humanity
   udp: true
@@ -969,22 +1415,10 @@ proxies:
     path: /assignment
     headers:
       Host: www.ignitelimit.com
-  delay: 3
-- name: '[3ms] UN【机场推荐：https://a9a.xyz】96'
+  delay: 4
+- name: '[4ms] UN【机场推荐：https://a9a.xyz】87'
   type: trojan
-  server: 104.16.174.185
-  port: 443
-  password: humanity
-  udp: true
-  skip-cert-verify: true
-  sni: www.ignitelimit.com
-  network: ws
-  ws-opts:
-    path: /assignment
-  delay: 3
-- name: '[4ms] UN【机场推荐：https://a9a.xyz】51'
-  type: trojan
-  server: 104.18.152.225
+  server: 165.215.250.14
   port: 443
   password: humanity
   udp: true
@@ -994,9 +1428,9 @@ proxies:
   ws-opts:
     path: /assignment
   delay: 4
-- name: '[4ms] UN【机场推荐：https://a9a.xyz】55'
+- name: '[5ms] CA【机场推荐：https://a9a.xyz】5'
   type: trojan
-  server: 104.16.174.148
+  server: 104.18.23.63
   port: 443
   password: humanity
   udp: true
@@ -1005,27 +1439,10 @@ proxies:
   network: ws
   ws-opts:
     path: /assignment
-  delay: 4
-- name: '[7ms] 🇺🇸_US_美国'
-  type: vmess
-  server: www.shopify.com
-  port: 443
-  uuid: 6a89a215-22bf-4bd7-9642-b95b2e09583a
-  alterId: 0
-  cipher: auto
-  network: ws
-  tls: true
-  servername: guanwang.awsno.com
-  skip-cert-verify: true
-  ws-opts:
-    path: /hls/cctv5phd.m3u8
-    headers:
-      Host: guanwang.awsno.com
-  udp: true
-  delay: 7
-- name: '[24ms] UN【机场推荐：https://a9a.xyz】66'
+  delay: 5
+- name: '[5ms] UN【机场推荐：https://a9a.xyz】82'
   type: trojan
-  server: join-telegram-channel-tirexnet.trex.kdns.fr
+  server: 104.17.111.4
   port: 443
   password: humanity
   udp: true
@@ -1034,64 +1451,97 @@ proxies:
   network: ws
   ws-opts:
     path: /assignment
-  delay: 24
-- name: '[28ms] CA【机场推荐：https://a9a.xyz】12'
+  delay: 5
+- name: '[5ms] 🇺🇸 美国 | USA_9'
   type: vless
-  server: www.epicgames.com
-  port: 2095
-  uuid: 86c50e3a-5b87-49dd-bd20-03c7f2735e40
-  udp: true
-  tls: false
-  encryption: none
-  network: ws
-  ws-opts:
-    path: /
-    headers:
-      Host: free-claude-api.asshole.us.ci
-  delay: 28
-- name: '[33ms] CA【机场推荐：https://a9a.xyz】10'
-  type: vless
-  server: www.whatismyip.net
-  port: 2095
-  uuid: 86c50e3a-5b87-49dd-bd20-03c7f2735e40
-  udp: true
-  tls: false
-  encryption: none
-  network: ws
-  ws-opts:
-    path: /
-    headers:
-      Host: free-claude-api.asshole.us.ci
-  delay: 33
-- name: '[54ms] US【机场推荐：https://a9a.xyz】14'
-  type: ss
-  server: 129.146.75.221
-  port: 50356
-  password: ko88AO1Lj50PH3xGQ/SzJChWovcD99np3GwLcJwj/Eo=
-  cipher: 2022-blake3-chacha20-poly1305
-  delay: 54
-- name: '[54ms] US【机场推荐：https://a9a.xyz】16'
-  type: ss
-  server: 129.146.5.155
-  port: 50356
-  password: weY5SuElMZv3cFUuqwueCsMJOtulfSGK+49UclgGrog=
-  cipher: 2022-blake3-chacha20-poly1305
-  delay: 54
-- name: '[54ms] US_speednode_0136'
-  type: vless
-  server: 155.117.199.13
-  port: 29893
-  uuid: f06c6039-a489-3d78-a676-ed43be6deca3
+  server: digitalocean.com
+  port: 443
+  uuid: 47fcef29-ab4e-4aa6-932b-d95a18f28a4e
   udp: true
   tls: true
-  servername: cdnjs.cloudflare.com
+  servername: hszme.xax0.x8p.hh.vavava.kdns.fr
   client-fingerprint: chrome
   skip-cert-verify: true
-  flow: xtls-rprx-vision-udp443
   encryption: none
-  network: tcp
-  delay: 54
-- name: '[54ms] US_speednode_0137'
+  network: ws
+  ws-opts:
+    path: '/?ed=2560'
+    headers:
+      Host: hszme.xax0.x8p.hh.vavava.kdns.fr
+  delay: 5
+- name: '[6ms] US【机场推荐：https://a9a.xyz】6'
+  type: trojan
+  server: 130.250.137.171
+  port: 443
+  password: humanity
+  udp: true
+  skip-cert-verify: true
+  sni: www.ignitelimit.com
+  network: ws
+  ws-opts:
+    path: /assignment
+  delay: 6
+- name: '[6ms] UN【机场推荐：https://a9a.xyz】107'
+  type: vless
+  server: www.digitalocean.com
+  port: 8080
+  uuid: 2500e602-671c-4654-a602-c518b7282167
+  udp: true
+  tls: false
+  encryption: none
+  network: ws
+  ws-opts:
+    headers:
+      Host: 2639w-throbbing-band-3840.xphnn6jp.workers.dev
+  delay: 6
+- name: '[6ms] 🇸🇬 新加坡 | SGP_2'
+  type: vless
+  server: www.doordash.com
+  port: 443
+  uuid: 47fcef29-ab4e-4aa6-932b-d95a18f28a4e
+  udp: true
+  tls: true
+  servername: hszme.xax0.x8p.hh.vavava.kdns.fr
+  client-fingerprint: chrome
+  skip-cert-verify: true
+  encryption: none
+  network: ws
+  ws-opts:
+    path: '/?ed=2560'
+    headers:
+      Host: hszme.xax0.x8p.hh.vavava.kdns.fr
+  delay: 6
+- name: '[9ms] UN【机场推荐：https://a9a.xyz】98'
+  type: vless
+  server: 69.46.46.47
+  port: 443
+  uuid: Default
+  udp: true
+  tls: true
+  servername: ezaccess1-slv-ezaccess1-0f2f.up.railway.app
+  skip-cert-verify: true
+  encryption: none
+  network: ws
+  ws-opts:
+    path: '/ws/vless/Default?ed=2048fp=chrome'
+    headers:
+      Host: ezaccess1-slv-ezaccess1-0f2f.up.railway.app
+  delay: 9
+- name: '[9ms] 🇺🇸_US_美国_1'
+  type: vless
+  server: 162.159.39.218
+  port: 8880
+  uuid: 47fcef29-ab4e-4aa6-932b-d95a18f28a4e
+  udp: true
+  tls: false
+  encryption: none
+  network: ws
+  ws-opts:
+    path: '/?ed=2560security=tls'
+    headers:
+      Host: 8nj2r.2k8t.f88.hh.vavava.kdns.fr
+  delay: 9
+- name: '[9ms] US_speednode_0137'
   type: vless
   server: 155.117.199.13
   port: 39399
@@ -1104,8 +1554,8 @@ proxies:
   flow: xtls-rprx-vision-udp443
   encryption: none
   network: tcp
-  delay: 54
-- name: '[54ms] US_speednode_0142'
+  delay: 9
+- name: '[9ms] US_speednode_0142'
   type: vless
   server: 155.117.199.13
   port: 39211
@@ -1118,101 +1568,58 @@ proxies:
   flow: xtls-rprx-vision-udp443
   encryption: none
   network: tcp
-  delay: 54
-- name: '[68ms] 🇺🇸_US_美国_4'
+  delay: 9
+- name: '[10ms] US_speednode_0136'
   type: vless
-  server: 34.19.91.203
-  port: 443
-  uuid: 9d0395c0-016f-453e-b0be-fc66f1ee1d80
+  server: 155.117.199.13
+  port: 29893
+  uuid: f06c6039-a489-3d78-a676-ed43be6deca3
   udp: true
   tls: true
-  servername: www.cloudflare.com
+  servername: cdnjs.cloudflare.com
   client-fingerprint: chrome
   skip-cert-verify: true
+  flow: xtls-rprx-vision-udp443
   encryption: none
   network: tcp
-  delay: 68
-- name: '[70ms] 美国3|@ripaojiedian'
-  type: trojan
-  server: 100.42.228.109
-  port: 443
-  password: BxceQaOe
-  udp: true
-  skip-cert-verify: true
-  sni: t.me/ripaojiedian
-  delay: 70
-- name: '[86ms] 🇫🇷FR_1|1.2MB/s'
-  type: ss
-  server: 15.237.210.147
-  port: 443
-  password: amazonskr05
-  cipher: aes-256-cfb
-  delay: 86
-- name: '[87ms] 美国+CloudFlare节点'
-  type: trojan
-  server: www.ignitelimit.com
-  port: 443
-  password: humanity
-  udp: true
-  skip-cert-verify: true
-  network: ws
-  ws-opts:
-    path: /assignment
-  delay: 87
-- name: '[89ms] 🇺🇸US_1|2.6MB/s'
+  delay: 10
+- name: '[14ms] 🇺🇸 美国 | USA_5'
   type: vless
-  server: 103.175.79.4
+  server: us2.miyazono-kaori.com
   port: 443
-  uuid: b2141c97-76af-ff6f-839b-70a53e23aad9
+  uuid: 355337bc-90f9-4469-8d9a-1e2be6a7a055
   udp: true
   tls: true
-  servername: download.nvidia.com
-  client-fingerprint: chrome
-  skip-cert-verify: true
-  encryption: none
-  network: tcp
-  delay: 89
-- name: '[90ms] GB【机场推荐：https://a9a.xyz】46'
-  type: vless
-  server: 31.76.39.141
-  port: 443
-  uuid: c5694dc5-39fd-4a92-8430-3837baa522a3
-  udp: true
-  tls: true
-  servername: gb.superbuba.top
+  servername: download-porter.hoyoverse.com
   reality-opts:
-    public-key: G2U8_BvRAgcOw0sX8u_0yYdVAlD8CWLSi-uYjvH07hw
-    short-id: 4fa44664f6a566d3
-  client-fingerprint: firefox
+    public-key: w5egR8fKNXrEJns2AfwStSzRQ9yHY_invtW7tnqm8Dk
+    short-id: 297842ea18bf
+  client-fingerprint: chrome
   skip-cert-verify: false
   flow: xtls-rprx-vision
   encryption: none
   network: tcp
-  delay: 90
-- name: '[90ms] 🇩🇪DE_2|1.1MB/s'
-  type: ss
-  server: 63.185.90.235
-  port: 443
-  password: amazonskr05
-  cipher: aes-256-cfb
-  delay: 90
-- name: '[92ms] 🇩🇪_DE_德国_2'
+  delay: 14
+- name: '[16ms] 🇺🇸 美国 | USA_12'
   type: vless
-  server: 2.59.134.226
+  server: www.jimdo.com
   port: 443
-  uuid: 88281d02-b387-4fe3-918e-26ed331e6d08
+  uuid: 47fcef29-ab4e-4aa6-932b-d95a18f28a4e
   udp: true
   tls: true
-  servername: rich-falcon.cdn.cachefleet.com
-  client-fingerprint: qq
+  servername: hszme.xax0.x8p.hh.vavava.kdns.fr
+  client-fingerprint: chrome
   skip-cert-verify: true
-  flow: xtls-rprx-vision
   encryption: none
-  network: tcp
-  delay: 92
-- name: '[94ms] UN【机场推荐：https://a9a.xyz】56'
+  network: ws
+  ws-opts:
+    path: '/?ed=2560'
+    headers:
+      Host: hszme.xax0.x8p.hh.vavava.kdns.fr
+  delay: 16
+- name: '[18ms] UN【机场推荐：https://a9a.xyz】78'
   type: trojan
-  server: ip.myip2.qzz.io
+  server: www.speedtest.org
   port: 443
   password: humanity
   udp: true
@@ -1221,90 +1628,113 @@ proxies:
   network: ws
   ws-opts:
     path: /assignment
-  delay: 94
-- name: '[94ms] 🇺🇸_US_美国_1'
+  delay: 18
+- name: '[23ms] CA【机场推荐：https://a9a.xyz】3'
+  type: trojan
+  server: www.ignitelimit.com
+  port: 443
+  password: humanity
+  udp: true
+  skip-cert-verify: true
+  sni: www.ignitelimit.com
+  network: ws
+  ws-opts:
+    path: /assignment
+  delay: 23
+- name: '[26ms] UN【机场推荐：https://a9a.xyz】89'
+  type: trojan
+  server: www.speedtest.net
+  port: 443
+  password: humanity
+  udp: true
+  skip-cert-verify: true
+  sni: www.ignitelimit.com
+  network: ws
+  ws-opts:
+    path: /assignment
+    headers:
+      Host: www.ignitelimit.com
+  delay: 26
+- name: '[37ms] 🇸🇬 新加坡 | SGP'
   type: vless
-  server: 72.56.41.33
-  port: 40443
-  uuid: 5be7fb02-b6a5-450f-b041-3243b98e8420
+  server: www.udacity.com
+  port: 443
+  uuid: 47fcef29-ab4e-4aa6-932b-d95a18f28a4e
   udp: true
   tls: true
-  servername: deepl.com
+  servername: hszme.xax0.x8p.hh.vavava.kdns.fr
+  client-fingerprint: chrome
+  skip-cert-verify: true
+  encryption: none
+  network: ws
+  ws-opts:
+    path: '/?ed=2560'
+    headers:
+      Host: hszme.xax0.x8p.hh.vavava.kdns.fr
+  delay: 37
+- name: '[41ms] 🇺🇸 美国 | USA_8'
+  type: vless
+  server: us7-2.998998.best
+  port: 443
+  uuid: 3c6d1933-b22a-484b-ac8a-63e24f5fba75
+  udp: true
+  tls: true
+  servername: server9.9966338.xyz
+  client-fingerprint: chrome
+  skip-cert-verify: true
+  encryption: none
+  network: ws
+  ws-opts:
+    path: /imnotarealherox
+    headers:
+      Host: server9.9966338.xyz
+  delay: 41
+- name: '[62ms] 🇺🇸 美国 | USA_13'
+  type: vless
+  server: www.visa.com.tw
+  port: 8080
+  uuid: 78d1125f-642c-493a-a3d3-00cda2f568b5
+  udp: true
+  tls: false
+  encryption: none
+  network: ws
+  ws-opts:
+    path: /
+    headers:
+      Host: mewi-young-frog-2130.wood132.workers.dev
+  delay: 62
+- name: '[63ms] 🇺🇸_US_美国_4'
+  type: vless
+  server: 157.254.174.14
+  port: 443
+  uuid: ddf09ad0-02dc-485b-9048-1038de5bebf0
+  udp: true
+  tls: true
+  servername: us.cache-4d8a.com
   client-fingerprint: firefox
   skip-cert-verify: true
   flow: xtls-rprx-vision
   encryption: none
   network: tcp
-  delay: 94
-- name: '[94ms] ✨ @NOFiLTERING2 | ❤️ وصل شدی ج... #1'
-  type: hysteria2
-  server: 130.49.161.70
-  port: 443
-  password: p7Q76LzlnS4hIzr1W3staBOnUe_WwSkR
-  udp: true
-  sni: hy2.aspidnet.xyz
-  obfs: salamander
-  obfs-password: rG07s3COMIEvdnQipRyWzx_H_2xygNC3
-  skip-cert-verify: true
-  delay: 94
-- name: '[95ms] tg频道:@ripaojiedian #1'
-  type: ss
-  server: 63.180.254.10
-  port: 443
-  password: amazonskr05
-  cipher: aes-256-cfb
-  delay: 95
-- name: '[96ms] Telegram: @Daily_Configs'
-  type: hysteria2
-  server: 2.27.59.206
-  port: 443
-  password: cd74c0a406664a5bc0bac098220a2468
-  udp: true
-  sni: de1.sferavpn.pro
-  obfs: salamander
-  obfs-password: 44f1c1e2f8b99e792ceed574627a1eb0
-  skip-cert-verify: true
-  delay: 96
-- name: '[97ms] ♾️Join->🆔️@ATLAS_V2VPN🆓️📶‎🛰️55... #1'
-  type: hysteria2
-  server: 2.27.249.79
-  port: 443
-  password: cd74c0a406664a5bc0bac098220a2468
-  udp: true
-  sni: nl1.sferavpn.pro
-  obfs: salamander
-  obfs-password: 44f1c1e2f8b99e792ceed574627a1eb0
-  skip-cert-verify: true
-  delay: 97
-- name: '[106ms] ✨ @NOFiLTERING2 | ❤️ وصل شدی ج...'
-  type: hysteria2
-  server: 31.76.80.69
-  port: 443
-  password: 6aab8efdf13945829ae3699c342be406
-  udp: true
-  sni: fiproxy1.lockdwn.com
-  obfs: salamander
-  obfs-password: uw9b2qq5rx
-  skip-cert-verify: true
-  delay: 106
-- name: '[109ms] 俄罗斯+V2CROSS.COM'
+  delay: 63
+- name: '[83ms] 🇺🇸 美国 | USA_10'
   type: vless
-  server: 193.233.91.200
+  server: visit.honeywell.com
   port: 443
-  uuid: f211f0aa-db73-49f2-b2cd-5be20c034f36
+  uuid: 47fcef29-ab4e-4aa6-932b-d95a18f28a4e
   udp: true
   tls: true
-  servername: cdn.callibri.ru
-  reality-opts:
-    public-key: yCKV2xr725jI0sFhm4KbttKl8b9UZrnQTXxZLN2S4BM
-    short-id: a284
+  servername: hszme.xax0.x8p.hh.vavava.kdns.fr
   client-fingerprint: chrome
-  skip-cert-verify: false
-  flow: xtls-rprx-vision
+  skip-cert-verify: true
   encryption: none
-  network: tcp
-  delay: 109
-- name: '[110ms] CA【机场推荐：https://a9a.xyz】24'
+  network: ws
+  ws-opts:
+    path: '/?ed=2560'
+    headers:
+      Host: hszme.xax0.x8p.hh.vavava.kdns.fr
+  delay: 83
+- name: '[91ms] CA【机场推荐：https://a9a.xyz】17'
   type: trojan
   server: join-telegram-channel.tirexnet.kdns.fr
   port: 443
@@ -1317,83 +1747,10 @@ proxies:
     path: /assignment
     headers:
       Host: www.ignitelimit.com
-  delay: 110
-- name: '[117ms] @Daily_Configs #3'
-  type: hysteria2
-  server: assets.gateway-stream.com
-  port: 52023
-  password: xbr3ppxk7rv068c4
-  udp: true
-  sni: assets.gateway-stream.com
-  obfs: salamander
-  obfs-password: detgimgm8qh8i2g2
-  skip-cert-verify: true
-  delay: 117
-- name: '[119ms] Telegram@vpnjey #3'
-  type: hysteria2
-  server: 77.110.96.201
-  port: 443
-  password: Telegram
-  udp: true
-  sni: se.vpnjey2.dpdns.org
-  obfs: salamander
-  obfs-password: 'Telegram@vpnjey'
-  skip-cert-verify: true
-  delay: 119
-- name: '[120ms] @proxy_kafee : کانال تلگرام'
-  type: hysteria2
-  server: 162.249.125.133
-  port: 443
-  password: QCgqi_I4EkV8UR-OgQ_tG4EnVTEVvIyR2GgRBzrIn2s
-  udp: true
-  sni: hy2-new.aspidnet.xyz
-  obfs: salamander
-  obfs-password: c1b4086fea89914496c7e10967a419216566
-  skip-cert-verify: true
-  delay: 120
-- name: '[122ms] 🇷🇺_RU_俄罗斯->🇹🇷_TR_土耳其'
-  type: vless
-  server: 13.143.137.164
-  port: 9443
-  uuid: 953358cb-82ba-4296-960d-6d2ec3468f4c
-  udp: true
-  tls: true
-  servername: plaincanvas.videoclothing.xyz
-  client-fingerprint: chrome
-  skip-cert-verify: true
-  flow: xtls-rprx-vision
-  encryption: none
-  network: tcp
-  delay: 122
-- name: '[124ms] @Daily_Configs #2'
-  type: hysteria2
-  server: assets.gateway-stream.com
-  port: 52021
-  password: xbr3ppxk7rv068c4
-  udp: true
-  sni: assets.gateway-stream.com
-  obfs: salamander
-  obfs-password: mtg2vchyir6la3et
-  skip-cert-verify: true
-  delay: 124
-- name: '[125ms] 🇷🇺_RU_俄罗斯->🇺🇸_US_美国'
-  type: vless
-  server: 176.109.104.195
-  port: 9873
-  uuid: 5d16ac22-6eea-426f-b778-6f4c2961faef
-  udp: true
-  tls: true
-  servername: dl.google.com
-  client-fingerprint: qq
-  skip-cert-verify: true
-  encryption: none
-  network: grpc
-  grpc-opts:
-    grpc-service-name: grpc-tunnel
-  delay: 125
-- name: '[133ms] CA【机场推荐：https://a9a.xyz】33'
+  delay: 91
+- name: '[98ms] CA【机场推荐：https://a9a.xyz】43'
   type: trojan
-  server: www.speedtest.org
+  server: join-telegram-channel-tirexnet.trex.kdns.fr
   port: 443
   password: humanity
   udp: true
@@ -1402,50 +1759,484 @@ proxies:
   network: ws
   ws-opts:
     path: /assignment
-  client-fingerprint: chrome
-  delay: 133
-- name: '[135ms] 🇫🇷_FR_法国'
+    headers:
+      Host: www.ignitelimit.com
+  delay: 98
+- name: '[102ms] UN【机场推荐：https://a9a.xyz】88'
   type: vless
-  server: 34.155.10.226
+  server: 103.115.18.54
   port: 443
-  uuid: d619964d-26d6-452d-9860-6f058f03ba8e
+  uuid: d342d11e-d424-4583-b36e-524ab1f0afa4
   udp: true
   tls: true
-  servername: www.cloudflare.com
+  servername: cdn8848.776676.xyz
   client-fingerprint: chrome
   skip-cert-verify: true
   encryption: none
-  network: tcp
-  delay: 135
-- name: '[138ms] @Daily_Configs'
-  type: hysteria2
-  server: 144.31.49.138
+  network: ws
+  ws-opts:
+    path: '/episode/files?ed=2560'
+    headers:
+      Host: cdn8848.776676.xyz
+  delay: 102
+- name: '[103ms] UN【机场推荐：https://a9a.xyz】61'
+  type: trojan
+  server: ip.myip2.qzz.io
   port: 443
-  password: cd74c0a406664a5bc0bac098220a2468
+  password: humanity
   udp: true
-  sni: ru1.sferavpn.pro
-  obfs: salamander
-  obfs-password: 44f1c1e2f8b99e792ceed574627a1eb0
   skip-cert-verify: true
-  delay: 138
-- name: '[140ms] 伊朗+V2CROSS.COM'
+  sni: www.ignitelimit.com
+  network: ws
+  ws-opts:
+    path: /assignment
+    headers:
+      Host: www.ignitelimit.com
+  delay: 103
+- name: '[103ms] 🇯🇵 日本 | JPN'
   type: vless
-  server: edge6.multikons.shop
+  server: 92.113.124.253
   port: 443
-  uuid: 4f8a1d19-4d21-47f5-816e-a8f475fbd3f7
+  uuid: d342d11e-d424-4583-b36e-524ab1f0afa4
   udp: true
   tls: true
-  servername: edge6.multikons.shop
+  servername: cdn8848.776676.xyz
+  client-fingerprint: chrome
+  skip-cert-verify: true
+  encryption: none
+  network: ws
+  ws-opts:
+    path: '/redirect.html/list/episode?ed=2560'
+    headers:
+      Host: cdn8848.776676.xyz
+  delay: 103
+- name: '[106ms] 🇯🇵 日本 | JPN_3'
+  type: vless
+  server: 13.193.215.10
+  port: 443
+  uuid: 47fcef29-ab4e-4aa6-932b-d95a18f28a4e
+  udp: true
+  tls: true
+  servername: hszme.xax0.x8p.hh.vavava.kdns.fr
+  client-fingerprint: chrome
+  skip-cert-verify: true
+  encryption: none
+  network: ws
+  ws-opts:
+    path: '/?ed=2560'
+    headers:
+      Host: hszme.xax0.x8p.hh.vavava.kdns.fr
+  delay: 106
+- name: '[109ms] 🇺🇸 美国 | USA_3'
+  type: vless
+  server: www.visa.com.hk
+  port: 8080
+  uuid: 918958c6-2d9d-428a-9b40-4cc0fd039685
+  udp: true
+  tls: false
+  encryption: none
+  network: ws
+  ws-opts:
+    path: /
+    headers:
+      Host: 23ksdo-still-unit-07a7.beq2frqi.workers.dev
+  delay: 109
+- name: '[112ms] 🇯🇵 日本 | JPN_4'
+  type: vless
+  server: 128.22.163.118
+  port: 8443
+  uuid: 12301edd-b5de-4bc0-a45a-30b4029f0724
+  udp: true
+  tls: true
+  servername: www.nvidia.com
   reality-opts:
-    public-key: 9J0h1tl0PRGXSKMLbu-_nsnoxhw3IHJ4jZTi2p_4i00
-    short-id: e2422c761ef3fb15
+    public-key: ubBqz-_oIe5qRadI0o2MgcEwKVy3KJNALlkwoeAwZyk
+    short-id: a3f77b263075f3fd
   client-fingerprint: chrome
   skip-cert-verify: false
   flow: xtls-rprx-vision
   encryption: none
   network: tcp
-  delay: 140
-- name: '[148ms] UN【机场推荐：https://a9a.xyz】47'
+  delay: 112
+- name: '[121ms] 🇯🇵 日本 | JPN_5'
+  type: vless
+  server: jp1.miyazono-kaori.com
+  port: 443
+  uuid: 355337bc-90f9-4469-8d9a-1e2be6a7a055
+  udp: true
+  tls: true
+  servername: www.capcom.co.jp
+  reality-opts:
+    public-key: 0gYZJnHAz7yMRQjZH5Twd9ETHfKjzQimUgbzb1yLlhM
+    short-id: df9232eff6
+  client-fingerprint: chrome
+  skip-cert-verify: false
+  flow: xtls-rprx-vision
+  encryption: none
+  network: tcp
+  delay: 121
+- name: '[122ms] 🇯🇵 日本 | JPN_2'
+  type: vless
+  server: jp2.miyazono-kaori.com
+  port: 443
+  uuid: 355337bc-90f9-4469-8d9a-1e2be6a7a055
+  udp: true
+  tls: true
+  servername: www.capcom.co.jp
+  reality-opts:
+    public-key: 3yorIs_psiYbIeESwMdne5mPe2JVzeNOpDa2IJxQ-Es
+    short-id: 21fa8a1ebf
+  client-fingerprint: chrome
+  skip-cert-verify: false
+  flow: xtls-rprx-vision
+  encryption: none
+  network: tcp
+  delay: 122
+- name: '[130ms] 🇸🇬SG_1|1.2MB/s'
+  type: vless
+  server: 123.111.169.70
+  port: 443
+  uuid: 8102891d-7b37-4dc5-8261-9474b59b5c63
+  udp: true
+  tls: true
+  servername: vip.868068.xyz
+  skip-cert-verify: true
+  encryption: none
+  network: ws
+  ws-opts:
+    path: /proxyip=us.xiabibi.cffp=random
+    headers:
+      Host: vip.868068.xyz
+  delay: 130
+- name: '[142ms] UN【机场推荐：https://a9a.xyz】100'
+  type: vless
+  server: 34.87.244.111
+  port: 443
+  uuid: 325bc1be-0cb7-4cf7-bd35-a79ded91bbbd
+  udp: true
+  tls: true
+  servername: www.cloudflare.com
+  reality-opts:
+    public-key: fsdIMU2apN1C_NbkL7mHTsBKEfhwbDhgCRcB8ICf03E
+    short-id: d725f0dd8cce210f
+  client-fingerprint: chrome
+  skip-cert-verify: false
+  encryption: none
+  network: tcp
+  delay: 142
+- name: '[142ms] UN【机场推荐：https://a9a.xyz】105'
+  type: vless
+  server: 151.242.160.153
+  port: 443
+  uuid: 129799e0-a9b1-4ae8-80bd-fa92db813f85
+  udp: true
+  tls: true
+  servername: germm2.shhflow.xyz
+  reality-opts:
+    public-key: A0Na0oG3DYM8FtAsxN-oWVjikFbO-Ama8i1Z0C4V_ho
+  client-fingerprint: safari
+  skip-cert-verify: false
+  flow: xtls-rprx-vision
+  encryption: none
+  network: tcp
+  delay: 142
+- name: '[145ms] 🇫🇷 法国 | FRA'
+  type: ss
+  server: 15.237.196.230
+  port: 443
+  password: amazonskr05
+  cipher: aes-256-cfb
+  delay: 145
+- name: '[146ms] 🇹🇷 土耳其 | TUR'
+  type: vless
+  server: 93.190.9.15
+  port: 3090
+  uuid: 613fc411-78e1-4d68-a663-6abeb46a97e7
+  udp: true
+  tls: false
+  encryption: none
+  network: grpc
+  delay: 146
+- name: '[148ms] 🇭🇰 香港 | HKG'
+  type: vless
+  server: 207.57.131.117
+  port: 443
+  uuid: 47fcef29-ab4e-4aa6-932b-d95a18f28a4e
+  udp: true
+  tls: true
+  servername: hszme.xax0.x8p.hh.vavava.kdns.fr
+  client-fingerprint: chrome
+  skip-cert-verify: true
+  encryption: none
+  network: ws
+  ws-opts:
+    path: '/?ed=2560'
+    headers:
+      Host: hszme.xax0.x8p.hh.vavava.kdns.fr
+  delay: 148
+- name: '[149ms] DE【机场推荐：https://a9a.xyz】9'
+  type: trojan
+  server: 88.198.82.150
+  port: 443
+  password: humanity
+  udp: true
+  skip-cert-verify: true
+  sni: www.ignitelimit.com
+  network: ws
+  ws-opts:
+    path: /assignment
+  delay: 149
+- name: '[149ms] ✨ @NOFiLTERING2 | ❤️ وصل شدی ج... #1'
+  type: hysteria2
+  server: 130.49.161.70
+  port: 443
+  password: p7Q76LzlnS4hIzr1W3staBOnUe_WwSkR
+  udp: true
+  sni: hy2.aspidnet.xyz
+  obfs: salamander
+  obfs-password: rG07s3COMIEvdnQipRyWzx_H_2xygNC3
+  skip-cert-verify: true
+  delay: 149
+- name: '[149ms] tg频道:@ripaojiedian #1'
+  type: ss
+  server: 63.180.254.10
+  port: 443
+  password: amazonskr05
+  cipher: aes-256-cfb
+  delay: 149
+- name: '[150ms] 🇩🇪_DE_德国_1'
+  type: ss
+  server: 18.156.84.97
+  port: 443
+  password: amazonskr05
+  cipher: aes-256-cfb
+  delay: 150
+- name: '[154ms] DE【机场推荐：https://a9a.xyz】7'
+  type: vless
+  server: 64.226.95.244
+  port: 2096
+  uuid: 51a0af77-a60c-4d9b-81a4-f50e1b38d90b
+  udp: true
+  tls: true
+  servername: cf3.schzyc.cc.cd
+  skip-cert-verify: true
+  encryption: none
+  network: ws
+  ws-opts:
+    path: /
+    headers:
+      Host: cf3.schzyc.cc.cd
+  delay: 154
+- name: '[154ms] Telegram: @Daily_Configs'
+  type: hysteria2
+  server: 2.27.59.206
+  port: 443
+  password: cd74c0a406664a5bc0bac098220a2468
+  udp: true
+  sni: de1.sferavpn.pro
+  obfs: salamander
+  obfs-password: 44f1c1e2f8b99e792ceed574627a1eb0
+  skip-cert-verify: true
+  delay: 154
+- name: '[154ms] 🇨🇿 捷克 | CZE'
+  type: vless
+  server: 153.76.185.79
+  port: 3090
+  uuid: 613fc411-78e1-4d68-a663-6abeb46a97e7
+  udp: true
+  tls: false
+  encryption: none
+  network: grpc
+  delay: 154
+- name: '[155ms] @V2ray_confiig'
+  type: hysteria2
+  server: 2.27.249.79
+  port: 443
+  password: cd74c0a406664a5bc0bac098220a2468
+  udp: true
+  sni: nl1.sferavpn.pro
+  obfs: salamander
+  obfs-password: 44f1c1e2f8b99e792ceed574627a1eb0
+  skip-cert-verify: true
+  delay: 155
+- name: '[157ms] UN【机场推荐：https://a9a.xyz】102'
+  type: vless
+  server: 162.55.242.208
+  port: 2053
+  uuid: 659ffdfa-47d2-47d7-af40-5afe0907eead
+  udp: true
+  tls: true
+  servername: www.cloudflare.com
+  reality-opts:
+    public-key: jeS6Zu-p1Gf6GtraIAbpgQoSeT26Xq3GqgqVxccbVhY
+    short-id: 4d14da19b19cfc8c
+  client-fingerprint: firefox
+  skip-cert-verify: false
+  encryption: none
+  network: tcp
+  delay: 157
+- name: '[157ms] 🇫🇷 法国 | FRA_1'
+  type: vless
+  server: 152.228.139.33
+  port: 51671
+  uuid: 75cc7568-abb0-46a8-88be-8137d3c647d4
+  udp: true
+  tls: true
+  servername: www.sony.com
+  reality-opts:
+    public-key: -5PowNUY37Pi01YKO9fjRTrum1m_9n6XauaPDpmOJzU
+    short-id: 2fed44d8c59f7e71
+  client-fingerprint: firefox
+  skip-cert-verify: false
+  encryption: none
+  network: grpc
+  delay: 157
+- name: '[158ms] 🇬🇧 英国 | GBR_2'
+  type: vless
+  server: uk1.miyazono-kaori.com
+  port: 443
+  uuid: 355337bc-90f9-4469-8d9a-1e2be6a7a055
+  udp: true
+  tls: true
+  servername: www.bp.com
+  reality-opts:
+    public-key: _dsOu_vxEU7pY3sIeGJxIpR0Ac2KoqIyBor2Bx0CwGA
+    short-id: d923
+  client-fingerprint: chrome
+  skip-cert-verify: false
+  flow: xtls-rprx-vision
+  encryption: none
+  network: tcp
+  delay: 158
+- name: '[161ms] 🇹🇼 🇨🇳 台湾 | TWN_1'
+  type: vless
+  server: tw3.miyazono-kaori.com
+  port: 443
+  uuid: 355337bc-90f9-4469-8d9a-1e2be6a7a055
+  udp: true
+  tls: true
+  servername: dlcdnets.asus.com
+  reality-opts:
+    public-key: JE82iOR_U_H7ffxJ5yfoxXeRkMlE-aVu1wxR7n6jrVM
+    short-id: 473277e2
+  client-fingerprint: chrome
+  skip-cert-verify: false
+  flow: xtls-rprx-vision
+  encryption: none
+  network: tcp
+  delay: 161
+- name: '[163ms] ✨ @NOFiLTERING2 | ❤️ وصل شدی ج...'
+  type: hysteria2
+  server: 31.76.80.69
+  port: 443
+  password: 6aab8efdf13945829ae3699c342be406
+  udp: true
+  sni: fiproxy1.lockdwn.com
+  obfs: salamander
+  obfs-password: uw9b2qq5rx
+  skip-cert-verify: true
+  delay: 163
+- name: '[165ms] 🇭🇰 香港 | HKG_3'
+  type: vless
+  server: agroup.hk2.ilovegairport.com
+  port: 443
+  uuid: df2a259e-32cc-4b4d-bcca-3f8d8a28dc2a
+  udp: true
+  tls: true
+  servername: ap-east-1.console.aws.amazon.com
+  reality-opts:
+    public-key: wjVcW5OqGoFbeqwEPiQHjf-uQTwRMBsOKlRnl5JmSzA
+    short-id: 1e5dd4542585
+  client-fingerprint: chrome
+  skip-cert-verify: false
+  flow: xtls-rprx-vision
+  encryption: none
+  network: tcp
+  delay: 165
+- name: '[166ms] 🇺🇸_US_美国_3'
+  type: vless
+  server: us15.zuoai.cf
+  port: 443
+  uuid: b2593749-691c-428c-9481-14979cba3446
+  udp: true
+  tls: true
+  servername: xi.tbv.ccwu.cc
+  client-fingerprint: chrome
+  skip-cert-verify: true
+  encryption: none
+  network: ws
+  ws-opts:
+    path: /proxyip=us.xiabibi.cf
+    headers:
+      Host: xi.tbv.ccwu.cc
+  delay: 166
+- name: '[167ms] 🇸🇬_SG_新加坡'
+  type: hysteria2
+  server: 161.118.253.238
+  port: 443
+  password: 1027576c-c4df-4277-b3ef-38d3213b6574
+  udp: true
+  sni: www.bing.com
+  skip-cert-verify: true
+  delay: 167
+- name: '[172ms] UN【机场推荐：https://a9a.xyz】103'
+  type: vless
+  server: 193.233.91.200
+  port: 443
+  uuid: 0dbe4d34-30c9-4f8a-b229-e5950087232d
+  udp: true
+  tls: true
+  servername: cdn.callibri.ru
+  reality-opts:
+    public-key: yCKV2xr725jI0sFhm4KbttKl8b9UZrnQTXxZLN2S4BM
+    short-id: 6d47
+  client-fingerprint: chrome
+  skip-cert-verify: false
+  flow: xtls-rprx-vision
+  encryption: none
+  network: tcp
+  delay: 172
+- name: '[172ms] 🇵🇱 波兰 | POL'
+  type: ss
+  server: 54.36.174.140
+  port: 443
+  password: mrs2e9a
+  cipher: chacha20-ietf-poly1305
+  delay: 172
+- name: '[173ms] 🇭🇰 香港 | HKG_2'
+  type: vless
+  server: hk6.miyazono-kaori.com
+  port: 443
+  uuid: 355337bc-90f9-4469-8d9a-1e2be6a7a055
+  udp: true
+  tls: true
+  servername: www.hsbc.com.hk
+  reality-opts:
+    public-key: 2kl8isq7ajNv3BR6Z1EPag_LqJHmsfo2pn0dA7yetko
+    short-id: a2d13d677624197e
+  client-fingerprint: chrome
+  skip-cert-verify: false
+  flow: xtls-rprx-vision
+  encryption: none
+  network: tcp
+  delay: 173
+- name: '[173ms] 🇳🇱 荷兰 | NLD'
+  type: vless
+  server: nl.node-edge09.com
+  port: 443
+  uuid: ddf09ad0-02dc-485b-9048-1038de5bebf0
+  udp: true
+  tls: true
+  servername: nl.node-edge09.com
+  reality-opts:
+    public-key: S6t9-gOX2mxWKNGvGSJ8NxDdlJy78d4gN2-wv2d0hFw
+    short-id: 8319913f2e5f5711
+  client-fingerprint: chrome
+  skip-cert-verify: false
+  encryption: none
+  network: grpc
+  delay: 173
+- name: '[176ms] PL【机场推荐：https://a9a.xyz】1'
   type: vless
   server: 194.93.63.246
   port: 443
@@ -1461,24 +2252,331 @@ proxies:
   flow: xtls-rprx-vision
   encryption: none
   network: tcp
-  delay: 148
-- name: '[162ms] 🇯🇵JP_1|1.1MB/s'
+  delay: 176
+- name: '[177ms] 🇩🇪 德国 | DEU'
   type: vless
-  server: 64.176.60.226
+  server: 31.76.80.238
   port: 443
-  uuid: d342d11e-d424-4583-b36e-524ab1f0afa4
+  uuid: 9bbd487f-8f84-4ad7-b897-681c3f7d95dc
   udp: true
   tls: true
-  servername: cdn8848.776676.xyz
+  servername: jujujuj.mervi.icu
+  reality-opts:
+    public-key: j7_ysAZxK5vBkMqvu0r8_UUuR3Qp7Yml3fXFDGR5x3w
+    short-id: 573703f224b75e8c
+  client-fingerprint: firefox
+  skip-cert-verify: false
+  flow: xtls-rprx-vision
+  encryption: none
+  network: tcp
+  delay: 177
+- name: '[178ms] 🇪🇸 西班牙 | ESP'
+  type: vless
+  server: es.cache-4d8a.com
+  port: 443
+  uuid: ddf09ad0-02dc-485b-9048-1038de5bebf0
+  udp: true
+  tls: true
+  servername: es.cache-4d8a.com
+  reality-opts:
+    public-key: S6t9-gOX2mxWKNGvGSJ8NxDdlJy78d4gN2-wv2d0hFw
+    short-id: 8319913f2e5f5711
+  client-fingerprint: chrome
+  skip-cert-verify: false
+  encryption: none
+  network: grpc
+  delay: 178
+- name: '[179ms] @Daily_Configs : کانال تلگرام'
+  type: hysteria2
+  server: 162.249.125.133
+  port: 443
+  password: QCgqi_I4EkV8UR-OgQ_tG4EnVTEVvIyR2GgRBzrIn2s
+  udp: true
+  sni: hy2-new.aspidnet.xyz
+  obfs: salamander
+  obfs-password: c1b4086fea89914496c7e10967a419216566
+  skip-cert-verify: true
+  delay: 179
+- name: '[181ms] [ 🇷🇺 ] | @Cfox_SerVer'
+  type: hysteria2
+  server: 144.31.49.138
+  port: 443
+  password: cd74c0a406664a5bc0bac098220a2468
+  udp: true
+  sni: ru1.sferavpn.pro
+  obfs: salamander
+  obfs-password: 44f1c1e2f8b99e792ceed574627a1eb0
+  skip-cert-verify: true
+  delay: 181
+- name: '[181ms] @Daily_Configs #3'
+  type: hysteria2
+  server: assets.gateway-stream.com
+  port: 52023
+  password: xbr3ppxk7rv068c4
+  udp: true
+  sni: assets.gateway-stream.com
+  obfs: salamander
+  obfs-password: detgimgm8qh8i2g2
+  skip-cert-verify: true
+  delay: 181
+- name: '[182ms] UN【机场推荐：https://a9a.xyz】108'
+  type: vless
+  server: 195.123.212.60
+  port: 15392
+  uuid: de78ba38-5600-47d1-b93b-b45bdf280ac0
+  udp: true
+  tls: true
+  servername: intel.com
+  reality-opts:
+    public-key: TgaE-83sqLrJ6auwPP2Nq7vDO_xuFqa6uMnG4Au18jg
+    short-id: '82'
+  client-fingerprint: chrome
+  skip-cert-verify: false
+  flow: xtls-rprx-vision
+  encryption: none
+  network: tcp
+  delay: 182
+- name: '[182ms] 🇹🇼 🇨🇳 台湾 | TWN'
+  type: vless
+  server: aws-jp.webprovider.top
+  port: 30000
+  uuid: 3180f311-16fb-445c-b129-4d946940c21a
+  udp: true
+  tls: true
+  servername: icloud.com
+  reality-opts:
+    public-key: Sa-1Yb-Xzwu7BOPL--8Fx0kKvdjJ8bLnR4ISMsR4oRc
+    short-id: a8
+  client-fingerprint: chrome
+  skip-cert-verify: false
+  flow: xtls-rprx-vision
+  encryption: none
+  network: tcp
+  delay: 182
+- name: '[183ms] 🇷🇺_RU_俄罗斯->🇹🇷_TR_土耳其'
+  type: vless
+  server: 13.143.137.164
+  port: 9443
+  uuid: 953358cb-82ba-4296-960d-6d2ec3468f4c
+  udp: true
+  tls: true
+  servername: plaincanvas.videoclothing.xyz
+  client-fingerprint: chrome
+  skip-cert-verify: true
+  flow: xtls-rprx-vision
+  encryption: none
+  network: tcp
+  delay: 183
+- name: '[185ms] 🇷🇺_RU_俄罗斯->🇺🇸_US_美国'
+  type: vless
+  server: 176.109.104.195
+  port: 9873
+  uuid: 5d16ac22-6eea-426f-b778-6f4c2961faef
+  udp: true
+  tls: true
+  servername: dl.google.com
+  client-fingerprint: qq
+  skip-cert-verify: true
+  encryption: none
+  network: grpc
+  grpc-opts:
+    grpc-service-name: grpc-tunnel
+  delay: 185
+- name: '[188ms] 🇨🇳_CN_中国'
+  type: vmess
+  server: 112.132.215.108
+  port: 50002
+  uuid: 418048af-a293-4b99-9b0c-98ca3580dd24
+  alterId: 64
+  cipher: auto
+  network: tcp
+  tls: false
+  udp: true
+  delay: 188
+- name: '[188ms] 🇺🇸 美国 | USA_11'
+  type: vless
+  server: cmcc.877774.xyz
+  port: 443
+  uuid: 47fcef29-ab4e-4aa6-932b-d95a18f28a4e
+  udp: true
+  tls: true
+  servername: hszme.xax0.x8p.hh.vavava.kdns.fr
+  client-fingerprint: chrome
   skip-cert-verify: true
   encryption: none
   network: ws
   ws-opts:
-    path: '/documents?ed=2560fp=chrome'
+    path: '/?ed=2560'
     headers:
-      Host: cdn8848.776676.xyz
-  delay: 162
-- name: '[164ms] 保加利亚+V2CROSS.COM'
+      Host: hszme.xax0.x8p.hh.vavava.kdns.fr
+  delay: 188
+- name: '[189ms] UN【机场推荐：https://a9a.xyz】93'
+  type: vless
+  server: edge6.multikons.shop
+  port: 443
+  uuid: 4f8a1d19-4d21-47f5-816e-a8f475fbd3f7
+  udp: true
+  tls: true
+  servername: edge6.multikons.shop
+  reality-opts:
+    public-key: 9J0h1tl0PRGXSKMLbu-_nsnoxhw3IHJ4jZTi2p_4i00
+    short-id: e2422c761ef3fb15
+  client-fingerprint: chrome
+  skip-cert-verify: false
+  flow: xtls-rprx-vision
+  encryption: none
+  network: tcp
+  delay: 189
+- name: '[191ms] 🇸🇬 新加坡 | SGP_1'
+  type: vless
+  server: aws-sg.webprovider.top
+  port: 443
+  uuid: 3180f311-16fb-445c-b129-4d946940c21a
+  udp: true
+  tls: true
+  servername: icloud.com
+  reality-opts:
+    public-key: xZaUaPEQIRWewPh9LsTehSiqqFL0INeNyp-ERkuy7Qs
+    short-id: 3bb3fff95c
+  client-fingerprint: chrome
+  skip-cert-verify: false
+  flow: xtls-rprx-vision
+  encryption: none
+  network: tcp
+  delay: 191
+- name: '[198ms] @Daily_Configs #2'
+  type: hysteria2
+  server: assets.gateway-stream.com
+  port: 52021
+  password: xbr3ppxk7rv068c4
+  udp: true
+  sni: assets.gateway-stream.com
+  obfs: salamander
+  obfs-password: mtg2vchyir6la3et
+  skip-cert-verify: true
+  delay: 198
+- name: '[200ms] US【机场推荐：https://a9a.xyz】2'
+  type: vless
+  server: core-data.gorekmas.online
+  port: 443
+  uuid: 4f8a1d19-4d21-47f5-816e-a8f475fbd3f7
+  udp: true
+  tls: true
+  servername: core-data.gorekmas.online
+  reality-opts:
+    public-key: CRh0VOb2qvDm4H89m6qiHg_9M6nnJ0f_h0kpPitA6hw
+    short-id: 266337e69bb1f189
+  client-fingerprint: random
+  skip-cert-verify: false
+  flow: xtls-rprx-vision
+  encryption: none
+  network: tcp
+  delay: 200
+- name: '[200ms] Telegram@vpnjey #3'
+  type: hysteria2
+  server: 77.110.96.201
+  port: 443
+  password: Telegram
+  udp: true
+  sni: se.vpnjey2.dpdns.org
+  obfs: salamander
+  obfs-password: 'Telegram@vpnjey'
+  skip-cert-verify: true
+  delay: 200
+- name: '[204ms] 🇭🇰 香港 | HKG_1'
+  type: vless
+  server: hk3.miyazono-kaori.com
+  port: 443
+  uuid: 355337bc-90f9-4469-8d9a-1e2be6a7a055
+  udp: true
+  tls: true
+  servername: hk4e-launcher-static.hoyoverse.com
+  reality-opts:
+    public-key: zV4Sja0iajpdzkR1iBMbI7RRWL2nlpgwGOtirQSG-zc
+    short-id: b81edf7fdee4
+  client-fingerprint: chrome
+  skip-cert-verify: false
+  flow: xtls-rprx-vision
+  encryption: none
+  network: tcp
+  delay: 204
+- name: '[205ms] 🇺🇸 美国 | USA_6'
+  type: vless
+  server: ln.edu.hk
+  port: 443
+  uuid: 47fcef29-ab4e-4aa6-932b-d95a18f28a4e
+  udp: true
+  tls: true
+  servername: hszme.xax0.x8p.hh.vavava.kdns.fr
+  client-fingerprint: chrome
+  skip-cert-verify: true
+  encryption: none
+  network: ws
+  ws-opts:
+    path: '/?ed=2560'
+    headers:
+      Host: hszme.xax0.x8p.hh.vavava.kdns.fr
+  delay: 205
+- name: '[211ms] 🇭🇰 香港|@ripaojiedian'
+  type: vmess
+  server: v10.hdacd.com
+  port: 30807
+  uuid: cbb3f877-d1fb-344c-87a9-d153bffd5484
+  alterId: 2
+  cipher: auto
+  network: tcp
+  tls: false
+  udp: true
+  delay: 211
+- name: '[211ms] 🇳🇱 荷兰 | NLD_2'
+  type: vless
+  server: cloudflare.182682.xyz
+  port: 443
+  uuid: 47fcef29-ab4e-4aa6-932b-d95a18f28a4e
+  udp: true
+  tls: true
+  servername: hszme.xax0.x8p.hh.vavava.kdns.fr
+  client-fingerprint: chrome
+  skip-cert-verify: true
+  encryption: none
+  network: ws
+  ws-opts:
+    path: '/?ed=2560'
+    headers:
+      Host: hszme.xax0.x8p.hh.vavava.kdns.fr
+  delay: 211
+- name: '[228ms] UN【机场推荐：https://a9a.xyz】92'
+  type: vless
+  server: srv-waw.kintecolas.com
+  port: 443
+  uuid: 4f8a1d19-4d21-47f5-816e-a8f475fbd3f7
+  udp: true
+  tls: true
+  servername: srv-waw.kintecolas.com
+  reality-opts:
+    public-key: qPgl3LmKAKs5K-KzGNRJyr5KTO0KoRNN5m2PTCMscXU
+    short-id: 22f534c530d37170
+  client-fingerprint: chrome
+  skip-cert-verify: false
+  flow: xtls-rprx-vision
+  encryption: none
+  network: tcp
+  delay: 228
+- name: '[228ms] 🇫🇮_FI_芬兰'
+  type: vless
+  server: 196.196.206.38
+  port: 443
+  uuid: 4bdeee92-97e8-414d-bef6-ec1d5e2ab73b
+  udp: true
+  tls: true
+  servername: finkafsb.finiki.lol
+  client-fingerprint: firefox
+  skip-cert-verify: true
+  flow: xtls-rprx-vision
+  encryption: none
+  network: tcp
+  delay: 228
+- name: '[236ms] 节点日期：2026-09-20'
   type: vless
   server: pl.bubahero.com
   port: 443
@@ -1494,76 +2592,36 @@ proxies:
   flow: xtls-rprx-vision
   encryption: none
   network: tcp
-  delay: 164
-- name: '[196ms] 🇨🇳_CN_中国'
-  type: vmess
-  server: 112.132.215.108
-  port: 50002
-  uuid: 418048af-a293-4b99-9b0c-98ca3580dd24
-  alterId: 64
-  cipher: auto
-  network: tcp
-  tls: false
-  udp: true
-  delay: 196
-- name: '[254ms] 🇨🇳_CN_中国->🇺🇸_US_美国_1'
-  type: ss
-  server: 121.46.230.139
-  port: 65443
-  password: 7eadc6dbe2ae
-  cipher: aes-256-cfb
-  delay: 254
-- name: '[274ms] 🇺🇸US_3|2.6MB/s'
+  delay: 236
+- name: '[243ms] ❓Other_1|1004KB/s'
   type: vless
-  server: www.visa.com.hk
-  port: 443
-  uuid: ff7cb8d1-b912-46e8-9686-a209c613c614
+  server: pl-waw.dontblockmepls.com
+  port: 2063
+  uuid: b18d5990-96eb-4587-a386-7f8ef7591e6a
   udp: true
-  tls: false
+  tls: true
+  servername: rusbid.de
+  client-fingerprint: chrome
+  skip-cert-verify: true
+  flow: xtls-rprx-vision-udp443
   encryption: none
-  network: ws
-  ws-opts:
-    path: '/announcement?ed=2048security=tls'
-    headers:
-      Host: us-lax.xhs152.shop
-  delay: 274
-- name: '[375ms] 🇭🇰 香港|@ripaojiedian'
-  type: vmess
-  server: v10.hdacd.com
-  port: 30807
-  uuid: cbb3f877-d1fb-344c-87a9-d153bffd5484
-  alterId: 2
-  cipher: auto
   network: tcp
-  tls: false
-  udp: true
-  delay: 375
-- name: '[473ms] 🇮🇹IT_1|1.9MB/s'
+  delay: 243
+- name: '[338ms] 🇫🇮_FI_芬兰_1'
   type: vless
-  server: freev2.cloudflare.182682.xyz
+  server: jujujuj.mervi.icu
   port: 443
-  uuid: ff7cb8d1-b912-46e8-9686-a209c613c614
+  uuid: 9bbd487f-8f84-4ad7-b897-681c3f7d95dc
   udp: true
-  tls: false
+  tls: true
+  servername: jujujuj.mervi.icu
+  client-fingerprint: random
+  skip-cert-verify: true
+  flow: xtls-rprx-vision
   encryption: none
-  network: ws
-  ws-opts:
-    path: '/announcement?ed=2048security=tls'
-    headers:
-      Host: it-mil.xhs152.shop
-  delay: 473
-- name: '[520ms] 🇭🇰_HK_中国香港->🇯🇵_JP_日本'
-  type: vmess
-  server: v6.hdacd.com
-  port: 30806
-  uuid: cbb3f877-d1fb-344c-87a9-d153bffd5484
-  alterId: 2
-  cipher: auto
   network: tcp
-  tls: false
-  udp: true
-  delay: 520
-- name: '[1386ms] 俄罗斯'
+  delay: 338
+- name: '[410ms] 俄罗斯'
   type: hysteria2
   server: gta.internet-card.sbs
   port: 443
@@ -1571,7 +2629,93 @@ proxies:
   udp: true
   sni: gta.internet-card.sbs
   skip-cert-verify: true
-  delay: 1386
+  delay: 410
+- name: '[427ms] 🇷🇺_RU_俄罗斯->🇩🇪_DE_德国'
+  type: hysteria2
+  server: 31.76.71.252
+  port: 443
+  password: mkL3AfdSZIpTWRB9TcWPn9vywPGN89MRHg3ToRDj
+  udp: true
+  sni: gta.internet-card.sbs
+  skip-cert-verify: true
+  delay: 427
+- name: '[488ms] 🇺🇸_US_美国_2'
+  type: vless
+  server: lyra.yokkastars.com
+  port: 40443
+  uuid: 5be7fb02-b6a5-450f-b041-3243b98e8420
+  udp: true
+  tls: true
+  servername: deepl.com
+  client-fingerprint: edge
+  skip-cert-verify: true
+  flow: xtls-rprx-vision
+  encryption: none
+  network: tcp
+  delay: 488
+- name: '[574ms] 🇬🇧 英国 | GBR_1'
+  type: vless
+  server: 45.152.65.68
+  port: 37574
+  uuid: e2353f83-9a40-4b46-82e1-666b1652d479
+  udp: true
+  tls: true
+  servername: www.amazon.com
+  reality-opts:
+    public-key: Pu-3VzlM8PPRnOTVZOC8HVGr4WwG5yOYiIrbVJYU5RI
+  client-fingerprint: chrome
+  skip-cert-verify: false
+  flow: xtls-rprx-vision
+  encryption: none
+  network: tcp
+  delay: 574
+- name: '[619ms] 🇭🇰 香港 | HKG_4'
+  type: vless
+  server: 185.227.154.226
+  port: 443
+  uuid: b0e3d7fe-0ff5-470d-9c69-4f624a35d683
+  udp: true
+  tls: true
+  servername: www.samsung.com
+  reality-opts:
+    public-key: qxcpzDbypXaxsvsvzvebnyHxc0BTQdz7LvIkBXZ0TUc
+    short-id: 3246e72c
+  client-fingerprint: chrome
+  skip-cert-verify: false
+  flow: xtls-rprx-vision
+  encryption: none
+  network: tcp
+  delay: 619
+- name: '[677ms] 🇩🇪DE_1|3.4MB/s'
+  type: vless
+  server: dee338dd.localip.ir
+  port: 2087
+  uuid: fd6fb48f-b324-4a82-9dcd-f8bdb1bd5301
+  udp: true
+  tls: true
+  servername: denet1.17e1feeuzi.online
+  client-fingerprint: firefox
+  skip-cert-verify: true
+  encryption: none
+  network: tcp
+  delay: 677
+- name: '[1294ms] UN【机场推荐：https://a9a.xyz】101'
+  type: vless
+  server: finkafsb.finiki.lol
+  port: 443
+  uuid: 4bdeee92-97e8-414d-bef6-ec1d5e2ab73b
+  udp: true
+  tls: true
+  servername: finkafsb.finiki.lol
+  reality-opts:
+    public-key: YBKHp6R7xp2Ss2kxbvDNMFPpRrf3oh1wQ2dVMukPHmA
+    short-id: d110331f200987ae
+  client-fingerprint: random
+  skip-cert-verify: false
+  flow: xtls-rprx-vision
+  encryption: none
+  network: tcp
+  delay: 1294
 proxy-groups:
 - name: 🚀 选择代理
   type: select
@@ -1585,381 +2729,600 @@ proxy-groups:
   url: 'https://www.google.com/'
   interval: 300
   proxies:
-  - '[1ms] UN【机场推荐：https://a9a.xyz】49'
-  - '[1ms] CA【机场推荐：https://a9a.xyz】44'
-  - '[1ms] CA【机场推荐：https://a9a.xyz】21'
-  - '[1ms] CA【机场推荐：https://a9a.xyz】36'
-  - '[1ms] CA【机场推荐：https://a9a.xyz】34'
-  - '[1ms] CA【机场推荐：https://a9a.xyz】26'
-  - '[1ms] CA【机场推荐：https://a9a.xyz】23'
-  - '[1ms] CA【机场推荐：https://a9a.xyz】20'
-  - '[1ms] CA【机场推荐：https://a9a.xyz】27'
-  - '[1ms] CA【机场推荐：https://a9a.xyz】37'
-  - '[1ms] CA【机场推荐：https://a9a.xyz】29'
-  - '[1ms] CA【机场推荐：https://a9a.xyz】25'
-  - '[1ms] CA【机场推荐：https://a9a.xyz】32'
-  - '[1ms] UN【机场推荐：https://a9a.xyz】52'
-  - '[1ms] UN【机场推荐：https://a9a.xyz】65'
-  - '[1ms] UN【机场推荐：https://a9a.xyz】71'
-  - '[1ms] UN【机场推荐：https://a9a.xyz】72'
-  - '[1ms] UN【机场推荐：https://a9a.xyz】76'
-  - '[1ms] UN【机场推荐：https://a9a.xyz】74'
-  - '[1ms] UN【机场推荐：https://a9a.xyz】68'
-  - '[1ms] UN【机场推荐：https://a9a.xyz】69'
-  - '[1ms] UN【机场推荐：https://a9a.xyz】77'
-  - '[1ms] UN【机场推荐：https://a9a.xyz】67'
-  - '[1ms] UN【机场推荐：https://a9a.xyz】83'
-  - '[1ms] UN【机场推荐：https://a9a.xyz】75'
-  - '[1ms] UN【机场推荐：https://a9a.xyz】82'
-  - '[1ms] UN【机场推荐：https://a9a.xyz】84'
-  - '[1ms] UN【机场推荐：https://a9a.xyz】81'
   - '[1ms] UN【机场推荐：https://a9a.xyz】79'
-  - '[1ms] UN【机场推荐：https://a9a.xyz】90'
-  - '[1ms] UN【机场推荐：https://a9a.xyz】86'
-  - '[1ms] UN【机场推荐：https://a9a.xyz】85'
-  - '[1ms] UN【机场推荐：https://a9a.xyz】97'
-  - '[1ms] UN【机场推荐：https://a9a.xyz】95'
-  - '[1ms] UN【机场推荐：https://a9a.xyz】100'
-  - '[1ms] UN【机场推荐：https://a9a.xyz】98'
-  - '[1ms] 加拿大+V2CROSS.COM'
-  - '[1ms] UN【机场推荐：https://a9a.xyz】102'
+  - '[1ms] CA【机场推荐：https://a9a.xyz】44'
+  - '[1ms] CA【机场推荐：https://a9a.xyz】10'
+  - '[1ms] CA【机场推荐：https://a9a.xyz】16'
+  - '[1ms] CA【机场推荐：https://a9a.xyz】46'
+  - '[1ms] UN【机场推荐：https://a9a.xyz】57'
+  - '[1ms] UN【机场推荐：https://a9a.xyz】45'
+  - '[1ms] TR【机场推荐：https://a9a.xyz】36'
+  - '[1ms] UN【机场推荐：https://a9a.xyz】51'
+  - '[1ms] UN【机场推荐：https://a9a.xyz】69'
+  - '[1ms] CA【机场推荐：https://a9a.xyz】28'
+  - '[1ms] UN【机场推荐：https://a9a.xyz】58'
+  - '[1ms] CA【机场推荐：https://a9a.xyz】33'
+  - '[1ms] UN【机场推荐：https://a9a.xyz】60'
+  - '[1ms] UN【机场推荐：https://a9a.xyz】63'
+  - '[1ms] UN【机场推荐：https://a9a.xyz】48'
+  - '[1ms] CA【机场推荐：https://a9a.xyz】38'
+  - '[1ms] CA【机场推荐：https://a9a.xyz】23'
+  - '[1ms] CA【机场推荐：https://a9a.xyz】40'
+  - '[1ms] UN【机场推荐：https://a9a.xyz】30'
+  - '[1ms] UN【机场推荐：https://a9a.xyz】67'
+  - '[1ms] CA【机场推荐：https://a9a.xyz】11'
+  - '[1ms] UN【机场推荐：https://a9a.xyz】47'
+  - '[1ms] CA【机场推荐：https://a9a.xyz】14'
+  - '[1ms] UN【机场推荐：https://a9a.xyz】56'
+  - '[1ms] CA【机场推荐：https://a9a.xyz】37'
+  - '[1ms] CA【机场推荐：https://a9a.xyz】39'
+  - '[1ms] CA【机场推荐：https://a9a.xyz】25'
+  - '[1ms] CA【机场推荐：https://a9a.xyz】31'
+  - '[1ms] UN【机场推荐：https://a9a.xyz】70'
+  - '[1ms] UN【机场推荐：https://a9a.xyz】55'
+  - '[1ms] UN【机场推荐：https://a9a.xyz】77'
+  - '[1ms] UN【机场推荐：https://a9a.xyz】54'
+  - '[1ms] UN【机场推荐：https://a9a.xyz】80'
+  - '[1ms] UN【机场推荐：https://a9a.xyz】81'
+  - '[1ms] UN【机场推荐：https://a9a.xyz】91'
   - '[1ms] UN【机场推荐：https://a9a.xyz】104'
-  - '[1ms] 🇺🇸_US_美国_3'
-  - '[2ms] CA【机场推荐：https://a9a.xyz】31'
-  - '[2ms] CA【机场推荐：https://a9a.xyz】35'
-  - '[2ms] UN【机场推荐：https://a9a.xyz】48'
-  - '[2ms] UN【机场推荐：https://a9a.xyz】30'
-  - '[2ms] CA【机场推荐：https://a9a.xyz】28'
-  - '[2ms] UN【机场推荐：https://a9a.xyz】50'
-  - '[2ms] CA【机场推荐：https://a9a.xyz】13'
-  - '[2ms] CA【机场推荐：https://a9a.xyz】22'
+  - '[1ms] 美国+CloudFlare节点_1'
+  - '[1ms] 巴西圣保罗+CloudFlare节点'
+  - '[1ms] 美国+CloudFlare节点_2'
+  - '[1ms] 🇺🇸_US_美国->🇬🇧_GB_英国'
+  - '[1ms] 🇨🇿_CZ_捷克'
+  - '[1ms] 🇺🇸_US_美国->🇸🇬_SG_新加坡'
+  - '[1ms] 🇨🇾_CY_塞浦路斯'
+  - '[1ms] 美国3|@ripaojiedian'
+  - '[1ms] 🇺🇸US_1|1.2MB/s'
+  - '[1ms] 🇫🇷FR_1|1.1MB/s'
+  - '[1ms] 🇧🇿 BZ_33'
+  - '[1ms] 🇬🇧 英国 | GBR_3'
+  - '[1ms] 🇯🇵 日本 | JPN_1'
+  - '[1ms] 🇸🇬 新加坡 | SGP_3'
+  - '[1ms] 🇸🇬 新加坡 | SGP_4'
+  - '[1ms] 🇺🇸 美国 | USA_1'
+  - '[1ms] 🇺🇸 美国 | USA_2'
+  - '[1ms] 🇺🇸 美国 | USA_7'
+  - '[1ms] 🇺🇸 美国 | USA_14'
+  - '[1ms] 🇺🇸 美国 | USA_15'
+  - '[1ms] 🇺🇸 美国 | USA_16'
+  - '[2ms] CA【机场推荐：https://a9a.xyz】20'
   - '[2ms] UN【机场推荐：https://a9a.xyz】53'
+  - '[2ms] CA【机场推荐：https://a9a.xyz】13'
   - '[2ms] UN【机场推荐：https://a9a.xyz】62'
-  - '[2ms] UN【机场推荐：https://a9a.xyz】54'
-  - '[2ms] UN【机场推荐：https://a9a.xyz】60'
-  - '[2ms] UN【机场推荐：https://a9a.xyz】78'
+  - '[2ms] CA【机场推荐：https://a9a.xyz】35'
+  - '[2ms] CA【机场推荐：https://a9a.xyz】29'
+  - '[2ms] UN【机场推荐：https://a9a.xyz】65'
+  - '[2ms] CA【机场推荐：https://a9a.xyz】34'
+  - '[2ms] UN【机场推荐：https://a9a.xyz】75'
+  - '[2ms] UN【机场推荐：https://a9a.xyz】66'
+  - '[2ms] UN【机场推荐：https://a9a.xyz】50'
+  - '[2ms] CA【机场推荐：https://a9a.xyz】19'
+  - '[2ms] CA【机场推荐：https://a9a.xyz】41'
+  - '[2ms] UN【机场推荐：https://a9a.xyz】49'
+  - '[2ms] UN【机场推荐：https://a9a.xyz】74'
+  - '[2ms] CA【机场推荐：https://a9a.xyz】24'
+  - '[2ms] CA【机场推荐：https://a9a.xyz】22'
+  - '[2ms] UN【机场推荐：https://a9a.xyz】52'
+  - '[2ms] UN【机场推荐：https://a9a.xyz】59'
   - '[2ms] UN【机场推荐：https://a9a.xyz】73'
-  - '[2ms] UN【机场推荐：https://a9a.xyz】80'
-  - '[2ms] UN【机场推荐：https://a9a.xyz】70'
-  - '[2ms] UN【机场推荐：https://a9a.xyz】88'
-  - '[2ms] UN【机场推荐：https://a9a.xyz】87'
-  - '[2ms] UN【机场推荐：https://a9a.xyz】91'
-  - '[2ms] UN【机场推荐：https://a9a.xyz】89'
-  - '[2ms] UN【机场推荐：https://a9a.xyz】93'
-  - '[2ms] UN【机场推荐：https://a9a.xyz】92'
+  - '[2ms] CA【机场推荐：https://a9a.xyz】42'
+  - '[2ms] UN【机场推荐：https://a9a.xyz】72'
+  - '[2ms] CA【机场推荐：https://a9a.xyz】26'
+  - '[2ms] UN【机场推荐：https://a9a.xyz】71'
+  - '[2ms] CA【机场推荐：https://a9a.xyz】8'
+  - '[2ms] UN【机场推荐：https://a9a.xyz】68'
+  - '[2ms] CA【机场推荐：https://a9a.xyz】27'
+  - '[2ms] CA【机场推荐：https://a9a.xyz】21'
+  - '[2ms] US【机场推荐：https://a9a.xyz】4'
+  - '[2ms] UN【机场推荐：https://a9a.xyz】76'
+  - '[2ms] UN【机场推荐：https://a9a.xyz】95'
   - '[2ms] UN【机场推荐：https://a9a.xyz】94'
-  - '[2ms] UN【机场推荐：https://a9a.xyz】99'
-  - '[2ms] UN【机场推荐：https://a9a.xyz】103'
-  - '[2ms] 美国+CloudFlare节点_1'
-  - '[2ms] 🇺🇸_US_美国->🇬🇧_GB_英国'
-  - '[3ms] UN【机场推荐：https://a9a.xyz】58'
-  - '[3ms] UN【机场推荐：https://a9a.xyz】57'
-  - '[3ms] UN【机场推荐：https://a9a.xyz】61'
-  - '[3ms] UN【机场推荐：https://a9a.xyz】59'
+  - '[2ms] 美国+得克萨斯州达拉斯Cloudflare+Warp节点'
+  - '[2ms] 🇺🇸_US_美国'
+  - '[2ms] 🇺🇸_US_美国->🇩🇪_DE_德国'
   - '[3ms] UN【机场推荐：https://a9a.xyz】64'
-  - '[3ms] UN【机场推荐：https://a9a.xyz】63'
-  - '[3ms] UN【机场推荐：https://a9a.xyz】96'
-  - '[4ms] UN【机场推荐：https://a9a.xyz】51'
-  - '[4ms] UN【机场推荐：https://a9a.xyz】55'
-  - '[7ms] 🇺🇸_US_美国'
-  - '[24ms] UN【机场推荐：https://a9a.xyz】66'
-  - '[28ms] CA【机场推荐：https://a9a.xyz】12'
-  - '[33ms] CA【机场推荐：https://a9a.xyz】10'
-  - '[54ms] US【机场推荐：https://a9a.xyz】14'
-  - '[54ms] US【机场推荐：https://a9a.xyz】16'
-  - '[54ms] US_speednode_0136'
-  - '[54ms] US_speednode_0137'
-  - '[54ms] US_speednode_0142'
-  - '[68ms] 🇺🇸_US_美国_4'
-  - '[70ms] 美国3|@ripaojiedian'
-  - '[86ms] 🇫🇷FR_1|1.2MB/s'
-  - '[87ms] 美国+CloudFlare节点'
-  - '[89ms] 🇺🇸US_1|2.6MB/s'
-  - '[90ms] GB【机场推荐：https://a9a.xyz】46'
-  - '[90ms] 🇩🇪DE_2|1.1MB/s'
-  - '[92ms] 🇩🇪_DE_德国_2'
-  - '[94ms] UN【机场推荐：https://a9a.xyz】56'
-  - '[94ms] 🇺🇸_US_美国_1'
-  - '[94ms] ✨ @NOFiLTERING2 | ❤️ وصل شدی ج... #1'
-  - '[95ms] tg频道:@ripaojiedian #1'
-  - '[96ms] Telegram: @Daily_Configs'
-  - '[97ms] ♾️Join->🆔️@ATLAS_V2VPN🆓️📶‎🛰️55... #1'
-  - '[106ms] ✨ @NOFiLTERING2 | ❤️ وصل شدی ج...'
-  - '[109ms] 俄罗斯+V2CROSS.COM'
-  - '[110ms] CA【机场推荐：https://a9a.xyz】24'
-  - '[117ms] @Daily_Configs #3'
-  - '[119ms] Telegram@vpnjey #3'
-  - '[120ms] @proxy_kafee : کانال تلگرام'
-  - '[122ms] 🇷🇺_RU_俄罗斯->🇹🇷_TR_土耳其'
-  - '[124ms] @Daily_Configs #2'
-  - '[125ms] 🇷🇺_RU_俄罗斯->🇺🇸_US_美国'
-  - '[133ms] CA【机场推荐：https://a9a.xyz】33'
-  - '[135ms] 🇫🇷_FR_法国'
-  - '[138ms] @Daily_Configs'
-  - '[140ms] 伊朗+V2CROSS.COM'
-  - '[148ms] UN【机场推荐：https://a9a.xyz】47'
-  - '[162ms] 🇯🇵JP_1|1.1MB/s'
-  - '[164ms] 保加利亚+V2CROSS.COM'
-  - '[196ms] 🇨🇳_CN_中国'
-  - '[254ms] 🇨🇳_CN_中国->🇺🇸_US_美国_1'
-  - '[274ms] 🇺🇸US_3|2.6MB/s'
-  - '[375ms] 🇭🇰 香港|@ripaojiedian'
-  - '[473ms] 🇮🇹IT_1|1.9MB/s'
-  - '[520ms] 🇭🇰_HK_中国香港->🇯🇵_JP_日本'
-  - '[1386ms] 俄罗斯'
+  - '[3ms] CA【机场推荐：https://a9a.xyz】12'
+  - '[3ms] CA【机场推荐：https://a9a.xyz】15'
+  - '[3ms] CA【机场推荐：https://a9a.xyz】32'
+  - '[3ms] CA【机场推荐：https://a9a.xyz】18'
+  - '[3ms] 美国+CloudFlare节点'
+  - '[4ms] UN【机场推荐：https://a9a.xyz】86'
+  - '[4ms] UN【机场推荐：https://a9a.xyz】83'
+  - '[4ms] UN【机场推荐：https://a9a.xyz】85'
+  - '[4ms] UN【机场推荐：https://a9a.xyz】90'
+  - '[4ms] UN【机场推荐：https://a9a.xyz】84'
+  - '[4ms] UN【机场推荐：https://a9a.xyz】87'
+  - '[5ms] CA【机场推荐：https://a9a.xyz】5'
+  - '[5ms] UN【机场推荐：https://a9a.xyz】82'
+  - '[5ms] 🇺🇸 美国 | USA_9'
+  - '[6ms] US【机场推荐：https://a9a.xyz】6'
+  - '[6ms] UN【机场推荐：https://a9a.xyz】107'
+  - '[6ms] 🇸🇬 新加坡 | SGP_2'
+  - '[9ms] UN【机场推荐：https://a9a.xyz】98'
+  - '[9ms] 🇺🇸_US_美国_1'
+  - '[9ms] US_speednode_0137'
+  - '[9ms] US_speednode_0142'
+  - '[10ms] US_speednode_0136'
+  - '[14ms] 🇺🇸 美国 | USA_5'
+  - '[16ms] 🇺🇸 美国 | USA_12'
+  - '[18ms] UN【机场推荐：https://a9a.xyz】78'
+  - '[23ms] CA【机场推荐：https://a9a.xyz】3'
+  - '[26ms] UN【机场推荐：https://a9a.xyz】89'
+  - '[37ms] 🇸🇬 新加坡 | SGP'
+  - '[41ms] 🇺🇸 美国 | USA_8'
+  - '[62ms] 🇺🇸 美国 | USA_13'
+  - '[63ms] 🇺🇸_US_美国_4'
+  - '[83ms] 🇺🇸 美国 | USA_10'
+  - '[91ms] CA【机场推荐：https://a9a.xyz】17'
+  - '[98ms] CA【机场推荐：https://a9a.xyz】43'
+  - '[102ms] UN【机场推荐：https://a9a.xyz】88'
+  - '[103ms] UN【机场推荐：https://a9a.xyz】61'
+  - '[103ms] 🇯🇵 日本 | JPN'
+  - '[106ms] 🇯🇵 日本 | JPN_3'
+  - '[109ms] 🇺🇸 美国 | USA_3'
+  - '[112ms] 🇯🇵 日本 | JPN_4'
+  - '[121ms] 🇯🇵 日本 | JPN_5'
+  - '[122ms] 🇯🇵 日本 | JPN_2'
+  - '[130ms] 🇸🇬SG_1|1.2MB/s'
+  - '[142ms] UN【机场推荐：https://a9a.xyz】100'
+  - '[142ms] UN【机场推荐：https://a9a.xyz】105'
+  - '[145ms] 🇫🇷 法国 | FRA'
+  - '[146ms] 🇹🇷 土耳其 | TUR'
+  - '[148ms] 🇭🇰 香港 | HKG'
+  - '[149ms] DE【机场推荐：https://a9a.xyz】9'
+  - '[149ms] ✨ @NOFiLTERING2 | ❤️ وصل شدی ج... #1'
+  - '[149ms] tg频道:@ripaojiedian #1'
+  - '[150ms] 🇩🇪_DE_德国_1'
+  - '[154ms] DE【机场推荐：https://a9a.xyz】7'
+  - '[154ms] Telegram: @Daily_Configs'
+  - '[154ms] 🇨🇿 捷克 | CZE'
+  - '[155ms] @V2ray_confiig'
+  - '[157ms] UN【机场推荐：https://a9a.xyz】102'
+  - '[157ms] 🇫🇷 法国 | FRA_1'
+  - '[158ms] 🇬🇧 英国 | GBR_2'
+  - '[161ms] 🇹🇼 🇨🇳 台湾 | TWN_1'
+  - '[163ms] ✨ @NOFiLTERING2 | ❤️ وصل شدی ج...'
+  - '[165ms] 🇭🇰 香港 | HKG_3'
+  - '[166ms] 🇺🇸_US_美国_3'
+  - '[167ms] 🇸🇬_SG_新加坡'
+  - '[172ms] UN【机场推荐：https://a9a.xyz】103'
+  - '[172ms] 🇵🇱 波兰 | POL'
+  - '[173ms] 🇭🇰 香港 | HKG_2'
+  - '[173ms] 🇳🇱 荷兰 | NLD'
+  - '[176ms] PL【机场推荐：https://a9a.xyz】1'
+  - '[177ms] 🇩🇪 德国 | DEU'
+  - '[178ms] 🇪🇸 西班牙 | ESP'
+  - '[179ms] @Daily_Configs : کانال تلگرام'
+  - '[181ms] [ 🇷🇺 ] | @Cfox_SerVer'
+  - '[181ms] @Daily_Configs #3'
+  - '[182ms] UN【机场推荐：https://a9a.xyz】108'
+  - '[182ms] 🇹🇼 🇨🇳 台湾 | TWN'
+  - '[183ms] 🇷🇺_RU_俄罗斯->🇹🇷_TR_土耳其'
+  - '[185ms] 🇷🇺_RU_俄罗斯->🇺🇸_US_美国'
+  - '[188ms] 🇨🇳_CN_中国'
+  - '[188ms] 🇺🇸 美国 | USA_11'
+  - '[189ms] UN【机场推荐：https://a9a.xyz】93'
+  - '[191ms] 🇸🇬 新加坡 | SGP_1'
+  - '[198ms] @Daily_Configs #2'
+  - '[200ms] US【机场推荐：https://a9a.xyz】2'
+  - '[200ms] Telegram@vpnjey #3'
+  - '[204ms] 🇭🇰 香港 | HKG_1'
+  - '[205ms] 🇺🇸 美国 | USA_6'
+  - '[211ms] 🇭🇰 香港|@ripaojiedian'
+  - '[211ms] 🇳🇱 荷兰 | NLD_2'
+  - '[228ms] UN【机场推荐：https://a9a.xyz】92'
+  - '[228ms] 🇫🇮_FI_芬兰'
+  - '[236ms] 节点日期：2026-09-20'
+  - '[243ms] ❓Other_1|1004KB/s'
+  - '[338ms] 🇫🇮_FI_芬兰_1'
+  - '[410ms] 俄罗斯'
+  - '[427ms] 🇷🇺_RU_俄罗斯->🇩🇪_DE_德国'
+  - '[488ms] 🇺🇸_US_美国_2'
+  - '[574ms] 🇬🇧 英国 | GBR_1'
+  - '[619ms] 🇭🇰 香港 | HKG_4'
+  - '[677ms] 🇩🇪DE_1|3.4MB/s'
+  - '[1294ms] UN【机场推荐：https://a9a.xyz】101'
 - name: 🔰 延迟最低
   type: url-test
   url: 'https://www.google.com/'
   interval: 300
   tolerance: 20
   proxies:
-  - '[1ms] UN【机场推荐：https://a9a.xyz】49'
-  - '[1ms] CA【机场推荐：https://a9a.xyz】44'
-  - '[1ms] CA【机场推荐：https://a9a.xyz】21'
-  - '[1ms] CA【机场推荐：https://a9a.xyz】36'
-  - '[1ms] CA【机场推荐：https://a9a.xyz】34'
-  - '[1ms] CA【机场推荐：https://a9a.xyz】26'
-  - '[1ms] CA【机场推荐：https://a9a.xyz】23'
-  - '[1ms] CA【机场推荐：https://a9a.xyz】20'
-  - '[1ms] CA【机场推荐：https://a9a.xyz】27'
-  - '[1ms] CA【机场推荐：https://a9a.xyz】37'
-  - '[1ms] CA【机场推荐：https://a9a.xyz】29'
-  - '[1ms] CA【机场推荐：https://a9a.xyz】25'
-  - '[1ms] CA【机场推荐：https://a9a.xyz】32'
-  - '[1ms] UN【机场推荐：https://a9a.xyz】52'
-  - '[1ms] UN【机场推荐：https://a9a.xyz】65'
-  - '[1ms] UN【机场推荐：https://a9a.xyz】71'
-  - '[1ms] UN【机场推荐：https://a9a.xyz】72'
-  - '[1ms] UN【机场推荐：https://a9a.xyz】76'
-  - '[1ms] UN【机场推荐：https://a9a.xyz】74'
-  - '[1ms] UN【机场推荐：https://a9a.xyz】68'
-  - '[1ms] UN【机场推荐：https://a9a.xyz】69'
-  - '[1ms] UN【机场推荐：https://a9a.xyz】77'
-  - '[1ms] UN【机场推荐：https://a9a.xyz】67'
-  - '[1ms] UN【机场推荐：https://a9a.xyz】83'
-  - '[1ms] UN【机场推荐：https://a9a.xyz】75'
-  - '[1ms] UN【机场推荐：https://a9a.xyz】82'
-  - '[1ms] UN【机场推荐：https://a9a.xyz】84'
-  - '[1ms] UN【机场推荐：https://a9a.xyz】81'
   - '[1ms] UN【机场推荐：https://a9a.xyz】79'
-  - '[1ms] UN【机场推荐：https://a9a.xyz】90'
-  - '[1ms] UN【机场推荐：https://a9a.xyz】86'
-  - '[1ms] UN【机场推荐：https://a9a.xyz】85'
-  - '[1ms] UN【机场推荐：https://a9a.xyz】97'
-  - '[1ms] UN【机场推荐：https://a9a.xyz】95'
-  - '[1ms] UN【机场推荐：https://a9a.xyz】100'
-  - '[1ms] UN【机场推荐：https://a9a.xyz】98'
-  - '[1ms] 加拿大+V2CROSS.COM'
-  - '[1ms] UN【机场推荐：https://a9a.xyz】102'
+  - '[1ms] CA【机场推荐：https://a9a.xyz】44'
+  - '[1ms] CA【机场推荐：https://a9a.xyz】10'
+  - '[1ms] CA【机场推荐：https://a9a.xyz】16'
+  - '[1ms] CA【机场推荐：https://a9a.xyz】46'
+  - '[1ms] UN【机场推荐：https://a9a.xyz】57'
+  - '[1ms] UN【机场推荐：https://a9a.xyz】45'
+  - '[1ms] TR【机场推荐：https://a9a.xyz】36'
+  - '[1ms] UN【机场推荐：https://a9a.xyz】51'
+  - '[1ms] UN【机场推荐：https://a9a.xyz】69'
+  - '[1ms] CA【机场推荐：https://a9a.xyz】28'
+  - '[1ms] UN【机场推荐：https://a9a.xyz】58'
+  - '[1ms] CA【机场推荐：https://a9a.xyz】33'
+  - '[1ms] UN【机场推荐：https://a9a.xyz】60'
+  - '[1ms] UN【机场推荐：https://a9a.xyz】63'
+  - '[1ms] UN【机场推荐：https://a9a.xyz】48'
+  - '[1ms] CA【机场推荐：https://a9a.xyz】38'
+  - '[1ms] CA【机场推荐：https://a9a.xyz】23'
+  - '[1ms] CA【机场推荐：https://a9a.xyz】40'
+  - '[1ms] UN【机场推荐：https://a9a.xyz】30'
+  - '[1ms] UN【机场推荐：https://a9a.xyz】67'
+  - '[1ms] CA【机场推荐：https://a9a.xyz】11'
+  - '[1ms] UN【机场推荐：https://a9a.xyz】47'
+  - '[1ms] CA【机场推荐：https://a9a.xyz】14'
+  - '[1ms] UN【机场推荐：https://a9a.xyz】56'
+  - '[1ms] CA【机场推荐：https://a9a.xyz】37'
+  - '[1ms] CA【机场推荐：https://a9a.xyz】39'
+  - '[1ms] CA【机场推荐：https://a9a.xyz】25'
+  - '[1ms] CA【机场推荐：https://a9a.xyz】31'
+  - '[1ms] UN【机场推荐：https://a9a.xyz】70'
+  - '[1ms] UN【机场推荐：https://a9a.xyz】55'
+  - '[1ms] UN【机场推荐：https://a9a.xyz】77'
+  - '[1ms] UN【机场推荐：https://a9a.xyz】54'
+  - '[1ms] UN【机场推荐：https://a9a.xyz】80'
+  - '[1ms] UN【机场推荐：https://a9a.xyz】81'
+  - '[1ms] UN【机场推荐：https://a9a.xyz】91'
   - '[1ms] UN【机场推荐：https://a9a.xyz】104'
-  - '[1ms] 🇺🇸_US_美国_3'
-  - '[2ms] CA【机场推荐：https://a9a.xyz】31'
-  - '[2ms] CA【机场推荐：https://a9a.xyz】35'
-  - '[2ms] UN【机场推荐：https://a9a.xyz】48'
-  - '[2ms] UN【机场推荐：https://a9a.xyz】30'
-  - '[2ms] CA【机场推荐：https://a9a.xyz】28'
-  - '[2ms] UN【机场推荐：https://a9a.xyz】50'
-  - '[2ms] CA【机场推荐：https://a9a.xyz】13'
-  - '[2ms] CA【机场推荐：https://a9a.xyz】22'
+  - '[1ms] 美国+CloudFlare节点_1'
+  - '[1ms] 巴西圣保罗+CloudFlare节点'
+  - '[1ms] 美国+CloudFlare节点_2'
+  - '[1ms] 🇺🇸_US_美国->🇬🇧_GB_英国'
+  - '[1ms] 🇨🇿_CZ_捷克'
+  - '[1ms] 🇺🇸_US_美国->🇸🇬_SG_新加坡'
+  - '[1ms] 🇨🇾_CY_塞浦路斯'
+  - '[1ms] 美国3|@ripaojiedian'
+  - '[1ms] 🇺🇸US_1|1.2MB/s'
+  - '[1ms] 🇫🇷FR_1|1.1MB/s'
+  - '[1ms] 🇧🇿 BZ_33'
+  - '[1ms] 🇬🇧 英国 | GBR_3'
+  - '[1ms] 🇯🇵 日本 | JPN_1'
+  - '[1ms] 🇸🇬 新加坡 | SGP_3'
+  - '[1ms] 🇸🇬 新加坡 | SGP_4'
+  - '[1ms] 🇺🇸 美国 | USA_1'
+  - '[1ms] 🇺🇸 美国 | USA_2'
+  - '[1ms] 🇺🇸 美国 | USA_7'
+  - '[1ms] 🇺🇸 美国 | USA_14'
+  - '[1ms] 🇺🇸 美国 | USA_15'
+  - '[1ms] 🇺🇸 美国 | USA_16'
+  - '[2ms] CA【机场推荐：https://a9a.xyz】20'
   - '[2ms] UN【机场推荐：https://a9a.xyz】53'
+  - '[2ms] CA【机场推荐：https://a9a.xyz】13'
   - '[2ms] UN【机场推荐：https://a9a.xyz】62'
-  - '[2ms] UN【机场推荐：https://a9a.xyz】54'
-  - '[2ms] UN【机场推荐：https://a9a.xyz】60'
-  - '[2ms] UN【机场推荐：https://a9a.xyz】78'
+  - '[2ms] CA【机场推荐：https://a9a.xyz】35'
+  - '[2ms] CA【机场推荐：https://a9a.xyz】29'
+  - '[2ms] UN【机场推荐：https://a9a.xyz】65'
+  - '[2ms] CA【机场推荐：https://a9a.xyz】34'
+  - '[2ms] UN【机场推荐：https://a9a.xyz】75'
+  - '[2ms] UN【机场推荐：https://a9a.xyz】66'
+  - '[2ms] UN【机场推荐：https://a9a.xyz】50'
+  - '[2ms] CA【机场推荐：https://a9a.xyz】19'
+  - '[2ms] CA【机场推荐：https://a9a.xyz】41'
+  - '[2ms] UN【机场推荐：https://a9a.xyz】49'
+  - '[2ms] UN【机场推荐：https://a9a.xyz】74'
+  - '[2ms] CA【机场推荐：https://a9a.xyz】24'
+  - '[2ms] CA【机场推荐：https://a9a.xyz】22'
+  - '[2ms] UN【机场推荐：https://a9a.xyz】52'
+  - '[2ms] UN【机场推荐：https://a9a.xyz】59'
   - '[2ms] UN【机场推荐：https://a9a.xyz】73'
-  - '[2ms] UN【机场推荐：https://a9a.xyz】80'
-  - '[2ms] UN【机场推荐：https://a9a.xyz】70'
-  - '[2ms] UN【机场推荐：https://a9a.xyz】88'
-  - '[2ms] UN【机场推荐：https://a9a.xyz】87'
-  - '[2ms] UN【机场推荐：https://a9a.xyz】91'
-  - '[2ms] UN【机场推荐：https://a9a.xyz】89'
-  - '[2ms] UN【机场推荐：https://a9a.xyz】93'
-  - '[2ms] UN【机场推荐：https://a9a.xyz】92'
+  - '[2ms] CA【机场推荐：https://a9a.xyz】42'
+  - '[2ms] UN【机场推荐：https://a9a.xyz】72'
+  - '[2ms] CA【机场推荐：https://a9a.xyz】26'
+  - '[2ms] UN【机场推荐：https://a9a.xyz】71'
+  - '[2ms] CA【机场推荐：https://a9a.xyz】8'
+  - '[2ms] UN【机场推荐：https://a9a.xyz】68'
+  - '[2ms] CA【机场推荐：https://a9a.xyz】27'
+  - '[2ms] CA【机场推荐：https://a9a.xyz】21'
+  - '[2ms] US【机场推荐：https://a9a.xyz】4'
+  - '[2ms] UN【机场推荐：https://a9a.xyz】76'
+  - '[2ms] UN【机场推荐：https://a9a.xyz】95'
   - '[2ms] UN【机场推荐：https://a9a.xyz】94'
-  - '[2ms] UN【机场推荐：https://a9a.xyz】99'
-  - '[2ms] UN【机场推荐：https://a9a.xyz】103'
-  - '[2ms] 美国+CloudFlare节点_1'
-  - '[2ms] 🇺🇸_US_美国->🇬🇧_GB_英国'
-  - '[3ms] UN【机场推荐：https://a9a.xyz】58'
-  - '[3ms] UN【机场推荐：https://a9a.xyz】57'
-  - '[3ms] UN【机场推荐：https://a9a.xyz】61'
-  - '[3ms] UN【机场推荐：https://a9a.xyz】59'
+  - '[2ms] 美国+得克萨斯州达拉斯Cloudflare+Warp节点'
+  - '[2ms] 🇺🇸_US_美国'
+  - '[2ms] 🇺🇸_US_美国->🇩🇪_DE_德国'
   - '[3ms] UN【机场推荐：https://a9a.xyz】64'
-  - '[3ms] UN【机场推荐：https://a9a.xyz】63'
-  - '[3ms] UN【机场推荐：https://a9a.xyz】96'
-  - '[4ms] UN【机场推荐：https://a9a.xyz】51'
-  - '[4ms] UN【机场推荐：https://a9a.xyz】55'
-  - '[7ms] 🇺🇸_US_美国'
-  - '[24ms] UN【机场推荐：https://a9a.xyz】66'
-  - '[28ms] CA【机场推荐：https://a9a.xyz】12'
-  - '[33ms] CA【机场推荐：https://a9a.xyz】10'
-  - '[54ms] US【机场推荐：https://a9a.xyz】14'
-  - '[54ms] US【机场推荐：https://a9a.xyz】16'
-  - '[54ms] US_speednode_0136'
-  - '[54ms] US_speednode_0137'
-  - '[54ms] US_speednode_0142'
-  - '[68ms] 🇺🇸_US_美国_4'
-  - '[70ms] 美国3|@ripaojiedian'
-  - '[86ms] 🇫🇷FR_1|1.2MB/s'
-  - '[87ms] 美国+CloudFlare节点'
-  - '[89ms] 🇺🇸US_1|2.6MB/s'
-  - '[90ms] GB【机场推荐：https://a9a.xyz】46'
-  - '[90ms] 🇩🇪DE_2|1.1MB/s'
-  - '[92ms] 🇩🇪_DE_德国_2'
-  - '[94ms] UN【机场推荐：https://a9a.xyz】56'
-  - '[94ms] 🇺🇸_US_美国_1'
-  - '[94ms] ✨ @NOFiLTERING2 | ❤️ وصل شدی ج... #1'
-  - '[95ms] tg频道:@ripaojiedian #1'
-  - '[96ms] Telegram: @Daily_Configs'
-  - '[97ms] ♾️Join->🆔️@ATLAS_V2VPN🆓️📶‎🛰️55... #1'
-  - '[106ms] ✨ @NOFiLTERING2 | ❤️ وصل شدی ج...'
-  - '[109ms] 俄罗斯+V2CROSS.COM'
-  - '[110ms] CA【机场推荐：https://a9a.xyz】24'
-  - '[117ms] @Daily_Configs #3'
-  - '[119ms] Telegram@vpnjey #3'
-  - '[120ms] @proxy_kafee : کانال تلگرام'
-  - '[122ms] 🇷🇺_RU_俄罗斯->🇹🇷_TR_土耳其'
-  - '[124ms] @Daily_Configs #2'
-  - '[125ms] 🇷🇺_RU_俄罗斯->🇺🇸_US_美国'
-  - '[133ms] CA【机场推荐：https://a9a.xyz】33'
-  - '[135ms] 🇫🇷_FR_法国'
-  - '[138ms] @Daily_Configs'
-  - '[140ms] 伊朗+V2CROSS.COM'
-  - '[148ms] UN【机场推荐：https://a9a.xyz】47'
-  - '[162ms] 🇯🇵JP_1|1.1MB/s'
-  - '[164ms] 保加利亚+V2CROSS.COM'
-  - '[196ms] 🇨🇳_CN_中国'
-  - '[254ms] 🇨🇳_CN_中国->🇺🇸_US_美国_1'
-  - '[274ms] 🇺🇸US_3|2.6MB/s'
-  - '[375ms] 🇭🇰 香港|@ripaojiedian'
-  - '[473ms] 🇮🇹IT_1|1.9MB/s'
-  - '[520ms] 🇭🇰_HK_中国香港->🇯🇵_JP_日本'
-  - '[1386ms] 俄罗斯'
+  - '[3ms] CA【机场推荐：https://a9a.xyz】12'
+  - '[3ms] CA【机场推荐：https://a9a.xyz】15'
+  - '[3ms] CA【机场推荐：https://a9a.xyz】32'
+  - '[3ms] CA【机场推荐：https://a9a.xyz】18'
+  - '[3ms] 美国+CloudFlare节点'
+  - '[4ms] UN【机场推荐：https://a9a.xyz】86'
+  - '[4ms] UN【机场推荐：https://a9a.xyz】83'
+  - '[4ms] UN【机场推荐：https://a9a.xyz】85'
+  - '[4ms] UN【机场推荐：https://a9a.xyz】90'
+  - '[4ms] UN【机场推荐：https://a9a.xyz】84'
+  - '[4ms] UN【机场推荐：https://a9a.xyz】87'
+  - '[5ms] CA【机场推荐：https://a9a.xyz】5'
+  - '[5ms] UN【机场推荐：https://a9a.xyz】82'
+  - '[5ms] 🇺🇸 美国 | USA_9'
+  - '[6ms] US【机场推荐：https://a9a.xyz】6'
+  - '[6ms] UN【机场推荐：https://a9a.xyz】107'
+  - '[6ms] 🇸🇬 新加坡 | SGP_2'
+  - '[9ms] UN【机场推荐：https://a9a.xyz】98'
+  - '[9ms] 🇺🇸_US_美国_1'
+  - '[9ms] US_speednode_0137'
+  - '[9ms] US_speednode_0142'
+  - '[10ms] US_speednode_0136'
+  - '[14ms] 🇺🇸 美国 | USA_5'
+  - '[16ms] 🇺🇸 美国 | USA_12'
+  - '[18ms] UN【机场推荐：https://a9a.xyz】78'
+  - '[23ms] CA【机场推荐：https://a9a.xyz】3'
+  - '[26ms] UN【机场推荐：https://a9a.xyz】89'
+  - '[37ms] 🇸🇬 新加坡 | SGP'
+  - '[41ms] 🇺🇸 美国 | USA_8'
+  - '[62ms] 🇺🇸 美国 | USA_13'
+  - '[63ms] 🇺🇸_US_美国_4'
+  - '[83ms] 🇺🇸 美国 | USA_10'
+  - '[91ms] CA【机场推荐：https://a9a.xyz】17'
+  - '[98ms] CA【机场推荐：https://a9a.xyz】43'
+  - '[102ms] UN【机场推荐：https://a9a.xyz】88'
+  - '[103ms] UN【机场推荐：https://a9a.xyz】61'
+  - '[103ms] 🇯🇵 日本 | JPN'
+  - '[106ms] 🇯🇵 日本 | JPN_3'
+  - '[109ms] 🇺🇸 美国 | USA_3'
+  - '[112ms] 🇯🇵 日本 | JPN_4'
+  - '[121ms] 🇯🇵 日本 | JPN_5'
+  - '[122ms] 🇯🇵 日本 | JPN_2'
+  - '[130ms] 🇸🇬SG_1|1.2MB/s'
+  - '[142ms] UN【机场推荐：https://a9a.xyz】100'
+  - '[142ms] UN【机场推荐：https://a9a.xyz】105'
+  - '[145ms] 🇫🇷 法国 | FRA'
+  - '[146ms] 🇹🇷 土耳其 | TUR'
+  - '[148ms] 🇭🇰 香港 | HKG'
+  - '[149ms] DE【机场推荐：https://a9a.xyz】9'
+  - '[149ms] ✨ @NOFiLTERING2 | ❤️ وصل شدی ج... #1'
+  - '[149ms] tg频道:@ripaojiedian #1'
+  - '[150ms] 🇩🇪_DE_德国_1'
+  - '[154ms] DE【机场推荐：https://a9a.xyz】7'
+  - '[154ms] Telegram: @Daily_Configs'
+  - '[154ms] 🇨🇿 捷克 | CZE'
+  - '[155ms] @V2ray_confiig'
+  - '[157ms] UN【机场推荐：https://a9a.xyz】102'
+  - '[157ms] 🇫🇷 法国 | FRA_1'
+  - '[158ms] 🇬🇧 英国 | GBR_2'
+  - '[161ms] 🇹🇼 🇨🇳 台湾 | TWN_1'
+  - '[163ms] ✨ @NOFiLTERING2 | ❤️ وصل شدی ج...'
+  - '[165ms] 🇭🇰 香港 | HKG_3'
+  - '[166ms] 🇺🇸_US_美国_3'
+  - '[167ms] 🇸🇬_SG_新加坡'
+  - '[172ms] UN【机场推荐：https://a9a.xyz】103'
+  - '[172ms] 🇵🇱 波兰 | POL'
+  - '[173ms] 🇭🇰 香港 | HKG_2'
+  - '[173ms] 🇳🇱 荷兰 | NLD'
+  - '[176ms] PL【机场推荐：https://a9a.xyz】1'
+  - '[177ms] 🇩🇪 德国 | DEU'
+  - '[178ms] 🇪🇸 西班牙 | ESP'
+  - '[179ms] @Daily_Configs : کانال تلگرام'
+  - '[181ms] [ 🇷🇺 ] | @Cfox_SerVer'
+  - '[181ms] @Daily_Configs #3'
+  - '[182ms] UN【机场推荐：https://a9a.xyz】108'
+  - '[182ms] 🇹🇼 🇨🇳 台湾 | TWN'
+  - '[183ms] 🇷🇺_RU_俄罗斯->🇹🇷_TR_土耳其'
+  - '[185ms] 🇷🇺_RU_俄罗斯->🇺🇸_US_美国'
+  - '[188ms] 🇨🇳_CN_中国'
+  - '[188ms] 🇺🇸 美国 | USA_11'
+  - '[189ms] UN【机场推荐：https://a9a.xyz】93'
+  - '[191ms] 🇸🇬 新加坡 | SGP_1'
+  - '[198ms] @Daily_Configs #2'
+  - '[200ms] US【机场推荐：https://a9a.xyz】2'
+  - '[200ms] Telegram@vpnjey #3'
+  - '[204ms] 🇭🇰 香港 | HKG_1'
+  - '[205ms] 🇺🇸 美国 | USA_6'
+  - '[211ms] 🇭🇰 香港|@ripaojiedian'
+  - '[211ms] 🇳🇱 荷兰 | NLD_2'
+  - '[228ms] UN【机场推荐：https://a9a.xyz】92'
+  - '[228ms] 🇫🇮_FI_芬兰'
+  - '[236ms] 节点日期：2026-09-20'
+  - '[243ms] ❓Other_1|1004KB/s'
+  - '[338ms] 🇫🇮_FI_芬兰_1'
+  - '[410ms] 俄罗斯'
+  - '[427ms] 🇷🇺_RU_俄罗斯->🇩🇪_DE_德国'
+  - '[488ms] 🇺🇸_US_美国_2'
+  - '[574ms] 🇬🇧 英国 | GBR_1'
+  - '[619ms] 🇭🇰 香港 | HKG_4'
+  - '[677ms] 🇩🇪DE_1|3.4MB/s'
+  - '[1294ms] UN【机场推荐：https://a9a.xyz】101'
 - name: ✅ 手动选择
   type: select
   proxies:
-  - '[1ms] UN【机场推荐：https://a9a.xyz】49'
-  - '[1ms] CA【机场推荐：https://a9a.xyz】44'
-  - '[1ms] CA【机场推荐：https://a9a.xyz】21'
-  - '[1ms] CA【机场推荐：https://a9a.xyz】36'
-  - '[1ms] CA【机场推荐：https://a9a.xyz】34'
-  - '[1ms] CA【机场推荐：https://a9a.xyz】26'
-  - '[1ms] CA【机场推荐：https://a9a.xyz】23'
-  - '[1ms] CA【机场推荐：https://a9a.xyz】20'
-  - '[1ms] CA【机场推荐：https://a9a.xyz】27'
-  - '[1ms] CA【机场推荐：https://a9a.xyz】37'
-  - '[1ms] CA【机场推荐：https://a9a.xyz】29'
-  - '[1ms] CA【机场推荐：https://a9a.xyz】25'
-  - '[1ms] CA【机场推荐：https://a9a.xyz】32'
-  - '[1ms] UN【机场推荐：https://a9a.xyz】52'
-  - '[1ms] UN【机场推荐：https://a9a.xyz】65'
-  - '[1ms] UN【机场推荐：https://a9a.xyz】71'
-  - '[1ms] UN【机场推荐：https://a9a.xyz】72'
-  - '[1ms] UN【机场推荐：https://a9a.xyz】76'
-  - '[1ms] UN【机场推荐：https://a9a.xyz】74'
-  - '[1ms] UN【机场推荐：https://a9a.xyz】68'
-  - '[1ms] UN【机场推荐：https://a9a.xyz】69'
-  - '[1ms] UN【机场推荐：https://a9a.xyz】77'
-  - '[1ms] UN【机场推荐：https://a9a.xyz】67'
-  - '[1ms] UN【机场推荐：https://a9a.xyz】83'
-  - '[1ms] UN【机场推荐：https://a9a.xyz】75'
-  - '[1ms] UN【机场推荐：https://a9a.xyz】82'
-  - '[1ms] UN【机场推荐：https://a9a.xyz】84'
-  - '[1ms] UN【机场推荐：https://a9a.xyz】81'
   - '[1ms] UN【机场推荐：https://a9a.xyz】79'
-  - '[1ms] UN【机场推荐：https://a9a.xyz】90'
-  - '[1ms] UN【机场推荐：https://a9a.xyz】86'
-  - '[1ms] UN【机场推荐：https://a9a.xyz】85'
-  - '[1ms] UN【机场推荐：https://a9a.xyz】97'
-  - '[1ms] UN【机场推荐：https://a9a.xyz】95'
-  - '[1ms] UN【机场推荐：https://a9a.xyz】100'
-  - '[1ms] UN【机场推荐：https://a9a.xyz】98'
-  - '[1ms] 加拿大+V2CROSS.COM'
-  - '[1ms] UN【机场推荐：https://a9a.xyz】102'
+  - '[1ms] CA【机场推荐：https://a9a.xyz】44'
+  - '[1ms] CA【机场推荐：https://a9a.xyz】10'
+  - '[1ms] CA【机场推荐：https://a9a.xyz】16'
+  - '[1ms] CA【机场推荐：https://a9a.xyz】46'
+  - '[1ms] UN【机场推荐：https://a9a.xyz】57'
+  - '[1ms] UN【机场推荐：https://a9a.xyz】45'
+  - '[1ms] TR【机场推荐：https://a9a.xyz】36'
+  - '[1ms] UN【机场推荐：https://a9a.xyz】51'
+  - '[1ms] UN【机场推荐：https://a9a.xyz】69'
+  - '[1ms] CA【机场推荐：https://a9a.xyz】28'
+  - '[1ms] UN【机场推荐：https://a9a.xyz】58'
+  - '[1ms] CA【机场推荐：https://a9a.xyz】33'
+  - '[1ms] UN【机场推荐：https://a9a.xyz】60'
+  - '[1ms] UN【机场推荐：https://a9a.xyz】63'
+  - '[1ms] UN【机场推荐：https://a9a.xyz】48'
+  - '[1ms] CA【机场推荐：https://a9a.xyz】38'
+  - '[1ms] CA【机场推荐：https://a9a.xyz】23'
+  - '[1ms] CA【机场推荐：https://a9a.xyz】40'
+  - '[1ms] UN【机场推荐：https://a9a.xyz】30'
+  - '[1ms] UN【机场推荐：https://a9a.xyz】67'
+  - '[1ms] CA【机场推荐：https://a9a.xyz】11'
+  - '[1ms] UN【机场推荐：https://a9a.xyz】47'
+  - '[1ms] CA【机场推荐：https://a9a.xyz】14'
+  - '[1ms] UN【机场推荐：https://a9a.xyz】56'
+  - '[1ms] CA【机场推荐：https://a9a.xyz】37'
+  - '[1ms] CA【机场推荐：https://a9a.xyz】39'
+  - '[1ms] CA【机场推荐：https://a9a.xyz】25'
+  - '[1ms] CA【机场推荐：https://a9a.xyz】31'
+  - '[1ms] UN【机场推荐：https://a9a.xyz】70'
+  - '[1ms] UN【机场推荐：https://a9a.xyz】55'
+  - '[1ms] UN【机场推荐：https://a9a.xyz】77'
+  - '[1ms] UN【机场推荐：https://a9a.xyz】54'
+  - '[1ms] UN【机场推荐：https://a9a.xyz】80'
+  - '[1ms] UN【机场推荐：https://a9a.xyz】81'
+  - '[1ms] UN【机场推荐：https://a9a.xyz】91'
   - '[1ms] UN【机场推荐：https://a9a.xyz】104'
-  - '[1ms] 🇺🇸_US_美国_3'
-  - '[2ms] CA【机场推荐：https://a9a.xyz】31'
-  - '[2ms] CA【机场推荐：https://a9a.xyz】35'
-  - '[2ms] UN【机场推荐：https://a9a.xyz】48'
-  - '[2ms] UN【机场推荐：https://a9a.xyz】30'
-  - '[2ms] CA【机场推荐：https://a9a.xyz】28'
-  - '[2ms] UN【机场推荐：https://a9a.xyz】50'
-  - '[2ms] CA【机场推荐：https://a9a.xyz】13'
-  - '[2ms] CA【机场推荐：https://a9a.xyz】22'
+  - '[1ms] 美国+CloudFlare节点_1'
+  - '[1ms] 巴西圣保罗+CloudFlare节点'
+  - '[1ms] 美国+CloudFlare节点_2'
+  - '[1ms] 🇺🇸_US_美国->🇬🇧_GB_英国'
+  - '[1ms] 🇨🇿_CZ_捷克'
+  - '[1ms] 🇺🇸_US_美国->🇸🇬_SG_新加坡'
+  - '[1ms] 🇨🇾_CY_塞浦路斯'
+  - '[1ms] 美国3|@ripaojiedian'
+  - '[1ms] 🇺🇸US_1|1.2MB/s'
+  - '[1ms] 🇫🇷FR_1|1.1MB/s'
+  - '[1ms] 🇧🇿 BZ_33'
+  - '[1ms] 🇬🇧 英国 | GBR_3'
+  - '[1ms] 🇯🇵 日本 | JPN_1'
+  - '[1ms] 🇸🇬 新加坡 | SGP_3'
+  - '[1ms] 🇸🇬 新加坡 | SGP_4'
+  - '[1ms] 🇺🇸 美国 | USA_1'
+  - '[1ms] 🇺🇸 美国 | USA_2'
+  - '[1ms] 🇺🇸 美国 | USA_7'
+  - '[1ms] 🇺🇸 美国 | USA_14'
+  - '[1ms] 🇺🇸 美国 | USA_15'
+  - '[1ms] 🇺🇸 美国 | USA_16'
+  - '[2ms] CA【机场推荐：https://a9a.xyz】20'
   - '[2ms] UN【机场推荐：https://a9a.xyz】53'
+  - '[2ms] CA【机场推荐：https://a9a.xyz】13'
   - '[2ms] UN【机场推荐：https://a9a.xyz】62'
-  - '[2ms] UN【机场推荐：https://a9a.xyz】54'
-  - '[2ms] UN【机场推荐：https://a9a.xyz】60'
-  - '[2ms] UN【机场推荐：https://a9a.xyz】78'
+  - '[2ms] CA【机场推荐：https://a9a.xyz】35'
+  - '[2ms] CA【机场推荐：https://a9a.xyz】29'
+  - '[2ms] UN【机场推荐：https://a9a.xyz】65'
+  - '[2ms] CA【机场推荐：https://a9a.xyz】34'
+  - '[2ms] UN【机场推荐：https://a9a.xyz】75'
+  - '[2ms] UN【机场推荐：https://a9a.xyz】66'
+  - '[2ms] UN【机场推荐：https://a9a.xyz】50'
+  - '[2ms] CA【机场推荐：https://a9a.xyz】19'
+  - '[2ms] CA【机场推荐：https://a9a.xyz】41'
+  - '[2ms] UN【机场推荐：https://a9a.xyz】49'
+  - '[2ms] UN【机场推荐：https://a9a.xyz】74'
+  - '[2ms] CA【机场推荐：https://a9a.xyz】24'
+  - '[2ms] CA【机场推荐：https://a9a.xyz】22'
+  - '[2ms] UN【机场推荐：https://a9a.xyz】52'
+  - '[2ms] UN【机场推荐：https://a9a.xyz】59'
   - '[2ms] UN【机场推荐：https://a9a.xyz】73'
-  - '[2ms] UN【机场推荐：https://a9a.xyz】80'
-  - '[2ms] UN【机场推荐：https://a9a.xyz】70'
-  - '[2ms] UN【机场推荐：https://a9a.xyz】88'
-  - '[2ms] UN【机场推荐：https://a9a.xyz】87'
-  - '[2ms] UN【机场推荐：https://a9a.xyz】91'
-  - '[2ms] UN【机场推荐：https://a9a.xyz】89'
-  - '[2ms] UN【机场推荐：https://a9a.xyz】93'
-  - '[2ms] UN【机场推荐：https://a9a.xyz】92'
+  - '[2ms] CA【机场推荐：https://a9a.xyz】42'
+  - '[2ms] UN【机场推荐：https://a9a.xyz】72'
+  - '[2ms] CA【机场推荐：https://a9a.xyz】26'
+  - '[2ms] UN【机场推荐：https://a9a.xyz】71'
+  - '[2ms] CA【机场推荐：https://a9a.xyz】8'
+  - '[2ms] UN【机场推荐：https://a9a.xyz】68'
+  - '[2ms] CA【机场推荐：https://a9a.xyz】27'
+  - '[2ms] CA【机场推荐：https://a9a.xyz】21'
+  - '[2ms] US【机场推荐：https://a9a.xyz】4'
+  - '[2ms] UN【机场推荐：https://a9a.xyz】76'
+  - '[2ms] UN【机场推荐：https://a9a.xyz】95'
   - '[2ms] UN【机场推荐：https://a9a.xyz】94'
-  - '[2ms] UN【机场推荐：https://a9a.xyz】99'
-  - '[2ms] UN【机场推荐：https://a9a.xyz】103'
-  - '[2ms] 美国+CloudFlare节点_1'
-  - '[2ms] 🇺🇸_US_美国->🇬🇧_GB_英国'
-  - '[3ms] UN【机场推荐：https://a9a.xyz】58'
-  - '[3ms] UN【机场推荐：https://a9a.xyz】57'
-  - '[3ms] UN【机场推荐：https://a9a.xyz】61'
-  - '[3ms] UN【机场推荐：https://a9a.xyz】59'
+  - '[2ms] 美国+得克萨斯州达拉斯Cloudflare+Warp节点'
+  - '[2ms] 🇺🇸_US_美国'
+  - '[2ms] 🇺🇸_US_美国->🇩🇪_DE_德国'
   - '[3ms] UN【机场推荐：https://a9a.xyz】64'
-  - '[3ms] UN【机场推荐：https://a9a.xyz】63'
-  - '[3ms] UN【机场推荐：https://a9a.xyz】96'
-  - '[4ms] UN【机场推荐：https://a9a.xyz】51'
-  - '[4ms] UN【机场推荐：https://a9a.xyz】55'
-  - '[7ms] 🇺🇸_US_美国'
-  - '[24ms] UN【机场推荐：https://a9a.xyz】66'
-  - '[28ms] CA【机场推荐：https://a9a.xyz】12'
-  - '[33ms] CA【机场推荐：https://a9a.xyz】10'
-  - '[54ms] US【机场推荐：https://a9a.xyz】14'
-  - '[54ms] US【机场推荐：https://a9a.xyz】16'
-  - '[54ms] US_speednode_0136'
-  - '[54ms] US_speednode_0137'
-  - '[54ms] US_speednode_0142'
-  - '[68ms] 🇺🇸_US_美国_4'
-  - '[70ms] 美国3|@ripaojiedian'
-  - '[86ms] 🇫🇷FR_1|1.2MB/s'
-  - '[87ms] 美国+CloudFlare节点'
-  - '[89ms] 🇺🇸US_1|2.6MB/s'
-  - '[90ms] GB【机场推荐：https://a9a.xyz】46'
-  - '[90ms] 🇩🇪DE_2|1.1MB/s'
-  - '[92ms] 🇩🇪_DE_德国_2'
-  - '[94ms] UN【机场推荐：https://a9a.xyz】56'
-  - '[94ms] 🇺🇸_US_美国_1'
-  - '[94ms] ✨ @NOFiLTERING2 | ❤️ وصل شدی ج... #1'
-  - '[95ms] tg频道:@ripaojiedian #1'
-  - '[96ms] Telegram: @Daily_Configs'
-  - '[97ms] ♾️Join->🆔️@ATLAS_V2VPN🆓️📶‎🛰️55... #1'
-  - '[106ms] ✨ @NOFiLTERING2 | ❤️ وصل شدی ج...'
-  - '[109ms] 俄罗斯+V2CROSS.COM'
-  - '[110ms] CA【机场推荐：https://a9a.xyz】24'
-  - '[117ms] @Daily_Configs #3'
-  - '[119ms] Telegram@vpnjey #3'
-  - '[120ms] @proxy_kafee : کانال تلگرام'
-  - '[122ms] 🇷🇺_RU_俄罗斯->🇹🇷_TR_土耳其'
-  - '[124ms] @Daily_Configs #2'
-  - '[125ms] 🇷🇺_RU_俄罗斯->🇺🇸_US_美国'
-  - '[133ms] CA【机场推荐：https://a9a.xyz】33'
-  - '[135ms] 🇫🇷_FR_法国'
-  - '[138ms] @Daily_Configs'
-  - '[140ms] 伊朗+V2CROSS.COM'
-  - '[148ms] UN【机场推荐：https://a9a.xyz】47'
-  - '[162ms] 🇯🇵JP_1|1.1MB/s'
-  - '[164ms] 保加利亚+V2CROSS.COM'
-  - '[196ms] 🇨🇳_CN_中国'
-  - '[254ms] 🇨🇳_CN_中国->🇺🇸_US_美国_1'
-  - '[274ms] 🇺🇸US_3|2.6MB/s'
-  - '[375ms] 🇭🇰 香港|@ripaojiedian'
-  - '[473ms] 🇮🇹IT_1|1.9MB/s'
-  - '[520ms] 🇭🇰_HK_中国香港->🇯🇵_JP_日本'
-  - '[1386ms] 俄罗斯'
+  - '[3ms] CA【机场推荐：https://a9a.xyz】12'
+  - '[3ms] CA【机场推荐：https://a9a.xyz】15'
+  - '[3ms] CA【机场推荐：https://a9a.xyz】32'
+  - '[3ms] CA【机场推荐：https://a9a.xyz】18'
+  - '[3ms] 美国+CloudFlare节点'
+  - '[4ms] UN【机场推荐：https://a9a.xyz】86'
+  - '[4ms] UN【机场推荐：https://a9a.xyz】83'
+  - '[4ms] UN【机场推荐：https://a9a.xyz】85'
+  - '[4ms] UN【机场推荐：https://a9a.xyz】90'
+  - '[4ms] UN【机场推荐：https://a9a.xyz】84'
+  - '[4ms] UN【机场推荐：https://a9a.xyz】87'
+  - '[5ms] CA【机场推荐：https://a9a.xyz】5'
+  - '[5ms] UN【机场推荐：https://a9a.xyz】82'
+  - '[5ms] 🇺🇸 美国 | USA_9'
+  - '[6ms] US【机场推荐：https://a9a.xyz】6'
+  - '[6ms] UN【机场推荐：https://a9a.xyz】107'
+  - '[6ms] 🇸🇬 新加坡 | SGP_2'
+  - '[9ms] UN【机场推荐：https://a9a.xyz】98'
+  - '[9ms] 🇺🇸_US_美国_1'
+  - '[9ms] US_speednode_0137'
+  - '[9ms] US_speednode_0142'
+  - '[10ms] US_speednode_0136'
+  - '[14ms] 🇺🇸 美国 | USA_5'
+  - '[16ms] 🇺🇸 美国 | USA_12'
+  - '[18ms] UN【机场推荐：https://a9a.xyz】78'
+  - '[23ms] CA【机场推荐：https://a9a.xyz】3'
+  - '[26ms] UN【机场推荐：https://a9a.xyz】89'
+  - '[37ms] 🇸🇬 新加坡 | SGP'
+  - '[41ms] 🇺🇸 美国 | USA_8'
+  - '[62ms] 🇺🇸 美国 | USA_13'
+  - '[63ms] 🇺🇸_US_美国_4'
+  - '[83ms] 🇺🇸 美国 | USA_10'
+  - '[91ms] CA【机场推荐：https://a9a.xyz】17'
+  - '[98ms] CA【机场推荐：https://a9a.xyz】43'
+  - '[102ms] UN【机场推荐：https://a9a.xyz】88'
+  - '[103ms] UN【机场推荐：https://a9a.xyz】61'
+  - '[103ms] 🇯🇵 日本 | JPN'
+  - '[106ms] 🇯🇵 日本 | JPN_3'
+  - '[109ms] 🇺🇸 美国 | USA_3'
+  - '[112ms] 🇯🇵 日本 | JPN_4'
+  - '[121ms] 🇯🇵 日本 | JPN_5'
+  - '[122ms] 🇯🇵 日本 | JPN_2'
+  - '[130ms] 🇸🇬SG_1|1.2MB/s'
+  - '[142ms] UN【机场推荐：https://a9a.xyz】100'
+  - '[142ms] UN【机场推荐：https://a9a.xyz】105'
+  - '[145ms] 🇫🇷 法国 | FRA'
+  - '[146ms] 🇹🇷 土耳其 | TUR'
+  - '[148ms] 🇭🇰 香港 | HKG'
+  - '[149ms] DE【机场推荐：https://a9a.xyz】9'
+  - '[149ms] ✨ @NOFiLTERING2 | ❤️ وصل شدی ج... #1'
+  - '[149ms] tg频道:@ripaojiedian #1'
+  - '[150ms] 🇩🇪_DE_德国_1'
+  - '[154ms] DE【机场推荐：https://a9a.xyz】7'
+  - '[154ms] Telegram: @Daily_Configs'
+  - '[154ms] 🇨🇿 捷克 | CZE'
+  - '[155ms] @V2ray_confiig'
+  - '[157ms] UN【机场推荐：https://a9a.xyz】102'
+  - '[157ms] 🇫🇷 法国 | FRA_1'
+  - '[158ms] 🇬🇧 英国 | GBR_2'
+  - '[161ms] 🇹🇼 🇨🇳 台湾 | TWN_1'
+  - '[163ms] ✨ @NOFiLTERING2 | ❤️ وصل شدی ج...'
+  - '[165ms] 🇭🇰 香港 | HKG_3'
+  - '[166ms] 🇺🇸_US_美国_3'
+  - '[167ms] 🇸🇬_SG_新加坡'
+  - '[172ms] UN【机场推荐：https://a9a.xyz】103'
+  - '[172ms] 🇵🇱 波兰 | POL'
+  - '[173ms] 🇭🇰 香港 | HKG_2'
+  - '[173ms] 🇳🇱 荷兰 | NLD'
+  - '[176ms] PL【机场推荐：https://a9a.xyz】1'
+  - '[177ms] 🇩🇪 德国 | DEU'
+  - '[178ms] 🇪🇸 西班牙 | ESP'
+  - '[179ms] @Daily_Configs : کانال تلگرام'
+  - '[181ms] [ 🇷🇺 ] | @Cfox_SerVer'
+  - '[181ms] @Daily_Configs #3'
+  - '[182ms] UN【机场推荐：https://a9a.xyz】108'
+  - '[182ms] 🇹🇼 🇨🇳 台湾 | TWN'
+  - '[183ms] 🇷🇺_RU_俄罗斯->🇹🇷_TR_土耳其'
+  - '[185ms] 🇷🇺_RU_俄罗斯->🇺🇸_US_美国'
+  - '[188ms] 🇨🇳_CN_中国'
+  - '[188ms] 🇺🇸 美国 | USA_11'
+  - '[189ms] UN【机场推荐：https://a9a.xyz】93'
+  - '[191ms] 🇸🇬 新加坡 | SGP_1'
+  - '[198ms] @Daily_Configs #2'
+  - '[200ms] US【机场推荐：https://a9a.xyz】2'
+  - '[200ms] Telegram@vpnjey #3'
+  - '[204ms] 🇭🇰 香港 | HKG_1'
+  - '[205ms] 🇺🇸 美国 | USA_6'
+  - '[211ms] 🇭🇰 香港|@ripaojiedian'
+  - '[211ms] 🇳🇱 荷兰 | NLD_2'
+  - '[228ms] UN【机场推荐：https://a9a.xyz】92'
+  - '[228ms] 🇫🇮_FI_芬兰'
+  - '[236ms] 节点日期：2026-09-20'
+  - '[243ms] ❓Other_1|1004KB/s'
+  - '[338ms] 🇫🇮_FI_芬兰_1'
+  - '[410ms] 俄罗斯'
+  - '[427ms] 🇷🇺_RU_俄罗斯->🇩🇪_DE_德国'
+  - '[488ms] 🇺🇸_US_美国_2'
+  - '[574ms] 🇬🇧 英国 | GBR_1'
+  - '[619ms] 🇭🇰 香港 | HKG_4'
+  - '[677ms] 🇩🇪DE_1|3.4MB/s'
+  - '[1294ms] UN【机场推荐：https://a9a.xyz】101'
 - name: 🌐 突破锁区
   type: select
   proxies:
@@ -1992,93 +3355,159 @@ proxy-groups:
   proxies:
   - 🇯🇵 日本
   - 🇺🇸 美国
+  - 🇸🇬 新加坡
   - 🇬🇧 英国
   - 🇩🇪 德国
   - 🇫🇷 法国
   - 🇷🇺 俄罗斯
   - 🇨🇦 加拿大
   - 🇮🇳 印度
+  - 🇧🇷 巴西
 - name: 🇯🇵 日本
   type: select
   proxies:
-  - '[162ms] 🇯🇵JP_1|1.1MB/s'
-  - '[520ms] 🇭🇰_HK_中国香港->🇯🇵_JP_日本'
+  - '[1ms] 🇯🇵 日本 | JPN_1'
+  - '[103ms] 🇯🇵 日本 | JPN'
+  - '[106ms] 🇯🇵 日本 | JPN_3'
+  - '[112ms] 🇯🇵 日本 | JPN_4'
+  - '[121ms] 🇯🇵 日本 | JPN_5'
+  - '[122ms] 🇯🇵 日本 | JPN_2'
 - name: 🇺🇸 美国
   type: select
   proxies:
-  - '[1ms] 🇺🇸_US_美国_3'
-  - '[2ms] 美国+CloudFlare节点_1'
-  - '[2ms] 🇺🇸_US_美国->🇬🇧_GB_英国'
-  - '[7ms] 🇺🇸_US_美国'
-  - '[54ms] US【机场推荐：https://a9a.xyz】14'
-  - '[54ms] US【机场推荐：https://a9a.xyz】16'
-  - '[54ms] US_speednode_0136'
-  - '[54ms] US_speednode_0137'
-  - '[54ms] US_speednode_0142'
-  - '[68ms] 🇺🇸_US_美国_4'
-  - '[70ms] 美国3|@ripaojiedian'
-  - '[87ms] 美国+CloudFlare节点'
-  - '[89ms] 🇺🇸US_1|2.6MB/s'
-  - '[94ms] 🇺🇸_US_美国_1'
-  - '[125ms] 🇷🇺_RU_俄罗斯->🇺🇸_US_美国'
-  - '[254ms] 🇨🇳_CN_中国->🇺🇸_US_美国_1'
-  - '[274ms] 🇺🇸US_3|2.6MB/s'
+  - '[1ms] 美国+CloudFlare节点_1'
+  - '[1ms] 美国+CloudFlare节点_2'
+  - '[1ms] 🇺🇸_US_美国->🇬🇧_GB_英国'
+  - '[1ms] 🇺🇸_US_美国->🇸🇬_SG_新加坡'
+  - '[1ms] 美国3|@ripaojiedian'
+  - '[1ms] 🇺🇸US_1|1.2MB/s'
+  - '[1ms] 🇺🇸 美国 | USA_1'
+  - '[1ms] 🇺🇸 美国 | USA_2'
+  - '[1ms] 🇺🇸 美国 | USA_7'
+  - '[1ms] 🇺🇸 美国 | USA_14'
+  - '[1ms] 🇺🇸 美国 | USA_15'
+  - '[1ms] 🇺🇸 美国 | USA_16'
+  - '[2ms] US【机场推荐：https://a9a.xyz】4'
+  - '[2ms] 美国+得克萨斯州达拉斯Cloudflare+Warp节点'
+  - '[2ms] 🇺🇸_US_美国'
+  - '[2ms] 🇺🇸_US_美国->🇩🇪_DE_德国'
+  - '[3ms] 美国+CloudFlare节点'
+  - '[5ms] 🇺🇸 美国 | USA_9'
+  - '[6ms] US【机场推荐：https://a9a.xyz】6'
+  - '[9ms] 🇺🇸_US_美国_1'
+  - '[9ms] US_speednode_0137'
+  - '[9ms] US_speednode_0142'
+  - '[10ms] US_speednode_0136'
+  - '[14ms] 🇺🇸 美国 | USA_5'
+  - '[16ms] 🇺🇸 美国 | USA_12'
+  - '[41ms] 🇺🇸 美国 | USA_8'
+  - '[62ms] 🇺🇸 美国 | USA_13'
+  - '[63ms] 🇺🇸_US_美国_4'
+  - '[83ms] 🇺🇸 美国 | USA_10'
+  - '[109ms] 🇺🇸 美国 | USA_3'
+  - '[166ms] 🇺🇸_US_美国_3'
+  - '[185ms] 🇷🇺_RU_俄罗斯->🇺🇸_US_美国'
+  - '[188ms] 🇺🇸 美国 | USA_11'
+  - '[200ms] US【机场推荐：https://a9a.xyz】2'
+  - '[205ms] 🇺🇸 美国 | USA_6'
+  - '[488ms] 🇺🇸_US_美国_2'
+- name: 🇸🇬 新加坡
+  type: select
+  proxies:
+  - '[1ms] 🇺🇸_US_美国->🇸🇬_SG_新加坡'
+  - '[1ms] 🇸🇬 新加坡 | SGP_3'
+  - '[1ms] 🇸🇬 新加坡 | SGP_4'
+  - '[6ms] 🇸🇬 新加坡 | SGP_2'
+  - '[37ms] 🇸🇬 新加坡 | SGP'
+  - '[130ms] 🇸🇬SG_1|1.2MB/s'
+  - '[167ms] 🇸🇬_SG_新加坡'
+  - '[191ms] 🇸🇬 新加坡 | SGP_1'
 - name: 🇬🇧 英国
   type: select
   proxies:
-  - '[2ms] 🇺🇸_US_美国->🇬🇧_GB_英国'
-  - '[90ms] GB【机场推荐：https://a9a.xyz】46'
+  - '[1ms] 🇺🇸_US_美国->🇬🇧_GB_英国'
+  - '[1ms] 🇬🇧 英国 | GBR_3'
+  - '[158ms] 🇬🇧 英国 | GBR_2'
+  - '[574ms] 🇬🇧 英国 | GBR_1'
 - name: 🇩🇪 德国
   type: select
   proxies:
-  - '[54ms] US_speednode_0136'
-  - '[54ms] US_speednode_0137'
-  - '[54ms] US_speednode_0142'
-  - '[90ms] 🇩🇪DE_2|1.1MB/s'
-  - '[92ms] 🇩🇪_DE_德国_2'
+  - '[2ms] 🇺🇸_US_美国->🇩🇪_DE_德国'
+  - '[9ms] US_speednode_0137'
+  - '[9ms] US_speednode_0142'
+  - '[10ms] US_speednode_0136'
+  - '[149ms] DE【机场推荐：https://a9a.xyz】9'
+  - '[150ms] 🇩🇪_DE_德国_1'
+  - '[154ms] DE【机场推荐：https://a9a.xyz】7'
+  - '[177ms] 🇩🇪 德国 | DEU'
+  - '[427ms] 🇷🇺_RU_俄罗斯->🇩🇪_DE_德国'
+  - '[677ms] 🇩🇪DE_1|3.4MB/s'
 - name: 🇫🇷 法国
   type: select
   proxies:
-  - '[86ms] 🇫🇷FR_1|1.2MB/s'
-  - '[135ms] 🇫🇷_FR_法国'
+  - '[1ms] 🇫🇷FR_1|1.1MB/s'
+  - '[145ms] 🇫🇷 法国 | FRA'
+  - '[157ms] 🇫🇷 法国 | FRA_1'
 - name: 🇷🇺 俄罗斯
   type: select
   proxies:
-  - '[109ms] 俄罗斯+V2CROSS.COM'
-  - '[122ms] 🇷🇺_RU_俄罗斯->🇹🇷_TR_土耳其'
-  - '[125ms] 🇷🇺_RU_俄罗斯->🇺🇸_US_美国'
-  - '[1386ms] 俄罗斯'
+  - '[181ms] [ 🇷🇺 ] | @Cfox_SerVer'
+  - '[183ms] 🇷🇺_RU_俄罗斯->🇹🇷_TR_土耳其'
+  - '[185ms] 🇷🇺_RU_俄罗斯->🇺🇸_US_美国'
+  - '[410ms] 俄罗斯'
+  - '[427ms] 🇷🇺_RU_俄罗斯->🇩🇪_DE_德国'
 - name: 🇨🇦 加拿大
   type: select
   proxies:
   - '[1ms] CA【机场推荐：https://a9a.xyz】44'
-  - '[1ms] CA【机场推荐：https://a9a.xyz】21'
-  - '[1ms] CA【机场推荐：https://a9a.xyz】36'
-  - '[1ms] CA【机场推荐：https://a9a.xyz】34'
-  - '[1ms] CA【机场推荐：https://a9a.xyz】26'
+  - '[1ms] CA【机场推荐：https://a9a.xyz】10'
+  - '[1ms] CA【机场推荐：https://a9a.xyz】16'
+  - '[1ms] CA【机场推荐：https://a9a.xyz】46'
+  - '[1ms] CA【机场推荐：https://a9a.xyz】28'
+  - '[1ms] CA【机场推荐：https://a9a.xyz】33'
+  - '[1ms] CA【机场推荐：https://a9a.xyz】38'
   - '[1ms] CA【机场推荐：https://a9a.xyz】23'
-  - '[1ms] CA【机场推荐：https://a9a.xyz】20'
-  - '[1ms] CA【机场推荐：https://a9a.xyz】27'
+  - '[1ms] CA【机场推荐：https://a9a.xyz】40'
+  - '[1ms] CA【机场推荐：https://a9a.xyz】11'
+  - '[1ms] CA【机场推荐：https://a9a.xyz】14'
   - '[1ms] CA【机场推荐：https://a9a.xyz】37'
-  - '[1ms] CA【机场推荐：https://a9a.xyz】29'
+  - '[1ms] CA【机场推荐：https://a9a.xyz】39'
   - '[1ms] CA【机场推荐：https://a9a.xyz】25'
-  - '[1ms] CA【机场推荐：https://a9a.xyz】32'
-  - '[1ms] 加拿大+V2CROSS.COM'
-  - '[2ms] CA【机场推荐：https://a9a.xyz】31'
-  - '[2ms] CA【机场推荐：https://a9a.xyz】35'
-  - '[2ms] CA【机场推荐：https://a9a.xyz】28'
+  - '[1ms] CA【机场推荐：https://a9a.xyz】31'
+  - '[2ms] CA【机场推荐：https://a9a.xyz】20'
   - '[2ms] CA【机场推荐：https://a9a.xyz】13'
+  - '[2ms] CA【机场推荐：https://a9a.xyz】35'
+  - '[2ms] CA【机场推荐：https://a9a.xyz】29'
+  - '[2ms] CA【机场推荐：https://a9a.xyz】34'
+  - '[2ms] CA【机场推荐：https://a9a.xyz】19'
+  - '[2ms] CA【机场推荐：https://a9a.xyz】41'
+  - '[2ms] CA【机场推荐：https://a9a.xyz】24'
   - '[2ms] CA【机场推荐：https://a9a.xyz】22'
-  - '[28ms] CA【机场推荐：https://a9a.xyz】12'
-  - '[33ms] CA【机场推荐：https://a9a.xyz】10'
-  - '[110ms] CA【机场推荐：https://a9a.xyz】24'
-  - '[133ms] CA【机场推荐：https://a9a.xyz】33'
+  - '[2ms] CA【机场推荐：https://a9a.xyz】42'
+  - '[2ms] CA【机场推荐：https://a9a.xyz】26'
+  - '[2ms] CA【机场推荐：https://a9a.xyz】8'
+  - '[2ms] CA【机场推荐：https://a9a.xyz】27'
+  - '[2ms] CA【机场推荐：https://a9a.xyz】21'
+  - '[3ms] CA【机场推荐：https://a9a.xyz】12'
+  - '[3ms] CA【机场推荐：https://a9a.xyz】15'
+  - '[3ms] CA【机场推荐：https://a9a.xyz】32'
+  - '[3ms] CA【机场推荐：https://a9a.xyz】18'
+  - '[5ms] CA【机场推荐：https://a9a.xyz】5'
+  - '[23ms] CA【机场推荐：https://a9a.xyz】3'
+  - '[91ms] CA【机场推荐：https://a9a.xyz】17'
+  - '[98ms] CA【机场推荐：https://a9a.xyz】43'
 - name: 🇮🇳 印度
   type: select
   proxies:
-  - '[94ms] ✨ @NOFiLTERING2 | ❤️ وصل شدی ج... #1'
-  - '[97ms] ♾️Join->🆔️@ATLAS_V2VPN🆓️📶‎🛰️55... #1'
-  - '[106ms] ✨ @NOFiLTERING2 | ❤️ وصل شدی ج...'
+  - '[149ms] ✨ @NOFiLTERING2 | ❤️ وصل شدی ج... #1'
+  - '[163ms] ✨ @NOFiLTERING2 | ❤️ وصل شدی ج...'
+- name: 🇧🇷 巴西
+  type: select
+  proxies:
+  - '[1ms] 巴西圣保罗+CloudFlare节点'
+  - '[1ms] 🇬🇧 英国 | GBR_3'
+  - '[158ms] 🇬🇧 英国 | GBR_2'
+  - '[574ms] 🇬🇧 英国 | GBR_1'
 rules:
 - 'DOMAIN-SUFFIX,ads.google.com,⛔ 广告拦截'
 - 'DOMAIN-SUFFIX,adservice.google.com,⛔ 广告拦截'
