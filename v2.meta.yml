@@ -1,4 +1,4 @@
-# Update: 2026-11-24 03:08
+# Update: 2026-11-25 01:14
 allow-lan: false
 dns:
   enable: true
@@ -18,89 +18,7 @@ log-level: warning
 mixed-port: 7890
 mode: rule
 proxies:
-- name: '[8ms] US【高速节点：https://vip.a3f.xyz】15'
-  type: vmess
-  server: 188.114.99.137
-  port: 443
-  uuid: 6a89a215-22bf-4bd7-9642-b95b2e09583a
-  alterId: 0
-  cipher: auto
-  network: ws
-  tls: true
-  servername: guanwang.awsno.com
-  skip-cert-verify: true
-  ws-opts:
-    path: /hls/cctv5phd.m3u8
-    headers:
-      Host: guanwang.awsno.com
-  udp: true
-  delay: 8
-- name: '[8ms] CA【高速节点：https://vip.a3f.xyz】17'
-  type: vmess
-  server: 172.64.145.93
-  port: 443
-  uuid: 6a89a215-22bf-4bd7-9642-b95b2e09583a
-  alterId: 0
-  cipher: auto
-  network: ws
-  tls: true
-  servername: guanwang.awsno.com
-  skip-cert-verify: true
-  ws-opts:
-    path: /hls/cctv5phd.m3u8
-    headers:
-      Host: guanwang.awsno.com
-  udp: true
-  delay: 8
-- name: '[9ms] CA【高速节点：https://vip.a3f.xyz】32'
-  type: vmess
-  server: 104.18.42.163
-  port: 443
-  uuid: 6a89a215-22bf-4bd7-9642-b95b2e09583a
-  alterId: 0
-  cipher: auto
-  network: ws
-  tls: true
-  servername: guanwang.awsno.com
-  skip-cert-verify: true
-  ws-opts:
-    path: /hls/cctv5phd.m3u8
-    headers:
-      Host: guanwang.awsno.com
-  udp: true
-  delay: 9
-- name: '[9ms] 🇺🇸_US_美国->🇬🇧_GB_英国'
-  type: vless
-  server: 104.17.147.22
-  port: 8880
-  uuid: Parsashonam-Bot-32
-  udp: true
-  tls: false
-  encryption: none
-  network: ws
-  ws-opts:
-    path: '/Parsashonam-Parsashonam-Parsashonam-Parsashonam-Parsashonam-Parsashonam-Parsashonam-Parsashonam-Parsashonam-Parsashonam-Parsashonam-Parsashonam-Parsashonam-Parsashonam-Parsashonam-Parsashonam?ed=2056'
-    headers:
-      Host: Fi.Parsashonam.CfD.
-  delay: 9
-- name: '[29ms] CA【高速节点：https://vip.a3f.xyz】13'
-  type: vmess
-  server: www.shopify.com
-  port: 443
-  uuid: 6a89a215-22bf-4bd7-9642-b95b2e09583a
-  alterId: 0
-  cipher: auto
-  network: ws
-  tls: true
-  servername: guanwang.awsno.com
-  skip-cert-verify: true
-  ws-opts:
-    path: /hls/cctv5phd.m3u8
-    headers:
-      Host: guanwang.awsno.com
-  udp: true
-  delay: 29
-- name: '[34ms] CA【高速节点：https://vip.a3f.xyz】16'
+- name: '[6ms] CA【高速节点：https://vip.a3f.xyz】23'
   type: vmess
   server: 172.67.190.164
   port: 443
@@ -116,195 +34,128 @@ proxies:
     headers:
       Host: guanwang.awsno.com
   udp: true
-  delay: 34
-- name: '[130ms] 美国+V2CROSS.COM_1'
-  type: vless
-  server: 131.186.22.95
-  port: 8443
-  uuid: b69cf773-da16-486e-afce-a45b94f998b3
-  udp: true
+  delay: 6
+- name: '[6ms] CA【高速节点：https://vip.a3f.xyz】27'
+  type: vmess
+  server: 104.18.42.163
+  port: 443
+  uuid: 6a89a215-22bf-4bd7-9642-b95b2e09583a
+  alterId: 0
+  cipher: auto
+  network: ws
   tls: true
-  servername: senflarelink-node-il65vh.pages.dev
-  client-fingerprint: chrome
+  servername: guanwang.awsno.com
   skip-cert-verify: true
+  ws-opts:
+    path: /hls/cctv5phd.m3u8
+    headers:
+      Host: guanwang.awsno.com
+  udp: true
+  delay: 6
+- name: '[6ms] CA【高速节点：https://vip.a3f.xyz】24'
+  type: vmess
+  server: 172.64.145.93
+  port: 443
+  uuid: 6a89a215-22bf-4bd7-9642-b95b2e09583a
+  alterId: 0
+  cipher: auto
+  network: ws
+  tls: true
+  servername: guanwang.awsno.com
+  skip-cert-verify: true
+  ws-opts:
+    path: /hls/cctv5phd.m3u8
+    headers:
+      Host: guanwang.awsno.com
+  udp: true
+  delay: 6
+- name: '[6ms] 🇺🇸_US_美国->🇬🇧_GB_英国'
+  type: vless
+  server: 104.17.147.22
+  port: 8880
+  uuid: Parsashonam-Bot-32
+  udp: true
+  tls: false
   encryption: none
   network: ws
   ws-opts:
-    path: /flow=
+    path: '/Parsashonam-Parsashonam-Parsashonam-Parsashonam-Parsashonam-Parsashonam-Parsashonam-Parsashonam-Parsashonam-Parsashonam-Parsashonam-Parsashonam-Parsashonam-Parsashonam-Parsashonam-Parsashonam?ed=2056'
     headers:
-      Host: senflarelink-node-il65vh.pages.dev
-  delay: 130
-- name: '[133ms] US【高速节点：https://vip.a3f.xyz】21'
-  type: ss
-  server: 47.85.227.36
+      Host: Fi.Parsashonam.CfD.
+  delay: 6
+- name: '[7ms] US【高速节点：https://vip.a3f.xyz】22'
+  type: vmess
+  server: 188.114.99.137
   port: 443
-  password: 3NBsnBLanPfG6i3S2GTHineswr6EeSJPb0PCeMQoGoA=
-  cipher: 2022-blake3-chacha20-poly1305
-  delay: 133
-- name: '[133ms] 俄罗斯+V2CROSS.COM'
-  type: vless
-  server: 193.111.248.54
-  port: 443
-  uuid: a8e5585a-6020-4649-a364-c1ebf3a40548
-  udp: true
+  uuid: 6a89a215-22bf-4bd7-9642-b95b2e09583a
+  alterId: 0
+  cipher: auto
+  network: ws
   tls: true
-  servername: tagderdeutscheneinheit.de
-  reality-opts:
-    public-key: 0KDql59THS-DXg30wMR0QGgFB6rXARDhr8WoWyfVA2M
-    short-id: 6f0091ebe3029ebb
-  client-fingerprint: firefox
-  skip-cert-verify: false
-  flow: xtls-rprx-vision
-  encryption: none
-  network: tcp
-  delay: 133
-- name: '[135ms] DE【高速节点：https://vip.a3f.xyz】7'
+  servername: guanwang.awsno.com
+  skip-cert-verify: true
+  ws-opts:
+    path: /hls/cctv5phd.m3u8
+    headers:
+      Host: guanwang.awsno.com
+  udp: true
+  delay: 7
+- name: '[9ms] CA【高速节点：https://vip.a3f.xyz】21'
+  type: vmess
+  server: www.shopify.com
+  port: 443
+  uuid: 6a89a215-22bf-4bd7-9642-b95b2e09583a
+  alterId: 0
+  cipher: auto
+  network: ws
+  tls: true
+  servername: guanwang.awsno.com
+  skip-cert-verify: true
+  ws-opts:
+    path: /hls/cctv5phd.m3u8
+    headers:
+      Host: guanwang.awsno.com
+  udp: true
+  delay: 9
+- name: '[143ms] DE【高速节点：https://vip.a3f.xyz】14'
   type: ss
   server: 47.254.128.109
   port: 443
   password: 8yO3ANWefuuGs1lRKXECQA1FEhxlWFV2ppQMcBaZo5Y=
   cipher: 2022-blake3-chacha20-poly1305
-  delay: 135
-- name: '[137ms] US【高速节点：https://vip.a3f.xyz】23'
+  delay: 143
+- name: '[145ms] 节点日期：2026-11-25'
   type: ss
-  server: 47.85.238.210
+  server: 47.254.167.157
+  port: 443
+  password: 8yO3ANWefuuGs1lRKXECQA1FEhxlWFV2ppQMcBaZo5Y=
+  cipher: 2022-blake3-chacha20-poly1305
+  delay: 145
+- name: '[153ms] US【高速节点：https://vip.a3f.xyz】13'
+  type: ss
+  server: 47.85.227.36
   port: 443
   password: 3NBsnBLanPfG6i3S2GTHineswr6EeSJPb0PCeMQoGoA=
   cipher: 2022-blake3-chacha20-poly1305
-  delay: 137
-- name: '[139ms] FR【高速节点：https://vip.a3f.xyz】14'
-  type: vless
-  server: 163.245.42.87
-  port: 443
-  uuid: b9bfa54d-bc44-4592-a6d6-89a9665d286f
-  udp: true
-  tls: true
-  servername: mother-earth.fyi
-  reality-opts:
-    public-key: SbVKOEMjK0sIlbwg4akyBg5mL5KZwwB-ed4eEE7YnRc
-  client-fingerprint: firefox
-  skip-cert-verify: false
-  flow: xtls-rprx-vision
-  encryption: none
-  network: tcp
-  delay: 139
-- name: '[142ms] 美国+V2CROSS.COM'
-  type: vless
-  server: 152.53.1.170
-  port: 443
-  uuid: 4fddfe0e-fddc-4032-b4c8-09c6d811fed0
-  udp: true
-  tls: true
-  servername: node-au.neverlock.uk
-  client-fingerprint: chrome
-  skip-cert-verify: true
-  flow: xtls-rprx-vision
-  encryption: none
-  network: tcp
-  delay: 142
-- name: '[143ms] NG【高速节点：https://vip.a3f.xyz】24'
+  delay: 153
+- name: '[163ms] NG【高速节点：https://vip.a3f.xyz】20'
   type: vless
   server: 196.196.149.80
   port: 443
   uuid: 4201786b-d99b-4147-a5f0-20d47acddb81
   udp: true
   tls: true
-  servername: b3cd32g.es1.h1clayd.click
+  servername: 7aa271t.es1.h1clayd.click
   reality-opts:
-    public-key: 7efBhLzPwoTtEC1GlukCdiTllobUfa2_XuAKNSLJx30
-    short-id: e7cffac9f8cfb434
-  client-fingerprint: firefox
-  skip-cert-verify: false
-  encryption: none
-  network: grpc
-  delay: 143
-- name: '[148ms] IT【高速节点：https://vip.a3f.xyz】1'
-  type: ss
-  server: 202.50.253.27
-  port: 19999
-  password: ZRpgaBeGxtENIXgvhpkZBKz9GnWRS2dYcx9O+a2iwN4=
-  cipher: aes-256-gcm
-  delay: 148
-- name: '[148ms] IT【高速节点：https://vip.a3f.xyz】3'
-  type: ss
-  server: 202.50.253.90
-  port: 19999
-  password: ZRpgaBeGxtENIXgvhpkZBKz9GnWRS2dYcx9O+a2iwN4=
-  cipher: aes-256-gcm
-  delay: 148
-- name: '[148ms] 节点日期：2026-11-24'
-  type: ss
-  server: 202.50.253.18
-  port: 19999
-  password: ZRpgaBeGxtENIXgvhpkZBKz9GnWRS2dYcx9O+a2iwN4=
-  cipher: aes-256-gcm
-  delay: 148
-- name: '[148ms] IT【高速节点：https://vip.a3f.xyz】9'
-  type: ss
-  server: 202.50.253.99
-  port: 19999
-  password: ZRpgaBeGxtENIXgvhpkZBKz9GnWRS2dYcx9O+a2iwN4=
-  cipher: aes-256-gcm
-  delay: 148
-- name: '[148ms] IT【高速节点：https://vip.a3f.xyz】6'
-  type: ss
-  server: 202.50.253.45
-  port: 19999
-  password: ZRpgaBeGxtENIXgvhpkZBKz9GnWRS2dYcx9O+a2iwN4=
-  cipher: aes-256-gcm
-  delay: 148
-- name: '[148ms] IT【高速节点：https://vip.a3f.xyz】5'
-  type: ss
-  server: 202.50.253.72
-  port: 19999
-  password: ZRpgaBeGxtENIXgvhpkZBKz9GnWRS2dYcx9O+a2iwN4=
-  cipher: aes-256-gcm
-  delay: 148
-- name: '[148ms] IT【高速节点：https://vip.a3f.xyz】2'
-  type: ss
-  server: 202.50.253.63
-  port: 19999
-  password: ZRpgaBeGxtENIXgvhpkZBKz9GnWRS2dYcx9O+a2iwN4=
-  cipher: aes-256-gcm
-  delay: 148
-- name: '[148ms] IT【高速节点：https://vip.a3f.xyz】10'
-  type: ss
-  server: 202.50.253.54
-  port: 19999
-  password: ZRpgaBeGxtENIXgvhpkZBKz9GnWRS2dYcx9O+a2iwN4=
-  cipher: aes-256-gcm
-  delay: 148
-- name: '[148ms] IT【高速节点：https://vip.a3f.xyz】11'
-  type: ss
-  server: 202.50.253.81
-  port: 19999
-  password: ZRpgaBeGxtENIXgvhpkZBKz9GnWRS2dYcx9O+a2iwN4=
-  cipher: aes-256-gcm
-  delay: 148
-- name: '[149ms] IT【高速节点：https://vip.a3f.xyz】4'
-  type: ss
-  server: 202.50.253.36
-  port: 19999
-  password: ZRpgaBeGxtENIXgvhpkZBKz9GnWRS2dYcx9O+a2iwN4=
-  cipher: aes-256-gcm
-  delay: 149
-- name: '[149ms] RO【高速节点：https://vip.a3f.xyz】22'
-  type: vless
-  server: 5d0319t.nl7.h1clayd.click
-  port: 443
-  uuid: cda0862a-0f87-4be9-8ed8-1d0c9e382839
-  udp: true
-  tls: true
-  servername: 5d0319t.nl7.h1clayd.click
-  reality-opts:
-    public-key: l-GzBDuNuhnjxoRlZqKvT7jAt_sbVAxhGFsAttO5kXs
-    short-id: 361d0dd59c70516f
+    public-key: ZSmetD4e9QG5CiXhniHg5HJB68L4kwbgAkJmMHtVwEE
+    short-id: 42426c882c5fcd41
   client-fingerprint: chrome
   skip-cert-verify: false
+  flow: xtls-rprx-vision
   encryption: none
   network: tcp
-  delay: 149
-- name: '[151ms] DE【高速节点：https://vip.a3f.xyz】18'
+  delay: 163
+- name: '[167ms] DE【高速节点：https://vip.a3f.xyz】15'
   type: vless
   server: 2.26.251.236
   port: 443
@@ -315,103 +166,82 @@ proxies:
   reality-opts:
     public-key: 1iVMMhJZgXHRY7tRlR-1kypF0YeaBcB7EjcfHRsYZX4
     short-id: 4ff31b18d1bd8227
-  client-fingerprint: chrome
   skip-cert-verify: false
   flow: xtls-rprx-vision
   encryption: none
   network: tcp
-  delay: 151
-- name: '[159ms] DE【高速节点：https://vip.a3f.xyz】31'
-  type: trojan
-  server: sclass-c2.catcat321.com
-  port: 20051
-  password: d9064589-74af-432a-9390-5d8a9da281bf
-  udp: true
-  skip-cert-verify: true
-  sni: hk.catxstar.com
-  delay: 159
-- name: '[172ms] 荷兰+V2CROSS.COM'
-  type: trojan
-  server: 77.93.89.2
-  port: 443
-  password: 57beeeb0-03fc-4fc9-94da-7604488a7134
-  udp: true
-  skip-cert-verify: true
-  sni: bgsg1.hikigo.com
+  delay: 167
+- name: '[171ms] IT【高速节点：https://vip.a3f.xyz】7'
+  type: ss
+  server: 202.50.253.90
+  port: 19999
+  password: ZRpgaBeGxtENIXgvhpkZBKz9GnWRS2dYcx9O+a2iwN4=
+  cipher: aes-256-gcm
+  delay: 171
+- name: '[171ms] IT【高速节点：https://vip.a3f.xyz】10'
+  type: ss
+  server: 202.50.253.54
+  port: 19999
+  password: ZRpgaBeGxtENIXgvhpkZBKz9GnWRS2dYcx9O+a2iwN4=
+  cipher: aes-256-gcm
+  delay: 171
+- name: '[171ms] IT【高速节点：https://vip.a3f.xyz】11'
+  type: ss
+  server: 202.50.253.18
+  port: 19999
+  password: ZRpgaBeGxtENIXgvhpkZBKz9GnWRS2dYcx9O+a2iwN4=
+  cipher: aes-256-gcm
+  delay: 171
+- name: '[171ms] IT【高速节点：https://vip.a3f.xyz】6'
+  type: ss
+  server: 202.50.253.99
+  port: 19999
+  password: ZRpgaBeGxtENIXgvhpkZBKz9GnWRS2dYcx9O+a2iwN4=
+  cipher: aes-256-gcm
+  delay: 171
+- name: '[172ms] IT【高速节点：https://vip.a3f.xyz】3'
+  type: ss
+  server: 202.50.253.36
+  port: 19999
+  password: ZRpgaBeGxtENIXgvhpkZBKz9GnWRS2dYcx9O+a2iwN4=
+  cipher: aes-256-gcm
   delay: 172
-- name: '[176ms] SE【高速节点：https://vip.a3f.xyz】20'
-  type: vless
-  server: 136.148.208.221
-  port: 443
-  uuid: 4201786b-d99b-4147-a5f0-20d47acddb81
-  udp: true
-  tls: true
-  servername: 8a2e72t.nl20.h1clayd.shop
-  reality-opts:
-    public-key: VZS639V1i-35g7VXb9EoTYL-Srm7858sxcvFAunncmA
-    short-id: 8d0d0679f42ffd98
-  client-fingerprint: chrome
-  skip-cert-verify: false
-  flow: xtls-rprx-vision
-  encryption: none
-  network: tcp
+- name: '[172ms] IT【高速节点：https://vip.a3f.xyz】9'
+  type: ss
+  server: 202.50.253.27
+  port: 19999
+  password: ZRpgaBeGxtENIXgvhpkZBKz9GnWRS2dYcx9O+a2iwN4=
+  cipher: aes-256-gcm
+  delay: 172
+- name: '[175ms] IT【高速节点：https://vip.a3f.xyz】5'
+  type: ss
+  server: 202.50.253.63
+  port: 19999
+  password: ZRpgaBeGxtENIXgvhpkZBKz9GnWRS2dYcx9O+a2iwN4=
+  cipher: aes-256-gcm
+  delay: 175
+- name: '[175ms] IT【高速节点：https://vip.a3f.xyz】8'
+  type: ss
+  server: 202.50.253.45
+  port: 19999
+  password: ZRpgaBeGxtENIXgvhpkZBKz9GnWRS2dYcx9O+a2iwN4=
+  cipher: aes-256-gcm
+  delay: 175
+- name: '[176ms] IT【高速节点：https://vip.a3f.xyz】4'
+  type: ss
+  server: 202.50.253.81
+  port: 19999
+  password: ZRpgaBeGxtENIXgvhpkZBKz9GnWRS2dYcx9O+a2iwN4=
+  cipher: aes-256-gcm
   delay: 176
-- name: '[189ms] 英国+伦敦南岸大学'
-  type: hysteria2
-  server: 136.148.83.69
-  port: 443
-  password: 87bb2ac4-b7a1-0001-b11d-2107709ea6cb
-  udp: true
-  sni: szqbx-ru-77dc.my-fade.cloud
-  skip-cert-verify: true
-  delay: 189
-- name: '[190ms] FR【高速节点：https://vip.a3f.xyz】12'
-  type: vless
-  server: 136.148.83.69
-  port: 443
-  uuid: 666821a2-5c3d-0001-a56f-5a3a562d7324
-  udp: true
-  tls: true
-  servername: szqbx-ru-77dc.my-fade.cloud
-  client-fingerprint: qq
-  skip-cert-verify: true
-  encryption: none
-  network: tcp
-  delay: 190
-- name: '[190ms] NE【高速节点：https://vip.a3f.xyz】27'
-  type: vless
-  server: 196.196.148.85
-  port: 443
-  uuid: cda0862a-0f87-4be9-8ed8-1d0c9e382839
-  udp: true
-  tls: true
-  servername: 5d0319t.nl7.h1clayd.click
-  reality-opts:
-    public-key: l-GzBDuNuhnjxoRlZqKvT7jAt_sbVAxhGFsAttO5kXs
-    short-id: 361d0dd59c70516f
-  client-fingerprint: chrome
-  skip-cert-verify: false
-  encryption: none
-  network: tcp
-  delay: 190
-- name: '[190ms] NE【高速节点：https://vip.a3f.xyz】33'
-  type: vless
-  server: 196.196.148.76
-  port: 443
-  uuid: 4201786b-d99b-4147-a5f0-20d47acddb81
-  udp: true
-  tls: true
-  servername: 8a2e72t.nl20.h1clayd.shop
-  reality-opts:
-    public-key: VZS639V1i-35g7VXb9EoTYL-Srm7858sxcvFAunncmA
-    short-id: 8d0d0679f42ffd98
-  client-fingerprint: firefox
-  skip-cert-verify: false
-  flow: xtls-rprx-vision
-  encryption: none
-  network: tcp
-  delay: 190
-- name: '[202ms] TR【高速节点：https://vip.a3f.xyz】19'
+- name: '[176ms] IT【高速节点：https://vip.a3f.xyz】2'
+  type: ss
+  server: 202.50.253.72
+  port: 19999
+  password: ZRpgaBeGxtENIXgvhpkZBKz9GnWRS2dYcx9O+a2iwN4=
+  cipher: aes-256-gcm
+  delay: 176
+- name: '[187ms] TR【高速节点：https://vip.a3f.xyz】25'
   type: vless
   server: 8a2e72t.nl20.h1clayd.shop
   port: 443
@@ -427,8 +257,67 @@ proxies:
   flow: xtls-rprx-vision
   encryption: none
   network: tcp
-  delay: 202
-- name: '[214ms] NE【高速节点：https://vip.a3f.xyz】34'
+  delay: 187
+- name: '[199ms] FR【高速节点：https://vip.a3f.xyz】12'
+  type: vless
+  server: 136.148.83.70
+  port: 443
+  uuid: 00000000-0000-0001-0000-000000000000
+  udp: true
+  tls: true
+  servername: aszbk-ru-78dc.my-fade.cloud
+  client-fingerprint: qq
+  skip-cert-verify: true
+  encryption: none
+  network: tcp
+  delay: 199
+- name: '[200ms] 英国+伦敦南岸大学'
+  type: vless
+  server: 136.148.83.71
+  port: 443
+  uuid: 00000000-0000-0001-0000-000000000000
+  udp: true
+  tls: true
+  servername: wccfu-ru-79dc.my-fade.cloud
+  client-fingerprint: qq
+  skip-cert-verify: true
+  encryption: none
+  network: tcp
+  delay: 200
+- name: '[209ms] NE【高速节点：https://vip.a3f.xyz】17'
+  type: vless
+  server: 196.196.148.85
+  port: 443
+  uuid: cda0862a-0f87-4be9-8ed8-1d0c9e382839
+  udp: true
+  tls: true
+  servername: 5d0319t.nl7.h1clayd.click
+  reality-opts:
+    public-key: l-GzBDuNuhnjxoRlZqKvT7jAt_sbVAxhGFsAttO5kXs
+    short-id: 361d0dd59c70516f
+  client-fingerprint: chrome
+  skip-cert-verify: false
+  encryption: none
+  network: tcp
+  delay: 209
+- name: '[212ms] NE【高速节点：https://vip.a3f.xyz】18'
+  type: vless
+  server: 196.196.148.76
+  port: 443
+  uuid: 4201786b-d99b-4147-a5f0-20d47acddb81
+  udp: true
+  tls: true
+  servername: 8a2e72t.nl20.h1clayd.shop
+  reality-opts:
+    public-key: VZS639V1i-35g7VXb9EoTYL-Srm7858sxcvFAunncmA
+    short-id: 8d0d0679f42ffd98
+  client-fingerprint: firefox
+  skip-cert-verify: false
+  flow: xtls-rprx-vision
+  encryption: none
+  network: tcp
+  delay: 212
+- name: '[229ms] NE【高速节点：https://vip.a3f.xyz】19'
   type: vless
   server: 196.196.148.90
   port: 443
@@ -444,58 +333,25 @@ proxies:
   flow: xtls-rprx-vision
   encryption: none
   network: tcp
-  delay: 214
-- name: '[254ms] TR【高速节点：https://vip.a3f.xyz】25'
+  delay: 229
+- name: '[284ms] 台湾省台北市+中华电信'
   type: vless
-  server: af48d6t.pl10.h1clayd.shop
-  port: 443
-  uuid: d92038b6-b470-4267-9c69-2c649bf3f4a4
+  server: free.fugui.lol
+  port: 47396
+  uuid: ead3595f-4020-4e76-a3ec-c248e1a2f2f7
   udp: true
   tls: true
-  servername: af48d6t.pl10.h1clayd.shop
+  servername: swdist.apple.com
   reality-opts:
-    public-key: yELja29OBDJ2V0qacVXg_5NDN7uNk1YQVMgGKN9Kc2g
-    short-id: f36b61d044905efb
-  client-fingerprint: firefox
+    public-key: IjWYbHNrZb3UCQxsTJyekEOA3tHq42L6Jw3O8MmLYVQ
+    short-id: fa514b83
+  client-fingerprint: chrome
   skip-cert-verify: false
+  flow: xtls-rprx-vision
   encryption: none
   network: tcp
-  delay: 254
-- name: '[257ms] 香港+Amazon数据中心'
-  type: trojan
-  server: sclass-00.catcat321.com
-  port: 20103
-  password: d9064589-74af-432a-9390-5d8a9da281bf
-  udp: true
-  skip-cert-verify: true
-  sni: hk.catxstar.com
-  delay: 257
-- name: '[294ms] HK【高速节点：https://vip.a3f.xyz】26'
-  type: trojan
-  server: sclass-c1.catcat321.com
-  port: 20051
-  password: d9064589-74af-432a-9390-5d8a9da281bf
-  udp: true
-  skip-cert-verify: true
-  sni: hk.catxstar.com
-  delay: 294
-- name: '[362ms] NL【高速节点：https://vip.a3f.xyz】28'
-  type: vless
-  server: 13.141.51.2
-  port: 443
-  uuid: cda0862a-0f87-4be9-8ed8-1d0c9e382839
-  udp: true
-  tls: true
-  servername: 04535dt.us8.h1clayd.click
-  reality-opts:
-    public-key: UoS8qZ74hP_ECcncCz55lzvlcVss3R7VA0WYZE0YQCY
-    short-id: ba2a3dce62b99092
-  client-fingerprint: firefox
-  skip-cert-verify: false
-  encryption: none
-  network: tcp
-  delay: 362
-- name: '[385ms] ES【高速节点：https://vip.a3f.xyz】30'
+  delay: 284
+- name: '[386ms] ES【高速节点：https://vip.a3f.xyz】26'
   type: vless
   server: 196.245.52.187
   port: 443
@@ -510,30 +366,32 @@ proxies:
   skip-cert-verify: false
   encryption: none
   network: tcp
-  delay: 385
-- name: '[1160ms] DE【高速节点：https://vip.a3f.xyz】8'
-  type: ss
-  server: 47.254.167.157
-  port: 443
-  password: 8yO3ANWefuuGs1lRKXECQA1FEhxlWFV2ppQMcBaZo5Y=
-  cipher: 2022-blake3-chacha20-poly1305
-  delay: 1160
-- name: '[1396ms] DE【高速节点：https://vip.a3f.xyz】29'
+  delay: 386
+- name: '[393ms] RO【高速节点：https://vip.a3f.xyz】16'
   type: vless
-  server: 217.69.174.175
+  server: a80b5386.fi2.h1clayd.click
   port: 443
-  uuid: cda0862a-0f87-4be9-8ed8-1d0c9e382839
+  uuid: 2ccb06b6-9eac-44eb-ade7-c1e5afb8e7df
   udp: true
   tls: true
-  servername: 04535dt.us8.h1clayd.click
+  servername: a80b5386.fi2.h1clayd.click
   reality-opts:
-    public-key: UoS8qZ74hP_ECcncCz55lzvlcVss3R7VA0WYZE0YQCY
-    short-id: ba2a3dce62b99092
+    public-key: PslSaSQWP4BZZmkL7irab4FMti8sW6BvoC7ytFjJFyc
+    short-id: cc678f10161992a9
   client-fingerprint: firefox
   skip-cert-verify: false
   encryption: none
   network: tcp
-  delay: 1396
+  delay: 393
+- name: '[1255ms] 美国+得克萨斯州'
+  type: hysteria2
+  server: starlink-ft.251313.xyz
+  port: 443
+  password: 'https://xship.2fa.cat'
+  udp: true
+  sni: xship.top
+  skip-cert-verify: true
+  delay: 1255
 proxy-groups:
 - name: 🚀 选择代理
   type: select
@@ -547,141 +405,108 @@ proxy-groups:
   url: 'https://www.google.com/'
   interval: 300
   proxies:
-  - '[8ms] US【高速节点：https://vip.a3f.xyz】15'
-  - '[8ms] CA【高速节点：https://vip.a3f.xyz】17'
-  - '[9ms] CA【高速节点：https://vip.a3f.xyz】32'
-  - '[9ms] 🇺🇸_US_美国->🇬🇧_GB_英国'
-  - '[29ms] CA【高速节点：https://vip.a3f.xyz】13'
-  - '[34ms] CA【高速节点：https://vip.a3f.xyz】16'
-  - '[130ms] 美国+V2CROSS.COM_1'
-  - '[133ms] US【高速节点：https://vip.a3f.xyz】21'
-  - '[133ms] 俄罗斯+V2CROSS.COM'
-  - '[135ms] DE【高速节点：https://vip.a3f.xyz】7'
-  - '[137ms] US【高速节点：https://vip.a3f.xyz】23'
-  - '[139ms] FR【高速节点：https://vip.a3f.xyz】14'
-  - '[142ms] 美国+V2CROSS.COM'
-  - '[143ms] NG【高速节点：https://vip.a3f.xyz】24'
-  - '[148ms] IT【高速节点：https://vip.a3f.xyz】1'
-  - '[148ms] IT【高速节点：https://vip.a3f.xyz】3'
-  - '[148ms] 节点日期：2026-11-24'
-  - '[148ms] IT【高速节点：https://vip.a3f.xyz】9'
-  - '[148ms] IT【高速节点：https://vip.a3f.xyz】6'
-  - '[148ms] IT【高速节点：https://vip.a3f.xyz】5'
-  - '[148ms] IT【高速节点：https://vip.a3f.xyz】2'
-  - '[148ms] IT【高速节点：https://vip.a3f.xyz】10'
-  - '[148ms] IT【高速节点：https://vip.a3f.xyz】11'
-  - '[149ms] IT【高速节点：https://vip.a3f.xyz】4'
-  - '[149ms] RO【高速节点：https://vip.a3f.xyz】22'
-  - '[151ms] DE【高速节点：https://vip.a3f.xyz】18'
-  - '[159ms] DE【高速节点：https://vip.a3f.xyz】31'
-  - '[172ms] 荷兰+V2CROSS.COM'
-  - '[176ms] SE【高速节点：https://vip.a3f.xyz】20'
-  - '[189ms] 英国+伦敦南岸大学'
-  - '[190ms] FR【高速节点：https://vip.a3f.xyz】12'
-  - '[190ms] NE【高速节点：https://vip.a3f.xyz】27'
-  - '[190ms] NE【高速节点：https://vip.a3f.xyz】33'
-  - '[202ms] TR【高速节点：https://vip.a3f.xyz】19'
-  - '[214ms] NE【高速节点：https://vip.a3f.xyz】34'
-  - '[254ms] TR【高速节点：https://vip.a3f.xyz】25'
-  - '[257ms] 香港+Amazon数据中心'
-  - '[294ms] HK【高速节点：https://vip.a3f.xyz】26'
-  - '[362ms] NL【高速节点：https://vip.a3f.xyz】28'
-  - '[385ms] ES【高速节点：https://vip.a3f.xyz】30'
-  - '[1160ms] DE【高速节点：https://vip.a3f.xyz】8'
-  - '[1396ms] DE【高速节点：https://vip.a3f.xyz】29'
+  - '[6ms] CA【高速节点：https://vip.a3f.xyz】23'
+  - '[6ms] CA【高速节点：https://vip.a3f.xyz】27'
+  - '[6ms] CA【高速节点：https://vip.a3f.xyz】24'
+  - '[6ms] 🇺🇸_US_美国->🇬🇧_GB_英国'
+  - '[7ms] US【高速节点：https://vip.a3f.xyz】22'
+  - '[9ms] CA【高速节点：https://vip.a3f.xyz】21'
+  - '[143ms] DE【高速节点：https://vip.a3f.xyz】14'
+  - '[145ms] 节点日期：2026-11-25'
+  - '[153ms] US【高速节点：https://vip.a3f.xyz】13'
+  - '[163ms] NG【高速节点：https://vip.a3f.xyz】20'
+  - '[167ms] DE【高速节点：https://vip.a3f.xyz】15'
+  - '[171ms] IT【高速节点：https://vip.a3f.xyz】7'
+  - '[171ms] IT【高速节点：https://vip.a3f.xyz】10'
+  - '[171ms] IT【高速节点：https://vip.a3f.xyz】11'
+  - '[171ms] IT【高速节点：https://vip.a3f.xyz】6'
+  - '[172ms] IT【高速节点：https://vip.a3f.xyz】3'
+  - '[172ms] IT【高速节点：https://vip.a3f.xyz】9'
+  - '[175ms] IT【高速节点：https://vip.a3f.xyz】5'
+  - '[175ms] IT【高速节点：https://vip.a3f.xyz】8'
+  - '[176ms] IT【高速节点：https://vip.a3f.xyz】4'
+  - '[176ms] IT【高速节点：https://vip.a3f.xyz】2'
+  - '[187ms] TR【高速节点：https://vip.a3f.xyz】25'
+  - '[199ms] FR【高速节点：https://vip.a3f.xyz】12'
+  - '[200ms] 英国+伦敦南岸大学'
+  - '[209ms] NE【高速节点：https://vip.a3f.xyz】17'
+  - '[212ms] NE【高速节点：https://vip.a3f.xyz】18'
+  - '[229ms] NE【高速节点：https://vip.a3f.xyz】19'
+  - '[284ms] 台湾省台北市+中华电信'
+  - '[386ms] ES【高速节点：https://vip.a3f.xyz】26'
+  - '[393ms] RO【高速节点：https://vip.a3f.xyz】16'
+  - '[1255ms] 美国+得克萨斯州'
 - name: 🔰 延迟最低
   type: url-test
   url: 'https://www.google.com/'
   interval: 300
   tolerance: 20
   proxies:
-  - '[8ms] US【高速节点：https://vip.a3f.xyz】15'
-  - '[8ms] CA【高速节点：https://vip.a3f.xyz】17'
-  - '[9ms] CA【高速节点：https://vip.a3f.xyz】32'
-  - '[9ms] 🇺🇸_US_美国->🇬🇧_GB_英国'
-  - '[29ms] CA【高速节点：https://vip.a3f.xyz】13'
-  - '[34ms] CA【高速节点：https://vip.a3f.xyz】16'
-  - '[130ms] 美国+V2CROSS.COM_1'
-  - '[133ms] US【高速节点：https://vip.a3f.xyz】21'
-  - '[133ms] 俄罗斯+V2CROSS.COM'
-  - '[135ms] DE【高速节点：https://vip.a3f.xyz】7'
-  - '[137ms] US【高速节点：https://vip.a3f.xyz】23'
-  - '[139ms] FR【高速节点：https://vip.a3f.xyz】14'
-  - '[142ms] 美国+V2CROSS.COM'
-  - '[143ms] NG【高速节点：https://vip.a3f.xyz】24'
-  - '[148ms] IT【高速节点：https://vip.a3f.xyz】1'
-  - '[148ms] IT【高速节点：https://vip.a3f.xyz】3'
-  - '[148ms] 节点日期：2026-11-24'
-  - '[148ms] IT【高速节点：https://vip.a3f.xyz】9'
-  - '[148ms] IT【高速节点：https://vip.a3f.xyz】6'
-  - '[148ms] IT【高速节点：https://vip.a3f.xyz】5'
-  - '[148ms] IT【高速节点：https://vip.a3f.xyz】2'
-  - '[148ms] IT【高速节点：https://vip.a3f.xyz】10'
-  - '[148ms] IT【高速节点：https://vip.a3f.xyz】11'
-  - '[149ms] IT【高速节点：https://vip.a3f.xyz】4'
-  - '[149ms] RO【高速节点：https://vip.a3f.xyz】22'
-  - '[151ms] DE【高速节点：https://vip.a3f.xyz】18'
-  - '[159ms] DE【高速节点：https://vip.a3f.xyz】31'
-  - '[172ms] 荷兰+V2CROSS.COM'
-  - '[176ms] SE【高速节点：https://vip.a3f.xyz】20'
-  - '[189ms] 英国+伦敦南岸大学'
-  - '[190ms] FR【高速节点：https://vip.a3f.xyz】12'
-  - '[190ms] NE【高速节点：https://vip.a3f.xyz】27'
-  - '[190ms] NE【高速节点：https://vip.a3f.xyz】33'
-  - '[202ms] TR【高速节点：https://vip.a3f.xyz】19'
-  - '[214ms] NE【高速节点：https://vip.a3f.xyz】34'
-  - '[254ms] TR【高速节点：https://vip.a3f.xyz】25'
-  - '[257ms] 香港+Amazon数据中心'
-  - '[294ms] HK【高速节点：https://vip.a3f.xyz】26'
-  - '[362ms] NL【高速节点：https://vip.a3f.xyz】28'
-  - '[385ms] ES【高速节点：https://vip.a3f.xyz】30'
-  - '[1160ms] DE【高速节点：https://vip.a3f.xyz】8'
-  - '[1396ms] DE【高速节点：https://vip.a3f.xyz】29'
+  - '[6ms] CA【高速节点：https://vip.a3f.xyz】23'
+  - '[6ms] CA【高速节点：https://vip.a3f.xyz】27'
+  - '[6ms] CA【高速节点：https://vip.a3f.xyz】24'
+  - '[6ms] 🇺🇸_US_美国->🇬🇧_GB_英国'
+  - '[7ms] US【高速节点：https://vip.a3f.xyz】22'
+  - '[9ms] CA【高速节点：https://vip.a3f.xyz】21'
+  - '[143ms] DE【高速节点：https://vip.a3f.xyz】14'
+  - '[145ms] 节点日期：2026-11-25'
+  - '[153ms] US【高速节点：https://vip.a3f.xyz】13'
+  - '[163ms] NG【高速节点：https://vip.a3f.xyz】20'
+  - '[167ms] DE【高速节点：https://vip.a3f.xyz】15'
+  - '[171ms] IT【高速节点：https://vip.a3f.xyz】7'
+  - '[171ms] IT【高速节点：https://vip.a3f.xyz】10'
+  - '[171ms] IT【高速节点：https://vip.a3f.xyz】11'
+  - '[171ms] IT【高速节点：https://vip.a3f.xyz】6'
+  - '[172ms] IT【高速节点：https://vip.a3f.xyz】3'
+  - '[172ms] IT【高速节点：https://vip.a3f.xyz】9'
+  - '[175ms] IT【高速节点：https://vip.a3f.xyz】5'
+  - '[175ms] IT【高速节点：https://vip.a3f.xyz】8'
+  - '[176ms] IT【高速节点：https://vip.a3f.xyz】4'
+  - '[176ms] IT【高速节点：https://vip.a3f.xyz】2'
+  - '[187ms] TR【高速节点：https://vip.a3f.xyz】25'
+  - '[199ms] FR【高速节点：https://vip.a3f.xyz】12'
+  - '[200ms] 英国+伦敦南岸大学'
+  - '[209ms] NE【高速节点：https://vip.a3f.xyz】17'
+  - '[212ms] NE【高速节点：https://vip.a3f.xyz】18'
+  - '[229ms] NE【高速节点：https://vip.a3f.xyz】19'
+  - '[284ms] 台湾省台北市+中华电信'
+  - '[386ms] ES【高速节点：https://vip.a3f.xyz】26'
+  - '[393ms] RO【高速节点：https://vip.a3f.xyz】16'
+  - '[1255ms] 美国+得克萨斯州'
 - name: ✅ 手动选择
   type: select
   proxies:
-  - '[8ms] US【高速节点：https://vip.a3f.xyz】15'
-  - '[8ms] CA【高速节点：https://vip.a3f.xyz】17'
-  - '[9ms] CA【高速节点：https://vip.a3f.xyz】32'
-  - '[9ms] 🇺🇸_US_美国->🇬🇧_GB_英国'
-  - '[29ms] CA【高速节点：https://vip.a3f.xyz】13'
-  - '[34ms] CA【高速节点：https://vip.a3f.xyz】16'
-  - '[130ms] 美国+V2CROSS.COM_1'
-  - '[133ms] US【高速节点：https://vip.a3f.xyz】21'
-  - '[133ms] 俄罗斯+V2CROSS.COM'
-  - '[135ms] DE【高速节点：https://vip.a3f.xyz】7'
-  - '[137ms] US【高速节点：https://vip.a3f.xyz】23'
-  - '[139ms] FR【高速节点：https://vip.a3f.xyz】14'
-  - '[142ms] 美国+V2CROSS.COM'
-  - '[143ms] NG【高速节点：https://vip.a3f.xyz】24'
-  - '[148ms] IT【高速节点：https://vip.a3f.xyz】1'
-  - '[148ms] IT【高速节点：https://vip.a3f.xyz】3'
-  - '[148ms] 节点日期：2026-11-24'
-  - '[148ms] IT【高速节点：https://vip.a3f.xyz】9'
-  - '[148ms] IT【高速节点：https://vip.a3f.xyz】6'
-  - '[148ms] IT【高速节点：https://vip.a3f.xyz】5'
-  - '[148ms] IT【高速节点：https://vip.a3f.xyz】2'
-  - '[148ms] IT【高速节点：https://vip.a3f.xyz】10'
-  - '[148ms] IT【高速节点：https://vip.a3f.xyz】11'
-  - '[149ms] IT【高速节点：https://vip.a3f.xyz】4'
-  - '[149ms] RO【高速节点：https://vip.a3f.xyz】22'
-  - '[151ms] DE【高速节点：https://vip.a3f.xyz】18'
-  - '[159ms] DE【高速节点：https://vip.a3f.xyz】31'
-  - '[172ms] 荷兰+V2CROSS.COM'
-  - '[176ms] SE【高速节点：https://vip.a3f.xyz】20'
-  - '[189ms] 英国+伦敦南岸大学'
-  - '[190ms] FR【高速节点：https://vip.a3f.xyz】12'
-  - '[190ms] NE【高速节点：https://vip.a3f.xyz】27'
-  - '[190ms] NE【高速节点：https://vip.a3f.xyz】33'
-  - '[202ms] TR【高速节点：https://vip.a3f.xyz】19'
-  - '[214ms] NE【高速节点：https://vip.a3f.xyz】34'
-  - '[254ms] TR【高速节点：https://vip.a3f.xyz】25'
-  - '[257ms] 香港+Amazon数据中心'
-  - '[294ms] HK【高速节点：https://vip.a3f.xyz】26'
-  - '[362ms] NL【高速节点：https://vip.a3f.xyz】28'
-  - '[385ms] ES【高速节点：https://vip.a3f.xyz】30'
-  - '[1160ms] DE【高速节点：https://vip.a3f.xyz】8'
-  - '[1396ms] DE【高速节点：https://vip.a3f.xyz】29'
+  - '[6ms] CA【高速节点：https://vip.a3f.xyz】23'
+  - '[6ms] CA【高速节点：https://vip.a3f.xyz】27'
+  - '[6ms] CA【高速节点：https://vip.a3f.xyz】24'
+  - '[6ms] 🇺🇸_US_美国->🇬🇧_GB_英国'
+  - '[7ms] US【高速节点：https://vip.a3f.xyz】22'
+  - '[9ms] CA【高速节点：https://vip.a3f.xyz】21'
+  - '[143ms] DE【高速节点：https://vip.a3f.xyz】14'
+  - '[145ms] 节点日期：2026-11-25'
+  - '[153ms] US【高速节点：https://vip.a3f.xyz】13'
+  - '[163ms] NG【高速节点：https://vip.a3f.xyz】20'
+  - '[167ms] DE【高速节点：https://vip.a3f.xyz】15'
+  - '[171ms] IT【高速节点：https://vip.a3f.xyz】7'
+  - '[171ms] IT【高速节点：https://vip.a3f.xyz】10'
+  - '[171ms] IT【高速节点：https://vip.a3f.xyz】11'
+  - '[171ms] IT【高速节点：https://vip.a3f.xyz】6'
+  - '[172ms] IT【高速节点：https://vip.a3f.xyz】3'
+  - '[172ms] IT【高速节点：https://vip.a3f.xyz】9'
+  - '[175ms] IT【高速节点：https://vip.a3f.xyz】5'
+  - '[175ms] IT【高速节点：https://vip.a3f.xyz】8'
+  - '[176ms] IT【高速节点：https://vip.a3f.xyz】4'
+  - '[176ms] IT【高速节点：https://vip.a3f.xyz】2'
+  - '[187ms] TR【高速节点：https://vip.a3f.xyz】25'
+  - '[199ms] FR【高速节点：https://vip.a3f.xyz】12'
+  - '[200ms] 英国+伦敦南岸大学'
+  - '[209ms] NE【高速节点：https://vip.a3f.xyz】17'
+  - '[212ms] NE【高速节点：https://vip.a3f.xyz】18'
+  - '[229ms] NE【高速节点：https://vip.a3f.xyz】19'
+  - '[284ms] 台湾省台北市+中华电信'
+  - '[386ms] ES【高速节点：https://vip.a3f.xyz】26'
+  - '[393ms] RO【高速节点：https://vip.a3f.xyz】16'
+  - '[1255ms] 美国+得克萨斯州'
 - name: 🌐 突破锁区
   type: select
   proxies:
@@ -716,46 +541,35 @@ proxy-groups:
   - 🇬🇧 英国
   - 🇩🇪 德国
   - 🇫🇷 法国
-  - 🇷🇺 俄罗斯
   - 🇨🇦 加拿大
 - name: 🇺🇸 美国
   type: select
   proxies:
-  - '[8ms] US【高速节点：https://vip.a3f.xyz】15'
-  - '[9ms] 🇺🇸_US_美国->🇬🇧_GB_英国'
-  - '[130ms] 美国+V2CROSS.COM_1'
-  - '[133ms] US【高速节点：https://vip.a3f.xyz】21'
-  - '[137ms] US【高速节点：https://vip.a3f.xyz】23'
-  - '[142ms] 美国+V2CROSS.COM'
+  - '[6ms] 🇺🇸_US_美国->🇬🇧_GB_英国'
+  - '[7ms] US【高速节点：https://vip.a3f.xyz】22'
+  - '[153ms] US【高速节点：https://vip.a3f.xyz】13'
+  - '[1255ms] 美国+得克萨斯州'
 - name: 🇬🇧 英国
   type: select
   proxies:
-  - '[9ms] 🇺🇸_US_美国->🇬🇧_GB_英国'
-  - '[189ms] 英国+伦敦南岸大学'
+  - '[6ms] 🇺🇸_US_美国->🇬🇧_GB_英国'
+  - '[200ms] 英国+伦敦南岸大学'
 - name: 🇩🇪 德国
   type: select
   proxies:
-  - '[135ms] DE【高速节点：https://vip.a3f.xyz】7'
-  - '[151ms] DE【高速节点：https://vip.a3f.xyz】18'
-  - '[159ms] DE【高速节点：https://vip.a3f.xyz】31'
-  - '[1160ms] DE【高速节点：https://vip.a3f.xyz】8'
-  - '[1396ms] DE【高速节点：https://vip.a3f.xyz】29'
+  - '[143ms] DE【高速节点：https://vip.a3f.xyz】14'
+  - '[167ms] DE【高速节点：https://vip.a3f.xyz】15'
 - name: 🇫🇷 法国
   type: select
   proxies:
-  - '[139ms] FR【高速节点：https://vip.a3f.xyz】14'
-  - '[190ms] FR【高速节点：https://vip.a3f.xyz】12'
-- name: 🇷🇺 俄罗斯
-  type: select
-  proxies:
-  - '[133ms] 俄罗斯+V2CROSS.COM'
+  - '[199ms] FR【高速节点：https://vip.a3f.xyz】12'
 - name: 🇨🇦 加拿大
   type: select
   proxies:
-  - '[8ms] CA【高速节点：https://vip.a3f.xyz】17'
-  - '[9ms] CA【高速节点：https://vip.a3f.xyz】32'
-  - '[29ms] CA【高速节点：https://vip.a3f.xyz】13'
-  - '[34ms] CA【高速节点：https://vip.a3f.xyz】16'
+  - '[6ms] CA【高速节点：https://vip.a3f.xyz】23'
+  - '[6ms] CA【高速节点：https://vip.a3f.xyz】27'
+  - '[6ms] CA【高速节点：https://vip.a3f.xyz】24'
+  - '[9ms] CA【高速节点：https://vip.a3f.xyz】21'
 rules:
 - 'DOMAIN-SUFFIX,ads.google.com,⛔ 广告拦截'
 - 'DOMAIN-SUFFIX,adservice.google.com,⛔ 广告拦截'
