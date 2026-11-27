@@ -1,4 +1,4 @@
-# Update: 2026-11-26 00:49
+# Update: 2026-11-27 00:55
 allow-lan: false
 dns:
   enable: true
@@ -18,58 +18,21 @@ log-level: warning
 mixed-port: 7890
 mode: rule
 proxies:
-- name: '[1ms] US【高速节点：https://vip.a3f.xyz】32'
-  type: vmess
-  server: 188.114.99.137
-  port: 443
-  uuid: 6a89a215-22bf-4bd7-9642-b95b2e09583a
-  alterId: 0
-  cipher: auto
-  network: ws
-  tls: true
-  servername: guanwang.awsno.com
-  skip-cert-verify: true
-  ws-opts:
-    path: /hls/cctv5phd.m3u8
-    headers:
-      Host: guanwang.awsno.com
-  udp: true
-  delay: 1
-- name: '[1ms] CA【高速节点：https://vip.a3f.xyz】33'
-  type: vmess
-  server: 172.67.190.164
-  port: 443
-  uuid: 6a89a215-22bf-4bd7-9642-b95b2e09583a
-  alterId: 0
-  cipher: auto
-  network: ws
-  tls: true
-  servername: guanwang.awsno.com
-  skip-cert-verify: true
-  ws-opts:
-    path: /hls/cctv5phd.m3u8
-    headers:
-      Host: guanwang.awsno.com
-  udp: true
-  delay: 1
-- name: '[2ms] RU【高速节点：https://vip.a3f.xyz】22'
+- name: '[5ms] 🇸🇬[www.v2nodes.com] vless-SG-2...'
   type: vless
-  server: 178.248.236.229
-  port: 443
-  uuid: a71d6c6d-c95e-4ec1-a892-22e21733bf09
+  server: 104.26.13.31
+  port: 8080
+  uuid: 3e06b1db-2efb-446e-ba2d-68850dfd2f9d
   udp: true
-  tls: true
-  servername: 144.hexdey.com
-  reality-opts:
-    public-key: _3mkK8SY6YVqws73SUVPKL77tzxDVNUt4ag9J9ec-D0
-    short-id: d05a120d3506d2cc
-  client-fingerprint: firefox
-  skip-cert-verify: false
-  flow: xtls-rprx-vision
+  tls: false
   encryption: none
-  network: tcp
-  delay: 2
-- name: '[2ms] CA【高速节点：https://vip.a3f.xyz】35'
+  network: ws
+  ws-opts:
+    path: /
+    headers:
+      Host: bdfba-cool-tree-b580.v8fz4kbv.workers.dev
+  delay: 5
+- name: '[6ms] CA【高速节点：https://vip.a3f.xyz】48'
   type: vmess
   server: 104.18.42.163
   port: 443
@@ -85,8 +48,39 @@ proxies:
     headers:
       Host: guanwang.awsno.com
   udp: true
-  delay: 2
-- name: '[2ms] CA【高速节点：https://vip.a3f.xyz】34'
+  delay: 6
+- name: '[6ms] @DeltaKroneckerGithub_741_IPV4'
+  type: vless
+  server: 172.67.139.189
+  port: 443
+  uuid: 364D2D52-E61E-4E52-80EC-2BC6BDF15349
+  udp: true
+  tls: true
+  servername: fr-free.fastestrelay.com
+  client-fingerprint: chrome
+  skip-cert-verify: true
+  encryption: none
+  network: ws
+  ws-opts:
+    path: /700gvl
+    headers:
+      Host: fr-free.fastestrelay.com
+  delay: 6
+- name: '[6ms] 🇫🇷[www.v2nodes.com] vless-FR-1...'
+  type: vless
+  server: 188.114.99.137
+  port: 80
+  uuid: c762af05-2e92-4133-bc30-8cf45dd40a28
+  udp: true
+  tls: false
+  encryption: none
+  network: ws
+  ws-opts:
+    path: /
+    headers:
+      Host: suh.cryptofront.uk
+  delay: 6
+- name: '[7ms] CA【高速节点：https://vip.a3f.xyz】47'
   type: vmess
   server: 172.64.145.93
   port: 443
@@ -102,8 +96,149 @@ proxies:
     headers:
       Host: guanwang.awsno.com
   udp: true
-  delay: 2
-- name: '[2ms] 🇺🇸_US_美国->🇬🇧_GB_英国'
+  delay: 7
+- name: '[7ms] 🇸🇬[www.v2nodes.com] vless-SG #1'
+  type: vless
+  server: 172.64.145.94
+  port: 443
+  uuid: 5dc15e15-f285-4a9d-959b-0e4fbdd77b63
+  udp: true
+  tls: false
+  encryption: none
+  network: ws
+  ws-opts:
+    path: /fp=chromesecurity=tls
+    headers:
+      Host: powered-by-surena.configfarsi695fd01a94fe7.workers.dev
+  delay: 7
+- name: '[7ms] 🏳[www.v2nodes.com] vless- #2'
+  type: vless
+  server: 172.67.197.170
+  port: 443
+  uuid: 88e79aa6-f431-4453-8dcc-652a0c747198
+  udp: true
+  tls: true
+  servername: o685y.save-node.com
+  skip-cert-verify: true
+  encryption: none
+  network: ws
+  ws-opts:
+    path: /api/se1k2rfxlsuer3ry4u6e84kl8rqp721pfp=chrome
+    headers:
+      Host: o685y.save-node.com
+  delay: 7
+- name: '[7ms] 🏳[www.v2nodes.com] vless- #4'
+  type: vless
+  server: 104.18.37.127
+  port: 443
+  uuid: 4e4f1f70-5e56-4a76-bb9d-db087f4690c4
+  udp: true
+  tls: true
+  servername: jp3.yohototo.top
+  skip-cert-verify: true
+  encryption: none
+  network: ws
+  ws-opts:
+    path: /tyxywsfp=chrome
+    headers:
+      Host: jp3.yohototo.top
+  delay: 7
+- name: '[8ms] CA【高速节点：https://vip.a3f.xyz】46'
+  type: vmess
+  server: 172.67.190.164
+  port: 443
+  uuid: 6a89a215-22bf-4bd7-9642-b95b2e09583a
+  alterId: 0
+  cipher: auto
+  network: ws
+  tls: true
+  servername: guanwang.awsno.com
+  skip-cert-verify: true
+  ws-opts:
+    path: /hls/cctv5phd.m3u8
+    headers:
+      Host: guanwang.awsno.com
+  udp: true
+  delay: 8
+- name: '[8ms] 🇸🇬[www.v2nodes.com] vless-SG-2... #4'
+  type: vless
+  server: 172.64.154.113
+  port: 8443
+  uuid: 53bbdad4-2f4e-45db-8df4-fa491a6a7227
+  udp: true
+  tls: true
+  servername: freeceshi6.frii.site
+  skip-cert-verify: true
+  encryption: none
+  network: ws
+  ws-opts:
+    path: /proxyip=ProxyIP.JP.CMLiussss.netfp=chrome
+    headers:
+      Host: freeceshi6.frii.site
+  delay: 8
+- name: '[8ms] 🇸🇬[www.v2nodes.com] vless-SG #2'
+  type: vless
+  server: 27.50.48.6
+  port: 443
+  uuid: c98a16e4-0dc5-42f0-b3db-30f04525c123
+  udp: true
+  tls: false
+  encryption: none
+  network: ws
+  ws-opts:
+    path: /fp=chromesecurity=tls
+    headers:
+      Host: vless2-8vx.pages.dev
+  delay: 8
+- name: '[8ms] 🇸🇬[www.v2nodes.com] vless-SG-1... #1'
+  type: vless
+  server: 172.64.146.181
+  port: 443
+  uuid: 366449c5-ac1e-4314-8142-27a6b1c8c0fb
+  udp: true
+  tls: true
+  servername: sg2-cdn.rip.lgbt
+  skip-cert-verify: true
+  encryption: none
+  network: ws
+  ws-opts:
+    path: /yn-3ba202c6491cfp=chrome
+    headers:
+      Host: sg2-cdn.rip.lgbt
+  delay: 8
+- name: '[8ms] 🇺🇸[www.v2nodes.com] vless-US-1... #2'
+  type: vless
+  server: 172.66.213.98
+  port: 443
+  uuid: 366449c5-ac1e-4314-8142-27a6b1c8c0fb
+  udp: true
+  tls: true
+  servername: us5-cdn.xyn.lgbt
+  skip-cert-verify: true
+  encryption: none
+  network: ws
+  ws-opts:
+    path: /yn-lax-fb366a66e8526ebc4a311464fp=chrome
+    headers:
+      Host: us5-cdn.xyn.lgbt
+  delay: 8
+- name: '[9ms] 🇮🇳[www.v2nodes.com] vless-IN-1...'
+  type: vless
+  server: 104.25.252.78
+  port: 443
+  uuid: 84d4b268-0a82-4c9d-9517-03ea78e8d505
+  udp: true
+  tls: true
+  servername: 3xui.995677.xyz
+  skip-cert-verify: true
+  encryption: none
+  network: ws
+  ws-opts:
+    path: /vless/84d4b268-0a82-4c9d-9517-03ea78e8d505fp=chrome
+    headers:
+      Host: 3xui.995677.xyz
+  delay: 9
+- name: '[10ms] 🇺🇸_US_美国->🇬🇧_GB_英国'
   type: vless
   server: 104.17.147.22
   port: 8880
@@ -116,8 +251,96 @@ proxies:
     path: '/Parsashonam-Parsashonam-Parsashonam-Parsashonam-Parsashonam-Parsashonam-Parsashonam-Parsashonam-Parsashonam-Parsashonam-Parsashonam-Parsashonam-Parsashonam-Parsashonam-Parsashonam-Parsashonam?ed=2056'
     headers:
       Host: Fi.Parsashonam.CfD.
-  delay: 2
-- name: '[15ms] CA【高速节点：https://vip.a3f.xyz】30'
+  delay: 10
+- name: '[11ms] @DeltaKroneckerGithub_2974_IPV4'
+  type: vmess
+  server: 104.17.77.77
+  port: 8443
+  uuid: 60441548-b68e-43b2-8191-e3b884be4b3c
+  alterId: 0
+  cipher: auto
+  network: ws
+  tls: true
+  servername: v2ray1.dozapp.xyz
+  skip-cert-verify: true
+  ws-opts:
+    path: /lMnsZUN4/
+    headers:
+      Host: v2ray1.dozapp.xyz
+  udp: true
+  delay: 11
+- name: '[11ms] 🇸🇬[www.v2nodes.com] vless-SG-7... #1'
+  type: vless
+  server: 104.18.109.147
+  port: 2052
+  uuid: c29d39bd-92a4-45db-bb61-56013998617c
+  udp: true
+  tls: false
+  encryption: none
+  network: ws
+  ws-opts:
+    path: '/Telegram-XV2ry2?ed=2048'
+    headers:
+      Host: www.speedtest.net.www.1google.com.bing.com.visa.com.tls.xv98.ip-ddns.com
+  delay: 11
+- name: '[12ms] 🇸🇬[www.v2nodes.com] vless-SG-3...'
+  type: vless
+  server: 104.18.35.86
+  port: 2083
+  uuid: a1de0630-5786-48a0-84f6-dc6f2de10d6d
+  udp: true
+  tls: false
+  encryption: none
+  network: ws
+  ws-opts:
+    path: /fp=unsafefp=chromesecurity=tls
+    headers:
+      Host: vlsovip.1d.mom
+  delay: 12
+- name: '[24ms] US【高速节点：https://vip.a3f.xyz】45'
+  type: vmess
+  server: 188.114.99.137
+  port: 443
+  uuid: 6a89a215-22bf-4bd7-9642-b95b2e09583a
+  alterId: 0
+  cipher: auto
+  network: ws
+  tls: true
+  servername: guanwang.awsno.com
+  skip-cert-verify: true
+  ws-opts:
+    path: /hls/cctv5phd.m3u8
+    headers:
+      Host: guanwang.awsno.com
+  udp: true
+  delay: 24
+- name: '[27ms] 🇺🇸 美国 | USA #7'
+  type: trojan
+  server: 66.163.114.106
+  port: 443
+  password: 0ab6c98dae3b48e8b9c4a776b6c9c19a
+  udp: true
+  skip-cert-verify: true
+  sni: www.findconnectwithemployersandbuildprofessionalnetwork.com
+  delay: 27
+- name: '[30ms] RU【高速节点：https://vip.a3f.xyz】19'
+  type: vless
+  server: 178.248.236.229
+  port: 443
+  uuid: a71d6c6d-c95e-4ec1-a892-22e21733bf09
+  udp: true
+  tls: true
+  servername: 144.hexdey.com
+  reality-opts:
+    public-key: _3mkK8SY6YVqws73SUVPKL77tzxDVNUt4ag9J9ec-D0
+    short-id: d05a120d3506d2cc
+  client-fingerprint: firefox
+  skip-cert-verify: false
+  flow: xtls-rprx-vision
+  encryption: none
+  network: tcp
+  delay: 30
+- name: '[30ms] CA【高速节点：https://vip.a3f.xyz】44'
   type: vmess
   server: www.shopify.com
   port: 443
@@ -133,32 +356,1159 @@ proxies:
     headers:
       Host: guanwang.awsno.com
   udp: true
-  delay: 15
-- name: '[93ms] DE【高速节点：https://vip.a3f.xyz】14'
+  delay: 30
+- name: '[30ms] 🇺🇸 美国 | USA #5'
+  type: trojan
+  server: 66.163.114.114
+  port: 443
+  password: 0ab6c98dae3b48e8b9c4a776b6c9c19a
+  udp: true
+  skip-cert-verify: true
+  delay: 30
+- name: '[31ms] 🇺🇸 美国 | USA #10'
+  type: trojan
+  server: 66.163.114.166
+  port: 443
+  password: 0ab6c98dae3b48e8b9c4a776b6c9c19a
+  udp: true
+  skip-cert-verify: true
+  sni: blog.findconnectwithemployersandbuildprofessionalnetwork.com
+  delay: 31
+- name: '[34ms] 🏳[www.v2nodes.com] ss-'
+  type: ss
+  server: 51.79.49.116
+  port: 8882
+  password: kDWvXYZoTBcGkC4
+  cipher: aes-256-gcm
+  delay: 34
+- name: '[34ms] 🇺🇸[www.v2nodes.com] ss-US-1560...'
+  type: ss
+  server: 15.204.233.41
+  port: 8882
+  password: kDWvXYZoTBcGkC4
+  cipher: aes-256-gcm
+  delay: 34
+- name: '[34ms] 🇺🇸US_3|1006KB/s'
+  type: vless
+  server: 3.219.184.102
+  port: 443
+  uuid: a5b1d16b-719b-4bd6-9d7b-fe6d84607da9
+  udp: true
+  tls: true
+  servername: fortuna.masynbazar.ru
+  client-fingerprint: chrome
+  skip-cert-verify: true
+  encryption: none
+  network: tcp
+  delay: 34
+- name: '[35ms] 🇺🇸 美国 | USA 4'
+  type: trojan
+  server: 3x-sub.linzhonghong.com
+  port: 443
+  password: c48qMRRfLJ3kwD4P_XpgfIq6
+  udp: true
+  skip-cert-verify: true
+  network: ws
+  ws-opts:
+    path: /tjbbb7eab89c9a
+  delay: 35
+- name: '[36ms] 🇨🇦[www.v2nodes.com] trojan-CA-... #4'
+  type: trojan
+  server: 216.152.147.74
+  port: 443
+  password: 0ab6c98dae3b48e8b9c4a776b6c9c19a
+  udp: true
+  skip-cert-verify: true
+  delay: 36
+- name: '[37ms] 🇨🇦[www.v2nodes.com] ss-CA-1558...'
+  type: ss
+  server: 51.222.200.165
+  port: 5000
+  password: Y6R9pAtvxxzmGC
+  cipher: aes-256-gcm
+  delay: 37
+- name: '[37ms] 🇨🇦[www.v2nodes.com] trojan-CA-... #5'
+  type: trojan
+  server: 216.152.147.152
+  port: 443
+  password: 0ab6c98dae3b48e8b9c4a776b6c9c19a
+  udp: true
+  skip-cert-verify: true
+  delay: 37
+- name: '[38ms] 🇨🇦[www.v2nodes.com] ss-CA-1557...'
+  type: ss
+  server: 51.222.136.236
+  port: 8882
+  password: kDWvXYZoTBcGkC4
+  cipher: aes-256-gcm
+  delay: 38
+- name: '[38ms] 🏳[www.v2nodes.com] trojan-'
+  type: trojan
+  server: 216.152.147.79
+  port: 443
+  password: 0ab6c98dae3b48e8b9c4a776b6c9c19a
+  udp: true
+  skip-cert-verify: true
+  sni: blog.connectingpeoplewithgreatjobs.com
+  delay: 38
+- name: '[39ms] 🇸🇪 瑞典 | SWE #1'
+  type: vless
+  server: ws.dhafhdtjdti.site
+  port: 2053
+  uuid: 9f749472-c636-4c5a-af51-7f8feefaac81
+  udp: true
+  tls: true
+  servername: ws.dhafhdtjdti.site
+  skip-cert-verify: true
+  encryption: none
+  network: ws
+  ws-opts:
+    path: /fp=chrome
+    headers:
+      Host: ws.dhafhdtjdti.site
+  delay: 39
+- name: '[39ms] 🇨🇦[www.v2nodes.com] ss-CA-1538...'
+  type: ss
+  server: 51.222.12.127
+  port: 445
+  password: zDNVedRFPQexG9v
+  cipher: aes-256-gcm
+  delay: 39
+- name: '[40ms] 🇺🇸[www.v2nodes.com] trojan-US-... #8'
+  type: trojan
+  server: 66.163.122.25
+  port: 443
+  password: 0ab6c98dae3b48e8b9c4a776b6c9c19a
+  udp: true
+  skip-cert-verify: true
+  sni: cdn.searchnationwidecareerchangehelperandguidancetoday.com
+  delay: 40
+- name: '[42ms] 🇳🇴 挪威 | NOR #1'
+  type: vless
+  server: ipfast.kingmna.com
+  port: 443
+  uuid: e3eb1fed-3143-4622-b234-866baadadcae
+  udp: true
+  tls: true
+  servername: cdn.akamai.steamstatic.com
+  client-fingerprint: chrome
+  skip-cert-verify: true
+  encryption: none
+  network: tcp
+  delay: 42
+- name: '[42ms] 🇺🇸 美国 | USA #3'
+  type: ss
+  server: 038b7750485a79a0.lebufflonfermegroup.us
+  port: 40030
+  password: d98d7ec5-24d7-4ed8-8329-728b2c7ad1c5
+  cipher: aes-128-gcm
+  delay: 42
+- name: '[44ms] 🇨🇦[www.v2nodes.com] ss-CA-1559... #1'
+  type: ss
+  server: 51.79.85.185
+  port: 8118
+  password: cdBIDV42DCwnfIN
+  cipher: aes-256-gcm
+  delay: 44
+- name: '[44ms] 美国|@ripaojiedian'
+  type: vless
+  server: 172.233.129.172
+  port: 443
+  uuid: 40a4b915-5e6f-4316-9bb1-e899f30608e3
+  udp: true
+  tls: true
+  servername: itunes.apple.com
+  client-fingerprint: chrome
+  skip-cert-verify: true
+  encryption: none
+  network: ws
+  ws-opts:
+    path: /wsflow=
+    headers:
+      Host: itunes.apple.com
+  delay: 44
+- name: '[45ms] ??[www.v2nodes.com] vless-AT-3...'
+  type: vless
+  server: speedtest.org
+  port: 80
+  uuid: 8dbcaf09-aa30-4367-9d8e-2762e66141d1
+  udp: true
+  tls: false
+  encryption: none
+  network: ws
+  ws-opts:
+    headers:
+      Host: WwW.SpeedTest.Net.WhiteBer.InsisTom.D6625996.V20.SiMansaNaT.Ir.
+  delay: 45
+- name: '[45ms] 🇺🇸[www.v2nodes.com] trojan-US-... #6'
+  type: trojan
+  server: 66.163.112.13
+  port: 443
+  password: 0ab6c98dae3b48e8b9c4a776b6c9c19a
+  udp: true
+  skip-cert-verify: true
+  sni: blog.unlockyourfuturefindyourperfectcareer.com
+  delay: 45
+- name: '[45ms] 🇺🇸 美国 | USA_28'
+  type: vless
+  server: ss.22299999.xyz
+  port: 443
+  uuid: da988d4c-540f-4719-896e-a878812bad69
+  udp: true
+  tls: true
+  servername: ss.22299999.xyz
+  client-fingerprint: android
+  skip-cert-verify: true
+  encryption: none
+  network: xhttp
+  delay: 45
+- name: '[47ms] 🇨🇦[www.v2nodes.com] ss-CA-1546...'
+  type: ss
+  server: 51.222.155.113
+  port: 5601
+  password: Y6R9pAtvxxzmGC
+  cipher: aes-256-gcm
+  delay: 47
+- name: '[47ms] 🇺🇸 美国 | USA #8'
+  type: trojan
+  server: 186.241.106.5
+  port: 443
+  password: qpbw_r_Ykr5EZTGKX3mNZSVTj9liEAL3
+  udp: true
+  skip-cert-verify: true
+  sni: 186.241.106.5
+  delay: 47
+- name: '[48ms] 美国4|@ripaojiedian'
+  type: vless
+  server: 179.255.137.204
+  port: 8443
+  uuid: b69cf773-da16-486e-afce-a45b94f998b3
+  udp: true
+  tls: true
+  servername: senflarelink-node-xfcyh2.pages.dev
+  client-fingerprint: chrome
+  skip-cert-verify: true
+  encryption: none
+  network: ws
+  ws-opts:
+    path: /flow=
+    headers:
+      Host: senflarelink-node-xfcyh2.pages.dev
+  delay: 48
+- name: '[49ms] 🇳🇱[www.v2nodes.com] vless-NL-1...'
+  type: vless
+  server: d1lruvm1fs0rkb.cloudfront.net
+  port: 443
+  uuid: f8b63f3a-d418-499f-9d00-2b33f90199d5
+  udp: true
+  tls: true
+  servername: d1lruvm1fs0rkb.cloudfront.net
+  skip-cert-verify: true
+  encryption: none
+  network: ws
+  ws-opts:
+    path: /fp=chrome
+    headers:
+      Host: d1lruvm1fs0rkb.cloudfront.net
+  delay: 49
+- name: '[49ms] 🇺🇸 美国 | USA #6'
+  type: vmess
+  server: US032020.ssgreen.org
+  port: 443
+  uuid: 25e53ac3-1737-48c0-b92c-10d012af52f5
+  alterId: 0
+  cipher: auto
+  network: ws
+  tls: true
+  servername: US032020.ssgreen.org
+  skip-cert-verify: true
+  ws-opts:
+    path: /wes
+    headers:
+      Host: US032020.ssgreen.org
+  udp: true
+  delay: 49
+- name: '[49ms] 🇺🇸 美国 | USA #9'
+  type: vmess
+  server: US032023.ssgreen.org
+  port: 443
+  uuid: b7b40f6a-c795-48fc-bafe-b632f6ce5888
+  alterId: 0
+  cipher: auto
+  network: ws
+  tls: true
+  servername: US032023.ssgreen.org
+  skip-cert-verify: true
+  ws-opts:
+    path: /wes
+    headers:
+      Host: US032023.ssgreen.org
+  udp: true
+  delay: 49
+- name: '[50ms] 🇨🇦[www.v2nodes.com] ss-CA-1559...'
+  type: ss
+  server: 51.222.141.125
+  port: 445
+  password: zDNVedRFPQexG9v
+  cipher: aes-256-gcm
+  delay: 50
+- name: '[53ms] 🇺🇸[www.v2nodes.com] trojan-US-... #4'
+  type: trojan
+  server: 167.88.61.52
+  port: 443
+  password: 0ab6c98dae3b48e8b9c4a776b6c9c19a
+  udp: true
+  skip-cert-verify: true
+  sni: courses.browseseniorrolesandenhanceyourcareertoday.com
+  delay: 53
+- name: '[54ms] 🇺🇸 美国 | USA_13'
+  type: vless
+  server: sssss.444411111.xyz
+  port: 443
+  uuid: d2f2639b-ff62-4553-abce-d75e231b300c
+  udp: true
+  tls: true
+  servername: sssss.444411111.xyz
+  client-fingerprint: android
+  skip-cert-verify: true
+  encryption: none
+  network: xhttp
+  delay: 54
+- name: '[57ms] 🇺🇸 美国 | USA_20'
+  type: vless
+  server: qqq.99944444.xyz
+  port: 443
+  uuid: d2f2639b-ff62-4553-abce-d75e231b300c
+  udp: true
+  tls: true
+  servername: qqq.99944444.xyz
+  client-fingerprint: android
+  skip-cert-verify: true
+  encryption: none
+  network: xhttp
+  delay: 57
+- name: '[58ms] 🇺🇸 美国 | USA_1'
+  type: vless
+  server: qqqqqqqq.99944444.xyz
+  port: 443
+  uuid: d2f2639b-ff62-4553-abce-d75e231b300c
+  udp: true
+  tls: true
+  servername: qqqqqqqq.99944444.xyz
+  client-fingerprint: android
+  skip-cert-verify: true
+  encryption: none
+  network: xhttp
+  delay: 58
+- name: '[63ms] 🇺🇸 美国 | USA'
+  type: vless
+  server: s.22299999.xyz
+  port: 443
+  uuid: da988d4c-540f-4719-896e-a878812bad69
+  udp: true
+  tls: true
+  servername: s.22299999.xyz
+  client-fingerprint: android
+  skip-cert-verify: true
+  encryption: none
+  network: xhttp
+  delay: 63
+- name: '[63ms] 🇺🇸 美国 | USA_26'
+  type: vless
+  server: qq.99944444.xyz
+  port: 443
+  uuid: d2f2639b-ff62-4553-abce-d75e231b300c
+  udp: true
+  tls: true
+  servername: qq.99944444.xyz
+  client-fingerprint: android
+  skip-cert-verify: true
+  encryption: none
+  network: xhttp
+  delay: 63
+- name: '[66ms] 🇺🇸 美国 | USA_9'
+  type: vless
+  server: ss.444411111.xyz
+  port: 443
+  uuid: d2f2639b-ff62-4553-abce-d75e231b300c
+  udp: true
+  tls: true
+  servername: ss.444411111.xyz
+  client-fingerprint: android
+  skip-cert-verify: true
+  encryption: none
+  network: xhttp
+  delay: 66
+- name: '[70ms] 🇧🇪BE_2|1.4MB/s'
+  type: ss
+  server: belgium.astroapps.io
+  port: 443
+  password: c40d60d1c847e63098058c7524680f349c9042f932d8e79c
+  cipher: chacha20-ietf-poly1305
+  delay: 70
+- name: '[71ms] 🇩🇰DK_1|3.8MB/s'
+  type: ss
+  server: denmark.astroapps.io
+  port: 443
+  password: c917b96e084ea67a0f21031f1284f9ee9e1d837321ce6362
+  cipher: chacha20-ietf-poly1305
+  delay: 71
+- name: '[76ms] 🇭🇰 香港 | HKG #5'
+  type: ss
+  server: 038b7750485a79a0.lebufflonfermegroup.us
+  port: 22061
+  password: d98d7ec5-24d7-4ed8-8329-728b2c7ad1c5
+  cipher: aes-256-gcm
+  delay: 76
+- name: '[77ms] 🇮🇹IT_10|2.8MB/s'
+  type: ss
+  server: italy.astroapps.io
+  port: 443
+  password: 034b5d9404b79a2df62fcb77a49cf748306765448d8b5e93
+  cipher: chacha20-ietf-poly1305
+  delay: 77
+- name: '[92ms] 🇺🇸 美国 | USA_29'
+  type: vless
+  server: rrrrr.r0-4.cc.cd
+  port: 443
+  uuid: da988d4c-540f-4719-896e-a878812bad69
+  udp: true
+  tls: true
+  servername: rrrrr.r0-4.cc.cd
+  client-fingerprint: android
+  skip-cert-verify: true
+  encryption: none
+  network: xhttp
+  delay: 92
+- name: '[100ms] 🇬🇧 英国 | GBR #2'
+  type: vless
+  server: 212.135.38.253
+  port: 443
+  uuid: ed94398f-893f-40c6-b14c-bf02b5f6be16
+  udp: true
+  tls: true
+  servername: navi.bankrate.com
+  client-fingerprint: chrome
+  skip-cert-verify: true
+  encryption: none
+  network: tcp
+  delay: 100
+- name: '[102ms] 🇬🇧[www.v2nodes.com] ss-GB-1602...'
+  type: ss
+  server: 185.176.206.9
+  port: 19999
+  password: ZRpgaBeGxtENIXgvhpkZBKz9GnWRS2dYcx9O+a2iwN4=
+  cipher: aes-256-gcm
+  delay: 102
+- name: '[104ms] 🇺🇸 美国 | USA #2'
+  type: ss
+  server: 038b7750485a79a0.lebufflonfermegroup.us
+  port: 40032
+  password: d98d7ec5-24d7-4ed8-8329-728b2c7ad1c5
+  cipher: aes-128-gcm
+  delay: 104
+- name: '[105ms] 🇳🇱[www.v2nodes.com] vless-NL-1... #4'
+  type: vless
+  server: 51.158.206.29
+  port: 23576
+  uuid: 48ff2b70-e180-582f-8866-d9a2edeed5f5
+  udp: true
+  tls: false
+  encryption: none
+  network: tcp
+  delay: 105
+- name: '[105ms] 🇫🇷[www.v2nodes.com] ss-FR-1615... #1'
+  type: ss
+  server: 167.17.64.27
+  port: 19999
+  password: ZRpgaBeGxtENIXgvhpkZBKz9GnWRS2dYcx9O+a2iwN4=
+  cipher: aes-256-gcm
+  delay: 105
+- name: '[105ms] 🇬🇧[www.v2nodes.com] ss-GB-1615... #1'
+  type: ss
+  server: 38.114.120.221
+  port: 19999
+  password: ZRpgaBeGxtENIXgvhpkZBKz9GnWRS2dYcx9O+a2iwN4=
+  cipher: aes-256-gcm
+  delay: 105
+- name: '[106ms] 🏳[www.v2nodes.com] vless- #6'
+  type: vless
+  server: 51.158.206.19
+  port: 23576
+  uuid: 48ff2b70-e180-582f-8866-d9a2edeed5f5
+  udp: true
+  tls: true
+  servername: fuck.rkn
+  client-fingerprint: chrome
+  skip-cert-verify: true
+  flow: xtls-rprx-vision
+  encryption: none
+  network: tcp
+  delay: 106
+- name: '[106ms] 🇬🇧[www.v2nodes.com] ss-GB-1451...'
+  type: ss
+  server: 158.173.24.73
+  port: 443
+  password: shadowsocks
+  cipher: aes-128-gcm
+  delay: 106
+- name: '[108ms] 🇳🇱[www.v2nodes.com] vless-NL-1... #3'
+  type: vless
+  server: 163.172.213.174
+  port: 80
+  uuid: e73df646-1f62-41bf-8c50-653497d603d0
+  udp: true
+  tls: false
+  encryption: none
+  network: ws
+  ws-opts:
+    path: /vless/
+    headers:
+      Host: SC-TheNetherlands2.09vpn.com
+  delay: 108
+- name: '[109ms] 🇫🇷[www.v2nodes.com] ss-FR-1615... #3'
+  type: ss
+  server: 167.17.64.175
+  port: 19999
+  password: ZRpgaBeGxtENIXgvhpkZBKz9GnWRS2dYcx9O+a2iwN4=
+  cipher: aes-256-gcm
+  delay: 109
+- name: '[109ms] 🇬🇧[www.v2nodes.com] ss-GB-1616...'
+  type: ss
+  server: 198.244.201.129
+  port: 19999
+  password: ZRpgaBeGxtENIXgvhpkZBKz9GnWRS2dYcx9O+a2iwN4=
+  cipher: aes-256-gcm
+  delay: 109
+- name: '[109ms] 🇬🇧[www.v2nodes.com] ss-GB-9184...'
+  type: ss
+  server: 141.98.101.181
+  port: 443
+  password: shadowsocks
+  cipher: aes-128-gcm
+  delay: 109
+- name: '[109ms] 🇳🇱[www.v2nodes.com] ss-NL-1614... #1'
+  type: ss
+  server: 151.241.19.29
+  port: 19999
+  password: ZRpgaBeGxtENIXgvhpkZBKz9GnWRS2dYcx9O+a2iwN4=
+  cipher: aes-256-gcm
+  delay: 109
+- name: '[109ms] 🇭🇰 香港 | HKG #4'
+  type: ss
+  server: 038b7750485a79a0.lebufflonfermegroup.us
+  port: 40012
+  password: d98d7ec5-24d7-4ed8-8329-728b2c7ad1c5
+  cipher: aes-128-gcm
+  delay: 109
+- name: '[110ms] 🇳🇱[www.v2nodes.com] vless-NL-1... #5'
+  type: vless
+  server: 51.158.206.25
+  port: 23576
+  uuid: 48ff2b70-e180-582f-8866-d9a2edeed5f5
+  udp: true
+  tls: true
+  servername: fuck.rkn
+  client-fingerprint: chrome
+  skip-cert-verify: true
+  flow: xtls-rprx-vision
+  encryption: none
+  network: tcp
+  delay: 110
+- name: '[110ms] 🇬🇧[www.v2nodes.com] ss-GB-1616... #1'
+  type: ss
+  server: 198.244.202.215
+  port: 19999
+  password: ZRpgaBeGxtENIXgvhpkZBKz9GnWRS2dYcx9O+a2iwN4=
+  cipher: aes-256-gcm
+  delay: 110
+- name: '[110ms] 🇳🇱 荷兰 | NLD 2'
+  type: vless
+  server: 51.194.118.38
+  port: 443
+  uuid: 7ff1e7e1-2b5a-4e53-ae77-1516f9eb7754
+  udp: true
+  tls: true
+  servername: a1259.ve8nzuk.com
+  client-fingerprint: chrome
+  skip-cert-verify: true
+  encryption: none
+  network: grpc
+  grpc-opts:
+    grpc-service-name: 50a5f706c8ea4433838a207d435fbf031b008a9a
+  delay: 110
+- name: '[111ms] @confiig_hub #1'
+  type: hysteria2
+  server: 130.49.161.70
+  port: 443
+  password: p7Q76LzlnS4hIzr1W3staBOnUe_WwSkR
+  udp: true
+  sni: hy2.aspidnet.xyz
+  obfs: salamander
+  obfs-password: rG07s3COMIEvdnQipRyWzx_H_2xygNC3
+  skip-cert-verify: true
+  delay: 111
+- name: '[111ms] 🇺🇸[www.v2nodes.com] vless-US-1... #1'
+  type: vless
+  server: xray-b8ct4r2f-sahdon-hosaindoost.cloady.io
+  port: 443
+  uuid: 1fd2e2d1-96f5-2056-19fd-b375b1a9d851
+  udp: true
+  tls: true
+  servername: xray-b8ct4r2f-sahdon-hosaindoost.cloady.io
+  skip-cert-verify: true
+  encryption: none
+  network: ws
+  ws-opts:
+    path: /ffad70ffdfc3bcdafp=chrome
+    headers:
+      Host: xray-b8ct4r2f-sahdon-hosaindoost.cloady.io
+  delay: 111
+- name: '[111ms] 🇬🇧[www.v2nodes.com] ss-GB-1247...'
+  type: ss
+  server: 94.156.250.148
+  port: 7001
+  password: RexnBgU7EV5ADxG
+  cipher: aes-256-gcm
+  delay: 111
+- name: '[112ms] 🇫🇷[www.v2nodes.com] vless-FR-1... #1'
+  type: vless
+  server: 54.36.102.152
+  port: 2083
+  uuid: 51a6ab93-e805-4b8b-89d1-d3ab85a118ce
+  udp: true
+  tls: false
+  encryption: none
+  network: ws
+  ws-opts:
+    path: /vless-kulo
+  delay: 112
+- name: '[112ms] 🇳🇱[www.v2nodes.com] ss-NL-1618...'
+  type: ss
+  server: 156.67.120.205
+  port: 51628
+  password: 29ZZXVa34x7sC48w9FKQ54UKHiJJGTVgKFppBRgviLrVCAYVVyKZdD3obbpjCyk31V5b2G2d7xzqmaPBFdcheCVB9UQ4ZghF
+  cipher: chacha20-ietf-poly1305
+  delay: 112
+- name: '[112ms] 🇹🇼 🇨🇳 台湾 | TWN'
+  type: trojan
+  server: sclass-c2.catcat321.com
+  port: 20200
+  password: 40a8a71b-91d3-4b63-9907-5e12ad2259c1
+  udp: true
+  skip-cert-verify: true
+  sni: hk.catxstar.com
+  delay: 112
+- name: '[113ms] 🇳🇱[www.v2nodes.com] ss-NL-1614...'
+  type: ss
+  server: 151.241.19.36
+  port: 19999
+  password: ZRpgaBeGxtENIXgvhpkZBKz9GnWRS2dYcx9O+a2iwN4=
+  cipher: aes-256-gcm
+  delay: 113
+- name: '[114ms] DE【高速节点：https://vip.a3f.xyz】9'
   type: ss
   server: 47.254.167.157
   port: 443
   password: 8yO3ANWefuuGs1lRKXECQA1FEhxlWFV2ppQMcBaZo5Y=
   cipher: 2022-blake3-chacha20-poly1305
-  delay: 93
-- name: '[94ms] LY【高速节点：https://vip.a3f.xyz】4'
+  delay: 114
+- name: '[114ms] 🇬🇧[www.v2nodes.com] ss-GB-1615...'
+  type: ss
+  server: 142.202.51.22
+  port: 19999
+  password: ZRpgaBeGxtENIXgvhpkZBKz9GnWRS2dYcx9O+a2iwN4=
+  cipher: aes-256-gcm
+  delay: 114
+- name: '[114ms] 🇪🇸[www.v2nodes.com] trojan-ES-... #5'
+  type: trojan
+  server: 66.163.118.203
+  port: 443
+  password: 0ab6c98dae3b48e8b9c4a776b6c9c19a
+  udp: true
+  skip-cert-verify: true
+  delay: 114
+- name: '[115ms] 🇩🇪[www.v2nodes.com] ss-DE-1592...'
+  type: ss
+  server: 57.129.113.16
+  port: 8388
+  password: NcAXc0UZI6yQJE1p8QmOv8
+  cipher: chacha20-ietf-poly1305
+  delay: 115
+- name: '[115ms] 🇺🇸 美国 | USA 12'
   type: vless
-  server: 196.199.122.2
+  server: 162.35.101.177
+  port: 443
+  uuid: cda0862a-0f87-4be9-8ed8-1d0c9e382839
+  udp: true
+  tls: true
+  servername: 0592efg.us8.h1clayd.click
+  client-fingerprint: edge
+  skip-cert-verify: true
+  encryption: none
+  network: grpc
+  grpc-opts:
+    grpc-service-name: 99f2107b03f8
+  delay: 115
+- name: '[115ms] 🇺🇸 美国 | USA_21'
+  type: vless
+  server: bb.1111-08.ccwu.cc
+  port: 443
+  uuid: ec613575-5972-41c9-a50f-9577bcd96ce3
+  udp: true
+  tls: true
+  servername: bb.1111-08.ccwu.cc
+  client-fingerprint: android
+  skip-cert-verify: true
+  encryption: none
+  network: xhttp
+  delay: 115
+- name: '[116ms] 🇳🇱[www.v2nodes.com] trojan-NL-... #2'
+  type: trojan
+  server: 66.163.127.215
+  port: 443
+  password: 0ab6c98dae3b48e8b9c4a776b6c9c19a
+  udp: true
+  skip-cert-verify: true
+  delay: 116
+- name: '[116ms] 🇳🇱 荷兰 | NLD'
+  type: vless
+  server: 13.141.37.245
+  port: 443
+  uuid: cda0862a-0f87-4be9-8ed8-1d0c9e382839
+  udp: true
+  tls: true
+  servername: 717252g.nl8.h1clayd.click
+  reality-opts:
+    public-key: PD8Jdlg3xB9QY--jwQjp8PFPzCS8-Oryw6-HWBcHMFU
+    short-id: d3bd772514c87d28
+  client-fingerprint: chrome
+  skip-cert-verify: false
+  encryption: none
+  network: grpc
+  delay: 116
+- name: '[117ms] 🇳🇱[www.v2nodes.com] trojan-NL-... #5'
+  type: trojan
+  server: 66.163.127.225
+  port: 443
+  password: 0ab6c98dae3b48e8b9c4a776b6c9c19a
+  udp: true
+  skip-cert-verify: true
+  sni: cdn.indyourperfectremotetechjobfromthecomfortofhome.com
+  delay: 117
+- name: '[119ms] 🇬🇧[www.v2nodes.com] ss-GB-8004...'
+  type: ss
+  server: 141.98.101.178
+  port: 443
+  password: shadowsocks
+  cipher: aes-128-gcm
+  delay: 119
+- name: '[119ms] 🇳🇱[www.v2nodes.com] ss-NL-1452... #1'
+  type: ss
+  server: 82.38.31.207
+  port: 8080
+  password: k1dBOmOB4oqi7Ump37a1bQ
+  cipher: chacha20-ietf-poly1305
+  delay: 119
+- name: '[121ms] 🇳🇱[www.v2nodes.com] ss-NL-1564...'
+  type: ss
+  server: 82.38.31.46
+  port: 8080
+  password: oZIoA69Q8yhcQV8ka3Pa3A
+  cipher: chacha20-ietf-poly1305
+  delay: 121
+- name: '[121ms] 🇳🇴[www.v2nodes.com] ss-NO-1220...'
+  type: ss
+  server: 185.213.23.63
+  port: 990
+  password: ARgvGZywA+gacgGV26Bvmu05+wZmRW/j+AdU+Z8Bt44=
+  cipher: chacha20-ietf-poly1305
+  delay: 121
+- name: '[121ms] 🇪🇸[www.v2nodes.com] trojan-ES-...'
+  type: trojan
+  server: 66.163.118.244
+  port: 443
+  password: 0ab6c98dae3b48e8b9c4a776b6c9c19a
+  udp: true
+  skip-cert-verify: true
+  delay: 121
+- name: '[122ms] DE【高速节点：https://vip.a3f.xyz】10'
+  type: ss
+  server: 47.254.128.109
+  port: 443
+  password: 8yO3ANWefuuGs1lRKXECQA1FEhxlWFV2ppQMcBaZo5Y=
+  cipher: 2022-blake3-chacha20-poly1305
+  delay: 122
+- name: '[122ms] 🇫🇷[www.v2nodes.com] ss-FR-1615... #4'
+  type: ss
+  server: 167.17.64.22
+  port: 19999
+  password: ZRpgaBeGxtENIXgvhpkZBKz9GnWRS2dYcx9O+a2iwN4=
+  cipher: aes-256-gcm
+  delay: 122
+- name: '[123ms] RO【高速节点：https://vip.a3f.xyz】31'
+  type: vless
+  server: 13.141.36.63
   port: 443
   uuid: 4201786b-d99b-4147-a5f0-20d47acddb81
   udp: true
   tls: true
-  servername: 7aa271t.es1.h1clayd.click
+  servername: 4935e4t.de25.h1clayd.click
   reality-opts:
-    public-key: ZSmetD4e9QG5CiXhniHg5HJB68L4kwbgAkJmMHtVwEE
-    short-id: 42426c882c5fcd41
+    public-key: MzgB17ZFbKqs8pbC3EscTzHid_ENc-k_Cp6nXl-2knw
+    short-id: 6976d670818644cc
+  client-fingerprint: firefox
+  skip-cert-verify: false
+  flow: xtls-rprx-vision
+  encryption: none
+  network: tcp
+  delay: 123
+- name: '[123ms] 🇫🇷[www.v2nodes.com] vless-FR-1... #3'
+  type: vless
+  server: 62.210.91.2
+  port: 23576
+  uuid: 48ff2b70-e180-582f-8866-d9a2edeed5f5
+  udp: true
+  tls: false
+  encryption: none
+  network: tcp
+  delay: 123
+- name: '[123ms] 🇫🇷[www.v2nodes.com] ss-FR-1616...'
+  type: ss
+  server: 23.162.152.22
+  port: 19999
+  password: ZRpgaBeGxtENIXgvhpkZBKz9GnWRS2dYcx9O+a2iwN4=
+  cipher: aes-256-gcm
+  delay: 123
+- name: '[123ms] 🇫🇷[www.v2nodes.com] ss-FR-1615...'
+  type: ss
+  server: 38.109.228.110
+  port: 19999
+  password: ZRpgaBeGxtENIXgvhpkZBKz9GnWRS2dYcx9O+a2iwN4=
+  cipher: aes-256-gcm
+  delay: 123
+- name: '[123ms] 🇳🇱[www.v2nodes.com] ss-NL-1452...'
+  type: ss
+  server: 82.38.31.216
+  port: 8080
+  password: k1dBOmOB4oqi7Ump37a1bQ
+  cipher: chacha20-ietf-poly1305
+  delay: 123
+- name: '[123ms] 🇨🇭[www.v2nodes.com] trojan-CH-... #4'
+  type: trojan
+  server: 208.69.78.33
+  port: 443
+  password: 0ab6c98dae3b48e8b9c4a776b6c9c19a
+  udp: true
+  skip-cert-verify: true
+  sni: courses.yourultimateprofessionalcareerhub.com
+  delay: 123
+- name: '[123ms] 🇺🇸 美国 | USA #1'
+  type: ss
+  server: 038b7750485a79a0.lebufflonfermegroup.us
+  port: 40031
+  password: d98d7ec5-24d7-4ed8-8329-728b2c7ad1c5
+  cipher: aes-128-gcm
+  delay: 123
+- name: '[124ms] DE【高速节点：https://vip.a3f.xyz】23'
+  type: vless
+  server: 2.26.251.236
+  port: 443
+  uuid: c16e8cdb-65dd-4049-bc65-14c051b8a6c6
+  udp: true
+  tls: true
+  servername: mental-deprivation.ru
+  reality-opts:
+    public-key: 1iVMMhJZgXHRY7tRlR-1kypF0YeaBcB7EjcfHRsYZX4
+    short-id: 4ff31b18d1bd8227
+  client-fingerprint: firefox
+  skip-cert-verify: false
+  flow: xtls-rprx-vision
+  encryption: none
+  network: tcp
+  delay: 124
+- name: '[124ms] 🇩🇪[www.v2nodes.com] vless-DE-1... #1'
+  type: vless
+  server: 146.103.43.70
+  port: 9543
+  uuid: 920b3cd9-4f82-4669-bbd2-d4a28b9052c6
+  udp: true
+  tls: false
+  encryption: none
+  network: tcp
+  delay: 124
+- name: '[124ms] 🇩🇪[www.v2nodes.com] vless-DE-1... #4'
+  type: vless
+  server: 109.248.17.252
+  port: 443
+  uuid: 9000a7f3-df2a-49a8-ae56-3e7777bd32f7
+  udp: true
+  tls: true
+  servername: v4.clequinix.globalinetforallalwaysandneverbanyoubelieveme.com
+  client-fingerprint: firefox
+  skip-cert-verify: true
+  encryption: none
+  network: grpc
+  grpc-opts:
+    grpc-service-name: v4-clequinix-globalinetforallalwaysandneverbanyoubelieveme-com
+  delay: 124
+- name: '[125ms] 美国+Nokia'
+  type: hysteria2
+  server: starlink-ft.251313.xyz
+  port: 443
+  password: 'https://xship.2fa.cat'
+  udp: true
+  sni: xship.top
+  skip-cert-verify: true
+  delay: 125
+- name: '[125ms] Telegram@vpnjey #1'
+  type: hysteria2
+  server: 179.61.138.145
+  port: 443
+  password: Telegram
+  udp: true
+  sni: de2.jey.cc.cd
+  obfs: salamander
+  obfs-password: 'Telegram@vpnjey'
+  skip-cert-verify: true
+  delay: 125
+- name: '[125ms] 🇩🇪[www.v2nodes.com] vless-DE-1... #5'
+  type: vless
+  server: 185.125.50.21
+  port: 2053
+  uuid: fbe22815-0718-4eae-816f-e91c67d15b54
+  udp: true
+  tls: true
+  servername: 185.125.50.21
+  client-fingerprint: firefox
+  skip-cert-verify: true
+  flow: xtls-rprx-vision
+  encryption: none
+  network: tcp
+  delay: 125
+- name: '[125ms] 🇫🇷[www.v2nodes.com] ss-FR-1615... #2'
+  type: ss
+  server: 172.99.189.142
+  port: 19999
+  password: ZRpgaBeGxtENIXgvhpkZBKz9GnWRS2dYcx9O+a2iwN4=
+  cipher: aes-256-gcm
+  delay: 125
+- name: '[126ms] IT【高速节点：https://vip.a3f.xyz】8'
+  type: ss
+  server: 202.50.253.18
+  port: 19999
+  password: ZRpgaBeGxtENIXgvhpkZBKz9GnWRS2dYcx9O+a2iwN4=
+  cipher: aes-256-gcm
+  delay: 126
+- name: '[126ms] DE【高速节点：https://vip.a3f.xyz】12'
+  type: vless
+  server: 185.134.203.106
+  port: 443
+  uuid: 3af3f8f0-569f-4dd3-be99-2ef4bfe7867c
+  udp: true
+  tls: true
+  servername: api.vk.me
+  reality-opts:
+    public-key: fNfokzklCF4l_c8k8PciOCjm5ecNoF_sNLjEtaO-xzI
+    short-id: db04ce8bdb8900f1
   client-fingerprint: chrome
   skip-cert-verify: false
   flow: xtls-rprx-vision
   encryption: none
   network: tcp
-  delay: 94
-- name: '[95ms] NG【高速节点：https://vip.a3f.xyz】23'
+  delay: 126
+- name: '[126ms] 🇨🇭[www.v2nodes.com] ss-CH-1615... #1'
+  type: ss
+  server: 79.127.184.104
+  port: 19999
+  password: ZRpgaBeGxtENIXgvhpkZBKz9GnWRS2dYcx9O+a2iwN4=
+  cipher: aes-256-gcm
+  delay: 126
+- name: '[126ms] 🇺🇸[www.v2nodes.com] ss-US-1620...'
+  type: ss
+  server: 23.230.52.119
+  port: 42878
+  password: ijoUwfdnkz7mX4pWdkSpmEixTZCt2TRm1JDr4BSaBAWkLxYGoXBHXadFKY5D5ZfoVTwqsx46jCmEUDnQUizJDYrM7B5anhnu
+  cipher: chacha20-ietf-poly1305
+  delay: 126
+- name: '[126ms] 德国|@ripaojiedian'
+  type: vless
+  server: 178.104.77.229
+  port: 8443
+  uuid: b69cf773-da16-486e-afce-a45b94f998b3
+  udp: true
+  tls: true
+  servername: senflarelink-node-m3bfbn.pages.dev
+  client-fingerprint: chrome
+  skip-cert-verify: true
+  encryption: none
+  network: ws
+  ws-opts:
+    path: /flow=
+    headers:
+      Host: senflarelink-node-m3bfbn.pages.dev
+  delay: 126
+- name: '[127ms] 🇸🇪[www.v2nodes.com] vless-SE-1... #3'
+  type: vless
+  server: 5.178.109.174
+  port: 14430
+  uuid: 80de563a-cac8-40ea-8cb0-4cb082dd92f9
+  udp: true
+  tls: false
+  encryption: none
+  network: ws
+  ws-opts:
+    path: /vless
+    headers:
+      Host: 5.178.109.174
+  delay: 127
+- name: '[127ms] 🇦🇹[www.v2nodes.com] ss-AT-1595...'
+  type: ss
+  server: 82.110.60.9
+  port: 19999
+  password: ZRpgaBeGxtENIXgvhpkZBKz9GnWRS2dYcx9O+a2iwN4=
+  cipher: aes-256-gcm
+  delay: 127
+- name: '[127ms] 🇩🇪 德国 | DEU_3'
+  type: ss
+  server: 8.211.56.98
+  port: 443
+  password: 8yO3ANWefuuGs1lRKXECQA1FEhxlWFV2ppQMcBaZo5Y=
+  cipher: 2022-blake3-chacha20-poly1305
+  delay: 127
+- name: '[128ms] 🇦🇹[www.v2nodes.com] vless-AT-1...'
+  type: vless
+  server: 152.53.1.170
+  port: 443
+  uuid: 4fddfe0e-fddc-4032-b4c8-09c6d811fed0
+  udp: true
+  tls: true
+  servername: node-au.neverlock.uk
+  client-fingerprint: chrome
+  skip-cert-verify: true
+  flow: xtls-rprx-vision
+  encryption: none
+  network: tcp
+  delay: 128
+- name: '[128ms] 🇳🇱[www.v2nodes.com] ss-NL-1452... #2'
+  type: ss
+  server: 193.29.139.198
+  port: 8080
+  password: k1dBOmOB4oqi7Ump37a1bQ
+  cipher: chacha20-ietf-poly1305
+  delay: 128
+- name: '[128ms] 德国2|@ripaojiedian'
+  type: vless
+  server: 49.13.31.189
+  port: 8443
+  uuid: b69cf773-da16-486e-afce-a45b94f998b3
+  udp: true
+  tls: true
+  servername: senflarelink-node-c43.pages.dev
+  client-fingerprint: chrome
+  skip-cert-verify: true
+  encryption: none
+  network: ws
+  ws-opts:
+    path: /flow=
+    headers:
+      Host: senflarelink-node-c43.pages.dev
+  delay: 128
+- name: '[129ms] US【高速节点：https://vip.a3f.xyz】22'
+  type: vless
+  server: 170.168.32.125
+  port: 443
+  uuid: 148917bd-0b37-42b8-98f4-aa94ca73e75a
+  udp: true
+  tls: true
+  servername: travel.yandex.ru
+  reality-opts:
+    public-key: tp7awfnKLbhIDkdYlT7Avf-SfUwt7ncX5oyWS5wQmR0
+    short-id: 6d
+  skip-cert-verify: false
+  flow: xtls-rprx-vision
+  encryption: none
+  network: tcp
+  delay: 129
+- name: '[129ms] 🇵🇱[www.v2nodes.com] vless-PL-1...'
+  type: vless
+  server: 94.183.167.172
+  port: 443
+  uuid: d7121b33-e335-4921-bb00-4c0b157e7fc1
+  udp: true
+  tls: true
+  servername: s8k4.scan-cdn.com
+  client-fingerprint: chrome
+  skip-cert-verify: true
+  encryption: none
+  network: tcp
+  delay: 129
+- name: '[129ms] 🇪🇸[www.v2nodes.com] ss-ES-1615...'
+  type: ss
+  server: 79.127.139.242
+  port: 19999
+  password: ZRpgaBeGxtENIXgvhpkZBKz9GnWRS2dYcx9O+a2iwN4=
+  cipher: aes-256-gcm
+  delay: 129
+- name: '[129ms] 🇳🇱[www.v2nodes.com] ss-NL-1510...'
+  type: ss
+  server: 82.38.31.162
+  port: 443
+  password: oZIoA69Q8yhcQV8ka3Pa3A
+  cipher: chacha20-ietf-poly1305
+  delay: 129
+- name: '[129ms] 🏳[www.v2nodes.com] trojan- #2'
+  type: trojan
+  server: 193.108.119.78
+  port: 443
+  password: 0ab6c98dae3b48e8b9c4a776b6c9c19a
+  udp: true
+  skip-cert-verify: true
+  delay: 129
+- name: '[130ms] 🇮🇹[www.v2nodes.com] ss-IT-1597...'
+  type: ss
+  server: 185.164.175.81
+  port: 19999
+  password: ZRpgaBeGxtENIXgvhpkZBKz9GnWRS2dYcx9O+a2iwN4=
+  cipher: aes-256-gcm
+  delay: 130
+- name: '[130ms] 🇩🇪DE_8|4.4MB/s'
+  type: vmess
+  server: 94.130.237.57
+  port: 27154
+  uuid: d9d02f3e-c877-4a1f-990e-f2418777f745
+  alterId: 0
+  cipher: auto
+  network: ws
+  tls: false
+  ws-opts:
+    path: '/Telegram=@AmyraxVPN'
+    headers:
+      Host: 94.130.237.57
+  udp: true
+  delay: 130
+- name: '[131ms] 🇺🇸[www.v2nodes.com] vless-US-1... #3'
+  type: vless
+  server: 46.29.255.123
+  port: 59539
+  uuid: 30572b57-f5ab-4eb8-82d4-a24d399b99f6
+  udp: true
+  tls: true
+  servername: cloudflare-dns.com
+  client-fingerprint: firefox
+  skip-cert-verify: true
+  flow: xtls-rprx-vision
+  encryption: none
+  network: tcp
+  delay: 131
+- name: '[132ms] IT【高速节点：https://vip.a3f.xyz】5'
+  type: ss
+  server: 202.50.253.81
+  port: 19999
+  password: ZRpgaBeGxtENIXgvhpkZBKz9GnWRS2dYcx9O+a2iwN4=
+  cipher: aes-256-gcm
+  delay: 132
+- name: '[132ms] 西班牙+V2CROSS.COM'
   type: vless
   server: 196.196.149.80
   port: 443
@@ -174,102 +1524,665 @@ proxies:
   flow: xtls-rprx-vision
   encryption: none
   network: tcp
-  delay: 95
-- name: '[96ms] DE【高速节点：https://vip.a3f.xyz】7'
+  delay: 132
+- name: '[132ms] 🇩🇪[www.v2nodes.com] vless-DE-1... #8'
   type: vless
-  server: 2.26.251.236
+  server: 82.118.19.153
   port: 443
-  uuid: c16e8cdb-65dd-4049-bc65-14c051b8a6c6
+  uuid: adcaa148-7c66-4282-a81a-99ec8afa029d
   udp: true
   tls: true
-  servername: mental-deprivation.ru
-  reality-opts:
-    public-key: 1iVMMhJZgXHRY7tRlR-1kypF0YeaBcB7EjcfHRsYZX4
-    short-id: 4ff31b18d1bd8227
+  servername: www.cloudflare.com
   client-fingerprint: chrome
-  skip-cert-verify: false
+  skip-cert-verify: true
   flow: xtls-rprx-vision
   encryption: none
   network: tcp
-  delay: 96
-- name: '[97ms] DE【高速节点：https://vip.a3f.xyz】20'
+  delay: 132
+- name: '[132ms] 🇸🇪[www.v2nodes.com] vless-SE-1... #2'
+  type: vless
+  server: 138.124.86.230
+  port: 48115
+  uuid: b2fe1fa4-6a79-4938-a3f4-63b54ae7f16b
+  udp: true
+  tls: true
+  servername: 138-124-86-230.sslip.io
+  client-fingerprint: firefox
+  skip-cert-verify: true
+  encryption: none
+  network: grpc
+  grpc-opts:
+    grpc-service-name: 138-124-86-230-sslip-io
+  delay: 132
+- name: '[132ms] 🇸🇪[www.v2nodes.com] ss-SE-1615...'
   type: ss
-  server: 47.254.128.109
+  server: 138.199.55.243
+  port: 19999
+  password: ZRpgaBeGxtENIXgvhpkZBKz9GnWRS2dYcx9O+a2iwN4=
+  cipher: aes-256-gcm
+  delay: 132
+- name: '[133ms] 🇨🇿[www.v2nodes.com] vless-CZ-1...'
+  type: vless
+  server: 94.183.234.245
   port: 443
-  password: 8yO3ANWefuuGs1lRKXECQA1FEhxlWFV2ppQMcBaZo5Y=
-  cipher: 2022-blake3-chacha20-poly1305
-  delay: 97
-- name: '[99ms] IT【高速节点：https://vip.a3f.xyz】19'
+  uuid: 5de0c218-0138-45d8-94d2-c2c3f37a1a6d
+  udp: true
+  tls: true
+  servername: www.bing.com
+  client-fingerprint: qq
+  skip-cert-verify: true
+  flow: xtls-rprx-vision
+  encryption: none
+  network: tcp
+  delay: 133
+- name: '[133ms] 🇩🇪[www.v2nodes.com] ss-DE-1616...'
   type: ss
-  server: 202.50.253.54
+  server: 57.129.83.85
   port: 19999
   password: ZRpgaBeGxtENIXgvhpkZBKz9GnWRS2dYcx9O+a2iwN4=
   cipher: aes-256-gcm
-  delay: 99
-- name: '[100ms] IT【高速节点：https://vip.a3f.xyz】2'
+  delay: 133
+- name: '[133ms] 🏳[www.v2nodes.com] ss- #2'
   type: ss
-  server: 202.50.253.36
-  port: 19999
-  password: ZRpgaBeGxtENIXgvhpkZBKz9GnWRS2dYcx9O+a2iwN4=
+  server: 213.176.92.148
+  port: 40647
+  password: DgMywXKqojHXeuXY8hOJaYGPFcjweCIJeD5cdg/cUUY=
   cipher: aes-256-gcm
-  delay: 100
-- name: '[102ms] IT【高速节点：https://vip.a3f.xyz】1'
+  delay: 133
+- name: '[133ms] 🇯🇵[www.v2nodes.com] ss-JP-5141...'
   type: ss
-  server: 202.50.253.27
-  port: 19999
-  password: ZRpgaBeGxtENIXgvhpkZBKz9GnWRS2dYcx9O+a2iwN4=
-  cipher: aes-256-gcm
-  delay: 102
-- name: '[102ms] 节点日期：2026-11-26'
-  type: ss
-  server: 202.50.253.72
-  port: 19999
-  password: ZRpgaBeGxtENIXgvhpkZBKz9GnWRS2dYcx9O+a2iwN4=
-  cipher: aes-256-gcm
-  delay: 102
-- name: '[102ms] IT【高速节点：https://vip.a3f.xyz】3'
-  type: ss
-  server: 202.50.253.81
-  port: 19999
-  password: ZRpgaBeGxtENIXgvhpkZBKz9GnWRS2dYcx9O+a2iwN4=
-  cipher: aes-256-gcm
-  delay: 102
-- name: '[102ms] IT【高速节点：https://vip.a3f.xyz】8'
-  type: ss
-  server: 202.50.253.18
-  port: 19999
-  password: ZRpgaBeGxtENIXgvhpkZBKz9GnWRS2dYcx9O+a2iwN4=
-  cipher: aes-256-gcm
-  delay: 102
-- name: '[102ms] IT【高速节点：https://vip.a3f.xyz】9'
-  type: ss
-  server: 202.50.253.90
-  port: 19999
-  password: ZRpgaBeGxtENIXgvhpkZBKz9GnWRS2dYcx9O+a2iwN4=
-  cipher: aes-256-gcm
-  delay: 102
-- name: '[102ms] IT【高速节点：https://vip.a3f.xyz】16'
-  type: ss
-  server: 202.50.253.63
-  port: 19999
-  password: ZRpgaBeGxtENIXgvhpkZBKz9GnWRS2dYcx9O+a2iwN4=
-  cipher: aes-256-gcm
-  delay: 102
-- name: '[102ms] IT【高速节点：https://vip.a3f.xyz】18'
+  server: 149.22.87.204
+  port: 443
+  password: shadowsocks
+  cipher: aes-128-gcm
+  delay: 133
+- name: '[134ms] IT【高速节点：https://vip.a3f.xyz】6'
   type: ss
   server: 202.50.253.45
   port: 19999
   password: ZRpgaBeGxtENIXgvhpkZBKz9GnWRS2dYcx9O+a2iwN4=
   cipher: aes-256-gcm
-  delay: 102
-- name: '[103ms] IT【高速节点：https://vip.a3f.xyz】17'
+  delay: 134
+- name: '[134ms] 🏳[www.v2nodes.com] ss- #1'
+  type: ss
+  server: 23.166.88.127
+  port: 19999
+  password: ZRpgaBeGxtENIXgvhpkZBKz9GnWRS2dYcx9O+a2iwN4=
+  cipher: aes-256-gcm
+  delay: 134
+- name: '[134ms] 日本5|@ripaojiedian'
+  type: vless
+  server: 45.32.57.15
+  port: 8443
+  uuid: b69cf773-da16-486e-afce-a45b94f998b3
+  udp: true
+  tls: true
+  servername: senflarelink-node-nwz76h.pages.dev
+  client-fingerprint: chrome
+  skip-cert-verify: true
+  encryption: none
+  network: ws
+  ws-opts:
+    path: /flow=
+    headers:
+      Host: senflarelink-node-nwz76h.pages.dev
+  delay: 134
+- name: '[135ms] JP【高速节点：https://vip.a3f.xyz】36'
+  type: ss
+  server: 47.245.40.193
+  port: 5555
+  password: '123456'
+  cipher: aes-256-gcm
+  delay: 135
+- name: '[136ms] LY【高速节点：https://vip.a3f.xyz】16'
+  type: vless
+  server: 196.199.122.2
+  port: 443
+  uuid: 4201786b-d99b-4147-a5f0-20d47acddb81
+  udp: true
+  tls: true
+  servername: 7aa271t.es1.h1clayd.click
+  reality-opts:
+    public-key: ZSmetD4e9QG5CiXhniHg5HJB68L4kwbgAkJmMHtVwEE
+    short-id: 42426c882c5fcd41
+  client-fingerprint: firefox
+  skip-cert-verify: false
+  flow: xtls-rprx-vision
+  encryption: none
+  network: tcp
+  delay: 136
+- name: '[136ms] JP【高速节点：https://vip.a3f.xyz】34'
+  type: ss
+  server: 47.91.16.50
+  port: 5555
+  password: '123456'
+  cipher: aes-256-gcm
+  delay: 136
+- name: '[136ms] JP【高速节点：https://vip.a3f.xyz】38'
+  type: ss
+  server: 47.245.54.15
+  port: 5555
+  password: '123456'
+  cipher: aes-256-gcm
+  delay: 136
+- name: '[136ms] 🏳[www.v2nodes.com] vless- #1'
+  type: vless
+  server: 193.124.56.100
+  port: 443
+  uuid: 0b6a7fe0-206b-4071-9f96-cd397d1ec01a
+  udp: true
+  tls: true
+  servername: parchment.merlano.monster
+  skip-cert-verify: true
+  encryption: none
+  network: ws
+  ws-opts:
+    path: /api/de7/streamfp=firefox
+    headers:
+      Host: parchment.merlano.monster
+  delay: 136
+- name: '[136ms] 🇯🇵[www.v2nodes.com] vless-JP-1... #1'
+  type: vless
+  server: 155.248.175.201
+  port: 23169
+  uuid: 7318caa1-93d1-4a9d-c481-504599902700
+  udp: true
+  tls: true
+  servername: djj.zjlo.top
+  client-fingerprint: firefox
+  skip-cert-verify: true
+  flow: xtls-rprx-vision
+  encryption: none
+  network: tcp
+  delay: 136
+- name: '[136ms] 🇯🇵[www.v2nodes.com] ss-JP-9223...'
+  type: ss
+  server: 149.22.87.241
+  port: 443
+  password: shadowsocks
+  cipher: aes-128-gcm
+  delay: 136
+- name: '[137ms] 🇪🇸[www.v2nodes.com] ss-ES-1443...'
+  type: ss
+  server: 108.181.121.170
+  port: 443
+  password: qItG8SueYQcP
+  cipher: chacha20-ietf-poly1305
+  delay: 137
+- name: '[138ms] 🇦🇹[www.v2nodes.com] ss-AT-1614...'
+  type: ss
+  server: 152.53.1.57
+  port: 8388
+  password: AdawffFMHymlasRb0VOP3HFf7sTG5sJx
+  cipher: chacha20-ietf-poly1305
+  delay: 138
+- name: '[138ms] 🇨🇭[www.v2nodes.com] ss-CH-1615...'
+  type: ss
+  server: 186.190.215.251
+  port: 19999
+  password: ZRpgaBeGxtENIXgvhpkZBKz9GnWRS2dYcx9O+a2iwN4=
+  cipher: aes-256-gcm
+  delay: 138
+- name: '[138ms] 🇯🇵[www.v2nodes.com] ss-JP-1291...'
+  type: ss
+  server: 149.22.87.240
+  port: 443
+  password: shadowsocks
+  cipher: aes-128-gcm
+  delay: 138
+- name: '[139ms] 日本2|@ripaojiedian'
+  type: vless
+  server: 172.104.86.181
+  port: 443
+  uuid: 010431f3-04f6-4404-a801-b93bf2e3c2b2
+  udp: true
+  tls: true
+  servername: itunes.apple.com
+  client-fingerprint: chrome
+  skip-cert-verify: true
+  encryption: none
+  network: ws
+  ws-opts:
+    path: /wsflow=
+    headers:
+      Host: itunes.apple.com
+  delay: 139
+- name: '[139ms] 🇪🇪EE_1|1.5MB/s'
+  type: vless
+  server: 165.231.177.60
+  port: 443
+  uuid: 0173d52e-8e1b-4681-831e-11529677b72f
+  udp: true
+  tls: true
+  servername: cab-6b07048f.ferrin.uk
+  client-fingerprint: safari
+  skip-cert-verify: true
+  encryption: none
+  network: tcp
+  delay: 139
+- name: '[140ms] JP【高速节点：https://vip.a3f.xyz】32'
+  type: ss
+  server: 47.74.49.154
+  port: 5555
+  password: '123456'
+  cipher: aes-256-gcm
+  delay: 140
+- name: '[140ms] JP【高速节点：https://vip.a3f.xyz】33'
+  type: ss
+  server: 47.74.41.139
+  port: 5555
+  password: '123456'
+  cipher: aes-256-gcm
+  delay: 140
+- name: '[140ms] 🇧🇾[www.v2nodes.com] vless-BY-1... #1'
+  type: vless
+  server: 178.172.227.124
+  port: 10443
+  uuid: 1af36694-b548-4b18-89a0-bc076eab4ed7
+  udp: true
+  tls: false
+  encryption: none
+  network: tcp
+  delay: 140
+- name: '[141ms] IT【高速节点：https://vip.a3f.xyz】11'
   type: ss
   server: 202.50.253.99
   port: 19999
   password: ZRpgaBeGxtENIXgvhpkZBKz9GnWRS2dYcx9O+a2iwN4=
   cipher: aes-256-gcm
-  delay: 103
-- name: '[111ms] TR【高速节点：https://vip.a3f.xyz】24'
+  delay: 141
+- name: '[142ms] 节点日期：2026-11-27'
+  type: ss
+  server: 202.50.253.27
+  port: 19999
+  password: ZRpgaBeGxtENIXgvhpkZBKz9GnWRS2dYcx9O+a2iwN4=
+  cipher: aes-256-gcm
+  delay: 142
+- name: '[142ms] 🇭🇰[www.v2nodes.com] vless-HK-1...'
+  type: vless
+  server: 185.200.64.124
+  port: 443
+  uuid: aff1b196-478c-425a-9403-7ea15d9aafdf
+  udp: true
+  tls: true
+  servername: hkg.kkp.us.ci
+  skip-cert-verify: true
+  encryption: none
+  network: ws
+  ws-opts:
+    path: /487e07e6-2930-4e71-99b3-6792e5909f16fp=chrome
+    headers:
+      Host: hkg.kkp.us.ci
+  delay: 142
+- name: '[142ms] 日本3|@ripaojiedian'
+  type: vless
+  server: 139.162.91.182
+  port: 443
+  uuid: b4ec7f6b-b41e-4018-9f76-19204e138db9
+  udp: true
+  tls: true
+  servername: itunes.apple.com
+  client-fingerprint: chrome
+  skip-cert-verify: true
+  encryption: none
+  network: ws
+  ws-opts:
+    path: /wsflow=
+    headers:
+      Host: itunes.apple.com
+  delay: 142
+- name: '[142ms] 🇭🇰 香港 | HKG #3'
+  type: ss
+  server: 038b7750485a79a0.lebufflonfermegroup.us
+  port: 40000
+  password: d98d7ec5-24d7-4ed8-8329-728b2c7ad1c5
+  cipher: aes-128-gcm
+  delay: 142
+- name: '[143ms] 🇵🇱[www.v2nodes.com] vless-PL-1... #1'
+  type: vless
+  server: 150.251.113.34
+  port: 443
+  uuid: d7d724b5-17ce-4f3c-877d-dfbf0f07afa1
+  udp: true
+  tls: true
+  servername: www.cloudflare.com
+  client-fingerprint: chrome
+  skip-cert-verify: true
+  flow: xtls-rprx-vision
+  encryption: none
+  network: tcp
+  delay: 143
+- name: '[145ms] JP【高速节点：https://vip.a3f.xyz】40'
+  type: ss
+  server: 8.211.129.80
+  port: 5555
+  password: '123456'
+  cipher: aes-256-gcm
+  delay: 145
+- name: '[145ms] JP【高速节点：https://vip.a3f.xyz】39'
+  type: ss
+  server: 47.245.32.129
+  port: 5555
+  password: '123456'
+  cipher: aes-256-gcm
+  delay: 145
+- name: '[145ms] @OutlineReleasedKey #2'
+  type: hysteria2
+  server: 136.148.83.69
+  port: 443
+  password: 87bb2ac4-b7a1-0001-b11d-2107709ea6cb
+  udp: true
+  sni: szqbx-ru-77dc.my-fade.cloud
+  skip-cert-verify: true
+  delay: 145
+- name: '[145ms] 🇧🇾[www.v2nodes.com] vless-BY-1...'
+  type: vless
+  server: 178.172.227.228
+  port: 14430
+  uuid: b6e5dc56-836f-48c1-9163-b0b0b43b647d
+  udp: true
+  tls: false
+  encryption: none
+  network: ws
+  ws-opts:
+    path: /vless
+    headers:
+      Host: 178.172.227.228
+  delay: 145
+- name: '[146ms] IT【高速节点：https://vip.a3f.xyz】3'
+  type: ss
+  server: 202.50.253.36
+  port: 19999
+  password: ZRpgaBeGxtENIXgvhpkZBKz9GnWRS2dYcx9O+a2iwN4=
+  cipher: aes-256-gcm
+  delay: 146
+- name: '[146ms] IT【高速节点：https://vip.a3f.xyz】4'
+  type: ss
+  server: 202.50.253.63
+  port: 19999
+  password: ZRpgaBeGxtENIXgvhpkZBKz9GnWRS2dYcx9O+a2iwN4=
+  cipher: aes-256-gcm
+  delay: 146
+- name: '[146ms] JP【高速节点：https://vip.a3f.xyz】35'
+  type: ss
+  server: 47.74.18.249
+  port: 5555
+  password: '123456'
+  cipher: aes-256-gcm
+  delay: 146
+- name: '[146ms] JP【高速节点：https://vip.a3f.xyz】37'
+  type: ss
+  server: 47.74.24.29
+  port: 5555
+  password: '123456'
+  cipher: aes-256-gcm
+  delay: 146
+- name: '[146ms] 🇩🇪[www.v2nodes.com] vless-DE-1... #6'
+  type: vless
+  server: 176.98.176.60
+  port: 443
+  uuid: 7ad63b26-bf70-4872-8fab-ebaf73a1e19d
+  udp: true
+  tls: true
+  servername: mosaic.topp-con.xyz
+  client-fingerprint: firefox
+  skip-cert-verify: true
+  flow: xtls-rprx-vision
+  encryption: none
+  network: tcp
+  delay: 146
+- name: '[146ms] 🇷🇺[www.v2nodes.com] ss-RU-1163...'
+  type: ss
+  server: 90.156.203.62
+  port: 5112
+  password: VVlAff77CnAU43Aoc5j15Y
+  cipher: chacha20-ietf-poly1305
+  delay: 146
+- name: '[146ms] 🏳[www.v2nodes.com] trojan- #1'
+  type: trojan
+  server: 208.69.78.158
+  port: 443
+  password: 0ab6c98dae3b48e8b9c4a776b6c9c19a
+  udp: true
+  skip-cert-verify: true
+  delay: 146
+- name: '[146ms] 🇵🇱 波兰 | POL #1'
+  type: ss
+  server: 038b7750485a79a0.lebufflonfermegroup.us
+  port: 35031
+  password: d98d7ec5-24d7-4ed8-8329-728b2c7ad1c5
+  cipher: aes-128-gcm
+  delay: 146
+- name: '[146ms] 🇸🇬 新加坡 | SGP #4'
+  type: ss
+  server: 038b7750485a79a0.lebufflonfermegroup.us
+  port: 40022
+  password: d98d7ec5-24d7-4ed8-8329-728b2c7ad1c5
+  cipher: aes-128-gcm
+  delay: 146
+- name: '[147ms] IT【高速节点：https://vip.a3f.xyz】2'
+  type: ss
+  server: 202.50.253.54
+  port: 19999
+  password: ZRpgaBeGxtENIXgvhpkZBKz9GnWRS2dYcx9O+a2iwN4=
+  cipher: aes-256-gcm
+  delay: 147
+- name: '[147ms] Telegram:@v2rayng3'
+  type: hysteria2
+  server: 31.76.80.69
+  port: 443
+  password: 6aab8efdf13945829ae3699c342be406
+  udp: true
+  sni: fiproxy1.lockdwn.com
+  obfs: salamander
+  obfs-password: uw9b2qq5rx
+  skip-cert-verify: true
+  delay: 147
+- name: '[147ms] 🇷🇺 俄罗斯 | RUS #2'
+  type: vless
+  server: 194.26.229.207
+  port: 2200
+  uuid: 026ecbd6-2838-40f6-b530-d2c303c4f629
+  udp: true
+  tls: false
+  encryption: none
+  network: ws
+  ws-opts:
+    path: /v1
+    headers:
+      Host: rzd.ru
+  delay: 147
+- name: '[148ms] IT【高速节点：https://vip.a3f.xyz】7'
+  type: ss
+  server: 202.50.253.72
+  port: 19999
+  password: ZRpgaBeGxtENIXgvhpkZBKz9GnWRS2dYcx9O+a2iwN4=
+  cipher: aes-256-gcm
+  delay: 148
+- name: '[148ms] 🇩🇪[www.v2nodes.com] vless-DE-1...'
+  type: vless
+  server: 188.225.33.67
+  port: 443
+  uuid: b432a23a-acff-425c-bf69-70480cd6ed09
+  udp: true
+  tls: true
+  servername: e2.cdnwh.icu
+  skip-cert-verify: true
+  encryption: none
+  network: ws
+  ws-opts:
+    path: /stream/segment/3078a41dd7eb/fp=firefox
+    headers:
+      Host: e2.cdnwh.icu
+  delay: 148
+- name: '[148ms] 🇩🇪[www.v2nodes.com] vless-DE-1... #2'
+  type: vless
+  server: 188.214.37.231
+  port: 443
+  uuid: 83706ae4-be2f-4b2b-8079-c3eb4e0b2e3e
+  udp: true
+  tls: true
+  servername: lagoon.gerqix.online
+  skip-cert-verify: true
+  encryption: none
+  network: ws
+  ws-opts:
+    path: /api/de5/streamfp=firefox
+    headers:
+      Host: lagoon.gerqix.online
+  delay: 148
+- name: '[149ms] IT【高速节点：https://vip.a3f.xyz】1'
+  type: ss
+  server: 202.50.253.90
+  port: 19999
+  password: ZRpgaBeGxtENIXgvhpkZBKz9GnWRS2dYcx9O+a2iwN4=
+  cipher: aes-256-gcm
+  delay: 149
+- name: '[152ms] 🇸🇪[www.v2nodes.com] vless-SE-1... #1'
+  type: vless
+  server: 185.247.224.206
+  port: 443
+  uuid: 58e22afd-bf74-4736-984d-63a8ca03d7f0
+  udp: true
+  tls: true
+  servername: accessfooter.cleanfoodshop.org
+  skip-cert-verify: true
+  encryption: none
+  network: ws
+  ws-opts:
+    path: /media/ws/fp=firefox
+    headers:
+      Host: accessfooter.cleanfoodshop.org
+  delay: 152
+- name: '[152ms] 🇷🇺[www.v2nodes.com] ss-RU-1624...'
+  type: ss
+  server: 194.87.69.12
+  port: 18443
+  password: 5mKjXAGrliIAlYwWDeFzkCEMIgQdFQLe
+  cipher: aes-256-gcm
+  delay: 152
+- name: '[154ms] @VPsave #1'
+  type: hysteria2
+  server: r7m4.scan-cdn.com
+  port: 443
+  password: d7121b33-e335-4921-bb00-4c0b157e7fc1
+  udp: true
+  sni: r7m4.scan-cdn.com
+  skip-cert-verify: true
+  delay: 154
+- name: '[154ms] 🇷🇺 俄罗斯 | RUS #1'
+  type: vless
+  server: 194.26.229.207
+  port: 4100
+  uuid: 026ecbd6-2838-40f6-b530-d2c303c4f629
+  udp: true
+  tls: false
+  encryption: none
+  network: ws
+  ws-opts:
+    path: /v1
+    headers:
+      Host: live.ok.ru
+  delay: 154
+- name: '[156ms] FR【高速节点：https://vip.a3f.xyz】14'
+  type: vless
+  server: 136.148.83.70
+  port: 443
+  uuid: 00000000-0000-0001-0000-000000000000
+  udp: true
+  tls: true
+  servername: aszbk-ru-78dc.my-fade.cloud
+  client-fingerprint: qq
+  skip-cert-verify: true
+  encryption: none
+  network: tcp
+  delay: 156
+- name: '[156ms] RU【高速节点：https://vip.a3f.xyz】17'
+  type: vless
+  server: 165.231.157.126
+  port: 8443
+  uuid: 0173d52e-8e1b-4681-831e-11529677b72f
+  udp: true
+  tls: true
+  servername: api-6b04608f.adhil.uk
+  client-fingerprint: safari
+  skip-cert-verify: true
+  flow: xtls-rprx-vision
+  encryption: none
+  network: tcp
+  delay: 156
+- name: '[156ms] 🇩🇪 德国 | DEU'
+  type: vless
+  server: 176.114.95.251
+  port: 443
+  uuid: 9a591702-24c7-4abf-9f14-ac59438a64e6
+  udp: true
+  tls: false
+  encryption: none
+  network: tcp
+  delay: 156
+- name: '[158ms] 🇬🇧[www.v2nodes.com] vless-GB-1...'
+  type: vless
+  server: node-uk.connectsuite.org
+  port: 8443
+  uuid: c08f0056-7a6d-4931-813b-aaa3cdd00aed
+  udp: true
+  tls: true
+  servername: node-uk.connectsuite.org
+  skip-cert-verify: true
+  encryption: none
+  network: tcp
+  delay: 158
+- name: '[158ms] 🇷🇺 俄罗斯 | RUS_1'
+  type: vless
+  server: 201.24.116.192
+  port: 443
+  uuid: 38308ff1-5aa9-494f-a25a-0f2870d56b3e
+  udp: true
+  tls: true
+  servername: vps3.nemnogogo.com
+  client-fingerprint: firefox
+  skip-cert-verify: true
+  encryption: none
+  network: grpc
+  delay: 158
+- name: '[158ms] 🇺🇸 美国 | USA_10'
+  type: vless
+  server: sssssss.260920-3.kdns.fr
+  port: 443
+  uuid: ec613575-5972-41c9-a50f-9577bcd96ce3
+  udp: true
+  tls: true
+  servername: sssssss.260920-3.kdns.fr
+  client-fingerprint: android
+  skip-cert-verify: true
+  encryption: none
+  network: xhttp
+  delay: 158
+- name: '[159ms] @tootffarangi🍓-3'
+  type: hysteria2
+  server: tomsk.gosgenarchive.com
+  port: 8443
+  password: cdfb74db-f288-4271-960d-6d31c4ef75cc
+  udp: true
+  sni: tomsk.gosgenarchive.com
+  obfs: salamander
+  obfs-password: x9KvL2mP4nC72H3w
+  skip-cert-verify: true
+  delay: 159
+- name: '[160ms] FR【高速节点：https://vip.a3f.xyz】15'
+  type: vless
+  server: 136.148.83.71
+  port: 443
+  uuid: 00000000-0000-0001-0000-000000000000
+  udp: true
+  tls: true
+  servername: wccfu-ru-79dc.my-fade.cloud
+  skip-cert-verify: true
+  encryption: none
+  network: tcp
+  delay: 160
+- name: '[160ms] DE【高速节点：https://vip.a3f.xyz】13'
   type: vless
   server: 8a2e72t.nl20.h1clayd.shop
   port: 443
@@ -280,42 +2193,109 @@ proxies:
   reality-opts:
     public-key: VZS639V1i-35g7VXb9EoTYL-Srm7858sxcvFAunncmA
     short-id: 8d0d0679f42ffd98
-  client-fingerprint: random
+  client-fingerprint: chrome
   skip-cert-verify: false
   flow: xtls-rprx-vision
   encryption: none
   network: tcp
-  delay: 111
-- name: '[131ms] FR【高速节点：https://vip.a3f.xyz】6'
+  delay: 160
+- name: '[160ms] 🇳🇱 荷兰 | NLD_1'
   type: vless
-  server: 136.148.83.71
-  port: 443
-  uuid: 00000000-0000-0001-0000-000000000000
-  udp: true
-  tls: true
-  servername: wccfu-ru-79dc.my-fade.cloud
-  client-fingerprint: qq
-  skip-cert-verify: true
-  encryption: none
-  network: tcp
-  delay: 131
-- name: '[141ms] NE【高速节点：https://vip.a3f.xyz】28'
-  type: vless
-  server: 196.196.148.85
+  server: 196.245.52.183
   port: 443
   uuid: cda0862a-0f87-4be9-8ed8-1d0c9e382839
   udp: true
   tls: true
-  servername: 5d0319t.nl7.h1clayd.click
+  servername: 15b171g.nl7.h1clayd.click
   reality-opts:
-    public-key: l-GzBDuNuhnjxoRlZqKvT7jAt_sbVAxhGFsAttO5kXs
-    short-id: 361d0dd59c70516f
+    public-key: zbz--PMjcIC4Ggr3j-ibDf0fzXRTj0lM_HzjPJyMkVE
+    short-id: 50a749f0eccb628c
   client-fingerprint: firefox
   skip-cert-verify: false
   encryption: none
+  network: grpc
+  delay: 160
+- name: '[160ms] 🇺🇸 美国 | USA_27'
+  type: vless
+  server: rrr.260920-006.ccwu.cc
+  port: 443
+  uuid: ec613575-5972-41c9-a50f-9577bcd96ce3
+  udp: true
+  tls: true
+  servername: rrr.260920-006.ccwu.cc
+  client-fingerprint: android
+  skip-cert-verify: true
+  encryption: none
+  network: xhttp
+  delay: 160
+- name: '[161ms] KR【高速节点：https://vip.a3f.xyz】18'
+  type: ss
+  server: 211.233.33.228
+  port: 8388
+  password: qpowi_vip_tunnel_2026_secure
+  cipher: aes-256-gcm
+  delay: 161
+- name: '[165ms] 🇳🇱[www.v2nodes.com] vless-NL-1... #1'
+  type: vless
+  server: 91.132.190.161
+  port: 443
+  uuid: 04920673-035c-410d-94e4-5b1469d3fb6f
+  udp: true
+  tls: true
+  servername: 171.22.183.166
+  client-fingerprint: firefox
+  skip-cert-verify: true
+  flow: xtls-rprx-vision
+  encryption: none
   network: tcp
-  delay: 141
-- name: '[142ms] NE【高速节点：https://vip.a3f.xyz】25'
+  delay: 165
+- name: '[166ms] 🇦🇱[www.v2nodes.com] ss-AL-1490...'
+  type: ss
+  server: 130.49.189.158
+  port: 43558
+  password: LNc9h/4NA9Q6ZHNeYHoT5X/fR9aoE9KQR1SWhVDHBog=
+  cipher: chacha20-ietf-poly1305
+  delay: 166
+- name: '[168ms] 🇯🇵 日本 | JPN #1'
+  type: ss
+  server: 038b7750485a79a0.lebufflonfermegroup.us
+  port: 22069
+  password: d98d7ec5-24d7-4ed8-8329-728b2c7ad1c5
+  cipher: aes-256-gcm
+  delay: 168
+- name: '[170ms] 🇬🇧 英国 | GBR #1'
+  type: vmess
+  server: yg2.needss.top
+  port: 12007
+  uuid: 82fe4bde-7d9c-4106-8398-078697582192
+  alterId: 0
+  cipher: auto
+  network: ws
+  tls: false
+  ws-opts:
+    path: /
+    headers:
+      Host: yg2.needss.top
+  udp: true
+  delay: 170
+- name: '[173ms] 🇭🇰 香港 | HKG_1'
+  type: vless
+  server: 8.210.92.38
+  port: 443
+  uuid: 4fc9dc3d-0d57-49e7-9bc0-e323165241bf
+  udp: true
+  tls: true
+  servername: www.ebay.com
+  reality-opts:
+    public-key: vhu6gifBQ8-hRzW1gqKFkEXDlQbf6Ex8kKj1FcxhmzA
+    short-id: d78318845237d9a9
+  client-fingerprint: chrome
+  skip-cert-verify: false
+  flow: xtls-rprx-vision
+  encryption: none
+  network: tcp
+  delay: 173
+- name: '[175ms] NE【高速节点：https://vip.a3f.xyz】21'
   type: vless
   server: 196.196.148.76
   port: 443
@@ -331,25 +2311,505 @@ proxies:
   flow: xtls-rprx-vision
   encryption: none
   network: tcp
-  delay: 142
-- name: '[150ms] US【高速节点：https://vip.a3f.xyz】13'
-  type: vless
-  server: 179.254.92.134
+  delay: 175
+- name: '[175ms] 🇭🇰 香港 | HKG #2'
+  type: vmess
+  server: 47.86.90.31
   port: 443
-  uuid: 7ad63b26-bf70-4872-8fab-ebaf73a1e19d
+  uuid: 234a8041-2b4d-44a3-a8d8-523cbfd58dc4
+  alterId: 0
+  cipher: auto
+  network: ws
+  tls: true
+  servername: bywxdhirqkjj8xaz.v.3dns.vip
+  skip-cert-verify: true
+  ws-opts:
+    path: /ws-vmess
+    headers:
+      Host: bywxdhirqkjj8xaz.v.3dns.vip
+  udp: true
+  delay: 175
+- name: '[175ms] 🇭🇰 香港 | HKG'
+  type: vmess
+  server: 47.244.120.197
+  port: 44867
+  uuid: 845e6b08-2919-4290-ade0-5dc7dcea59ca
+  alterId: 0
+  cipher: auto
+  network: ws
+  tls: false
+  ws-opts:
+    path: /arki
+    headers:
+      Host: 47.244.120.197
+  udp: true
+  delay: 175
+- name: '[178ms] NE【高速节点：https://vip.a3f.xyz】29'
+  type: vless
+  server: 196.196.148.85
+  port: 443
+  uuid: cda0862a-0f87-4be9-8ed8-1d0c9e382839
   udp: true
   tls: true
-  servername: assets-70.topp-con.xyz
+  servername: 5d0319t.nl7.h1clayd.click
   reality-opts:
-    public-key: OQu-e59wDwOSwiBBawquNAPhg8Li1hmioWU2Up1TGDw
-    short-id: c33807f76b689c9a
+    public-key: l-GzBDuNuhnjxoRlZqKvT7jAt_sbVAxhGFsAttO5kXs
+    short-id: 361d0dd59c70516f
+  client-fingerprint: chrome
+  skip-cert-verify: false
+  encryption: none
+  network: tcp
+  delay: 178
+- name: '[178ms] 🇺🇸 美国 | USA_15'
+  type: vless
+  server: ddddddd.260920-1.kdns.fr
+  port: 443
+  uuid: da988d4c-540f-4719-896e-a878812bad69
+  udp: true
+  tls: true
+  servername: ddddddd.260920-1.kdns.fr
+  client-fingerprint: android
+  skip-cert-verify: true
+  encryption: none
+  network: xhttp
+  delay: 178
+- name: '[180ms] 🇱🇻[www.v2nodes.com] vless-LV-1...'
+  type: vless
+  server: 213.183.45.23
+  port: 8450
+  uuid: eb62cabf-5901-403a-aa0c-b1d9ed1b346d
+  udp: true
+  tls: true
+  servername: fonts.plumstatic.com
+  skip-cert-verify: true
+  encryption: none
+  network: ws
+  ws-opts:
+    path: /wsfp=firefox
+  delay: 180
+- name: '[181ms] 🇭🇰 香港 | HKG #1'
+  type: trojan
+  server: 47.242.93.89
+  port: 12012
+  password: '12012'
+  udp: true
+  skip-cert-verify: true
+  sni: ali-hk.b-gfw.cfd
+  delay: 181
+- name: '[181ms] 🇺🇸 美国 | USA_19'
+  type: vless
+  server: ddddd.as2-0.kdns.fr
+  port: 443
+  uuid: da988d4c-540f-4719-896e-a878812bad69
+  udp: true
+  tls: true
+  servername: ddddd.as2-0.kdns.fr
+  client-fingerprint: android
+  skip-cert-verify: true
+  encryption: none
+  network: xhttp
+  delay: 181
+- name: '[183ms] 🇩🇪[www.v2nodes.com] vless-DE-1... #3'
+  type: vless
+  server: mintleaf.moltex.click
+  port: 443
+  uuid: 83706ae4-be2f-4b2b-8079-c3eb4e0b2e3e
+  udp: true
+  tls: true
+  servername: mintleaf.moltex.click
+  skip-cert-verify: true
+  encryption: none
+  network: ws
+  ws-opts:
+    path: /api/de4/streamfp=firefox
+    headers:
+      Host: mintleaf.moltex.click
+  delay: 183
+- name: '[183ms] 🇷🇺 俄罗斯 | RUS #3'
+  type: vless
+  server: polarladder.com
+  port: 2053
+  uuid: 37af0181-5598-4aad-a040-d926bcb65757
+  udp: true
+  tls: true
+  servername: polarladder.com
+  client-fingerprint: firefox
+  skip-cert-verify: true
+  encryption: none
+  network: tcp
+  delay: 183
+- name: '[184ms] 🇹🇼[www.v2nodes.com] trojan-TW-...'
+  type: trojan
+  server: ddrr1.tube-cat.com
+  port: 28478
+  password: d7563108-615c-4338-a7bd-77f359869a4a
+  udp: true
+  skip-cert-verify: true
+  sni: r.tw2.cat.bilibili.com
+  delay: 184
+- name: '[184ms] 香港|@ripaojiedian'
+  type: vless
+  server: 185.206.171.66
+  port: 8443
+  uuid: b69cf773-da16-486e-afce-a45b94f998b3
+  udp: true
+  tls: true
+  servername: senflarelink-node-7uv.pages.dev
+  client-fingerprint: chrome
+  skip-cert-verify: true
+  encryption: none
+  network: ws
+  ws-opts:
+    path: /flow=
+    headers:
+      Host: senflarelink-node-7uv.pages.dev
+  delay: 184
+- name: '[187ms] NE【高速节点：https://vip.a3f.xyz】30'
+  type: vless
+  server: 196.196.148.177
+  port: 443
+  uuid: 4201786b-d99b-4147-a5f0-20d47acddb81
+  udp: true
+  tls: true
+  servername: 4935e4t.de25.h1clayd.click
+  reality-opts:
+    public-key: MzgB17ZFbKqs8pbC3EscTzHid_ENc-k_Cp6nXl-2knw
+    short-id: 6976d670818644cc
+  client-fingerprint: firefox
+  skip-cert-verify: false
+  flow: xtls-rprx-vision
+  encryption: none
+  network: tcp
+  delay: 187
+- name: '[187ms] 🇫🇷[www.v2nodes.com] vless-FR-1... #2'
+  type: vless
+  server: ov-france1.09vpn.com
+  port: 80
+  uuid: 25f86cb1-2140-4085-abcb-c3a0ea7a4be0
+  udp: true
+  tls: false
+  encryption: none
+  network: ws
+  ws-opts:
+    path: /vless/
+    headers:
+      Host: ov-france1.09vpn.com
+  delay: 187
+- name: '[188ms] 🇺🇸 美国 | USA_4'
+  type: vless
+  server: ss.260920-3.kdns.fr
+  port: 443
+  uuid: ec613575-5972-41c9-a50f-9577bcd96ce3
+  udp: true
+  tls: true
+  servername: ss.260920-3.kdns.fr
+  client-fingerprint: android
+  skip-cert-verify: true
+  encryption: none
+  network: xhttp
+  delay: 188
+- name: '[189ms] 🇺🇸 美国 | USA_24'
+  type: vless
+  server: dddd.r0-6.cc.cd
+  port: 443
+  uuid: da988d4c-540f-4719-896e-a878812bad69
+  udp: true
+  tls: true
+  servername: dddd.r0-6.cc.cd
+  client-fingerprint: android
+  skip-cert-verify: true
+  encryption: none
+  network: xhttp
+  delay: 189
+- name: '[190ms] 🇪🇪 爱沙尼亚 | EST'
+  type: vless
+  server: one.alpheratzz.org
+  port: 8443
+  uuid: 0173d52e-8e1b-4681-831e-11529677b72f
+  udp: true
+  tls: true
+  servername: api-6b04608f.adhil.uk
+  client-fingerprint: safari
+  skip-cert-verify: true
+  flow: xtls-rprx-vision
+  encryption: none
+  network: tcp
+  delay: 190
+- name: '[192ms] 🇦🇪[www.v2nodes.com] vless-AE-1... #1'
+  type: vless
+  server: 84.235.244.108
+  port: 22573
+  uuid: 39947382-3212-41c9-bc3a-589574ac8b23
+  udp: true
+  tls: false
+  encryption: none
+  network: ws
+  ws-opts:
+    path: /
+    headers:
+      Host: uae.unixzone.us
+  delay: 192
+- name: '[194ms] 🇷🇺 俄罗斯 | RUS 6'
+  type: vless
+  server: vps3.nemnogogo.com
+  port: 443
+  uuid: 38308ff1-5aa9-494f-a25a-0f2870d56b3e
+  udp: true
+  tls: true
+  servername: vps3.nemnogogo.com
+  client-fingerprint: firefox
+  skip-cert-verify: true
+  encryption: none
+  network: grpc
+  grpc-opts:
+    grpc-service-name: mobile.api.Event
+  delay: 194
+- name: '[194ms] 🇺🇸 美国 | USA_8'
+  type: vless
+  server: aaaaaa.7ui.ipv64.net
+  port: 443
+  uuid: da988d4c-540f-4719-896e-a878812bad69
+  udp: true
+  tls: true
+  servername: aaaaaa.7ui.ipv64.net
+  client-fingerprint: android
+  skip-cert-verify: true
+  encryption: none
+  network: xhttp
+  delay: 194
+- name: '[195ms] 🇸🇬[www.v2nodes.com] ss-SG-1615... #1'
+  type: ss
+  server: 149.88.106.74
+  port: 19999
+  password: ZRpgaBeGxtENIXgvhpkZBKz9GnWRS2dYcx9O+a2iwN4=
+  cipher: aes-256-gcm
+  delay: 195
+- name: '[195ms] 🇸🇬[www.v2nodes.com] ss-SG-1615... #2'
+  type: ss
+  server: 149.88.107.74
+  port: 19999
+  password: ZRpgaBeGxtENIXgvhpkZBKz9GnWRS2dYcx9O+a2iwN4=
+  cipher: aes-256-gcm
+  delay: 195
+- name: '[196ms] 🇦🇪[www.v2nodes.com] vless-AE-1...'
+  type: vless
+  server: 95.174.68.188
+  port: 14430
+  uuid: 965ffbbe-c6b6-4d5f-8dea-6d8abc55d9c0
+  udp: true
+  tls: false
+  encryption: none
+  network: ws
+  ws-opts:
+    path: /vless
+    headers:
+      Host: 95.174.68.188
+  delay: 196
+- name: '[196ms] 🇸🇬[www.v2nodes.com] vless-SG-1... #2'
+  type: vless
+  server: 207.148.124.12
+  port: 8443
+  uuid: bcdb425f-80bc-4ec8-92a5-8edf53639c01
+  udp: true
+  tls: true
+  servername: www.bing.com
+  client-fingerprint: chrome
+  skip-cert-verify: true
+  encryption: none
+  network: tcp
+  delay: 196
+- name: '[196ms] 🇸🇬[www.v2nodes.com] ss-SG-1615... #3'
+  type: ss
+  server: 149.88.107.47
+  port: 19999
+  password: ZRpgaBeGxtENIXgvhpkZBKz9GnWRS2dYcx9O+a2iwN4=
+  cipher: aes-256-gcm
+  delay: 196
+- name: '[196ms] 🇺🇸 美国 | USA_2'
+  type: vless
+  server: s.260920-3.kdns.fr
+  port: 443
+  uuid: ec613575-5972-41c9-a50f-9577bcd96ce3
+  udp: true
+  tls: true
+  servername: s.260920-3.kdns.fr
+  client-fingerprint: android
+  skip-cert-verify: true
+  encryption: none
+  network: xhttp
+  delay: 196
+- name: '[197ms] 🇰🇷[www.v2nodes.com] vless-KR-1...'
+  type: vless
+  server: krd.80782636.xyz
+  port: 443
+  uuid: db906786-8c49-4b17-9182-cea680ef954d
+  udp: true
+  tls: true
+  servername: krd.80782636.xyz
+  skip-cert-verify: true
+  encryption: none
+  network: ws
+  ws-opts:
+    path: /kw7x2mq9fp=chrome
+    headers:
+      Host: krd.80782636.xyz
+  delay: 197
+- name: '[197ms] 🇸🇬[www.v2nodes.com] ss-SG-1616...'
+  type: ss
+  server: 15.235.182.183
+  port: 19999
+  password: ZRpgaBeGxtENIXgvhpkZBKz9GnWRS2dYcx9O+a2iwN4=
+  cipher: aes-256-gcm
+  delay: 197
+- name: '[198ms] 🇸🇬[www.v2nodes.com] ss-SG-1615...'
+  type: ss
+  server: 15.235.164.133
+  port: 19999
+  password: ZRpgaBeGxtENIXgvhpkZBKz9GnWRS2dYcx9O+a2iwN4=
+  cipher: aes-256-gcm
+  delay: 198
+- name: '[198ms] 🇸🇬 新加坡 | SGP #1'
+  type: vmess
+  server: 8.222.172.146
+  port: 54327
+  uuid: 8a3d03bc-9b35-43b4-d901-c8531f2bbc6d
+  alterId: 0
+  cipher: auto
+  network: ws
+  tls: false
+  ws-opts:
+    path: /pages
+  udp: true
+  delay: 198
+- name: '[198ms] 🇺🇸 美国 | USA_7'
+  type: vless
+  server: bbbbb.1111-08.ccwu.cc
+  port: 443
+  uuid: ec613575-5972-41c9-a50f-9577bcd96ce3
+  udp: true
+  tls: true
+  servername: bbbbb.1111-08.ccwu.cc
+  client-fingerprint: android
+  skip-cert-verify: true
+  encryption: none
+  network: xhttp
+  delay: 198
+- name: '[200ms] 🇮🇳[www.v2nodes.com] vless-IN-1... #1'
+  type: vless
+  server: 13.140.56.100
+  port: 14430
+  uuid: 68512eac-cd53-4de3-8d1e-08f6e04af1a9
+  udp: true
+  tls: false
+  encryption: none
+  network: ws
+  ws-opts:
+    path: /vless
+    headers:
+      Host: 13.140.56.100
+  delay: 200
+- name: '[200ms] 🇹🇷[www.v2nodes.com] vless-TR-1...'
+  type: vless
+  server: turkey-ip1.mmdaqaorg.xyz
+  port: 50738
+  uuid: 56665684-5ac0-4ba9-9d49-8b258fb57974
+  udp: true
+  tls: true
+  servername: turkey-ip1.mmdaqaorg.xyz
+  client-fingerprint: chrome
+  skip-cert-verify: true
+  encryption: none
+  network: tcp
+  delay: 200
+- name: '[201ms] 🇷🇺[www.v2nodes.com] vless-RU-1... #1'
+  type: vless
+  server: xssite.webredirect.org
+  port: 443
+  uuid: c90395e6-2140-47ad-a54d-9b166729d3ef
+  udp: true
+  tls: true
+  servername: xssite.webredirect.org
+  client-fingerprint: random
+  skip-cert-verify: true
+  encryption: none
+  network: grpc
+  grpc-opts:
+    grpc-service-name: grpc-ru
+  delay: 201
+- name: '[201ms] 🇸🇬 新加坡 | SGP'
+  type: hysteria2
+  server: 47.128.219.111
+  port: 443
+  password: 7e68e32f-8015-4f37-9082-70e8b0b58043
+  udp: true
+  sni: www.bing.com
+  skip-cert-verify: true
+  delay: 201
+- name: '[202ms] SG【高速节点：https://vip.a3f.xyz】20'
+  type: vless
+  server: 43.163.112.174
+  port: 443
+  uuid: 0dedd47d-47b9-4ed1-9c9f-cbeecad57a68
+  udp: true
+  tls: true
+  servername: www.cloudflare.com
+  reality-opts:
+    public-key: mXQudYHNu0pebcdk1_qn-UgcmwhjaV7y9UrYu3HX7Rg
+    short-id: 0123456789abcdef
   client-fingerprint: chrome
   skip-cert-verify: false
   flow: xtls-rprx-vision
   encryption: none
   network: tcp
-  delay: 150
-- name: '[167ms] NE【高速节点：https://vip.a3f.xyz】31'
+  delay: 202
+- name: '[202ms] 🇲🇾[www.v2nodes.com] trojan-MY-...'
+  type: trojan
+  server: 47.250.84.25
+  port: 443
+  password: 5931134d1cde66bf83a54acdfebe7ab2
+  udp: true
+  skip-cert-verify: true
+  delay: 202
+- name: '[203ms] 🇸🇬[www.v2nodes.com] vless-SG-1... #3'
+  type: vless
+  server: 147.93.173.45
+  port: 10444
+  uuid: 75c5f51b-d548-4eab-a26e-aa10fc3dbc7b
+  udp: true
+  tls: true
+  servername: video.yandex.ru
+  client-fingerprint: safari
+  skip-cert-verify: true
+  flow: xtls-rprx-vision
+  encryption: none
+  network: tcp
+  delay: 203
+- name: '[204ms] 🇰🇷[www.v2nodes.com] vless-KR-1... #1'
+  type: vless
+  server: 152.69.226.63
+  port: 25555
+  uuid: 27c5483f-17f4-48ae-9a04-def53d88440d
+  udp: true
+  tls: false
+  encryption: none
+  network: ws
+  ws-opts:
+    path: /
+  delay: 204
+- name: '[205ms] 🇺🇸 美国 | USA_23'
+  type: vless
+  server: d.as2-0.kdns.fr
+  port: 443
+  uuid: da988d4c-540f-4719-896e-a878812bad69
+  udp: true
+  tls: true
+  servername: d.as2-0.kdns.fr
+  client-fingerprint: android
+  skip-cert-verify: true
+  encryption: none
+  network: xhttp
+  delay: 205
+- name: '[208ms] NE【高速节点：https://vip.a3f.xyz】25'
   type: vless
   server: 196.196.148.90
   port: 443
@@ -365,57 +2825,269 @@ proxies:
   flow: xtls-rprx-vision
   encryption: none
   network: tcp
-  delay: 167
-- name: '[176ms] RU【高速节点：https://vip.a3f.xyz】36'
+  delay: 208
+- name: '[210ms] 🇻🇳[www.v2nodes.com] vless-VN-1...'
   type: vless
-  server: 213.183.45.23
-  port: 8454
-  uuid: eb62cabf-5901-403a-aa0c-b1d9ed1b346d
+  server: 150.95.109.109
+  port: 2086
+  uuid: b83faafc-cbb7-4655-99d4-2c4c39a49d1b
+  udp: true
+  tls: false
+  encryption: none
+  network: tcp
+  delay: 210
+- name: '[211ms] 🇺🇸[www.v2nodes.com] vless-US-1...'
+  type: vless
+  server: h3.1free.us.ci
+  port: 443
+  uuid: 2377a148-5e9b-431f-93f4-a1bbaa3dabe9
   udp: true
   tls: true
-  servername: store.plumstatic.com
-  client-fingerprint: firefox
+  servername: h3.1free.us.ci
   skip-cert-verify: true
   encryption: none
   network: ws
   ws-opts:
-    path: /ws
-  delay: 176
-- name: '[208ms] TW【高速节点：https://vip.a3f.xyz】27'
+    path: /57252d2116d6439ffp=chrome
+    headers:
+      Host: h3.1free.us.ci
+  delay: 211
+- name: '[213ms] 🇺🇸 美国 | USA_22'
   type: vless
-  server: free.fugui.lol
-  port: 19482
-  uuid: ead3595f-4020-4e76-a3ec-c248e1a2f2f7
+  server: a.7ui.ipv64.net
+  port: 443
+  uuid: da988d4c-540f-4719-896e-a878812bad69
   udp: true
   tls: true
-  servername: swdist.apple.com
+  servername: a.7ui.ipv64.net
+  client-fingerprint: android
+  skip-cert-verify: true
+  encryption: none
+  network: xhttp
+  delay: 213
+- name: '[215ms] 🇰🇿[www.v2nodes.com] vless-KZ-1...'
+  type: vless
+  server: 109.248.170.119
+  port: 13447
+  uuid: b573cefb-7bc7-4a42-b407-b8b534e66773
+  udp: true
+  tls: true
+  servername: yahoo.com
+  client-fingerprint: chrome
+  skip-cert-verify: true
+  encryption: none
+  network: tcp
+  delay: 215
+- name: '[220ms] 🇺🇸 美国 | USA_3'
+  type: vless
+  server: aaaaaaa.7ui.ipv64.net
+  port: 443
+  uuid: da988d4c-540f-4719-896e-a878812bad69
+  udp: true
+  tls: true
+  servername: aaaaaaa.7ui.ipv64.net
+  client-fingerprint: android
+  skip-cert-verify: true
+  encryption: none
+  network: xhttp
+  delay: 220
+- name: '[225ms] 🇸🇬[www.v2nodes.com] vless-SG-1...'
+  type: vless
+  server: free.server.darknetlk.com
+  port: 443
+  uuid: 076799f8-d922-4bf1-805d-e758e6eb925f
+  udp: true
+  tls: true
+  servername: aka.ms
+  client-fingerprint: chrome
+  skip-cert-verify: true
+  encryption: none
+  network: tcp
+  delay: 225
+- name: '[231ms] 🇻🇳[www.v2nodes.com] trojan-VN-...'
+  type: trojan
+  server: xvxn1hkzf.mateflora.com
+  port: 443
+  password: 57beeeb0-03fc-4fc9-94da-7604488a7134
+  udp: true
+  skip-cert-verify: true
+  sni: xvxn1hkzf.mateflora.com
+  delay: 231
+- name: '[237ms] 🇸🇬[www.v2nodes.com] vless-SG-7...'
+  type: vless
+  server: kozel.cc.cd
+  port: 443
+  uuid: 3b01a777-55e7-49f6-8637-d94ee69607c6
+  udp: true
+  tls: false
+  encryption: none
+  network: ws
+  ws-opts:
+    path: /118.151.222.66=17317fp=chromesecurity=tls
+    headers:
+      Host: kozel.cc.cd
+  delay: 237
+- name: '[241ms] SG【高速节点：https://vip.a3f.xyz】43'
+  type: vless
+  server: dddz-1-x.473221.xyz
+  port: 43113
+  uuid: 5807f1c4-b50e-4ec0-8d01-274045da0da5
+  udp: true
+  tls: true
+  servername: v1-dy.ixigua.com
   reality-opts:
-    public-key: IjWYbHNrZb3UCQxsTJyekEOA3tHq42L6Jw3O8MmLYVQ
-    short-id: fa514b83
-  client-fingerprint: ios
+    public-key: EK3prcfF8VKm3CoTXWQguRj67LxGbkPIpKmEUKsMKGs
+    short-id: ff2c978a0b
+  client-fingerprint: edge
   skip-cert-verify: false
   flow: xtls-rprx-vision
   encryption: none
   network: tcp
-  delay: 208
-- name: '[209ms] TW【高速节点：https://vip.a3f.xyz】21'
+  delay: 241
+- name: '[245ms] 🇿🇦[www.v2nodes.com] ss-ZA-1333...'
+  type: ss
+  server: 102.133.165.160
+  port: 16233
+  password: Xsy8Ox4yOV3xLlpxtjzs3X
+  cipher: chacha20-ietf-poly1305
+  delay: 245
+- name: '[246ms] 🇩🇪 德国 | DEU_2'
   type: vless
-  server: free.fugui.lol
-  port: 51283
-  uuid: ead3595f-4020-4e76-a3ec-c248e1a2f2f7
+  server: p2real22.greewebservices.ir
+  port: 1320
+  uuid: 860b5c7f-7a71-41b3-8e6e-2660d0e6375d
   udp: true
   tls: true
-  servername: swdist.apple.com
+  servername: play.googleapis.com
   reality-opts:
-    public-key: IjWYbHNrZb3UCQxsTJyekEOA3tHq42L6Jw3O8MmLYVQ
-    short-id: fa514b83
-  client-fingerprint: ios
+    public-key: xQnXh5EfPDhcEBB7rRiLca33GYrMEeUa35domLL_yA8
+    short-id: 9b60d3
+  client-fingerprint: chrome
   skip-cert-verify: false
+  encryption: none
+  network: tcp
+  delay: 246
+- name: '[248ms] 🇬🇧 英国 | GBR #4'
+  type: ss
+  server: 038b7750485a79a0.lebufflonfermegroup.us
+  port: 21193
+  password: d98d7ec5-24d7-4ed8-8329-728b2c7ad1c5
+  cipher: aes-256-gcm
+  delay: 248
+- name: '[252ms] 🇿🇦[www.v2nodes.com] ss-ZA-1336...'
+  type: ss
+  server: 102.37.156.224
+  port: 443
+  password: aduB9HGxQHjA2SBMRjkHX6
+  cipher: chacha20-ietf-poly1305
+  delay: 252
+- name: '[274ms] 🇬🇧 英国 | GBR #3'
+  type: ss
+  server: 038b7750485a79a0.lebufflonfermegroup.us
+  port: 40040
+  password: d98d7ec5-24d7-4ed8-8329-728b2c7ad1c5
+  cipher: aes-128-gcm
+  delay: 274
+- name: '[277ms] HK【高速节点：https://vip.a3f.xyz】42'
+  type: ss
+  server: waic.pro.main.sys-metric-report.com
+  port: 28014
+  password: abc62f00-95a8-4c2e-a85d-36a2cdc977da
+  cipher: chacha20-ietf-poly1305
+  delay: 277
+- name: '[285ms] 🇷🇺[www.v2nodes.com] vless-RU-1...'
+  type: vless
+  server: ru1.japancase.site
+  port: 443
+  uuid: db80088c-32a1-4cb8-a907-0f3cb7844152
+  udp: true
+  tls: true
+  servername: ru1.japancase.site
+  client-fingerprint: edge
+  skip-cert-verify: true
   flow: xtls-rprx-vision
   encryption: none
   network: tcp
-  delay: 209
-- name: '[281ms] RU【高速节点：https://vip.a3f.xyz】10'
+  delay: 285
+- name: '[286ms] 🇫🇷 法国 | FRA #1'
+  type: ss
+  server: 038b7750485a79a0.lebufflonfermegroup.us
+  port: 21191
+  password: d98d7ec5-24d7-4ed8-8329-728b2c7ad1c5
+  cipher: aes-256-gcm
+  delay: 286
+- name: '[289ms] 🇺🇸 美国 | USA_25'
+  type: vless
+  server: rrrrrrrr.260920-006.ccwu.cc
+  port: 443
+  uuid: ec613575-5972-41c9-a50f-9577bcd96ce3
+  udp: true
+  tls: true
+  servername: rrrrrrrr.260920-006.ccwu.cc
+  client-fingerprint: android
+  skip-cert-verify: true
+  encryption: none
+  network: xhttp
+  delay: 289
+- name: '[299ms] 🇪🇪 爱沙尼亚 | EST #1'
+  type: ss
+  server: 038b7750485a79a0.lebufflonfermegroup.us
+  port: 35194
+  password: d98d7ec5-24d7-4ed8-8329-728b2c7ad1c5
+  cipher: aes-128-gcm
+  delay: 299
+- name: '[302ms] 🇩🇪 德国 | DEU_1'
+  type: vless
+  server: Karen.shahankhan.ir
+  port: 443
+  uuid: a6eed628-ef46-4eb1-b1c9-e13853e082c3
+  udp: true
+  tls: false
+  encryption: none
+  network: tcp
+  delay: 302
+- name: '[312ms] 🇸🇬 新加坡 | SGP #2'
+  type: vless
+  server: vl-x2.qz10086.top
+  port: 37998
+  uuid: d235ad20-8f30-441e-871e-ee2695e4c430
+  udp: true
+  tls: true
+  servername: www.apple.com
+  client-fingerprint: firefox
+  skip-cert-verify: true
+  flow: xtls-rprx-vision
+  encryption: none
+  network: tcp
+  delay: 312
+- name: '[317ms] 🇩🇪 德国 | DEU #2'
+  type: ss
+  server: 038b7750485a79a0.lebufflonfermegroup.us
+  port: 22084
+  password: d98d7ec5-24d7-4ed8-8329-728b2c7ad1c5
+  cipher: aes-256-gcm
+  delay: 317
+- name: '[317ms] 🇺🇸 美国 | USA_16'
+  type: vless
+  server: dddd.as2-0.kdns.fr
+  port: 443
+  uuid: da988d4c-540f-4719-896e-a878812bad69
+  udp: true
+  tls: true
+  servername: dddd.as2-0.kdns.fr
+  client-fingerprint: android
+  skip-cert-verify: true
+  encryption: none
+  network: xhttp
+  delay: 317
+- name: '[322ms] 🇨🇦 加拿大 | CAN #1'
+  type: ss
+  server: 038b7750485a79a0.lebufflonfermegroup.us
+  port: 21195
+  password: d98d7ec5-24d7-4ed8-8329-728b2c7ad1c5
+  cipher: aes-256-gcm
+  delay: 322
+- name: '[327ms] 🇷🇺 俄罗斯 | RUS #7'
   type: vless
   server: 213.183.41.31
   port: 8459
@@ -423,14 +3095,296 @@ proxies:
   udp: true
   tls: true
   servername: photos.plumstatic.com
-  client-fingerprint: firefox
   skip-cert-verify: true
   encryption: none
   network: ws
   ws-opts:
-    path: /ws
-  delay: 281
-- name: '[294ms] ES【高速节点：https://vip.a3f.xyz】26'
+    path: /wsfp=firefox
+  delay: 327
+- name: '[341ms] 🇦🇱 AL_03 #1'
+  type: ss
+  server: 038b7750485a79a0.lebufflonfermegroup.us
+  port: 35190
+  password: d98d7ec5-24d7-4ed8-8329-728b2c7ad1c5
+  cipher: aes-128-gcm
+  delay: 341
+- name: '[344ms] 🇷🇺 俄罗斯 | RUS'
+  type: vless
+  server: leviko-ru0640.shopingggg.ir
+  port: 443
+  uuid: 38308ff1-5aa9-494f-a25a-0f2870d56b3e
+  udp: true
+  tls: true
+  servername: vps3.nemnogogo.com
+  client-fingerprint: firefox
+  skip-cert-verify: true
+  encryption: none
+  network: grpc
+  delay: 344
+- name: '[357ms] 🇹🇼[www.v2nodes.com] trojan-TW-... #1'
+  type: trojan
+  server: ddrr2.tube-cat.com
+  port: 59188
+  password: d7563108-615c-4338-a7bd-77f359869a4a
+  udp: true
+  skip-cert-verify: true
+  sni: r.tw3.cat.bilibili.com
+  delay: 357
+- name: '[369ms] 🏳[www.v2nodes.com] vless- #7'
+  type: vless
+  server: 213.183.45.23
+  port: 8444
+  uuid: eb62cabf-5901-403a-aa0c-b1d9ed1b346d
+  udp: true
+  tls: true
+  servername: media.plumstatic.com
+  skip-cert-verify: true
+  encryption: none
+  network: ws
+  ws-opts:
+    path: /wsfp=firefox
+  delay: 369
+- name: '[369ms] 🇩🇪 德国 | DEU_4'
+  type: vless
+  server: r8.pythonmakemigreat.wiki
+  port: 8443
+  uuid: f8d52ece-fad4-478d-875d-df6eed3befa7
+  udp: true
+  tls: true
+  servername: cdn.study.golangwikito.cfd
+  reality-opts:
+    public-key: QrNs0ew7snHqLfpVXS9RAhlRzgAzzGZK9fXmDcx9xHI
+  client-fingerprint: chrome
+  skip-cert-verify: false
+  encryption: none
+  network: xhttp
+  delay: 369
+- name: '[377ms] 俄罗斯+V2CROSS.COM'
+  type: vless
+  server: devcdn.icu
+  port: 443
+  uuid: b432a23a-acff-425c-bf69-70480cd6ed09
+  udp: true
+  tls: true
+  servername: devcdn.icu
+  client-fingerprint: chrome
+  skip-cert-verify: true
+  encryption: none
+  network: ws
+  ws-opts:
+    path: /edge/chunk/b2265efffa29/
+    headers:
+      Host: devcdn.icu
+  delay: 377
+- name: '[378ms] 🇨🇦[www.v2nodes.com] vless-CA'
+  type: vless
+  server: www.gov.se
+  port: 8080
+  uuid: 989d58b8-d2ea-4d28-b5ff-0f3cd078f2cf
+  udp: true
+  tls: false
+  encryption: none
+  network: ws
+  ws-opts:
+    path: /
+    headers:
+      Host: sdf23g-billowing-moon-348e.mzm468gc.workers.dev
+  delay: 378
+- name: '[386ms] 🇺🇸 美国 | USA_17'
+  type: vless
+  server: dd.260920-1.kdns.fr
+  port: 443
+  uuid: da988d4c-540f-4719-896e-a878812bad69
+  udp: true
+  tls: true
+  servername: dd.260920-1.kdns.fr
+  client-fingerprint: android
+  skip-cert-verify: true
+  encryption: none
+  network: xhttp
+  delay: 386
+- name: '[387ms] TG频道:@ripaojiedian #1'
+  type: vless
+  server: cloudflare.seeck.cn
+  port: 443
+  uuid: b69cf773-da16-486e-afce-a45b94f998b3
+  udp: true
+  tls: true
+  servername: senflarelink-node-xfcyh2.pages.dev
+  client-fingerprint: chrome
+  skip-cert-verify: true
+  encryption: none
+  network: ws
+  ws-opts:
+    path: /flow=
+    headers:
+      Host: senflarelink-node-xfcyh2.pages.dev
+  delay: 387
+- name: '[413ms] 🇦🇪[www.v2nodes.com] trojan-AE-...'
+  type: trojan
+  server: sclass-00.catcat321.com
+  port: 20123
+  password: d9064589-74af-432a-9390-5d8a9da281bf
+  udp: true
+  skip-cert-verify: true
+  sni: hk.catxstar.com
+  delay: 413
+- name: '[428ms] 🇺🇸 美国 | USA_5'
+  type: vless
+  server: e293c7t.us3.h1clayd.click
+  port: 443
+  uuid: e894c08a-fecc-46f5-bf03-c95d0274c79d
+  udp: true
+  tls: true
+  servername: e293c7t.us3.h1clayd.click
+  reality-opts:
+    public-key: cEapNjAtrnPz_dCSziCJVvXJf2Mq_FtY5UabpQFmI0w
+    short-id: 449f801b009f33f4
+  client-fingerprint: firefox
+  skip-cert-verify: false
+  flow: xtls-rprx-vision
+  encryption: none
+  network: tcp
+  delay: 428
+- name: '[434ms] 🇯🇵[www.v2nodes.com] vless-JP-1...'
+  type: vless
+  server: 213.183.41.31
+  port: 8463
+  uuid: eb62cabf-5901-403a-aa0c-b1d9ed1b346d
+  udp: true
+  tls: true
+  servername: share.plumstatic.com
+  skip-cert-verify: true
+  encryption: none
+  network: ws
+  ws-opts:
+    path: /wsfp=firefox
+  delay: 434
+- name: '[441ms] 🇹🇷TR_1|1.4MB/s'
+  type: vless
+  server: raha.ertebatgoostar.ir
+  port: 80
+  uuid: 8c49bed5-dbb2-4c0d-a2f1-2577b12c6c66
+  udp: true
+  tls: false
+  encryption: none
+  network: ws
+  ws-opts:
+    path: /
+  delay: 441
+- name: '[449ms] 🇺🇸 美国 | USA_18'
+  type: vless
+  server: rrrrrr.r0-4.cc.cd
+  port: 443
+  uuid: da988d4c-540f-4719-896e-a878812bad69
+  udp: true
+  tls: true
+  servername: rrrrrr.r0-4.cc.cd
+  client-fingerprint: android
+  skip-cert-verify: true
+  encryption: none
+  network: xhttp
+  delay: 449
+- name: '[526ms] 🇫🇮FI_1|2.5MB/s'
+  type: vless
+  server: 78ec29x.fi16.h1clayd.click
+  port: 443
+  uuid: 2ccb06b6-9eac-44eb-ade7-c1e5afb8e7df
+  udp: true
+  tls: true
+  servername: 78ec29x.fi16.h1clayd.click
+  client-fingerprint: firefox
+  skip-cert-verify: true
+  encryption: none
+  network: tcp
+  delay: 526
+- name: '[574ms] 🇮🇱 以色列 | ISR #1'
+  type: vless
+  server: 71b840t.de7.h1clayd.click
+  port: 443
+  uuid: 26843758-24de-4f76-b5d0-624038e353c4
+  udp: true
+  tls: true
+  servername: 71b840t.de7.h1clayd.click
+  client-fingerprint: chrome
+  skip-cert-verify: true
+  encryption: none
+  network: tcp
+  delay: 574
+- name: '[634ms] 🇺🇸 美国 | USA_14'
+  type: vless
+  server: rr.r0-4.cc.cd
+  port: 443
+  uuid: da988d4c-540f-4719-896e-a878812bad69
+  udp: true
+  tls: true
+  servername: rr.r0-4.cc.cd
+  client-fingerprint: android
+  skip-cert-verify: true
+  encryption: none
+  network: xhttp
+  delay: 634
+- name: '[651ms] 🇺🇸 美国 | USA_6'
+  type: vless
+  server: r.r0-4.cc.cd
+  port: 443
+  uuid: da988d4c-540f-4719-896e-a878812bad69
+  udp: true
+  tls: true
+  servername: r.r0-4.cc.cd
+  client-fingerprint: android
+  skip-cert-verify: true
+  encryption: none
+  network: xhttp
+  delay: 651
+- name: '[710ms] 🇺🇸 美国 | USA_12'
+  type: vless
+  server: rrrr.r0-4.cc.cd
+  port: 443
+  uuid: da988d4c-540f-4719-896e-a878812bad69
+  udp: true
+  tls: true
+  servername: rrrr.r0-4.cc.cd
+  client-fingerprint: android
+  skip-cert-verify: true
+  encryption: none
+  network: xhttp
+  delay: 710
+- name: '[724ms] 🇭🇰[www.v2nodes.com] ss-HK-1621...'
+  type: ss
+  server: 209.248.57.105
+  port: 8388
+  password: AMok40FfaM+Ikwre16psBpVk6JHxsQZw
+  cipher: aes-256-gcm
+  delay: 724
+- name: '[786ms] 🇺🇸 美国 | USA_11'
+  type: vless
+  server: ddddddd.r0-6.cc.cd
+  port: 443
+  uuid: da988d4c-540f-4719-896e-a878812bad69
+  udp: true
+  tls: true
+  servername: ddddddd.r0-6.cc.cd
+  client-fingerprint: android
+  skip-cert-verify: true
+  encryption: none
+  network: xhttp
+  delay: 786
+- name: '[1106ms] 🇺🇸[www.v2nodes.com] vless-US-1... #4'
+  type: vless
+  server: 195.123.240.65
+  port: 443
+  uuid: ce18d0eb-5c71-41f9-96e5-1632e22456e4
+  udp: true
+  tls: true
+  servername: www.cloudflare.com
+  client-fingerprint: ios
+  skip-cert-verify: true
+  flow: xtls-rprx-vision
+  encryption: none
+  network: tcp
+  delay: 1106
+- name: '[1421ms] ES【高速节点：https://vip.a3f.xyz】24'
   type: vless
   server: 196.245.52.187
   port: 443
@@ -445,69 +3399,36 @@ proxies:
   skip-cert-verify: false
   encryption: none
   network: tcp
-  delay: 294
-- name: '[311ms] RU【高速节点：https://vip.a3f.xyz】12'
+  delay: 1421
+- name: '[2233ms] 🏳[www.v2nodes.com] vless- #3'
   type: vless
-  server: 213.183.45.23
-  port: 8444
-  uuid: eb62cabf-5901-403a-aa0c-b1d9ed1b346d
+  server: 85.90.197.220
+  port: 443
+  uuid: 8f704ed6-9a1a-4d04-94dd-1bff501716de
   udp: true
   tls: true
-  servername: media.plumstatic.com
-  client-fingerprint: firefox
+  servername: www.cloudflare.com
+  client-fingerprint: chrome
   skip-cert-verify: true
+  flow: xtls-rprx-vision
   encryption: none
-  network: ws
-  ws-opts:
-    path: /ws
-  delay: 311
-- name: '[321ms] DE【高速节点：https://vip.a3f.xyz】5'
+  network: tcp
+  delay: 2233
+- name: '[3533ms] 🏳[www.v2nodes.com] vless- #5'
   type: vless
-  server: 5d0319t.nl7.h1clayd.click
+  server: 15b171g.nl7.h1clayd.click
   port: 443
   uuid: cda0862a-0f87-4be9-8ed8-1d0c9e382839
   udp: true
   tls: true
-  servername: 5d0319t.nl7.h1clayd.click
-  reality-opts:
-    public-key: l-GzBDuNuhnjxoRlZqKvT7jAt_sbVAxhGFsAttO5kXs
-    short-id: 361d0dd59c70516f
-  client-fingerprint: firefox
-  skip-cert-verify: false
-  encryption: none
-  network: tcp
-  delay: 321
-- name: '[333ms] RO【高速节点：https://vip.a3f.xyz】29'
-  type: vless
-  server: a80b5386.fi2.h1clayd.click
-  port: 443
-  uuid: 2ccb06b6-9eac-44eb-ade7-c1e5afb8e7df
-  udp: true
-  tls: true
-  servername: a80b5386.fi2.h1clayd.click
-  reality-opts:
-    public-key: PslSaSQWP4BZZmkL7irab4FMti8sW6BvoC7ytFjJFyc
-    short-id: cc678f10161992a9
-  client-fingerprint: firefox
-  skip-cert-verify: false
-  encryption: none
-  network: tcp
-  delay: 333
-- name: '[378ms] RU【高速节点：https://vip.a3f.xyz】11'
-  type: vless
-  server: 213.183.41.31
-  port: 8463
-  uuid: eb62cabf-5901-403a-aa0c-b1d9ed1b346d
-  udp: true
-  tls: true
-  servername: share.plumstatic.com
-  client-fingerprint: firefox
+  servername: 15b171g.nl7.h1clayd.click
+  client-fingerprint: chrome
   skip-cert-verify: true
   encryption: none
-  network: ws
-  ws-opts:
-    path: /ws
-  delay: 378
+  network: grpc
+  grpc-opts:
+    grpc-service-name: 5b79e8a94241
+  delay: 3533
 proxy-groups:
 - name: 🚀 选择代理
   type: select
@@ -521,126 +3442,918 @@ proxy-groups:
   url: 'https://www.google.com/'
   interval: 300
   proxies:
-  - '[1ms] US【高速节点：https://vip.a3f.xyz】32'
-  - '[1ms] CA【高速节点：https://vip.a3f.xyz】33'
-  - '[2ms] RU【高速节点：https://vip.a3f.xyz】22'
-  - '[2ms] CA【高速节点：https://vip.a3f.xyz】35'
-  - '[2ms] CA【高速节点：https://vip.a3f.xyz】34'
-  - '[2ms] 🇺🇸_US_美国->🇬🇧_GB_英国'
-  - '[15ms] CA【高速节点：https://vip.a3f.xyz】30'
-  - '[93ms] DE【高速节点：https://vip.a3f.xyz】14'
-  - '[94ms] LY【高速节点：https://vip.a3f.xyz】4'
-  - '[95ms] NG【高速节点：https://vip.a3f.xyz】23'
-  - '[96ms] DE【高速节点：https://vip.a3f.xyz】7'
-  - '[97ms] DE【高速节点：https://vip.a3f.xyz】20'
-  - '[99ms] IT【高速节点：https://vip.a3f.xyz】19'
-  - '[100ms] IT【高速节点：https://vip.a3f.xyz】2'
-  - '[102ms] IT【高速节点：https://vip.a3f.xyz】1'
-  - '[102ms] 节点日期：2026-11-26'
-  - '[102ms] IT【高速节点：https://vip.a3f.xyz】3'
-  - '[102ms] IT【高速节点：https://vip.a3f.xyz】8'
-  - '[102ms] IT【高速节点：https://vip.a3f.xyz】9'
-  - '[102ms] IT【高速节点：https://vip.a3f.xyz】16'
-  - '[102ms] IT【高速节点：https://vip.a3f.xyz】18'
-  - '[103ms] IT【高速节点：https://vip.a3f.xyz】17'
-  - '[111ms] TR【高速节点：https://vip.a3f.xyz】24'
-  - '[131ms] FR【高速节点：https://vip.a3f.xyz】6'
-  - '[141ms] NE【高速节点：https://vip.a3f.xyz】28'
-  - '[142ms] NE【高速节点：https://vip.a3f.xyz】25'
-  - '[150ms] US【高速节点：https://vip.a3f.xyz】13'
-  - '[167ms] NE【高速节点：https://vip.a3f.xyz】31'
-  - '[176ms] RU【高速节点：https://vip.a3f.xyz】36'
-  - '[208ms] TW【高速节点：https://vip.a3f.xyz】27'
-  - '[209ms] TW【高速节点：https://vip.a3f.xyz】21'
-  - '[281ms] RU【高速节点：https://vip.a3f.xyz】10'
-  - '[294ms] ES【高速节点：https://vip.a3f.xyz】26'
-  - '[311ms] RU【高速节点：https://vip.a3f.xyz】12'
-  - '[321ms] DE【高速节点：https://vip.a3f.xyz】5'
-  - '[333ms] RO【高速节点：https://vip.a3f.xyz】29'
-  - '[378ms] RU【高速节点：https://vip.a3f.xyz】11'
+  - '[5ms] 🇸🇬[www.v2nodes.com] vless-SG-2...'
+  - '[6ms] CA【高速节点：https://vip.a3f.xyz】48'
+  - '[6ms] @DeltaKroneckerGithub_741_IPV4'
+  - '[6ms] 🇫🇷[www.v2nodes.com] vless-FR-1...'
+  - '[7ms] CA【高速节点：https://vip.a3f.xyz】47'
+  - '[7ms] 🇸🇬[www.v2nodes.com] vless-SG #1'
+  - '[7ms] 🏳[www.v2nodes.com] vless- #2'
+  - '[7ms] 🏳[www.v2nodes.com] vless- #4'
+  - '[8ms] CA【高速节点：https://vip.a3f.xyz】46'
+  - '[8ms] 🇸🇬[www.v2nodes.com] vless-SG-2... #4'
+  - '[8ms] 🇸🇬[www.v2nodes.com] vless-SG #2'
+  - '[8ms] 🇸🇬[www.v2nodes.com] vless-SG-1... #1'
+  - '[8ms] 🇺🇸[www.v2nodes.com] vless-US-1... #2'
+  - '[9ms] 🇮🇳[www.v2nodes.com] vless-IN-1...'
+  - '[10ms] 🇺🇸_US_美国->🇬🇧_GB_英国'
+  - '[11ms] @DeltaKroneckerGithub_2974_IPV4'
+  - '[11ms] 🇸🇬[www.v2nodes.com] vless-SG-7... #1'
+  - '[12ms] 🇸🇬[www.v2nodes.com] vless-SG-3...'
+  - '[24ms] US【高速节点：https://vip.a3f.xyz】45'
+  - '[27ms] 🇺🇸 美国 | USA #7'
+  - '[30ms] RU【高速节点：https://vip.a3f.xyz】19'
+  - '[30ms] CA【高速节点：https://vip.a3f.xyz】44'
+  - '[30ms] 🇺🇸 美国 | USA #5'
+  - '[31ms] 🇺🇸 美国 | USA #10'
+  - '[34ms] 🏳[www.v2nodes.com] ss-'
+  - '[34ms] 🇺🇸[www.v2nodes.com] ss-US-1560...'
+  - '[34ms] 🇺🇸US_3|1006KB/s'
+  - '[35ms] 🇺🇸 美国 | USA 4'
+  - '[36ms] 🇨🇦[www.v2nodes.com] trojan-CA-... #4'
+  - '[37ms] 🇨🇦[www.v2nodes.com] ss-CA-1558...'
+  - '[37ms] 🇨🇦[www.v2nodes.com] trojan-CA-... #5'
+  - '[38ms] 🇨🇦[www.v2nodes.com] ss-CA-1557...'
+  - '[38ms] 🏳[www.v2nodes.com] trojan-'
+  - '[39ms] 🇸🇪 瑞典 | SWE #1'
+  - '[39ms] 🇨🇦[www.v2nodes.com] ss-CA-1538...'
+  - '[40ms] 🇺🇸[www.v2nodes.com] trojan-US-... #8'
+  - '[42ms] 🇳🇴 挪威 | NOR #1'
+  - '[42ms] 🇺🇸 美国 | USA #3'
+  - '[44ms] 🇨🇦[www.v2nodes.com] ss-CA-1559... #1'
+  - '[44ms] 美国|@ripaojiedian'
+  - '[45ms] ??[www.v2nodes.com] vless-AT-3...'
+  - '[45ms] 🇺🇸[www.v2nodes.com] trojan-US-... #6'
+  - '[45ms] 🇺🇸 美国 | USA_28'
+  - '[47ms] 🇨🇦[www.v2nodes.com] ss-CA-1546...'
+  - '[47ms] 🇺🇸 美国 | USA #8'
+  - '[48ms] 美国4|@ripaojiedian'
+  - '[49ms] 🇳🇱[www.v2nodes.com] vless-NL-1...'
+  - '[49ms] 🇺🇸 美国 | USA #6'
+  - '[49ms] 🇺🇸 美国 | USA #9'
+  - '[50ms] 🇨🇦[www.v2nodes.com] ss-CA-1559...'
+  - '[53ms] 🇺🇸[www.v2nodes.com] trojan-US-... #4'
+  - '[54ms] 🇺🇸 美国 | USA_13'
+  - '[57ms] 🇺🇸 美国 | USA_20'
+  - '[58ms] 🇺🇸 美国 | USA_1'
+  - '[63ms] 🇺🇸 美国 | USA'
+  - '[63ms] 🇺🇸 美国 | USA_26'
+  - '[66ms] 🇺🇸 美国 | USA_9'
+  - '[70ms] 🇧🇪BE_2|1.4MB/s'
+  - '[71ms] 🇩🇰DK_1|3.8MB/s'
+  - '[76ms] 🇭🇰 香港 | HKG #5'
+  - '[77ms] 🇮🇹IT_10|2.8MB/s'
+  - '[92ms] 🇺🇸 美国 | USA_29'
+  - '[100ms] 🇬🇧 英国 | GBR #2'
+  - '[102ms] 🇬🇧[www.v2nodes.com] ss-GB-1602...'
+  - '[104ms] 🇺🇸 美国 | USA #2'
+  - '[105ms] 🇳🇱[www.v2nodes.com] vless-NL-1... #4'
+  - '[105ms] 🇫🇷[www.v2nodes.com] ss-FR-1615... #1'
+  - '[105ms] 🇬🇧[www.v2nodes.com] ss-GB-1615... #1'
+  - '[106ms] 🏳[www.v2nodes.com] vless- #6'
+  - '[106ms] 🇬🇧[www.v2nodes.com] ss-GB-1451...'
+  - '[108ms] 🇳🇱[www.v2nodes.com] vless-NL-1... #3'
+  - '[109ms] 🇫🇷[www.v2nodes.com] ss-FR-1615... #3'
+  - '[109ms] 🇬🇧[www.v2nodes.com] ss-GB-1616...'
+  - '[109ms] 🇬🇧[www.v2nodes.com] ss-GB-9184...'
+  - '[109ms] 🇳🇱[www.v2nodes.com] ss-NL-1614... #1'
+  - '[109ms] 🇭🇰 香港 | HKG #4'
+  - '[110ms] 🇳🇱[www.v2nodes.com] vless-NL-1... #5'
+  - '[110ms] 🇬🇧[www.v2nodes.com] ss-GB-1616... #1'
+  - '[110ms] 🇳🇱 荷兰 | NLD 2'
+  - '[111ms] @confiig_hub #1'
+  - '[111ms] 🇺🇸[www.v2nodes.com] vless-US-1... #1'
+  - '[111ms] 🇬🇧[www.v2nodes.com] ss-GB-1247...'
+  - '[112ms] 🇫🇷[www.v2nodes.com] vless-FR-1... #1'
+  - '[112ms] 🇳🇱[www.v2nodes.com] ss-NL-1618...'
+  - '[112ms] 🇹🇼 🇨🇳 台湾 | TWN'
+  - '[113ms] 🇳🇱[www.v2nodes.com] ss-NL-1614...'
+  - '[114ms] DE【高速节点：https://vip.a3f.xyz】9'
+  - '[114ms] 🇬🇧[www.v2nodes.com] ss-GB-1615...'
+  - '[114ms] 🇪🇸[www.v2nodes.com] trojan-ES-... #5'
+  - '[115ms] 🇩🇪[www.v2nodes.com] ss-DE-1592...'
+  - '[115ms] 🇺🇸 美国 | USA 12'
+  - '[115ms] 🇺🇸 美国 | USA_21'
+  - '[116ms] 🇳🇱[www.v2nodes.com] trojan-NL-... #2'
+  - '[116ms] 🇳🇱 荷兰 | NLD'
+  - '[117ms] 🇳🇱[www.v2nodes.com] trojan-NL-... #5'
+  - '[119ms] 🇬🇧[www.v2nodes.com] ss-GB-8004...'
+  - '[119ms] 🇳🇱[www.v2nodes.com] ss-NL-1452... #1'
+  - '[121ms] 🇳🇱[www.v2nodes.com] ss-NL-1564...'
+  - '[121ms] 🇳🇴[www.v2nodes.com] ss-NO-1220...'
+  - '[121ms] 🇪🇸[www.v2nodes.com] trojan-ES-...'
+  - '[122ms] DE【高速节点：https://vip.a3f.xyz】10'
+  - '[122ms] 🇫🇷[www.v2nodes.com] ss-FR-1615... #4'
+  - '[123ms] RO【高速节点：https://vip.a3f.xyz】31'
+  - '[123ms] 🇫🇷[www.v2nodes.com] vless-FR-1... #3'
+  - '[123ms] 🇫🇷[www.v2nodes.com] ss-FR-1616...'
+  - '[123ms] 🇫🇷[www.v2nodes.com] ss-FR-1615...'
+  - '[123ms] 🇳🇱[www.v2nodes.com] ss-NL-1452...'
+  - '[123ms] 🇨🇭[www.v2nodes.com] trojan-CH-... #4'
+  - '[123ms] 🇺🇸 美国 | USA #1'
+  - '[124ms] DE【高速节点：https://vip.a3f.xyz】23'
+  - '[124ms] 🇩🇪[www.v2nodes.com] vless-DE-1... #1'
+  - '[124ms] 🇩🇪[www.v2nodes.com] vless-DE-1... #4'
+  - '[125ms] 美国+Nokia'
+  - '[125ms] Telegram@vpnjey #1'
+  - '[125ms] 🇩🇪[www.v2nodes.com] vless-DE-1... #5'
+  - '[125ms] 🇫🇷[www.v2nodes.com] ss-FR-1615... #2'
+  - '[126ms] IT【高速节点：https://vip.a3f.xyz】8'
+  - '[126ms] DE【高速节点：https://vip.a3f.xyz】12'
+  - '[126ms] 🇨🇭[www.v2nodes.com] ss-CH-1615... #1'
+  - '[126ms] 🇺🇸[www.v2nodes.com] ss-US-1620...'
+  - '[126ms] 德国|@ripaojiedian'
+  - '[127ms] 🇸🇪[www.v2nodes.com] vless-SE-1... #3'
+  - '[127ms] 🇦🇹[www.v2nodes.com] ss-AT-1595...'
+  - '[127ms] 🇩🇪 德国 | DEU_3'
+  - '[128ms] 🇦🇹[www.v2nodes.com] vless-AT-1...'
+  - '[128ms] 🇳🇱[www.v2nodes.com] ss-NL-1452... #2'
+  - '[128ms] 德国2|@ripaojiedian'
+  - '[129ms] US【高速节点：https://vip.a3f.xyz】22'
+  - '[129ms] 🇵🇱[www.v2nodes.com] vless-PL-1...'
+  - '[129ms] 🇪🇸[www.v2nodes.com] ss-ES-1615...'
+  - '[129ms] 🇳🇱[www.v2nodes.com] ss-NL-1510...'
+  - '[129ms] 🏳[www.v2nodes.com] trojan- #2'
+  - '[130ms] 🇮🇹[www.v2nodes.com] ss-IT-1597...'
+  - '[130ms] 🇩🇪DE_8|4.4MB/s'
+  - '[131ms] 🇺🇸[www.v2nodes.com] vless-US-1... #3'
+  - '[132ms] IT【高速节点：https://vip.a3f.xyz】5'
+  - '[132ms] 西班牙+V2CROSS.COM'
+  - '[132ms] 🇩🇪[www.v2nodes.com] vless-DE-1... #8'
+  - '[132ms] 🇸🇪[www.v2nodes.com] vless-SE-1... #2'
+  - '[132ms] 🇸🇪[www.v2nodes.com] ss-SE-1615...'
+  - '[133ms] 🇨🇿[www.v2nodes.com] vless-CZ-1...'
+  - '[133ms] 🇩🇪[www.v2nodes.com] ss-DE-1616...'
+  - '[133ms] 🏳[www.v2nodes.com] ss- #2'
+  - '[133ms] 🇯🇵[www.v2nodes.com] ss-JP-5141...'
+  - '[134ms] IT【高速节点：https://vip.a3f.xyz】6'
+  - '[134ms] 🏳[www.v2nodes.com] ss- #1'
+  - '[134ms] 日本5|@ripaojiedian'
+  - '[135ms] JP【高速节点：https://vip.a3f.xyz】36'
+  - '[136ms] LY【高速节点：https://vip.a3f.xyz】16'
+  - '[136ms] JP【高速节点：https://vip.a3f.xyz】34'
+  - '[136ms] JP【高速节点：https://vip.a3f.xyz】38'
+  - '[136ms] 🏳[www.v2nodes.com] vless- #1'
+  - '[136ms] 🇯🇵[www.v2nodes.com] vless-JP-1... #1'
+  - '[136ms] 🇯🇵[www.v2nodes.com] ss-JP-9223...'
+  - '[137ms] 🇪🇸[www.v2nodes.com] ss-ES-1443...'
+  - '[138ms] 🇦🇹[www.v2nodes.com] ss-AT-1614...'
+  - '[138ms] 🇨🇭[www.v2nodes.com] ss-CH-1615...'
+  - '[138ms] 🇯🇵[www.v2nodes.com] ss-JP-1291...'
+  - '[139ms] 日本2|@ripaojiedian'
+  - '[139ms] 🇪🇪EE_1|1.5MB/s'
+  - '[140ms] JP【高速节点：https://vip.a3f.xyz】32'
+  - '[140ms] JP【高速节点：https://vip.a3f.xyz】33'
+  - '[140ms] 🇧🇾[www.v2nodes.com] vless-BY-1... #1'
+  - '[141ms] IT【高速节点：https://vip.a3f.xyz】11'
+  - '[142ms] 节点日期：2026-11-27'
+  - '[142ms] 🇭🇰[www.v2nodes.com] vless-HK-1...'
+  - '[142ms] 日本3|@ripaojiedian'
+  - '[142ms] 🇭🇰 香港 | HKG #3'
+  - '[143ms] 🇵🇱[www.v2nodes.com] vless-PL-1... #1'
+  - '[145ms] JP【高速节点：https://vip.a3f.xyz】40'
+  - '[145ms] JP【高速节点：https://vip.a3f.xyz】39'
+  - '[145ms] @OutlineReleasedKey #2'
+  - '[145ms] 🇧🇾[www.v2nodes.com] vless-BY-1...'
+  - '[146ms] IT【高速节点：https://vip.a3f.xyz】3'
+  - '[146ms] IT【高速节点：https://vip.a3f.xyz】4'
+  - '[146ms] JP【高速节点：https://vip.a3f.xyz】35'
+  - '[146ms] JP【高速节点：https://vip.a3f.xyz】37'
+  - '[146ms] 🇩🇪[www.v2nodes.com] vless-DE-1... #6'
+  - '[146ms] 🇷🇺[www.v2nodes.com] ss-RU-1163...'
+  - '[146ms] 🏳[www.v2nodes.com] trojan- #1'
+  - '[146ms] 🇵🇱 波兰 | POL #1'
+  - '[146ms] 🇸🇬 新加坡 | SGP #4'
+  - '[147ms] IT【高速节点：https://vip.a3f.xyz】2'
+  - '[147ms] Telegram:@v2rayng3'
+  - '[147ms] 🇷🇺 俄罗斯 | RUS #2'
+  - '[148ms] IT【高速节点：https://vip.a3f.xyz】7'
+  - '[148ms] 🇩🇪[www.v2nodes.com] vless-DE-1...'
+  - '[148ms] 🇩🇪[www.v2nodes.com] vless-DE-1... #2'
+  - '[149ms] IT【高速节点：https://vip.a3f.xyz】1'
+  - '[152ms] 🇸🇪[www.v2nodes.com] vless-SE-1... #1'
+  - '[152ms] 🇷🇺[www.v2nodes.com] ss-RU-1624...'
+  - '[154ms] @VPsave #1'
+  - '[154ms] 🇷🇺 俄罗斯 | RUS #1'
+  - '[156ms] FR【高速节点：https://vip.a3f.xyz】14'
+  - '[156ms] RU【高速节点：https://vip.a3f.xyz】17'
+  - '[156ms] 🇩🇪 德国 | DEU'
+  - '[158ms] 🇬🇧[www.v2nodes.com] vless-GB-1...'
+  - '[158ms] 🇷🇺 俄罗斯 | RUS_1'
+  - '[158ms] 🇺🇸 美国 | USA_10'
+  - '[159ms] @tootffarangi🍓-3'
+  - '[160ms] FR【高速节点：https://vip.a3f.xyz】15'
+  - '[160ms] DE【高速节点：https://vip.a3f.xyz】13'
+  - '[160ms] 🇳🇱 荷兰 | NLD_1'
+  - '[160ms] 🇺🇸 美国 | USA_27'
+  - '[161ms] KR【高速节点：https://vip.a3f.xyz】18'
+  - '[165ms] 🇳🇱[www.v2nodes.com] vless-NL-1... #1'
+  - '[166ms] 🇦🇱[www.v2nodes.com] ss-AL-1490...'
+  - '[168ms] 🇯🇵 日本 | JPN #1'
+  - '[170ms] 🇬🇧 英国 | GBR #1'
+  - '[173ms] 🇭🇰 香港 | HKG_1'
+  - '[175ms] NE【高速节点：https://vip.a3f.xyz】21'
+  - '[175ms] 🇭🇰 香港 | HKG #2'
+  - '[175ms] 🇭🇰 香港 | HKG'
+  - '[178ms] NE【高速节点：https://vip.a3f.xyz】29'
+  - '[178ms] 🇺🇸 美国 | USA_15'
+  - '[180ms] 🇱🇻[www.v2nodes.com] vless-LV-1...'
+  - '[181ms] 🇭🇰 香港 | HKG #1'
+  - '[181ms] 🇺🇸 美国 | USA_19'
+  - '[183ms] 🇩🇪[www.v2nodes.com] vless-DE-1... #3'
+  - '[183ms] 🇷🇺 俄罗斯 | RUS #3'
+  - '[184ms] 🇹🇼[www.v2nodes.com] trojan-TW-...'
+  - '[184ms] 香港|@ripaojiedian'
+  - '[187ms] NE【高速节点：https://vip.a3f.xyz】30'
+  - '[187ms] 🇫🇷[www.v2nodes.com] vless-FR-1... #2'
+  - '[188ms] 🇺🇸 美国 | USA_4'
+  - '[189ms] 🇺🇸 美国 | USA_24'
+  - '[190ms] 🇪🇪 爱沙尼亚 | EST'
+  - '[192ms] 🇦🇪[www.v2nodes.com] vless-AE-1... #1'
+  - '[194ms] 🇷🇺 俄罗斯 | RUS 6'
+  - '[194ms] 🇺🇸 美国 | USA_8'
+  - '[195ms] 🇸🇬[www.v2nodes.com] ss-SG-1615... #1'
+  - '[195ms] 🇸🇬[www.v2nodes.com] ss-SG-1615... #2'
+  - '[196ms] 🇦🇪[www.v2nodes.com] vless-AE-1...'
+  - '[196ms] 🇸🇬[www.v2nodes.com] vless-SG-1... #2'
+  - '[196ms] 🇸🇬[www.v2nodes.com] ss-SG-1615... #3'
+  - '[196ms] 🇺🇸 美国 | USA_2'
+  - '[197ms] 🇰🇷[www.v2nodes.com] vless-KR-1...'
+  - '[197ms] 🇸🇬[www.v2nodes.com] ss-SG-1616...'
+  - '[198ms] 🇸🇬[www.v2nodes.com] ss-SG-1615...'
+  - '[198ms] 🇸🇬 新加坡 | SGP #1'
+  - '[198ms] 🇺🇸 美国 | USA_7'
+  - '[200ms] 🇮🇳[www.v2nodes.com] vless-IN-1... #1'
+  - '[200ms] 🇹🇷[www.v2nodes.com] vless-TR-1...'
+  - '[201ms] 🇷🇺[www.v2nodes.com] vless-RU-1... #1'
+  - '[201ms] 🇸🇬 新加坡 | SGP'
+  - '[202ms] SG【高速节点：https://vip.a3f.xyz】20'
+  - '[202ms] 🇲🇾[www.v2nodes.com] trojan-MY-...'
+  - '[203ms] 🇸🇬[www.v2nodes.com] vless-SG-1... #3'
+  - '[204ms] 🇰🇷[www.v2nodes.com] vless-KR-1... #1'
+  - '[205ms] 🇺🇸 美国 | USA_23'
+  - '[208ms] NE【高速节点：https://vip.a3f.xyz】25'
+  - '[210ms] 🇻🇳[www.v2nodes.com] vless-VN-1...'
+  - '[211ms] 🇺🇸[www.v2nodes.com] vless-US-1...'
+  - '[213ms] 🇺🇸 美国 | USA_22'
+  - '[215ms] 🇰🇿[www.v2nodes.com] vless-KZ-1...'
+  - '[220ms] 🇺🇸 美国 | USA_3'
+  - '[225ms] 🇸🇬[www.v2nodes.com] vless-SG-1...'
+  - '[231ms] 🇻🇳[www.v2nodes.com] trojan-VN-...'
+  - '[237ms] 🇸🇬[www.v2nodes.com] vless-SG-7...'
+  - '[241ms] SG【高速节点：https://vip.a3f.xyz】43'
+  - '[245ms] 🇿🇦[www.v2nodes.com] ss-ZA-1333...'
+  - '[246ms] 🇩🇪 德国 | DEU_2'
+  - '[248ms] 🇬🇧 英国 | GBR #4'
+  - '[252ms] 🇿🇦[www.v2nodes.com] ss-ZA-1336...'
+  - '[274ms] 🇬🇧 英国 | GBR #3'
+  - '[277ms] HK【高速节点：https://vip.a3f.xyz】42'
+  - '[285ms] 🇷🇺[www.v2nodes.com] vless-RU-1...'
+  - '[286ms] 🇫🇷 法国 | FRA #1'
+  - '[289ms] 🇺🇸 美国 | USA_25'
+  - '[299ms] 🇪🇪 爱沙尼亚 | EST #1'
+  - '[302ms] 🇩🇪 德国 | DEU_1'
+  - '[312ms] 🇸🇬 新加坡 | SGP #2'
+  - '[317ms] 🇩🇪 德国 | DEU #2'
+  - '[317ms] 🇺🇸 美国 | USA_16'
+  - '[322ms] 🇨🇦 加拿大 | CAN #1'
+  - '[327ms] 🇷🇺 俄罗斯 | RUS #7'
+  - '[341ms] 🇦🇱 AL_03 #1'
+  - '[344ms] 🇷🇺 俄罗斯 | RUS'
+  - '[357ms] 🇹🇼[www.v2nodes.com] trojan-TW-... #1'
+  - '[369ms] 🏳[www.v2nodes.com] vless- #7'
+  - '[369ms] 🇩🇪 德国 | DEU_4'
+  - '[377ms] 俄罗斯+V2CROSS.COM'
+  - '[378ms] 🇨🇦[www.v2nodes.com] vless-CA'
+  - '[386ms] 🇺🇸 美国 | USA_17'
+  - '[387ms] TG频道:@ripaojiedian #1'
+  - '[413ms] 🇦🇪[www.v2nodes.com] trojan-AE-...'
+  - '[428ms] 🇺🇸 美国 | USA_5'
+  - '[434ms] 🇯🇵[www.v2nodes.com] vless-JP-1...'
+  - '[441ms] 🇹🇷TR_1|1.4MB/s'
+  - '[449ms] 🇺🇸 美国 | USA_18'
+  - '[526ms] 🇫🇮FI_1|2.5MB/s'
+  - '[574ms] 🇮🇱 以色列 | ISR #1'
+  - '[634ms] 🇺🇸 美国 | USA_14'
+  - '[651ms] 🇺🇸 美国 | USA_6'
+  - '[710ms] 🇺🇸 美国 | USA_12'
+  - '[724ms] 🇭🇰[www.v2nodes.com] ss-HK-1621...'
+  - '[786ms] 🇺🇸 美国 | USA_11'
+  - '[1106ms] 🇺🇸[www.v2nodes.com] vless-US-1... #4'
+  - '[1421ms] ES【高速节点：https://vip.a3f.xyz】24'
+  - '[2233ms] 🏳[www.v2nodes.com] vless- #3'
+  - '[3533ms] 🏳[www.v2nodes.com] vless- #5'
 - name: 🔰 延迟最低
   type: url-test
   url: 'https://www.google.com/'
   interval: 300
   tolerance: 20
   proxies:
-  - '[1ms] US【高速节点：https://vip.a3f.xyz】32'
-  - '[1ms] CA【高速节点：https://vip.a3f.xyz】33'
-  - '[2ms] RU【高速节点：https://vip.a3f.xyz】22'
-  - '[2ms] CA【高速节点：https://vip.a3f.xyz】35'
-  - '[2ms] CA【高速节点：https://vip.a3f.xyz】34'
-  - '[2ms] 🇺🇸_US_美国->🇬🇧_GB_英国'
-  - '[15ms] CA【高速节点：https://vip.a3f.xyz】30'
-  - '[93ms] DE【高速节点：https://vip.a3f.xyz】14'
-  - '[94ms] LY【高速节点：https://vip.a3f.xyz】4'
-  - '[95ms] NG【高速节点：https://vip.a3f.xyz】23'
-  - '[96ms] DE【高速节点：https://vip.a3f.xyz】7'
-  - '[97ms] DE【高速节点：https://vip.a3f.xyz】20'
-  - '[99ms] IT【高速节点：https://vip.a3f.xyz】19'
-  - '[100ms] IT【高速节点：https://vip.a3f.xyz】2'
-  - '[102ms] IT【高速节点：https://vip.a3f.xyz】1'
-  - '[102ms] 节点日期：2026-11-26'
-  - '[102ms] IT【高速节点：https://vip.a3f.xyz】3'
-  - '[102ms] IT【高速节点：https://vip.a3f.xyz】8'
-  - '[102ms] IT【高速节点：https://vip.a3f.xyz】9'
-  - '[102ms] IT【高速节点：https://vip.a3f.xyz】16'
-  - '[102ms] IT【高速节点：https://vip.a3f.xyz】18'
-  - '[103ms] IT【高速节点：https://vip.a3f.xyz】17'
-  - '[111ms] TR【高速节点：https://vip.a3f.xyz】24'
-  - '[131ms] FR【高速节点：https://vip.a3f.xyz】6'
-  - '[141ms] NE【高速节点：https://vip.a3f.xyz】28'
-  - '[142ms] NE【高速节点：https://vip.a3f.xyz】25'
-  - '[150ms] US【高速节点：https://vip.a3f.xyz】13'
-  - '[167ms] NE【高速节点：https://vip.a3f.xyz】31'
-  - '[176ms] RU【高速节点：https://vip.a3f.xyz】36'
-  - '[208ms] TW【高速节点：https://vip.a3f.xyz】27'
-  - '[209ms] TW【高速节点：https://vip.a3f.xyz】21'
-  - '[281ms] RU【高速节点：https://vip.a3f.xyz】10'
-  - '[294ms] ES【高速节点：https://vip.a3f.xyz】26'
-  - '[311ms] RU【高速节点：https://vip.a3f.xyz】12'
-  - '[321ms] DE【高速节点：https://vip.a3f.xyz】5'
-  - '[333ms] RO【高速节点：https://vip.a3f.xyz】29'
-  - '[378ms] RU【高速节点：https://vip.a3f.xyz】11'
+  - '[5ms] 🇸🇬[www.v2nodes.com] vless-SG-2...'
+  - '[6ms] CA【高速节点：https://vip.a3f.xyz】48'
+  - '[6ms] @DeltaKroneckerGithub_741_IPV4'
+  - '[6ms] 🇫🇷[www.v2nodes.com] vless-FR-1...'
+  - '[7ms] CA【高速节点：https://vip.a3f.xyz】47'
+  - '[7ms] 🇸🇬[www.v2nodes.com] vless-SG #1'
+  - '[7ms] 🏳[www.v2nodes.com] vless- #2'
+  - '[7ms] 🏳[www.v2nodes.com] vless- #4'
+  - '[8ms] CA【高速节点：https://vip.a3f.xyz】46'
+  - '[8ms] 🇸🇬[www.v2nodes.com] vless-SG-2... #4'
+  - '[8ms] 🇸🇬[www.v2nodes.com] vless-SG #2'
+  - '[8ms] 🇸🇬[www.v2nodes.com] vless-SG-1... #1'
+  - '[8ms] 🇺🇸[www.v2nodes.com] vless-US-1... #2'
+  - '[9ms] 🇮🇳[www.v2nodes.com] vless-IN-1...'
+  - '[10ms] 🇺🇸_US_美国->🇬🇧_GB_英国'
+  - '[11ms] @DeltaKroneckerGithub_2974_IPV4'
+  - '[11ms] 🇸🇬[www.v2nodes.com] vless-SG-7... #1'
+  - '[12ms] 🇸🇬[www.v2nodes.com] vless-SG-3...'
+  - '[24ms] US【高速节点：https://vip.a3f.xyz】45'
+  - '[27ms] 🇺🇸 美国 | USA #7'
+  - '[30ms] RU【高速节点：https://vip.a3f.xyz】19'
+  - '[30ms] CA【高速节点：https://vip.a3f.xyz】44'
+  - '[30ms] 🇺🇸 美国 | USA #5'
+  - '[31ms] 🇺🇸 美国 | USA #10'
+  - '[34ms] 🏳[www.v2nodes.com] ss-'
+  - '[34ms] 🇺🇸[www.v2nodes.com] ss-US-1560...'
+  - '[34ms] 🇺🇸US_3|1006KB/s'
+  - '[35ms] 🇺🇸 美国 | USA 4'
+  - '[36ms] 🇨🇦[www.v2nodes.com] trojan-CA-... #4'
+  - '[37ms] 🇨🇦[www.v2nodes.com] ss-CA-1558...'
+  - '[37ms] 🇨🇦[www.v2nodes.com] trojan-CA-... #5'
+  - '[38ms] 🇨🇦[www.v2nodes.com] ss-CA-1557...'
+  - '[38ms] 🏳[www.v2nodes.com] trojan-'
+  - '[39ms] 🇸🇪 瑞典 | SWE #1'
+  - '[39ms] 🇨🇦[www.v2nodes.com] ss-CA-1538...'
+  - '[40ms] 🇺🇸[www.v2nodes.com] trojan-US-... #8'
+  - '[42ms] 🇳🇴 挪威 | NOR #1'
+  - '[42ms] 🇺🇸 美国 | USA #3'
+  - '[44ms] 🇨🇦[www.v2nodes.com] ss-CA-1559... #1'
+  - '[44ms] 美国|@ripaojiedian'
+  - '[45ms] ??[www.v2nodes.com] vless-AT-3...'
+  - '[45ms] 🇺🇸[www.v2nodes.com] trojan-US-... #6'
+  - '[45ms] 🇺🇸 美国 | USA_28'
+  - '[47ms] 🇨🇦[www.v2nodes.com] ss-CA-1546...'
+  - '[47ms] 🇺🇸 美国 | USA #8'
+  - '[48ms] 美国4|@ripaojiedian'
+  - '[49ms] 🇳🇱[www.v2nodes.com] vless-NL-1...'
+  - '[49ms] 🇺🇸 美国 | USA #6'
+  - '[49ms] 🇺🇸 美国 | USA #9'
+  - '[50ms] 🇨🇦[www.v2nodes.com] ss-CA-1559...'
+  - '[53ms] 🇺🇸[www.v2nodes.com] trojan-US-... #4'
+  - '[54ms] 🇺🇸 美国 | USA_13'
+  - '[57ms] 🇺🇸 美国 | USA_20'
+  - '[58ms] 🇺🇸 美国 | USA_1'
+  - '[63ms] 🇺🇸 美国 | USA'
+  - '[63ms] 🇺🇸 美国 | USA_26'
+  - '[66ms] 🇺🇸 美国 | USA_9'
+  - '[70ms] 🇧🇪BE_2|1.4MB/s'
+  - '[71ms] 🇩🇰DK_1|3.8MB/s'
+  - '[76ms] 🇭🇰 香港 | HKG #5'
+  - '[77ms] 🇮🇹IT_10|2.8MB/s'
+  - '[92ms] 🇺🇸 美国 | USA_29'
+  - '[100ms] 🇬🇧 英国 | GBR #2'
+  - '[102ms] 🇬🇧[www.v2nodes.com] ss-GB-1602...'
+  - '[104ms] 🇺🇸 美国 | USA #2'
+  - '[105ms] 🇳🇱[www.v2nodes.com] vless-NL-1... #4'
+  - '[105ms] 🇫🇷[www.v2nodes.com] ss-FR-1615... #1'
+  - '[105ms] 🇬🇧[www.v2nodes.com] ss-GB-1615... #1'
+  - '[106ms] 🏳[www.v2nodes.com] vless- #6'
+  - '[106ms] 🇬🇧[www.v2nodes.com] ss-GB-1451...'
+  - '[108ms] 🇳🇱[www.v2nodes.com] vless-NL-1... #3'
+  - '[109ms] 🇫🇷[www.v2nodes.com] ss-FR-1615... #3'
+  - '[109ms] 🇬🇧[www.v2nodes.com] ss-GB-1616...'
+  - '[109ms] 🇬🇧[www.v2nodes.com] ss-GB-9184...'
+  - '[109ms] 🇳🇱[www.v2nodes.com] ss-NL-1614... #1'
+  - '[109ms] 🇭🇰 香港 | HKG #4'
+  - '[110ms] 🇳🇱[www.v2nodes.com] vless-NL-1... #5'
+  - '[110ms] 🇬🇧[www.v2nodes.com] ss-GB-1616... #1'
+  - '[110ms] 🇳🇱 荷兰 | NLD 2'
+  - '[111ms] @confiig_hub #1'
+  - '[111ms] 🇺🇸[www.v2nodes.com] vless-US-1... #1'
+  - '[111ms] 🇬🇧[www.v2nodes.com] ss-GB-1247...'
+  - '[112ms] 🇫🇷[www.v2nodes.com] vless-FR-1... #1'
+  - '[112ms] 🇳🇱[www.v2nodes.com] ss-NL-1618...'
+  - '[112ms] 🇹🇼 🇨🇳 台湾 | TWN'
+  - '[113ms] 🇳🇱[www.v2nodes.com] ss-NL-1614...'
+  - '[114ms] DE【高速节点：https://vip.a3f.xyz】9'
+  - '[114ms] 🇬🇧[www.v2nodes.com] ss-GB-1615...'
+  - '[114ms] 🇪🇸[www.v2nodes.com] trojan-ES-... #5'
+  - '[115ms] 🇩🇪[www.v2nodes.com] ss-DE-1592...'
+  - '[115ms] 🇺🇸 美国 | USA 12'
+  - '[115ms] 🇺🇸 美国 | USA_21'
+  - '[116ms] 🇳🇱[www.v2nodes.com] trojan-NL-... #2'
+  - '[116ms] 🇳🇱 荷兰 | NLD'
+  - '[117ms] 🇳🇱[www.v2nodes.com] trojan-NL-... #5'
+  - '[119ms] 🇬🇧[www.v2nodes.com] ss-GB-8004...'
+  - '[119ms] 🇳🇱[www.v2nodes.com] ss-NL-1452... #1'
+  - '[121ms] 🇳🇱[www.v2nodes.com] ss-NL-1564...'
+  - '[121ms] 🇳🇴[www.v2nodes.com] ss-NO-1220...'
+  - '[121ms] 🇪🇸[www.v2nodes.com] trojan-ES-...'
+  - '[122ms] DE【高速节点：https://vip.a3f.xyz】10'
+  - '[122ms] 🇫🇷[www.v2nodes.com] ss-FR-1615... #4'
+  - '[123ms] RO【高速节点：https://vip.a3f.xyz】31'
+  - '[123ms] 🇫🇷[www.v2nodes.com] vless-FR-1... #3'
+  - '[123ms] 🇫🇷[www.v2nodes.com] ss-FR-1616...'
+  - '[123ms] 🇫🇷[www.v2nodes.com] ss-FR-1615...'
+  - '[123ms] 🇳🇱[www.v2nodes.com] ss-NL-1452...'
+  - '[123ms] 🇨🇭[www.v2nodes.com] trojan-CH-... #4'
+  - '[123ms] 🇺🇸 美国 | USA #1'
+  - '[124ms] DE【高速节点：https://vip.a3f.xyz】23'
+  - '[124ms] 🇩🇪[www.v2nodes.com] vless-DE-1... #1'
+  - '[124ms] 🇩🇪[www.v2nodes.com] vless-DE-1... #4'
+  - '[125ms] 美国+Nokia'
+  - '[125ms] Telegram@vpnjey #1'
+  - '[125ms] 🇩🇪[www.v2nodes.com] vless-DE-1... #5'
+  - '[125ms] 🇫🇷[www.v2nodes.com] ss-FR-1615... #2'
+  - '[126ms] IT【高速节点：https://vip.a3f.xyz】8'
+  - '[126ms] DE【高速节点：https://vip.a3f.xyz】12'
+  - '[126ms] 🇨🇭[www.v2nodes.com] ss-CH-1615... #1'
+  - '[126ms] 🇺🇸[www.v2nodes.com] ss-US-1620...'
+  - '[126ms] 德国|@ripaojiedian'
+  - '[127ms] 🇸🇪[www.v2nodes.com] vless-SE-1... #3'
+  - '[127ms] 🇦🇹[www.v2nodes.com] ss-AT-1595...'
+  - '[127ms] 🇩🇪 德国 | DEU_3'
+  - '[128ms] 🇦🇹[www.v2nodes.com] vless-AT-1...'
+  - '[128ms] 🇳🇱[www.v2nodes.com] ss-NL-1452... #2'
+  - '[128ms] 德国2|@ripaojiedian'
+  - '[129ms] US【高速节点：https://vip.a3f.xyz】22'
+  - '[129ms] 🇵🇱[www.v2nodes.com] vless-PL-1...'
+  - '[129ms] 🇪🇸[www.v2nodes.com] ss-ES-1615...'
+  - '[129ms] 🇳🇱[www.v2nodes.com] ss-NL-1510...'
+  - '[129ms] 🏳[www.v2nodes.com] trojan- #2'
+  - '[130ms] 🇮🇹[www.v2nodes.com] ss-IT-1597...'
+  - '[130ms] 🇩🇪DE_8|4.4MB/s'
+  - '[131ms] 🇺🇸[www.v2nodes.com] vless-US-1... #3'
+  - '[132ms] IT【高速节点：https://vip.a3f.xyz】5'
+  - '[132ms] 西班牙+V2CROSS.COM'
+  - '[132ms] 🇩🇪[www.v2nodes.com] vless-DE-1... #8'
+  - '[132ms] 🇸🇪[www.v2nodes.com] vless-SE-1... #2'
+  - '[132ms] 🇸🇪[www.v2nodes.com] ss-SE-1615...'
+  - '[133ms] 🇨🇿[www.v2nodes.com] vless-CZ-1...'
+  - '[133ms] 🇩🇪[www.v2nodes.com] ss-DE-1616...'
+  - '[133ms] 🏳[www.v2nodes.com] ss- #2'
+  - '[133ms] 🇯🇵[www.v2nodes.com] ss-JP-5141...'
+  - '[134ms] IT【高速节点：https://vip.a3f.xyz】6'
+  - '[134ms] 🏳[www.v2nodes.com] ss- #1'
+  - '[134ms] 日本5|@ripaojiedian'
+  - '[135ms] JP【高速节点：https://vip.a3f.xyz】36'
+  - '[136ms] LY【高速节点：https://vip.a3f.xyz】16'
+  - '[136ms] JP【高速节点：https://vip.a3f.xyz】34'
+  - '[136ms] JP【高速节点：https://vip.a3f.xyz】38'
+  - '[136ms] 🏳[www.v2nodes.com] vless- #1'
+  - '[136ms] 🇯🇵[www.v2nodes.com] vless-JP-1... #1'
+  - '[136ms] 🇯🇵[www.v2nodes.com] ss-JP-9223...'
+  - '[137ms] 🇪🇸[www.v2nodes.com] ss-ES-1443...'
+  - '[138ms] 🇦🇹[www.v2nodes.com] ss-AT-1614...'
+  - '[138ms] 🇨🇭[www.v2nodes.com] ss-CH-1615...'
+  - '[138ms] 🇯🇵[www.v2nodes.com] ss-JP-1291...'
+  - '[139ms] 日本2|@ripaojiedian'
+  - '[139ms] 🇪🇪EE_1|1.5MB/s'
+  - '[140ms] JP【高速节点：https://vip.a3f.xyz】32'
+  - '[140ms] JP【高速节点：https://vip.a3f.xyz】33'
+  - '[140ms] 🇧🇾[www.v2nodes.com] vless-BY-1... #1'
+  - '[141ms] IT【高速节点：https://vip.a3f.xyz】11'
+  - '[142ms] 节点日期：2026-11-27'
+  - '[142ms] 🇭🇰[www.v2nodes.com] vless-HK-1...'
+  - '[142ms] 日本3|@ripaojiedian'
+  - '[142ms] 🇭🇰 香港 | HKG #3'
+  - '[143ms] 🇵🇱[www.v2nodes.com] vless-PL-1... #1'
+  - '[145ms] JP【高速节点：https://vip.a3f.xyz】40'
+  - '[145ms] JP【高速节点：https://vip.a3f.xyz】39'
+  - '[145ms] @OutlineReleasedKey #2'
+  - '[145ms] 🇧🇾[www.v2nodes.com] vless-BY-1...'
+  - '[146ms] IT【高速节点：https://vip.a3f.xyz】3'
+  - '[146ms] IT【高速节点：https://vip.a3f.xyz】4'
+  - '[146ms] JP【高速节点：https://vip.a3f.xyz】35'
+  - '[146ms] JP【高速节点：https://vip.a3f.xyz】37'
+  - '[146ms] 🇩🇪[www.v2nodes.com] vless-DE-1... #6'
+  - '[146ms] 🇷🇺[www.v2nodes.com] ss-RU-1163...'
+  - '[146ms] 🏳[www.v2nodes.com] trojan- #1'
+  - '[146ms] 🇵🇱 波兰 | POL #1'
+  - '[146ms] 🇸🇬 新加坡 | SGP #4'
+  - '[147ms] IT【高速节点：https://vip.a3f.xyz】2'
+  - '[147ms] Telegram:@v2rayng3'
+  - '[147ms] 🇷🇺 俄罗斯 | RUS #2'
+  - '[148ms] IT【高速节点：https://vip.a3f.xyz】7'
+  - '[148ms] 🇩🇪[www.v2nodes.com] vless-DE-1...'
+  - '[148ms] 🇩🇪[www.v2nodes.com] vless-DE-1... #2'
+  - '[149ms] IT【高速节点：https://vip.a3f.xyz】1'
+  - '[152ms] 🇸🇪[www.v2nodes.com] vless-SE-1... #1'
+  - '[152ms] 🇷🇺[www.v2nodes.com] ss-RU-1624...'
+  - '[154ms] @VPsave #1'
+  - '[154ms] 🇷🇺 俄罗斯 | RUS #1'
+  - '[156ms] FR【高速节点：https://vip.a3f.xyz】14'
+  - '[156ms] RU【高速节点：https://vip.a3f.xyz】17'
+  - '[156ms] 🇩🇪 德国 | DEU'
+  - '[158ms] 🇬🇧[www.v2nodes.com] vless-GB-1...'
+  - '[158ms] 🇷🇺 俄罗斯 | RUS_1'
+  - '[158ms] 🇺🇸 美国 | USA_10'
+  - '[159ms] @tootffarangi🍓-3'
+  - '[160ms] FR【高速节点：https://vip.a3f.xyz】15'
+  - '[160ms] DE【高速节点：https://vip.a3f.xyz】13'
+  - '[160ms] 🇳🇱 荷兰 | NLD_1'
+  - '[160ms] 🇺🇸 美国 | USA_27'
+  - '[161ms] KR【高速节点：https://vip.a3f.xyz】18'
+  - '[165ms] 🇳🇱[www.v2nodes.com] vless-NL-1... #1'
+  - '[166ms] 🇦🇱[www.v2nodes.com] ss-AL-1490...'
+  - '[168ms] 🇯🇵 日本 | JPN #1'
+  - '[170ms] 🇬🇧 英国 | GBR #1'
+  - '[173ms] 🇭🇰 香港 | HKG_1'
+  - '[175ms] NE【高速节点：https://vip.a3f.xyz】21'
+  - '[175ms] 🇭🇰 香港 | HKG #2'
+  - '[175ms] 🇭🇰 香港 | HKG'
+  - '[178ms] NE【高速节点：https://vip.a3f.xyz】29'
+  - '[178ms] 🇺🇸 美国 | USA_15'
+  - '[180ms] 🇱🇻[www.v2nodes.com] vless-LV-1...'
+  - '[181ms] 🇭🇰 香港 | HKG #1'
+  - '[181ms] 🇺🇸 美国 | USA_19'
+  - '[183ms] 🇩🇪[www.v2nodes.com] vless-DE-1... #3'
+  - '[183ms] 🇷🇺 俄罗斯 | RUS #3'
+  - '[184ms] 🇹🇼[www.v2nodes.com] trojan-TW-...'
+  - '[184ms] 香港|@ripaojiedian'
+  - '[187ms] NE【高速节点：https://vip.a3f.xyz】30'
+  - '[187ms] 🇫🇷[www.v2nodes.com] vless-FR-1... #2'
+  - '[188ms] 🇺🇸 美国 | USA_4'
+  - '[189ms] 🇺🇸 美国 | USA_24'
+  - '[190ms] 🇪🇪 爱沙尼亚 | EST'
+  - '[192ms] 🇦🇪[www.v2nodes.com] vless-AE-1... #1'
+  - '[194ms] 🇷🇺 俄罗斯 | RUS 6'
+  - '[194ms] 🇺🇸 美国 | USA_8'
+  - '[195ms] 🇸🇬[www.v2nodes.com] ss-SG-1615... #1'
+  - '[195ms] 🇸🇬[www.v2nodes.com] ss-SG-1615... #2'
+  - '[196ms] 🇦🇪[www.v2nodes.com] vless-AE-1...'
+  - '[196ms] 🇸🇬[www.v2nodes.com] vless-SG-1... #2'
+  - '[196ms] 🇸🇬[www.v2nodes.com] ss-SG-1615... #3'
+  - '[196ms] 🇺🇸 美国 | USA_2'
+  - '[197ms] 🇰🇷[www.v2nodes.com] vless-KR-1...'
+  - '[197ms] 🇸🇬[www.v2nodes.com] ss-SG-1616...'
+  - '[198ms] 🇸🇬[www.v2nodes.com] ss-SG-1615...'
+  - '[198ms] 🇸🇬 新加坡 | SGP #1'
+  - '[198ms] 🇺🇸 美国 | USA_7'
+  - '[200ms] 🇮🇳[www.v2nodes.com] vless-IN-1... #1'
+  - '[200ms] 🇹🇷[www.v2nodes.com] vless-TR-1...'
+  - '[201ms] 🇷🇺[www.v2nodes.com] vless-RU-1... #1'
+  - '[201ms] 🇸🇬 新加坡 | SGP'
+  - '[202ms] SG【高速节点：https://vip.a3f.xyz】20'
+  - '[202ms] 🇲🇾[www.v2nodes.com] trojan-MY-...'
+  - '[203ms] 🇸🇬[www.v2nodes.com] vless-SG-1... #3'
+  - '[204ms] 🇰🇷[www.v2nodes.com] vless-KR-1... #1'
+  - '[205ms] 🇺🇸 美国 | USA_23'
+  - '[208ms] NE【高速节点：https://vip.a3f.xyz】25'
+  - '[210ms] 🇻🇳[www.v2nodes.com] vless-VN-1...'
+  - '[211ms] 🇺🇸[www.v2nodes.com] vless-US-1...'
+  - '[213ms] 🇺🇸 美国 | USA_22'
+  - '[215ms] 🇰🇿[www.v2nodes.com] vless-KZ-1...'
+  - '[220ms] 🇺🇸 美国 | USA_3'
+  - '[225ms] 🇸🇬[www.v2nodes.com] vless-SG-1...'
+  - '[231ms] 🇻🇳[www.v2nodes.com] trojan-VN-...'
+  - '[237ms] 🇸🇬[www.v2nodes.com] vless-SG-7...'
+  - '[241ms] SG【高速节点：https://vip.a3f.xyz】43'
+  - '[245ms] 🇿🇦[www.v2nodes.com] ss-ZA-1333...'
+  - '[246ms] 🇩🇪 德国 | DEU_2'
+  - '[248ms] 🇬🇧 英国 | GBR #4'
+  - '[252ms] 🇿🇦[www.v2nodes.com] ss-ZA-1336...'
+  - '[274ms] 🇬🇧 英国 | GBR #3'
+  - '[277ms] HK【高速节点：https://vip.a3f.xyz】42'
+  - '[285ms] 🇷🇺[www.v2nodes.com] vless-RU-1...'
+  - '[286ms] 🇫🇷 法国 | FRA #1'
+  - '[289ms] 🇺🇸 美国 | USA_25'
+  - '[299ms] 🇪🇪 爱沙尼亚 | EST #1'
+  - '[302ms] 🇩🇪 德国 | DEU_1'
+  - '[312ms] 🇸🇬 新加坡 | SGP #2'
+  - '[317ms] 🇩🇪 德国 | DEU #2'
+  - '[317ms] 🇺🇸 美国 | USA_16'
+  - '[322ms] 🇨🇦 加拿大 | CAN #1'
+  - '[327ms] 🇷🇺 俄罗斯 | RUS #7'
+  - '[341ms] 🇦🇱 AL_03 #1'
+  - '[344ms] 🇷🇺 俄罗斯 | RUS'
+  - '[357ms] 🇹🇼[www.v2nodes.com] trojan-TW-... #1'
+  - '[369ms] 🏳[www.v2nodes.com] vless- #7'
+  - '[369ms] 🇩🇪 德国 | DEU_4'
+  - '[377ms] 俄罗斯+V2CROSS.COM'
+  - '[378ms] 🇨🇦[www.v2nodes.com] vless-CA'
+  - '[386ms] 🇺🇸 美国 | USA_17'
+  - '[387ms] TG频道:@ripaojiedian #1'
+  - '[413ms] 🇦🇪[www.v2nodes.com] trojan-AE-...'
+  - '[428ms] 🇺🇸 美国 | USA_5'
+  - '[434ms] 🇯🇵[www.v2nodes.com] vless-JP-1...'
+  - '[441ms] 🇹🇷TR_1|1.4MB/s'
+  - '[449ms] 🇺🇸 美国 | USA_18'
+  - '[526ms] 🇫🇮FI_1|2.5MB/s'
+  - '[574ms] 🇮🇱 以色列 | ISR #1'
+  - '[634ms] 🇺🇸 美国 | USA_14'
+  - '[651ms] 🇺🇸 美国 | USA_6'
+  - '[710ms] 🇺🇸 美国 | USA_12'
+  - '[724ms] 🇭🇰[www.v2nodes.com] ss-HK-1621...'
+  - '[786ms] 🇺🇸 美国 | USA_11'
+  - '[1106ms] 🇺🇸[www.v2nodes.com] vless-US-1... #4'
+  - '[1421ms] ES【高速节点：https://vip.a3f.xyz】24'
+  - '[2233ms] 🏳[www.v2nodes.com] vless- #3'
+  - '[3533ms] 🏳[www.v2nodes.com] vless- #5'
 - name: ✅ 手动选择
   type: select
   proxies:
-  - '[1ms] US【高速节点：https://vip.a3f.xyz】32'
-  - '[1ms] CA【高速节点：https://vip.a3f.xyz】33'
-  - '[2ms] RU【高速节点：https://vip.a3f.xyz】22'
-  - '[2ms] CA【高速节点：https://vip.a3f.xyz】35'
-  - '[2ms] CA【高速节点：https://vip.a3f.xyz】34'
-  - '[2ms] 🇺🇸_US_美国->🇬🇧_GB_英国'
-  - '[15ms] CA【高速节点：https://vip.a3f.xyz】30'
-  - '[93ms] DE【高速节点：https://vip.a3f.xyz】14'
-  - '[94ms] LY【高速节点：https://vip.a3f.xyz】4'
-  - '[95ms] NG【高速节点：https://vip.a3f.xyz】23'
-  - '[96ms] DE【高速节点：https://vip.a3f.xyz】7'
-  - '[97ms] DE【高速节点：https://vip.a3f.xyz】20'
-  - '[99ms] IT【高速节点：https://vip.a3f.xyz】19'
-  - '[100ms] IT【高速节点：https://vip.a3f.xyz】2'
-  - '[102ms] IT【高速节点：https://vip.a3f.xyz】1'
-  - '[102ms] 节点日期：2026-11-26'
-  - '[102ms] IT【高速节点：https://vip.a3f.xyz】3'
-  - '[102ms] IT【高速节点：https://vip.a3f.xyz】8'
-  - '[102ms] IT【高速节点：https://vip.a3f.xyz】9'
-  - '[102ms] IT【高速节点：https://vip.a3f.xyz】16'
-  - '[102ms] IT【高速节点：https://vip.a3f.xyz】18'
-  - '[103ms] IT【高速节点：https://vip.a3f.xyz】17'
-  - '[111ms] TR【高速节点：https://vip.a3f.xyz】24'
-  - '[131ms] FR【高速节点：https://vip.a3f.xyz】6'
-  - '[141ms] NE【高速节点：https://vip.a3f.xyz】28'
-  - '[142ms] NE【高速节点：https://vip.a3f.xyz】25'
-  - '[150ms] US【高速节点：https://vip.a3f.xyz】13'
-  - '[167ms] NE【高速节点：https://vip.a3f.xyz】31'
-  - '[176ms] RU【高速节点：https://vip.a3f.xyz】36'
-  - '[208ms] TW【高速节点：https://vip.a3f.xyz】27'
-  - '[209ms] TW【高速节点：https://vip.a3f.xyz】21'
-  - '[281ms] RU【高速节点：https://vip.a3f.xyz】10'
-  - '[294ms] ES【高速节点：https://vip.a3f.xyz】26'
-  - '[311ms] RU【高速节点：https://vip.a3f.xyz】12'
-  - '[321ms] DE【高速节点：https://vip.a3f.xyz】5'
-  - '[333ms] RO【高速节点：https://vip.a3f.xyz】29'
-  - '[378ms] RU【高速节点：https://vip.a3f.xyz】11'
+  - '[5ms] 🇸🇬[www.v2nodes.com] vless-SG-2...'
+  - '[6ms] CA【高速节点：https://vip.a3f.xyz】48'
+  - '[6ms] @DeltaKroneckerGithub_741_IPV4'
+  - '[6ms] 🇫🇷[www.v2nodes.com] vless-FR-1...'
+  - '[7ms] CA【高速节点：https://vip.a3f.xyz】47'
+  - '[7ms] 🇸🇬[www.v2nodes.com] vless-SG #1'
+  - '[7ms] 🏳[www.v2nodes.com] vless- #2'
+  - '[7ms] 🏳[www.v2nodes.com] vless- #4'
+  - '[8ms] CA【高速节点：https://vip.a3f.xyz】46'
+  - '[8ms] 🇸🇬[www.v2nodes.com] vless-SG-2... #4'
+  - '[8ms] 🇸🇬[www.v2nodes.com] vless-SG #2'
+  - '[8ms] 🇸🇬[www.v2nodes.com] vless-SG-1... #1'
+  - '[8ms] 🇺🇸[www.v2nodes.com] vless-US-1... #2'
+  - '[9ms] 🇮🇳[www.v2nodes.com] vless-IN-1...'
+  - '[10ms] 🇺🇸_US_美国->🇬🇧_GB_英国'
+  - '[11ms] @DeltaKroneckerGithub_2974_IPV4'
+  - '[11ms] 🇸🇬[www.v2nodes.com] vless-SG-7... #1'
+  - '[12ms] 🇸🇬[www.v2nodes.com] vless-SG-3...'
+  - '[24ms] US【高速节点：https://vip.a3f.xyz】45'
+  - '[27ms] 🇺🇸 美国 | USA #7'
+  - '[30ms] RU【高速节点：https://vip.a3f.xyz】19'
+  - '[30ms] CA【高速节点：https://vip.a3f.xyz】44'
+  - '[30ms] 🇺🇸 美国 | USA #5'
+  - '[31ms] 🇺🇸 美国 | USA #10'
+  - '[34ms] 🏳[www.v2nodes.com] ss-'
+  - '[34ms] 🇺🇸[www.v2nodes.com] ss-US-1560...'
+  - '[34ms] 🇺🇸US_3|1006KB/s'
+  - '[35ms] 🇺🇸 美国 | USA 4'
+  - '[36ms] 🇨🇦[www.v2nodes.com] trojan-CA-... #4'
+  - '[37ms] 🇨🇦[www.v2nodes.com] ss-CA-1558...'
+  - '[37ms] 🇨🇦[www.v2nodes.com] trojan-CA-... #5'
+  - '[38ms] 🇨🇦[www.v2nodes.com] ss-CA-1557...'
+  - '[38ms] 🏳[www.v2nodes.com] trojan-'
+  - '[39ms] 🇸🇪 瑞典 | SWE #1'
+  - '[39ms] 🇨🇦[www.v2nodes.com] ss-CA-1538...'
+  - '[40ms] 🇺🇸[www.v2nodes.com] trojan-US-... #8'
+  - '[42ms] 🇳🇴 挪威 | NOR #1'
+  - '[42ms] 🇺🇸 美国 | USA #3'
+  - '[44ms] 🇨🇦[www.v2nodes.com] ss-CA-1559... #1'
+  - '[44ms] 美国|@ripaojiedian'
+  - '[45ms] ??[www.v2nodes.com] vless-AT-3...'
+  - '[45ms] 🇺🇸[www.v2nodes.com] trojan-US-... #6'
+  - '[45ms] 🇺🇸 美国 | USA_28'
+  - '[47ms] 🇨🇦[www.v2nodes.com] ss-CA-1546...'
+  - '[47ms] 🇺🇸 美国 | USA #8'
+  - '[48ms] 美国4|@ripaojiedian'
+  - '[49ms] 🇳🇱[www.v2nodes.com] vless-NL-1...'
+  - '[49ms] 🇺🇸 美国 | USA #6'
+  - '[49ms] 🇺🇸 美国 | USA #9'
+  - '[50ms] 🇨🇦[www.v2nodes.com] ss-CA-1559...'
+  - '[53ms] 🇺🇸[www.v2nodes.com] trojan-US-... #4'
+  - '[54ms] 🇺🇸 美国 | USA_13'
+  - '[57ms] 🇺🇸 美国 | USA_20'
+  - '[58ms] 🇺🇸 美国 | USA_1'
+  - '[63ms] 🇺🇸 美国 | USA'
+  - '[63ms] 🇺🇸 美国 | USA_26'
+  - '[66ms] 🇺🇸 美国 | USA_9'
+  - '[70ms] 🇧🇪BE_2|1.4MB/s'
+  - '[71ms] 🇩🇰DK_1|3.8MB/s'
+  - '[76ms] 🇭🇰 香港 | HKG #5'
+  - '[77ms] 🇮🇹IT_10|2.8MB/s'
+  - '[92ms] 🇺🇸 美国 | USA_29'
+  - '[100ms] 🇬🇧 英国 | GBR #2'
+  - '[102ms] 🇬🇧[www.v2nodes.com] ss-GB-1602...'
+  - '[104ms] 🇺🇸 美国 | USA #2'
+  - '[105ms] 🇳🇱[www.v2nodes.com] vless-NL-1... #4'
+  - '[105ms] 🇫🇷[www.v2nodes.com] ss-FR-1615... #1'
+  - '[105ms] 🇬🇧[www.v2nodes.com] ss-GB-1615... #1'
+  - '[106ms] 🏳[www.v2nodes.com] vless- #6'
+  - '[106ms] 🇬🇧[www.v2nodes.com] ss-GB-1451...'
+  - '[108ms] 🇳🇱[www.v2nodes.com] vless-NL-1... #3'
+  - '[109ms] 🇫🇷[www.v2nodes.com] ss-FR-1615... #3'
+  - '[109ms] 🇬🇧[www.v2nodes.com] ss-GB-1616...'
+  - '[109ms] 🇬🇧[www.v2nodes.com] ss-GB-9184...'
+  - '[109ms] 🇳🇱[www.v2nodes.com] ss-NL-1614... #1'
+  - '[109ms] 🇭🇰 香港 | HKG #4'
+  - '[110ms] 🇳🇱[www.v2nodes.com] vless-NL-1... #5'
+  - '[110ms] 🇬🇧[www.v2nodes.com] ss-GB-1616... #1'
+  - '[110ms] 🇳🇱 荷兰 | NLD 2'
+  - '[111ms] @confiig_hub #1'
+  - '[111ms] 🇺🇸[www.v2nodes.com] vless-US-1... #1'
+  - '[111ms] 🇬🇧[www.v2nodes.com] ss-GB-1247...'
+  - '[112ms] 🇫🇷[www.v2nodes.com] vless-FR-1... #1'
+  - '[112ms] 🇳🇱[www.v2nodes.com] ss-NL-1618...'
+  - '[112ms] 🇹🇼 🇨🇳 台湾 | TWN'
+  - '[113ms] 🇳🇱[www.v2nodes.com] ss-NL-1614...'
+  - '[114ms] DE【高速节点：https://vip.a3f.xyz】9'
+  - '[114ms] 🇬🇧[www.v2nodes.com] ss-GB-1615...'
+  - '[114ms] 🇪🇸[www.v2nodes.com] trojan-ES-... #5'
+  - '[115ms] 🇩🇪[www.v2nodes.com] ss-DE-1592...'
+  - '[115ms] 🇺🇸 美国 | USA 12'
+  - '[115ms] 🇺🇸 美国 | USA_21'
+  - '[116ms] 🇳🇱[www.v2nodes.com] trojan-NL-... #2'
+  - '[116ms] 🇳🇱 荷兰 | NLD'
+  - '[117ms] 🇳🇱[www.v2nodes.com] trojan-NL-... #5'
+  - '[119ms] 🇬🇧[www.v2nodes.com] ss-GB-8004...'
+  - '[119ms] 🇳🇱[www.v2nodes.com] ss-NL-1452... #1'
+  - '[121ms] 🇳🇱[www.v2nodes.com] ss-NL-1564...'
+  - '[121ms] 🇳🇴[www.v2nodes.com] ss-NO-1220...'
+  - '[121ms] 🇪🇸[www.v2nodes.com] trojan-ES-...'
+  - '[122ms] DE【高速节点：https://vip.a3f.xyz】10'
+  - '[122ms] 🇫🇷[www.v2nodes.com] ss-FR-1615... #4'
+  - '[123ms] RO【高速节点：https://vip.a3f.xyz】31'
+  - '[123ms] 🇫🇷[www.v2nodes.com] vless-FR-1... #3'
+  - '[123ms] 🇫🇷[www.v2nodes.com] ss-FR-1616...'
+  - '[123ms] 🇫🇷[www.v2nodes.com] ss-FR-1615...'
+  - '[123ms] 🇳🇱[www.v2nodes.com] ss-NL-1452...'
+  - '[123ms] 🇨🇭[www.v2nodes.com] trojan-CH-... #4'
+  - '[123ms] 🇺🇸 美国 | USA #1'
+  - '[124ms] DE【高速节点：https://vip.a3f.xyz】23'
+  - '[124ms] 🇩🇪[www.v2nodes.com] vless-DE-1... #1'
+  - '[124ms] 🇩🇪[www.v2nodes.com] vless-DE-1... #4'
+  - '[125ms] 美国+Nokia'
+  - '[125ms] Telegram@vpnjey #1'
+  - '[125ms] 🇩🇪[www.v2nodes.com] vless-DE-1... #5'
+  - '[125ms] 🇫🇷[www.v2nodes.com] ss-FR-1615... #2'
+  - '[126ms] IT【高速节点：https://vip.a3f.xyz】8'
+  - '[126ms] DE【高速节点：https://vip.a3f.xyz】12'
+  - '[126ms] 🇨🇭[www.v2nodes.com] ss-CH-1615... #1'
+  - '[126ms] 🇺🇸[www.v2nodes.com] ss-US-1620...'
+  - '[126ms] 德国|@ripaojiedian'
+  - '[127ms] 🇸🇪[www.v2nodes.com] vless-SE-1... #3'
+  - '[127ms] 🇦🇹[www.v2nodes.com] ss-AT-1595...'
+  - '[127ms] 🇩🇪 德国 | DEU_3'
+  - '[128ms] 🇦🇹[www.v2nodes.com] vless-AT-1...'
+  - '[128ms] 🇳🇱[www.v2nodes.com] ss-NL-1452... #2'
+  - '[128ms] 德国2|@ripaojiedian'
+  - '[129ms] US【高速节点：https://vip.a3f.xyz】22'
+  - '[129ms] 🇵🇱[www.v2nodes.com] vless-PL-1...'
+  - '[129ms] 🇪🇸[www.v2nodes.com] ss-ES-1615...'
+  - '[129ms] 🇳🇱[www.v2nodes.com] ss-NL-1510...'
+  - '[129ms] 🏳[www.v2nodes.com] trojan- #2'
+  - '[130ms] 🇮🇹[www.v2nodes.com] ss-IT-1597...'
+  - '[130ms] 🇩🇪DE_8|4.4MB/s'
+  - '[131ms] 🇺🇸[www.v2nodes.com] vless-US-1... #3'
+  - '[132ms] IT【高速节点：https://vip.a3f.xyz】5'
+  - '[132ms] 西班牙+V2CROSS.COM'
+  - '[132ms] 🇩🇪[www.v2nodes.com] vless-DE-1... #8'
+  - '[132ms] 🇸🇪[www.v2nodes.com] vless-SE-1... #2'
+  - '[132ms] 🇸🇪[www.v2nodes.com] ss-SE-1615...'
+  - '[133ms] 🇨🇿[www.v2nodes.com] vless-CZ-1...'
+  - '[133ms] 🇩🇪[www.v2nodes.com] ss-DE-1616...'
+  - '[133ms] 🏳[www.v2nodes.com] ss- #2'
+  - '[133ms] 🇯🇵[www.v2nodes.com] ss-JP-5141...'
+  - '[134ms] IT【高速节点：https://vip.a3f.xyz】6'
+  - '[134ms] 🏳[www.v2nodes.com] ss- #1'
+  - '[134ms] 日本5|@ripaojiedian'
+  - '[135ms] JP【高速节点：https://vip.a3f.xyz】36'
+  - '[136ms] LY【高速节点：https://vip.a3f.xyz】16'
+  - '[136ms] JP【高速节点：https://vip.a3f.xyz】34'
+  - '[136ms] JP【高速节点：https://vip.a3f.xyz】38'
+  - '[136ms] 🏳[www.v2nodes.com] vless- #1'
+  - '[136ms] 🇯🇵[www.v2nodes.com] vless-JP-1... #1'
+  - '[136ms] 🇯🇵[www.v2nodes.com] ss-JP-9223...'
+  - '[137ms] 🇪🇸[www.v2nodes.com] ss-ES-1443...'
+  - '[138ms] 🇦🇹[www.v2nodes.com] ss-AT-1614...'
+  - '[138ms] 🇨🇭[www.v2nodes.com] ss-CH-1615...'
+  - '[138ms] 🇯🇵[www.v2nodes.com] ss-JP-1291...'
+  - '[139ms] 日本2|@ripaojiedian'
+  - '[139ms] 🇪🇪EE_1|1.5MB/s'
+  - '[140ms] JP【高速节点：https://vip.a3f.xyz】32'
+  - '[140ms] JP【高速节点：https://vip.a3f.xyz】33'
+  - '[140ms] 🇧🇾[www.v2nodes.com] vless-BY-1... #1'
+  - '[141ms] IT【高速节点：https://vip.a3f.xyz】11'
+  - '[142ms] 节点日期：2026-11-27'
+  - '[142ms] 🇭🇰[www.v2nodes.com] vless-HK-1...'
+  - '[142ms] 日本3|@ripaojiedian'
+  - '[142ms] 🇭🇰 香港 | HKG #3'
+  - '[143ms] 🇵🇱[www.v2nodes.com] vless-PL-1... #1'
+  - '[145ms] JP【高速节点：https://vip.a3f.xyz】40'
+  - '[145ms] JP【高速节点：https://vip.a3f.xyz】39'
+  - '[145ms] @OutlineReleasedKey #2'
+  - '[145ms] 🇧🇾[www.v2nodes.com] vless-BY-1...'
+  - '[146ms] IT【高速节点：https://vip.a3f.xyz】3'
+  - '[146ms] IT【高速节点：https://vip.a3f.xyz】4'
+  - '[146ms] JP【高速节点：https://vip.a3f.xyz】35'
+  - '[146ms] JP【高速节点：https://vip.a3f.xyz】37'
+  - '[146ms] 🇩🇪[www.v2nodes.com] vless-DE-1... #6'
+  - '[146ms] 🇷🇺[www.v2nodes.com] ss-RU-1163...'
+  - '[146ms] 🏳[www.v2nodes.com] trojan- #1'
+  - '[146ms] 🇵🇱 波兰 | POL #1'
+  - '[146ms] 🇸🇬 新加坡 | SGP #4'
+  - '[147ms] IT【高速节点：https://vip.a3f.xyz】2'
+  - '[147ms] Telegram:@v2rayng3'
+  - '[147ms] 🇷🇺 俄罗斯 | RUS #2'
+  - '[148ms] IT【高速节点：https://vip.a3f.xyz】7'
+  - '[148ms] 🇩🇪[www.v2nodes.com] vless-DE-1...'
+  - '[148ms] 🇩🇪[www.v2nodes.com] vless-DE-1... #2'
+  - '[149ms] IT【高速节点：https://vip.a3f.xyz】1'
+  - '[152ms] 🇸🇪[www.v2nodes.com] vless-SE-1... #1'
+  - '[152ms] 🇷🇺[www.v2nodes.com] ss-RU-1624...'
+  - '[154ms] @VPsave #1'
+  - '[154ms] 🇷🇺 俄罗斯 | RUS #1'
+  - '[156ms] FR【高速节点：https://vip.a3f.xyz】14'
+  - '[156ms] RU【高速节点：https://vip.a3f.xyz】17'
+  - '[156ms] 🇩🇪 德国 | DEU'
+  - '[158ms] 🇬🇧[www.v2nodes.com] vless-GB-1...'
+  - '[158ms] 🇷🇺 俄罗斯 | RUS_1'
+  - '[158ms] 🇺🇸 美国 | USA_10'
+  - '[159ms] @tootffarangi🍓-3'
+  - '[160ms] FR【高速节点：https://vip.a3f.xyz】15'
+  - '[160ms] DE【高速节点：https://vip.a3f.xyz】13'
+  - '[160ms] 🇳🇱 荷兰 | NLD_1'
+  - '[160ms] 🇺🇸 美国 | USA_27'
+  - '[161ms] KR【高速节点：https://vip.a3f.xyz】18'
+  - '[165ms] 🇳🇱[www.v2nodes.com] vless-NL-1... #1'
+  - '[166ms] 🇦🇱[www.v2nodes.com] ss-AL-1490...'
+  - '[168ms] 🇯🇵 日本 | JPN #1'
+  - '[170ms] 🇬🇧 英国 | GBR #1'
+  - '[173ms] 🇭🇰 香港 | HKG_1'
+  - '[175ms] NE【高速节点：https://vip.a3f.xyz】21'
+  - '[175ms] 🇭🇰 香港 | HKG #2'
+  - '[175ms] 🇭🇰 香港 | HKG'
+  - '[178ms] NE【高速节点：https://vip.a3f.xyz】29'
+  - '[178ms] 🇺🇸 美国 | USA_15'
+  - '[180ms] 🇱🇻[www.v2nodes.com] vless-LV-1...'
+  - '[181ms] 🇭🇰 香港 | HKG #1'
+  - '[181ms] 🇺🇸 美国 | USA_19'
+  - '[183ms] 🇩🇪[www.v2nodes.com] vless-DE-1... #3'
+  - '[183ms] 🇷🇺 俄罗斯 | RUS #3'
+  - '[184ms] 🇹🇼[www.v2nodes.com] trojan-TW-...'
+  - '[184ms] 香港|@ripaojiedian'
+  - '[187ms] NE【高速节点：https://vip.a3f.xyz】30'
+  - '[187ms] 🇫🇷[www.v2nodes.com] vless-FR-1... #2'
+  - '[188ms] 🇺🇸 美国 | USA_4'
+  - '[189ms] 🇺🇸 美国 | USA_24'
+  - '[190ms] 🇪🇪 爱沙尼亚 | EST'
+  - '[192ms] 🇦🇪[www.v2nodes.com] vless-AE-1... #1'
+  - '[194ms] 🇷🇺 俄罗斯 | RUS 6'
+  - '[194ms] 🇺🇸 美国 | USA_8'
+  - '[195ms] 🇸🇬[www.v2nodes.com] ss-SG-1615... #1'
+  - '[195ms] 🇸🇬[www.v2nodes.com] ss-SG-1615... #2'
+  - '[196ms] 🇦🇪[www.v2nodes.com] vless-AE-1...'
+  - '[196ms] 🇸🇬[www.v2nodes.com] vless-SG-1... #2'
+  - '[196ms] 🇸🇬[www.v2nodes.com] ss-SG-1615... #3'
+  - '[196ms] 🇺🇸 美国 | USA_2'
+  - '[197ms] 🇰🇷[www.v2nodes.com] vless-KR-1...'
+  - '[197ms] 🇸🇬[www.v2nodes.com] ss-SG-1616...'
+  - '[198ms] 🇸🇬[www.v2nodes.com] ss-SG-1615...'
+  - '[198ms] 🇸🇬 新加坡 | SGP #1'
+  - '[198ms] 🇺🇸 美国 | USA_7'
+  - '[200ms] 🇮🇳[www.v2nodes.com] vless-IN-1... #1'
+  - '[200ms] 🇹🇷[www.v2nodes.com] vless-TR-1...'
+  - '[201ms] 🇷🇺[www.v2nodes.com] vless-RU-1... #1'
+  - '[201ms] 🇸🇬 新加坡 | SGP'
+  - '[202ms] SG【高速节点：https://vip.a3f.xyz】20'
+  - '[202ms] 🇲🇾[www.v2nodes.com] trojan-MY-...'
+  - '[203ms] 🇸🇬[www.v2nodes.com] vless-SG-1... #3'
+  - '[204ms] 🇰🇷[www.v2nodes.com] vless-KR-1... #1'
+  - '[205ms] 🇺🇸 美国 | USA_23'
+  - '[208ms] NE【高速节点：https://vip.a3f.xyz】25'
+  - '[210ms] 🇻🇳[www.v2nodes.com] vless-VN-1...'
+  - '[211ms] 🇺🇸[www.v2nodes.com] vless-US-1...'
+  - '[213ms] 🇺🇸 美国 | USA_22'
+  - '[215ms] 🇰🇿[www.v2nodes.com] vless-KZ-1...'
+  - '[220ms] 🇺🇸 美国 | USA_3'
+  - '[225ms] 🇸🇬[www.v2nodes.com] vless-SG-1...'
+  - '[231ms] 🇻🇳[www.v2nodes.com] trojan-VN-...'
+  - '[237ms] 🇸🇬[www.v2nodes.com] vless-SG-7...'
+  - '[241ms] SG【高速节点：https://vip.a3f.xyz】43'
+  - '[245ms] 🇿🇦[www.v2nodes.com] ss-ZA-1333...'
+  - '[246ms] 🇩🇪 德国 | DEU_2'
+  - '[248ms] 🇬🇧 英国 | GBR #4'
+  - '[252ms] 🇿🇦[www.v2nodes.com] ss-ZA-1336...'
+  - '[274ms] 🇬🇧 英国 | GBR #3'
+  - '[277ms] HK【高速节点：https://vip.a3f.xyz】42'
+  - '[285ms] 🇷🇺[www.v2nodes.com] vless-RU-1...'
+  - '[286ms] 🇫🇷 法国 | FRA #1'
+  - '[289ms] 🇺🇸 美国 | USA_25'
+  - '[299ms] 🇪🇪 爱沙尼亚 | EST #1'
+  - '[302ms] 🇩🇪 德国 | DEU_1'
+  - '[312ms] 🇸🇬 新加坡 | SGP #2'
+  - '[317ms] 🇩🇪 德国 | DEU #2'
+  - '[317ms] 🇺🇸 美国 | USA_16'
+  - '[322ms] 🇨🇦 加拿大 | CAN #1'
+  - '[327ms] 🇷🇺 俄罗斯 | RUS #7'
+  - '[341ms] 🇦🇱 AL_03 #1'
+  - '[344ms] 🇷🇺 俄罗斯 | RUS'
+  - '[357ms] 🇹🇼[www.v2nodes.com] trojan-TW-... #1'
+  - '[369ms] 🏳[www.v2nodes.com] vless- #7'
+  - '[369ms] 🇩🇪 德国 | DEU_4'
+  - '[377ms] 俄罗斯+V2CROSS.COM'
+  - '[378ms] 🇨🇦[www.v2nodes.com] vless-CA'
+  - '[386ms] 🇺🇸 美国 | USA_17'
+  - '[387ms] TG频道:@ripaojiedian #1'
+  - '[413ms] 🇦🇪[www.v2nodes.com] trojan-AE-...'
+  - '[428ms] 🇺🇸 美国 | USA_5'
+  - '[434ms] 🇯🇵[www.v2nodes.com] vless-JP-1...'
+  - '[441ms] 🇹🇷TR_1|1.4MB/s'
+  - '[449ms] 🇺🇸 美国 | USA_18'
+  - '[526ms] 🇫🇮FI_1|2.5MB/s'
+  - '[574ms] 🇮🇱 以色列 | ISR #1'
+  - '[634ms] 🇺🇸 美国 | USA_14'
+  - '[651ms] 🇺🇸 美国 | USA_6'
+  - '[710ms] 🇺🇸 美国 | USA_12'
+  - '[724ms] 🇭🇰[www.v2nodes.com] ss-HK-1621...'
+  - '[786ms] 🇺🇸 美国 | USA_11'
+  - '[1106ms] 🇺🇸[www.v2nodes.com] vless-US-1... #4'
+  - '[1421ms] ES【高速节点：https://vip.a3f.xyz】24'
+  - '[2233ms] 🏳[www.v2nodes.com] vless- #3'
+  - '[3533ms] 🏳[www.v2nodes.com] vless- #5'
 - name: 🌐 突破锁区
   type: select
   proxies:
@@ -671,48 +4384,383 @@ proxy-groups:
 - name: 🗺️ 选择地区
   type: select
   proxies:
+  - 🇯🇵 日本
   - 🇺🇸 美国
+  - 🇸🇬 新加坡
+  - 🇰🇷 韩国
   - 🇬🇧 英国
   - 🇩🇪 德国
   - 🇫🇷 法国
   - 🇷🇺 俄罗斯
   - 🇨🇦 加拿大
+  - 🇮🇳 印度
+  - 🇧🇷 巴西
+- name: 🇯🇵 日本
+  type: select
+  proxies:
+  - '[133ms] 🇯🇵[www.v2nodes.com] ss-JP-5141...'
+  - '[134ms] 日本5|@ripaojiedian'
+  - '[135ms] JP【高速节点：https://vip.a3f.xyz】36'
+  - '[136ms] JP【高速节点：https://vip.a3f.xyz】34'
+  - '[136ms] JP【高速节点：https://vip.a3f.xyz】38'
+  - '[136ms] 🇯🇵[www.v2nodes.com] vless-JP-1... #1'
+  - '[136ms] 🇯🇵[www.v2nodes.com] ss-JP-9223...'
+  - '[138ms] 🇯🇵[www.v2nodes.com] ss-JP-1291...'
+  - '[139ms] 日本2|@ripaojiedian'
+  - '[140ms] JP【高速节点：https://vip.a3f.xyz】32'
+  - '[140ms] JP【高速节点：https://vip.a3f.xyz】33'
+  - '[142ms] 日本3|@ripaojiedian'
+  - '[145ms] JP【高速节点：https://vip.a3f.xyz】40'
+  - '[145ms] JP【高速节点：https://vip.a3f.xyz】39'
+  - '[146ms] JP【高速节点：https://vip.a3f.xyz】35'
+  - '[146ms] JP【高速节点：https://vip.a3f.xyz】37'
+  - '[168ms] 🇯🇵 日本 | JPN #1'
+  - '[434ms] 🇯🇵[www.v2nodes.com] vless-JP-1...'
 - name: 🇺🇸 美国
   type: select
   proxies:
-  - '[1ms] US【高速节点：https://vip.a3f.xyz】32'
-  - '[2ms] 🇺🇸_US_美国->🇬🇧_GB_英国'
-  - '[150ms] US【高速节点：https://vip.a3f.xyz】13'
+  - '[8ms] 🇺🇸[www.v2nodes.com] vless-US-1... #2'
+  - '[10ms] 🇺🇸_US_美国->🇬🇧_GB_英国'
+  - '[24ms] US【高速节点：https://vip.a3f.xyz】45'
+  - '[27ms] 🇺🇸 美国 | USA #7'
+  - '[30ms] 🇺🇸 美国 | USA #5'
+  - '[31ms] 🇺🇸 美国 | USA #10'
+  - '[34ms] 🇺🇸[www.v2nodes.com] ss-US-1560...'
+  - '[34ms] 🇺🇸US_3|1006KB/s'
+  - '[35ms] 🇺🇸 美国 | USA 4'
+  - '[40ms] 🇺🇸[www.v2nodes.com] trojan-US-... #8'
+  - '[42ms] 🇺🇸 美国 | USA #3'
+  - '[44ms] 美国|@ripaojiedian'
+  - '[45ms] 🇺🇸[www.v2nodes.com] trojan-US-... #6'
+  - '[45ms] 🇺🇸 美国 | USA_28'
+  - '[47ms] 🇺🇸 美国 | USA #8'
+  - '[48ms] 美国4|@ripaojiedian'
+  - '[49ms] 🇺🇸 美国 | USA #6'
+  - '[49ms] 🇺🇸 美国 | USA #9'
+  - '[53ms] 🇺🇸[www.v2nodes.com] trojan-US-... #4'
+  - '[54ms] 🇺🇸 美国 | USA_13'
+  - '[57ms] 🇺🇸 美国 | USA_20'
+  - '[58ms] 🇺🇸 美国 | USA_1'
+  - '[63ms] 🇺🇸 美国 | USA'
+  - '[63ms] 🇺🇸 美国 | USA_26'
+  - '[66ms] 🇺🇸 美国 | USA_9'
+  - '[92ms] 🇺🇸 美国 | USA_29'
+  - '[104ms] 🇺🇸 美国 | USA #2'
+  - '[111ms] 🇺🇸[www.v2nodes.com] vless-US-1... #1'
+  - '[115ms] 🇺🇸 美国 | USA 12'
+  - '[115ms] 🇺🇸 美国 | USA_21'
+  - '[123ms] 🇺🇸 美国 | USA #1'
+  - '[125ms] 美国+Nokia'
+  - '[126ms] 🇺🇸[www.v2nodes.com] ss-US-1620...'
+  - '[129ms] US【高速节点：https://vip.a3f.xyz】22'
+  - '[131ms] 🇺🇸[www.v2nodes.com] vless-US-1... #3'
+  - '[147ms] 🇷🇺 俄罗斯 | RUS #2'
+  - '[154ms] 🇷🇺 俄罗斯 | RUS #1'
+  - '[158ms] 🇷🇺 俄罗斯 | RUS_1'
+  - '[158ms] 🇺🇸 美国 | USA_10'
+  - '[160ms] 🇺🇸 美国 | USA_27'
+  - '[178ms] 🇺🇸 美国 | USA_15'
+  - '[181ms] 🇺🇸 美国 | USA_19'
+  - '[183ms] 🇷🇺 俄罗斯 | RUS #3'
+  - '[188ms] 🇺🇸 美国 | USA_4'
+  - '[189ms] 🇺🇸 美国 | USA_24'
+  - '[194ms] 🇷🇺 俄罗斯 | RUS 6'
+  - '[194ms] 🇺🇸 美国 | USA_8'
+  - '[196ms] 🇺🇸 美国 | USA_2'
+  - '[198ms] 🇺🇸 美国 | USA_7'
+  - '[205ms] 🇺🇸 美国 | USA_23'
+  - '[211ms] 🇺🇸[www.v2nodes.com] vless-US-1...'
+  - '[213ms] 🇺🇸 美国 | USA_22'
+  - '[220ms] 🇺🇸 美国 | USA_3'
+  - '[289ms] 🇺🇸 美国 | USA_25'
+  - '[317ms] 🇺🇸 美国 | USA_16'
+  - '[327ms] 🇷🇺 俄罗斯 | RUS #7'
+  - '[344ms] 🇷🇺 俄罗斯 | RUS'
+  - '[386ms] 🇺🇸 美国 | USA_17'
+  - '[428ms] 🇺🇸 美国 | USA_5'
+  - '[449ms] 🇺🇸 美国 | USA_18'
+  - '[634ms] 🇺🇸 美国 | USA_14'
+  - '[651ms] 🇺🇸 美国 | USA_6'
+  - '[710ms] 🇺🇸 美国 | USA_12'
+  - '[786ms] 🇺🇸 美国 | USA_11'
+  - '[1106ms] 🇺🇸[www.v2nodes.com] vless-US-1... #4'
+- name: 🇸🇬 新加坡
+  type: select
+  proxies:
+  - '[5ms] 🇸🇬[www.v2nodes.com] vless-SG-2...'
+  - '[7ms] 🇸🇬[www.v2nodes.com] vless-SG #1'
+  - '[8ms] 🇸🇬[www.v2nodes.com] vless-SG-2... #4'
+  - '[8ms] 🇸🇬[www.v2nodes.com] vless-SG #2'
+  - '[8ms] 🇸🇬[www.v2nodes.com] vless-SG-1... #1'
+  - '[11ms] 🇸🇬[www.v2nodes.com] vless-SG-7... #1'
+  - '[12ms] 🇸🇬[www.v2nodes.com] vless-SG-3...'
+  - '[146ms] 🇸🇬 新加坡 | SGP #4'
+  - '[195ms] 🇸🇬[www.v2nodes.com] ss-SG-1615... #1'
+  - '[195ms] 🇸🇬[www.v2nodes.com] ss-SG-1615... #2'
+  - '[196ms] 🇸🇬[www.v2nodes.com] vless-SG-1... #2'
+  - '[196ms] 🇸🇬[www.v2nodes.com] ss-SG-1615... #3'
+  - '[197ms] 🇸🇬[www.v2nodes.com] ss-SG-1616...'
+  - '[198ms] 🇸🇬[www.v2nodes.com] ss-SG-1615...'
+  - '[198ms] 🇸🇬 新加坡 | SGP #1'
+  - '[201ms] 🇸🇬 新加坡 | SGP'
+  - '[202ms] SG【高速节点：https://vip.a3f.xyz】20'
+  - '[203ms] 🇸🇬[www.v2nodes.com] vless-SG-1... #3'
+  - '[225ms] 🇸🇬[www.v2nodes.com] vless-SG-1...'
+  - '[237ms] 🇸🇬[www.v2nodes.com] vless-SG-7...'
+  - '[241ms] SG【高速节点：https://vip.a3f.xyz】43'
+  - '[312ms] 🇸🇬 新加坡 | SGP #2'
+- name: 🇰🇷 韩国
+  type: select
+  proxies:
+  - '[6ms] @DeltaKroneckerGithub_741_IPV4'
+  - '[11ms] @DeltaKroneckerGithub_2974_IPV4'
+  - '[161ms] KR【高速节点：https://vip.a3f.xyz】18'
+  - '[197ms] 🇰🇷[www.v2nodes.com] vless-KR-1...'
+  - '[204ms] 🇰🇷[www.v2nodes.com] vless-KR-1... #1'
 - name: 🇬🇧 英国
   type: select
   proxies:
-  - '[2ms] 🇺🇸_US_美国->🇬🇧_GB_英国'
+  - '[10ms] 🇺🇸_US_美国->🇬🇧_GB_英国'
+  - '[100ms] 🇬🇧 英国 | GBR #2'
+  - '[102ms] 🇬🇧[www.v2nodes.com] ss-GB-1602...'
+  - '[105ms] 🇬🇧[www.v2nodes.com] ss-GB-1615... #1'
+  - '[106ms] 🇬🇧[www.v2nodes.com] ss-GB-1451...'
+  - '[109ms] 🇬🇧[www.v2nodes.com] ss-GB-1616...'
+  - '[109ms] 🇬🇧[www.v2nodes.com] ss-GB-9184...'
+  - '[110ms] 🇬🇧[www.v2nodes.com] ss-GB-1616... #1'
+  - '[111ms] 🇬🇧[www.v2nodes.com] ss-GB-1247...'
+  - '[114ms] 🇬🇧[www.v2nodes.com] ss-GB-1615...'
+  - '[119ms] 🇬🇧[www.v2nodes.com] ss-GB-8004...'
+  - '[158ms] 🇬🇧[www.v2nodes.com] vless-GB-1...'
+  - '[170ms] 🇬🇧 英国 | GBR #1'
+  - '[248ms] 🇬🇧 英国 | GBR #4'
+  - '[274ms] 🇬🇧 英国 | GBR #3'
 - name: 🇩🇪 德国
   type: select
   proxies:
-  - '[93ms] DE【高速节点：https://vip.a3f.xyz】14'
-  - '[96ms] DE【高速节点：https://vip.a3f.xyz】7'
-  - '[97ms] DE【高速节点：https://vip.a3f.xyz】20'
-  - '[321ms] DE【高速节点：https://vip.a3f.xyz】5'
+  - '[5ms] 🇸🇬[www.v2nodes.com] vless-SG-2...'
+  - '[6ms] @DeltaKroneckerGithub_741_IPV4'
+  - '[6ms] 🇫🇷[www.v2nodes.com] vless-FR-1...'
+  - '[7ms] 🇸🇬[www.v2nodes.com] vless-SG #1'
+  - '[7ms] 🏳[www.v2nodes.com] vless- #2'
+  - '[7ms] 🏳[www.v2nodes.com] vless- #4'
+  - '[8ms] 🇸🇬[www.v2nodes.com] vless-SG-2... #4'
+  - '[8ms] 🇸🇬[www.v2nodes.com] vless-SG #2'
+  - '[8ms] 🇸🇬[www.v2nodes.com] vless-SG-1... #1'
+  - '[8ms] 🇺🇸[www.v2nodes.com] vless-US-1... #2'
+  - '[9ms] 🇮🇳[www.v2nodes.com] vless-IN-1...'
+  - '[11ms] @DeltaKroneckerGithub_2974_IPV4'
+  - '[11ms] 🇸🇬[www.v2nodes.com] vless-SG-7... #1'
+  - '[12ms] 🇸🇬[www.v2nodes.com] vless-SG-3...'
+  - '[34ms] 🏳[www.v2nodes.com] ss-'
+  - '[34ms] 🇺🇸[www.v2nodes.com] ss-US-1560...'
+  - '[36ms] 🇨🇦[www.v2nodes.com] trojan-CA-... #4'
+  - '[37ms] 🇨🇦[www.v2nodes.com] ss-CA-1558...'
+  - '[37ms] 🇨🇦[www.v2nodes.com] trojan-CA-... #5'
+  - '[38ms] 🇨🇦[www.v2nodes.com] ss-CA-1557...'
+  - '[38ms] 🏳[www.v2nodes.com] trojan-'
+  - '[39ms] 🇨🇦[www.v2nodes.com] ss-CA-1538...'
+  - '[40ms] 🇺🇸[www.v2nodes.com] trojan-US-... #8'
+  - '[44ms] 🇨🇦[www.v2nodes.com] ss-CA-1559... #1'
+  - '[45ms] ??[www.v2nodes.com] vless-AT-3...'
+  - '[45ms] 🇺🇸[www.v2nodes.com] trojan-US-... #6'
+  - '[47ms] 🇨🇦[www.v2nodes.com] ss-CA-1546...'
+  - '[49ms] 🇳🇱[www.v2nodes.com] vless-NL-1...'
+  - '[50ms] 🇨🇦[www.v2nodes.com] ss-CA-1559...'
+  - '[53ms] 🇺🇸[www.v2nodes.com] trojan-US-... #4'
+  - '[102ms] 🇬🇧[www.v2nodes.com] ss-GB-1602...'
+  - '[105ms] 🇳🇱[www.v2nodes.com] vless-NL-1... #4'
+  - '[105ms] 🇫🇷[www.v2nodes.com] ss-FR-1615... #1'
+  - '[105ms] 🇬🇧[www.v2nodes.com] ss-GB-1615... #1'
+  - '[106ms] 🏳[www.v2nodes.com] vless- #6'
+  - '[106ms] 🇬🇧[www.v2nodes.com] ss-GB-1451...'
+  - '[108ms] 🇳🇱[www.v2nodes.com] vless-NL-1... #3'
+  - '[109ms] 🇫🇷[www.v2nodes.com] ss-FR-1615... #3'
+  - '[109ms] 🇬🇧[www.v2nodes.com] ss-GB-1616...'
+  - '[109ms] 🇬🇧[www.v2nodes.com] ss-GB-9184...'
+  - '[109ms] 🇳🇱[www.v2nodes.com] ss-NL-1614... #1'
+  - '[110ms] 🇳🇱[www.v2nodes.com] vless-NL-1... #5'
+  - '[110ms] 🇬🇧[www.v2nodes.com] ss-GB-1616... #1'
+  - '[111ms] 🇺🇸[www.v2nodes.com] vless-US-1... #1'
+  - '[111ms] 🇬🇧[www.v2nodes.com] ss-GB-1247...'
+  - '[112ms] 🇫🇷[www.v2nodes.com] vless-FR-1... #1'
+  - '[112ms] 🇳🇱[www.v2nodes.com] ss-NL-1618...'
+  - '[113ms] 🇳🇱[www.v2nodes.com] ss-NL-1614...'
+  - '[114ms] DE【高速节点：https://vip.a3f.xyz】9'
+  - '[114ms] 🇬🇧[www.v2nodes.com] ss-GB-1615...'
+  - '[114ms] 🇪🇸[www.v2nodes.com] trojan-ES-... #5'
+  - '[115ms] 🇩🇪[www.v2nodes.com] ss-DE-1592...'
+  - '[116ms] 🇳🇱[www.v2nodes.com] trojan-NL-... #2'
+  - '[117ms] 🇳🇱[www.v2nodes.com] trojan-NL-... #5'
+  - '[119ms] 🇬🇧[www.v2nodes.com] ss-GB-8004...'
+  - '[119ms] 🇳🇱[www.v2nodes.com] ss-NL-1452... #1'
+  - '[121ms] 🇳🇱[www.v2nodes.com] ss-NL-1564...'
+  - '[121ms] 🇳🇴[www.v2nodes.com] ss-NO-1220...'
+  - '[121ms] 🇪🇸[www.v2nodes.com] trojan-ES-...'
+  - '[122ms] DE【高速节点：https://vip.a3f.xyz】10'
+  - '[122ms] 🇫🇷[www.v2nodes.com] ss-FR-1615... #4'
+  - '[123ms] 🇫🇷[www.v2nodes.com] vless-FR-1... #3'
+  - '[123ms] 🇫🇷[www.v2nodes.com] ss-FR-1616...'
+  - '[123ms] 🇫🇷[www.v2nodes.com] ss-FR-1615...'
+  - '[123ms] 🇳🇱[www.v2nodes.com] ss-NL-1452...'
+  - '[123ms] 🇨🇭[www.v2nodes.com] trojan-CH-... #4'
+  - '[124ms] DE【高速节点：https://vip.a3f.xyz】23'
+  - '[124ms] 🇩🇪[www.v2nodes.com] vless-DE-1... #1'
+  - '[124ms] 🇩🇪[www.v2nodes.com] vless-DE-1... #4'
+  - '[125ms] 🇩🇪[www.v2nodes.com] vless-DE-1... #5'
+  - '[125ms] 🇫🇷[www.v2nodes.com] ss-FR-1615... #2'
+  - '[126ms] DE【高速节点：https://vip.a3f.xyz】12'
+  - '[126ms] 🇨🇭[www.v2nodes.com] ss-CH-1615... #1'
+  - '[126ms] 🇺🇸[www.v2nodes.com] ss-US-1620...'
+  - '[126ms] 德国|@ripaojiedian'
+  - '[127ms] 🇸🇪[www.v2nodes.com] vless-SE-1... #3'
+  - '[127ms] 🇦🇹[www.v2nodes.com] ss-AT-1595...'
+  - '[127ms] 🇩🇪 德国 | DEU_3'
+  - '[128ms] 🇦🇹[www.v2nodes.com] vless-AT-1...'
+  - '[128ms] 🇳🇱[www.v2nodes.com] ss-NL-1452... #2'
+  - '[128ms] 德国2|@ripaojiedian'
+  - '[129ms] 🇵🇱[www.v2nodes.com] vless-PL-1...'
+  - '[129ms] 🇪🇸[www.v2nodes.com] ss-ES-1615...'
+  - '[129ms] 🇳🇱[www.v2nodes.com] ss-NL-1510...'
+  - '[129ms] 🏳[www.v2nodes.com] trojan- #2'
+  - '[130ms] 🇮🇹[www.v2nodes.com] ss-IT-1597...'
+  - '[130ms] 🇩🇪DE_8|4.4MB/s'
+  - '[131ms] 🇺🇸[www.v2nodes.com] vless-US-1... #3'
+  - '[132ms] 🇩🇪[www.v2nodes.com] vless-DE-1... #8'
+  - '[132ms] 🇸🇪[www.v2nodes.com] vless-SE-1... #2'
+  - '[132ms] 🇸🇪[www.v2nodes.com] ss-SE-1615...'
+  - '[133ms] 🇨🇿[www.v2nodes.com] vless-CZ-1...'
+  - '[133ms] 🇩🇪[www.v2nodes.com] ss-DE-1616...'
+  - '[133ms] 🏳[www.v2nodes.com] ss- #2'
+  - '[133ms] 🇯🇵[www.v2nodes.com] ss-JP-5141...'
+  - '[134ms] 🏳[www.v2nodes.com] ss- #1'
+  - '[136ms] 🏳[www.v2nodes.com] vless- #1'
+  - '[136ms] 🇯🇵[www.v2nodes.com] vless-JP-1... #1'
+  - '[136ms] 🇯🇵[www.v2nodes.com] ss-JP-9223...'
+  - '[137ms] 🇪🇸[www.v2nodes.com] ss-ES-1443...'
+  - '[138ms] 🇦🇹[www.v2nodes.com] ss-AT-1614...'
+  - '[138ms] 🇨🇭[www.v2nodes.com] ss-CH-1615...'
+  - '[138ms] 🇯🇵[www.v2nodes.com] ss-JP-1291...'
+  - '[140ms] 🇧🇾[www.v2nodes.com] vless-BY-1... #1'
+  - '[142ms] 🇭🇰[www.v2nodes.com] vless-HK-1...'
+  - '[143ms] 🇵🇱[www.v2nodes.com] vless-PL-1... #1'
+  - '[145ms] 🇧🇾[www.v2nodes.com] vless-BY-1...'
+  - '[146ms] 🇩🇪[www.v2nodes.com] vless-DE-1... #6'
+  - '[146ms] 🇷🇺[www.v2nodes.com] ss-RU-1163...'
+  - '[146ms] 🏳[www.v2nodes.com] trojan- #1'
+  - '[148ms] 🇩🇪[www.v2nodes.com] vless-DE-1...'
+  - '[148ms] 🇩🇪[www.v2nodes.com] vless-DE-1... #2'
+  - '[152ms] 🇸🇪[www.v2nodes.com] vless-SE-1... #1'
+  - '[152ms] 🇷🇺[www.v2nodes.com] ss-RU-1624...'
+  - '[156ms] 🇩🇪 德国 | DEU'
+  - '[158ms] 🇬🇧[www.v2nodes.com] vless-GB-1...'
+  - '[160ms] DE【高速节点：https://vip.a3f.xyz】13'
+  - '[165ms] 🇳🇱[www.v2nodes.com] vless-NL-1... #1'
+  - '[166ms] 🇦🇱[www.v2nodes.com] ss-AL-1490...'
+  - '[180ms] 🇱🇻[www.v2nodes.com] vless-LV-1...'
+  - '[183ms] 🇩🇪[www.v2nodes.com] vless-DE-1... #3'
+  - '[184ms] 🇹🇼[www.v2nodes.com] trojan-TW-...'
+  - '[187ms] 🇫🇷[www.v2nodes.com] vless-FR-1... #2'
+  - '[192ms] 🇦🇪[www.v2nodes.com] vless-AE-1... #1'
+  - '[195ms] 🇸🇬[www.v2nodes.com] ss-SG-1615... #1'
+  - '[195ms] 🇸🇬[www.v2nodes.com] ss-SG-1615... #2'
+  - '[196ms] 🇦🇪[www.v2nodes.com] vless-AE-1...'
+  - '[196ms] 🇸🇬[www.v2nodes.com] vless-SG-1... #2'
+  - '[196ms] 🇸🇬[www.v2nodes.com] ss-SG-1615... #3'
+  - '[197ms] 🇰🇷[www.v2nodes.com] vless-KR-1...'
+  - '[197ms] 🇸🇬[www.v2nodes.com] ss-SG-1616...'
+  - '[198ms] 🇸🇬[www.v2nodes.com] ss-SG-1615...'
+  - '[200ms] 🇮🇳[www.v2nodes.com] vless-IN-1... #1'
+  - '[200ms] 🇹🇷[www.v2nodes.com] vless-TR-1...'
+  - '[201ms] 🇷🇺[www.v2nodes.com] vless-RU-1... #1'
+  - '[202ms] 🇲🇾[www.v2nodes.com] trojan-MY-...'
+  - '[203ms] 🇸🇬[www.v2nodes.com] vless-SG-1... #3'
+  - '[204ms] 🇰🇷[www.v2nodes.com] vless-KR-1... #1'
+  - '[210ms] 🇻🇳[www.v2nodes.com] vless-VN-1...'
+  - '[211ms] 🇺🇸[www.v2nodes.com] vless-US-1...'
+  - '[215ms] 🇰🇿[www.v2nodes.com] vless-KZ-1...'
+  - '[225ms] 🇸🇬[www.v2nodes.com] vless-SG-1...'
+  - '[231ms] 🇻🇳[www.v2nodes.com] trojan-VN-...'
+  - '[237ms] 🇸🇬[www.v2nodes.com] vless-SG-7...'
+  - '[245ms] 🇿🇦[www.v2nodes.com] ss-ZA-1333...'
+  - '[246ms] 🇩🇪 德国 | DEU_2'
+  - '[252ms] 🇿🇦[www.v2nodes.com] ss-ZA-1336...'
+  - '[285ms] 🇷🇺[www.v2nodes.com] vless-RU-1...'
+  - '[302ms] 🇩🇪 德国 | DEU_1'
+  - '[317ms] 🇩🇪 德国 | DEU #2'
+  - '[357ms] 🇹🇼[www.v2nodes.com] trojan-TW-... #1'
+  - '[369ms] 🏳[www.v2nodes.com] vless- #7'
+  - '[369ms] 🇩🇪 德国 | DEU_4'
+  - '[378ms] 🇨🇦[www.v2nodes.com] vless-CA'
+  - '[413ms] 🇦🇪[www.v2nodes.com] trojan-AE-...'
+  - '[434ms] 🇯🇵[www.v2nodes.com] vless-JP-1...'
+  - '[724ms] 🇭🇰[www.v2nodes.com] ss-HK-1621...'
+  - '[1106ms] 🇺🇸[www.v2nodes.com] vless-US-1... #4'
+  - '[2233ms] 🏳[www.v2nodes.com] vless- #3'
+  - '[3533ms] 🏳[www.v2nodes.com] vless- #5'
 - name: 🇫🇷 法国
   type: select
   proxies:
-  - '[131ms] FR【高速节点：https://vip.a3f.xyz】6'
+  - '[6ms] 🇫🇷[www.v2nodes.com] vless-FR-1...'
+  - '[105ms] 🇫🇷[www.v2nodes.com] ss-FR-1615... #1'
+  - '[109ms] 🇫🇷[www.v2nodes.com] ss-FR-1615... #3'
+  - '[112ms] 🇫🇷[www.v2nodes.com] vless-FR-1... #1'
+  - '[122ms] 🇫🇷[www.v2nodes.com] ss-FR-1615... #4'
+  - '[123ms] 🇫🇷[www.v2nodes.com] vless-FR-1... #3'
+  - '[123ms] 🇫🇷[www.v2nodes.com] ss-FR-1616...'
+  - '[123ms] 🇫🇷[www.v2nodes.com] ss-FR-1615...'
+  - '[125ms] 🇫🇷[www.v2nodes.com] ss-FR-1615... #2'
+  - '[156ms] FR【高速节点：https://vip.a3f.xyz】14'
+  - '[160ms] FR【高速节点：https://vip.a3f.xyz】15'
+  - '[187ms] 🇫🇷[www.v2nodes.com] vless-FR-1... #2'
+  - '[286ms] 🇫🇷 法国 | FRA #1'
 - name: 🇷🇺 俄罗斯
   type: select
   proxies:
-  - '[2ms] RU【高速节点：https://vip.a3f.xyz】22'
-  - '[176ms] RU【高速节点：https://vip.a3f.xyz】36'
-  - '[281ms] RU【高速节点：https://vip.a3f.xyz】10'
-  - '[311ms] RU【高速节点：https://vip.a3f.xyz】12'
-  - '[378ms] RU【高速节点：https://vip.a3f.xyz】11'
+  - '[30ms] RU【高速节点：https://vip.a3f.xyz】19'
+  - '[146ms] 🇷🇺[www.v2nodes.com] ss-RU-1163...'
+  - '[147ms] 🇷🇺 俄罗斯 | RUS #2'
+  - '[152ms] 🇷🇺[www.v2nodes.com] ss-RU-1624...'
+  - '[154ms] 🇷🇺 俄罗斯 | RUS #1'
+  - '[156ms] RU【高速节点：https://vip.a3f.xyz】17'
+  - '[158ms] 🇷🇺 俄罗斯 | RUS_1'
+  - '[183ms] 🇷🇺 俄罗斯 | RUS #3'
+  - '[194ms] 🇷🇺 俄罗斯 | RUS 6'
+  - '[201ms] 🇷🇺[www.v2nodes.com] vless-RU-1... #1'
+  - '[285ms] 🇷🇺[www.v2nodes.com] vless-RU-1...'
+  - '[327ms] 🇷🇺 俄罗斯 | RUS #7'
+  - '[344ms] 🇷🇺 俄罗斯 | RUS'
+  - '[377ms] 俄罗斯+V2CROSS.COM'
 - name: 🇨🇦 加拿大
   type: select
   proxies:
-  - '[1ms] CA【高速节点：https://vip.a3f.xyz】33'
-  - '[2ms] CA【高速节点：https://vip.a3f.xyz】35'
-  - '[2ms] CA【高速节点：https://vip.a3f.xyz】34'
-  - '[15ms] CA【高速节点：https://vip.a3f.xyz】30'
+  - '[6ms] CA【高速节点：https://vip.a3f.xyz】48'
+  - '[7ms] CA【高速节点：https://vip.a3f.xyz】47'
+  - '[8ms] CA【高速节点：https://vip.a3f.xyz】46'
+  - '[30ms] CA【高速节点：https://vip.a3f.xyz】44'
+  - '[36ms] 🇨🇦[www.v2nodes.com] trojan-CA-... #4'
+  - '[37ms] 🇨🇦[www.v2nodes.com] ss-CA-1558...'
+  - '[37ms] 🇨🇦[www.v2nodes.com] trojan-CA-... #5'
+  - '[38ms] 🇨🇦[www.v2nodes.com] ss-CA-1557...'
+  - '[39ms] 🇨🇦[www.v2nodes.com] ss-CA-1538...'
+  - '[44ms] 🇨🇦[www.v2nodes.com] ss-CA-1559... #1'
+  - '[47ms] 🇨🇦[www.v2nodes.com] ss-CA-1546...'
+  - '[50ms] 🇨🇦[www.v2nodes.com] ss-CA-1559...'
+  - '[322ms] 🇨🇦 加拿大 | CAN #1'
+  - '[378ms] 🇨🇦[www.v2nodes.com] vless-CA'
+- name: 🇮🇳 印度
+  type: select
+  proxies:
+  - '[9ms] 🇮🇳[www.v2nodes.com] vless-IN-1...'
+  - '[145ms] @OutlineReleasedKey #2'
+  - '[200ms] 🇮🇳[www.v2nodes.com] vless-IN-1... #1'
+- name: 🇧🇷 巴西
+  type: select
+  proxies:
+  - '[100ms] 🇬🇧 英国 | GBR #2'
+  - '[170ms] 🇬🇧 英国 | GBR #1'
+  - '[248ms] 🇬🇧 英国 | GBR #4'
+  - '[274ms] 🇬🇧 英国 | GBR #3'
 rules:
 - 'DOMAIN-SUFFIX,ads.google.com,⛔ 广告拦截'
 - 'DOMAIN-SUFFIX,adservice.google.com,⛔ 广告拦截'
